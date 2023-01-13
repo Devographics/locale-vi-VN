@@ -5,10 +5,10 @@ translations:
     ###########################################################################
 
     - key: general.results.description
-      t: The 2022 edition of the annual survey about the latest trends in the JavaScript ecosystem.
+      t: Ấn bản năm 2022 của cuộc khảo sát hàng năm về các xu hướng mới nhất trong hệ sinh thái JavaScript.
 
     - key: general.livestream_announcement
-      t: Make sure to tune in for our [special survey results livestream](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) on February 22! (English)
+      t: Hãy nhớ theo dõi [livestream về kết quả khảo sát đặc biệt](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) của chúng tôi vào tháng 02/2022! (tiếng Anh)
 
     ###########################################################################
     # Introduction
@@ -17,21 +17,21 @@ translations:
     - key: introduction.js2022
       t: |
 
-            <span class="first-letter">A</span>fter years of relative stability, many are now beginning to question the status quo. 
+            <span class="first-letter">S</span>au nhiều năm tương đối ổn định, nhiều người hiện đang bắt đầu đặt câu hỏi về hiện trạng của hệ sinh thái. 
             
-            New front-end frameworks like Solid and Qwik are suggesting that React might not have all the answers after all, and on the server Astro, Remix and Next.js (among others) are making us reconsider how much code we really need to ship to the client. 
+            Các framework front-end mới như Solid và Qwik đang gợi ý rằng React có thể không có câu trả lời cho tất cả và trên máy chủ Astro, Remix và Next.js (và những thứ khác) đang khiến chúng tôi xem xét lại số lượng mã mà chúng tôi thực sự cần gửi tới khách hàng. 
 
-            We'll need all the data we can get if we want to make sense of all this, and in fact this year's survey received a massive **39,472** responses, almost double last year's amount! 
+            Chúng tôi sẽ cần tất cả dữ liệu có thể nhận được nếu muốn hiểu rõ tất cả những điều này và trên thực tế, cuộc khảo sát năm nay đã nhận được phản hồi khổng lồ **39,472**, gần gấp đôi số lượng của năm ngoái! 
 
-            Because of this newly expanded audience you might notice some unexpected results, such as some features going down year-over-year in terms of awareness or usage. 
+            Do có thêm những phản hồi này, bạn có thể nhận thấy một số kết quả không mong muốn, chẳng hạn như một số tính năng giảm dần qua từng năm về mức độ nhận biết hoặc mức độ sử dụng. 
             
-            But having more data can potentially mean new insights, and that's why we've developed two new ways to interact with our dataset: the **Data Explorer** lets you cross-reference two variables and highlight any outlying results; while **Chart Filters** let you filter specific charts by salary, country, gender, and many other demographic variables. 
+            Nhưng có nhiều dữ liệu hơn có thể đồng nghĩa với những hiểu biết mới và đó là lý do tại sao chúng tôi đã phát triển hai cách mới để tương tác với tập dữ liệu của mình: Sử dụng **Data Explorer** cho phép bạn tham chiếu chéo hai biến và đánh dấu các kết quả nằm ngoài phạm vi; trong khi **Chart Filters** cho phép bạn lọc các biểu đồ cụ thể theo mức lương, quốc gia, giới tính và nhiều thứ khác.. 
 
-            We've also replaced our catch-all "back-end" category with a more specific **Rendering Frameworks** page and added a new **Video Creators** list to the Resources section. 
+            Chúng tôi cũng đã thay thế danh mục "back-end" bằng trang **Rendering Frameworks** và thêm một danh mục mới là **Video Creators** vào phần Resources. 
 
-            Finally, Features and Libraries questions also now have a **Comments** popup that lets you see what people actually think of the items mentioned in the survey!
+            Cuối cùng, các câu hỏi về Tính năng và Thư viện hiện cũng có popup **Nhận xét** cho phép bạn xem mọi người thực sự nghĩ gì về các mục được đề cập trong khảo sát! 
 
-            With all this out of the way, let's discover what JavaScript has been up to in 2022!
+            Với tất cả những điều này, hãy cùng khám phá những gì JavaScript đã đạt được vào năm 2022!
 
             <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -44,18 +44,18 @@ translations:
 
     - key: sections.tshirt.description
       t: |
-          ## Support the Survey With the State of JavaScript T-Shirt
+          ## Hỗ trợ bản khảo sát với áo thun State of JavaScript T-Shirt
 
-          Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
+          Giữa chất lượng video kém, băng cassette cồng kềnh và phải tua lại, không có nhiều điều để bỏ lỡ về thời đại VHS (viết tắt của Video Home System). Nhưng có một điều chúng tôi bỏ lỡ là những hình ảnh tuyệt vời của thập niên 90 được sử dụng để tô điểm cho các băng VHS trống. 
 
-          But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for JavaScript at the same time!
+          Nhưng giờ đây, nhờ tài năng của Christopher Kirk-Nielsen, bạn có thể tận hưởng tất cả sự hoài cổ này đồng thời tôn vinh tình yêu của bạn dành cho JavaScript! 
 
     - key: tshirt.about
-      t: About the T-shirt
+      t: Thông tin về chiếc T-shirt
 
     - key: tshirt.description
       t: |
-          We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau. 
+          Chúng tôi sử dụng những chiếc áo siêu mềm, chất lượng cao với kiểu dáng ôm vừa vặn được in bởi các đối tác của chúng tôi tại Cotton Bureau. 
 
     - key: tshirt.getit
       t: Get It
@@ -64,14 +64,14 @@ translations:
       t: USD $29 + shipping
 
     - key: tshirt.designer.heading
-      t: About the Designer
+      t: Thông tin về nhà thiết kế
 
     - key: tshirt.designer.name
       t: Christopher Kirk-Nielsen
 
     - key: tshirt.designer.bio
       t: |
-          Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+          Gốc Pháp nhưng hiện đang sống ở Mỹ, Chris không chỉ là một front-end developer tuyệt vời mà còn là một họa sĩ minh họa tài năng với tầm nhìn cổ điển tốt. Trên thực tế, chúng tôi khuyến khích bạn xem [các thiết kế áo thun khác](https://chriskirknielsen.com/designs) của anh ấy!
           
     ###########################################################################
     # Sections
