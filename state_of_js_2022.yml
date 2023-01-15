@@ -19,9 +19,9 @@ translations:
 
             <span class="first-letter">S</span>au nhiều năm tương đối ổn định, nhiều người hiện đang bắt đầu đặt câu hỏi về hiện trạng của hệ sinh thái. 
             
-            Các framework front-end mới như Solid và Qwik đang gợi ý rằng React có thể không có câu trả lời cho tất cả vấn đề và trên máy chủ Astro, Remix và Next.js (và những thứ khác) đang khiến chúng tôi xem xét lại số lượng mã mà chúng tôi thực sự cần gửi tới khách hàng. 
+            Các framework front-end mới như Solid và Qwik đang gợi ý rằng React có thể không có câu trả lời cho tất cả vấn đề và trên máy chủ Astro, Remix và Next.js (và những thứ khác) đang khiến chúng tôi xem xét lại số lượng code mà chúng tôi thực sự cần gửi tới khách hàng. 
 
-            Chúng tôi sẽ cần tất cả dữ liệu có thể nhận được nếu muốn hiểu rõ tất cả những điều này và trên thực tế, cuộc khảo sát năm nay đã nhận được phản hồi khổng lồ **39,472**, gần gấp đôi số lượng của năm ngoái! 
+            Chúng tôi sẽ cần tất cả dữ liệu có thể nhận được nếu muốn hiểu rõ tất cả những điều này và trên thực tế, cuộc khảo sát năm nay đã nhận được số lượt phản hồi khổng lồ **39,472**, gần gấp đôi số lượng của năm ngoái! 
 
             Do có thêm những phản hồi này, bạn có thể nhận thấy một số kết quả không mong muốn, chẳng hạn như một số tính năng giảm dần qua từng năm về mức độ nhận biết hoặc mức độ sử dụng. 
             
@@ -29,7 +29,7 @@ translations:
 
             Chúng tôi cũng đã thay thế danh mục "back-end" bằng trang **Rendering Frameworks** và thêm một danh mục mới là **Video Creators** vào phần Resources. 
 
-            Cuối cùng, các câu hỏi về Tính năng và Thư viện hiện cũng có popup **Nhận xét** cho phép bạn xem mọi người thực sự nghĩ gì về các mục được đề cập trong khảo sát! 
+            Cuối cùng, các câu hỏi về Features và Libraries hiện cũng có popup **Comments** cho phép bạn xem mọi người thực sự nghĩ gì về các mục được đề cập trong khảo sát! 
 
             Với tất cả những điều này, hãy cùng khám phá những gì JavaScript đã đạt được vào năm 2022!
 
@@ -44,18 +44,18 @@ translations:
 
     - key: sections.tshirt.description
       t: |
-          ## Hỗ trợ cuộc khảo sát với áo thun State of JavaScript
+          ## Hỗ trợ cuộc khảo sát với áo thun phiên bản State of JavaScript
 
-          Giữa chất lượng video kém, băng cassette cồng kềnh và phải tua lại, không có nhiều điều để bỏ lỡ về thời đại VHS (viết tắt của Video Home System). Nhưng có một điều chúng tôi bỏ lỡ là những hình ảnh tuyệt vời của thập niên 90 được sử dụng để tô điểm cho các băng VHS trống. 
+          Giữa những video chất lượng kém, băng cassette cồng kềnh phải tua lại, không có nhiều điều để bỏ lỡ về thời đại VHS (viết tắt của Video Home System). Nhưng có một điều chúng tôi bỏ lỡ là những hình ảnh tuyệt vời của thập niên 90 được sử dụng để tô điểm cho các băng VHS trống. 
 
-          Nhưng giờ đây, nhờ tài năng của Christopher Kirk-Nielsen, bạn có thể tận hưởng tất cả sự hoài cổ này đồng thời tôn vinh tình yêu của bạn dành cho JavaScript! 
+          Nhưng giờ đây, nhờ tài năng của Christopher Kirk-Nielsen, bạn có thể tận hưởng tất cả điều này đồng thời thể hiện tình yêu của bạn dành cho JavaScript! 
 
     - key: tshirt.about
       t: Thông tin về chiếc áo
 
     - key: tshirt.description
       t: |
-          Chúng tôi sử dụng những chiếc áo siêu mềm, chất lượng cao với kiểu dáng ôm vừa vặn được in bởi các đối tác của chúng tôi tại Cotton Bureau. 
+          Chúng tôi sử dụng những chiếc áo siêu mềm, chất lượng cao với kiểu dáng thon gọn được in bởi các đối tác của chúng tôi tại Cotton Bureau. 
 
     - key: tshirt.getit
       t: Get It
@@ -71,7 +71,7 @@ translations:
 
     - key: tshirt.designer.bio
       t: |
-          Gốc Pháp nhưng hiện đang sống ở Mỹ, Chris không chỉ là một front-end developer tuyệt vời mà còn là một họa sĩ minh họa tài năng với tầm nhìn cổ điển tốt. Trên thực tế, chúng tôi khuyến khích bạn xem [các thiết kế áo thun khác](https://chriskirknielsen.com/designs) của anh ấy!
+          Gốc Pháp nhưng hiện đang sống ở Mỹ, Chris không chỉ là một front-end developer tuyệt vời mà còn là một họa sĩ minh họa tài năng chuyên về retro visuals. Trên thực tế, chúng tôi khuyến khích bạn xem [các thiết kế áo thun khác](https://chriskirknielsen.com/designs) của anh ấy!
           
     ###########################################################################
     # Sections
@@ -80,7 +80,7 @@ translations:
     - key: sections.user_info.description
       t: |
           Năm nay, **39.471** người đã tham gia trả lời cuộc khảo sát. Và để giúp làm nổi bật 
-          những tiếng nói khác nhau và đưa ra những hiểu biết sâu sắc hơn, chúng tôi đã nỗ lực 
+          những ý kiến khác nhau và đưa ra những hiểu biết sâu sắc hơn, chúng tôi đã nỗ lực 
           để cung cấp những cách mới để phân tích dữ liệu. 
 
     - key: sections.features.description
@@ -142,7 +142,7 @@ translations:
 
     - key: blocks.gender.note
       t: |
-          Nếu bạn quan tâm đến việc tìm hiểu thêm, chúng tôi [đã viết một bài blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) đề cập đến giới tính trong cuộc khảo sát. 
+          Nếu bạn hứng thú và muốn tìm hiểu thêm, chúng tôi [đã viết một bài blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) đề cập đến giới tính trong cuộc khảo sát. 
 
     - key: blocks.currently_missing_from_css.note
       t: |
@@ -151,7 +151,7 @@ translations:
     - key: blocks.source.note
       t: >
       
-        Biểu đồ này tổng hợp kết hợp các liên kết giới thiệu, tham số URL và các câu trả lời dạng tự do. 
+        Biểu đồ này tổng hợp sự pha trộn giữa các referrer, URL parameter và các câu trả lời dạng tự do. 
 
         - State of JS: danh sách gửi thư [State of JS](https://stateofjs.com).
 
