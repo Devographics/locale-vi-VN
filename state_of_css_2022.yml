@@ -5,20 +5,20 @@ translations:
     ###########################################################################
 
     - key: general.results.description
-      t: The 2022 edition of the annual survey about the latest trends in the CSS ecosystem.
+      t: Ấn bản năm 2022 của cuộc khảo sát hàng năm về các xu hướng mới nhất trong hệ sinh thái CSS.
 
     - key: general.css2022.js2022_banner
-      t: The State of JS 2022 survey is currently open, you can [go take it right now](https://survey.devographics.com/survey/state-of-js/2022?source=css2022)!
+      t: Cuộc khảo sát State of JS 2022 hiện đang mở, bạn có thể [tham gia ngay bây giờ](https://survey.devographics.com/survey/state-of-js/2022?source=css2022)!
 
     - key: general.css2022.results_intro
       t: |
-          CSS keeps progressing at an unprecedented rate. Not only are we seeing new features and properties, but even the language's foundations are being retooled and improved thanks to innovations like nesting and cascade layers. 
+          CSS tiếp tục tiến bộ với tốc độ chưa từng thấy. Chúng ta không chỉ thấy các tính năng và thuộc tính mới mà ngay cả nền tảng của ngôn ngữ cũng đang được trang bị lại và cải thiện nhờ những đổi mới như nesting và cascade layers. 
           
-          Luckily this year we got help from someone at the forefront of all these changes: W3C working group member [Lea Verou](https://lea.verou.me/) has selected this year's survey questions, with a special focus on highlighting new and upcoming CSS features. 
+          May mắn thay, năm nay chúng tôi đã nhận được sự giúp đỡ từ một vài người đi đầu trong tất cả những thay đổi này: Thành viên nhóm công tác W3C [Lea Verou](https://lea.verou.me/) đã chọn các câu hỏi khảo sát của năm nay, đặc biệt tập trung vào việc làm nổi bật các tính năng mới và sắp ra mắt của CSS. 
 
-          What's more, the survey results will also help browser vendors prioritize their roadmaps and work towards better compatibility between browsers. 
+          Ngoài ra, kết quả khảo sát cũng sẽ giúp các nhà cung cấp trình duyệt ưu tiên lộ trình của họ và hướng tới khả năng tương thích tốt hơn giữa các trình duyệt. 
 
-          With all this out of the way, let's see how CSS evolved in 2022!
+          Với tất cả những điều này, hãy xem CSS phát triển như thế nào vào năm 2022!
     
     ###########################################################################
     # Introduction
@@ -26,15 +26,15 @@ translations:
 
     - key: introduction.css2022
       t: |
-          <span class="first-letter">W</span>e thought CSS had already evolved into a pretty formidable language thanks to advancements like Flexbox, Grid, and CSS Variables. But it turns out this wasn't even its final form. 
+          <span class="first-letter">C</span>húng tôi nghĩ rằng CSS đã phát triển thành một ngôn ngữ khá đáng gờm nhờ những tiến bộ như Flexbox, Grid và CSS Variables. Nhưng hóa ra đây thậm chí không phải là hình thức cuối cùng của nó. 
           
-          Parent selector, native nesting, container queries, cascade layers… The list of absolutely game-changing features coming imminently is pretty shocking when you think about it. 
+          Parent selector, native nesting, container queries, cascade layers… Thật sốc khi nghĩ về những tính năng giống như hack sắp tới này.
           
-          Thankfully, we have the best guide you could ask for to help us navigate these waters: [Lea Verou](http://lea.verou.me/) has taken the lead on this year's survey design, and the result is a survey that will hopefully encompass all the key innovations you should be aware of. 
+          May mắn thay, chúng tôi có những người hướng dẫn tốt nhất có thể giúp chúng tôi vượt qua những thử thách này: [Lea Verou](http://lea.verou.me/) đã đi đầu trong việc thiết kế cuộc khảo sát năm nay và hy vọng những phát hiện sẽ bao gồm tất cả những đổi mới quan trọng mà bạn nên biết. 
 
           <span class="conclusion__byline">– Sacha Greif</span>
 
-          P.S. Also new this year: we gave respondents the ability to **leave comments** on any feature or library mentioned in the survey! Make sure to look up these comments in each chart's sidebar. 
+          P.S. Một điểm mới nữa trong năm nay: chúng tôi đã cung cấp cho người trả lời khả năng **để lại nhận xét** về bất kỳ tính năng hoặc thư viện nào được đề cập trong cuộc khảo sát! Hãy chắc chắn kiểm tra những nhận xét này trong thanh bên của mỗi biểu đồ. 
           
     ###########################################################################
     # Tshirt
@@ -45,18 +45,18 @@ translations:
 
     - key: sections.tshirt.description
       t: |
-          ## Support the Survey With the State of CSS T-Shirt
+          ## Hỗ trợ cuộc khảo sát với áo thun State of CSS
 
-          Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
+          Giữa những video chất lượng kém, băng cassette cồng kềnh phải tua lại, không có nhiều điều để bỏ lỡ về thời đại VHS (viết tắt của Video Home System). Nhưng có một điều chúng tôi bỏ lỡ là những hình ảnh tuyệt vời của thập niên 90 được sử dụng để tô điểm cho các băng VHS trống. 
 
-          But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for CSS at the same time!
+          Nhưng giờ đây, nhờ tài năng của Christopher Kirk-Nielsen, bạn có thể tận hưởng tất cả điều này đồng thời thể hiện tình yêu của bạn dành cho CSS!
 
     - key: tshirt.about
-      t: About the T-shirt
+      t: Thông tin về chiếc áo
 
     - key: tshirt.description
       t: |
-          We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau. 
+          Chúng tôi sử dụng những chiếc áo siêu mềm, chất lượng cao với kiểu dáng thon gọn được in bởi các đối tác của chúng tôi tại Cotton Bureau. 
 
     - key: tshirt.getit
       t: Get It
@@ -65,14 +65,14 @@ translations:
       t: USD $29 + shipping
 
     - key: tshirt.designer.heading
-      t: About the Designer
+      t: Thông tin về nhà thiết kế
 
     - key: tshirt.designer.name
       t: Christopher Kirk-Nielsen
 
     - key: tshirt.designer.bio
       t: |
-          Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+          Gốc Pháp nhưng hiện đang sống ở Mỹ, Chris không chỉ là một front-end developer tuyệt vời mà còn là một họa sĩ minh họa tài năng chuyên về retro visuals. Trên thực tế, chúng tôi khuyến khích bạn xem [các thiết kế áo thun khác](https://chriskirknielsen.com/designs) của anh ấy!
             
     ###########################################################################
     # Charts
@@ -102,26 +102,26 @@ translations:
 
     - key: award.feature_adoption_delta_award.comment
       t: |
-        The `gap` property for Flexbox is such a useful addition that it's not surprising
-        it would see a **{value}** progression in 2022
+        Thuộc tính `gap` của Flexbox là một bổ sung rất hữu ích 
+        và không có gì ngạc nhiên khi nó tăng **{value}** vào năm 2022
 
     # - key: award.tool_usage_delta_award.comment
     #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
 
     - key: award.most_commented_feature_award.comment
-      t: With **{value}** comments, no other feature even came close to generating as much feedback as Subgrid.
+      t: Với tổng số **{value}** lượt bình luận, không có tính năng nào khác mang lại nhiều phản hồi như SubGrid.
 
     - key: award.tool_satisfaction_award.comment
       t: |
-        Out of all the CSS-in-JS solutions, CSS Modules is the only one that maintained a
-        sky-high **{value}** retention ratio.
+        Trong số tất cả các giải pháp CSS-in-JS, CSS Modules là giải pháp duy nhất duy trì
+        tỷ lệ cao ngất **{value}**.
 
     # - key: award.tool_interest_award.comment
     #   t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
 
     - key: award.most_write_ins_award.comment
       t: |
-        With **{value}** mentions, the Arc browser was the tool most mentioned in freeform questions by far. 
+        Với **{value}** lượt đề cập, trình duyệt Arc cho đến nay là công cụ được đề cập nhiều nhất trong câu hỏi mở. 
 
 
     ###########################################################################
@@ -130,14 +130,14 @@ translations:
 
     - key: conclusion.css2022
       t: |
-          <span class="first-line">[Last year](https://2021.stateofcss.com/en-US/conclusion/), Kilian predicted that the way we write CSS was about to change forever, and this year's results validate his prediction.</span>
+          <span class="first-line">[Năm ngoái](https://2021.stateofcss.com/en-US/conclusion/), Kilian đã dự đoán rằng cách chúng ta viết CSS sẽ thay đổi mãi mãi và kết quả năm nay đã xác thực dự đoán của anh ấy.</span>
 
-          [Interop 2022](https://wpt.fyi/interop-2022) has brought browsers together working towards the same goals, and several features went from "this will never happen" to "this is now happening". Parent selectors (`:has()`) and container queries (`@container`) are two big ones in that category. For years it was hammered into developers that these could not  happen due to performance implications, yet it turned out that both were possible. 
+          [Interop 2022](https://wpt.fyi/interop-2022) đã kết hợp các trình duyệt cùng hướng tới các mục tiêu giống nhau và một số tính năng đã chuyển từ "điều này sẽ không bao giờ xảy ra" thành "điều này hiện đang xảy ra". Parent selectors (`:has()`) và container queries (`@container`) là hai trong số các tính năng nặng ký. Trong nhiều năm, các nhà phát triển nghĩ rằng những tính năng này là không thể do ảnh hưởng đến hiệu suất, nhưng hóa ra cả hai đều có thể. 
 
-          Subgrid on the other hand was always on the roadmap, it was just a very big chunk of work. It is now supported by both Firefox and Safari, and being actively implemented in Chrome, so we will probably see much higher usage next year.
+          Mặt khác, Subgrid đang được tiến hành đúng lộ trình và nó có số lượng công việc rất lớn. Firefox và Safari đã hỗ trợ nó và Chrome đang tích cực triển khai nó, vì vậy chúng tôi có thể thấy mức sử dụng cao hơn vào năm tới.
 
-          I predict that the stars of 2023 will be native Nesting, and color manipulation.
-          Nesting is currently [the primary reason](https://twitter.com/leaverou/status/806936438797307904) people still use preprocessors, so being able to rely on it natively will be incredibly freeing. 
+          Tôi dự đoán rằng các ngôi sao của năm 2023 sẽ là native Nesting, và color manipulation.
+          Nesting hiện là [lý do chính](https://twitter.com/leaverou/status/806936438797307904) khiến mọi người vẫn sử dụng preprocessors, vì vậy có thể dựa vào nó một cách tự nhiên sẽ là một trải nghiệm tuyệt vời. 
 
           Working with color in CSS is also about to get a lot more exciting. There is a swath of features being implemented across the board as we speak. By the end of 2023, we will probably be able to rely on wide gamut colors and device independent colors (`color()`, `lab()`, `lch()`, `oklab()`, `oklch()`), and we'd be able to manipulate them in a basic way through `color-mix()`. 
 
@@ -151,19 +151,19 @@ translations:
     ###########################################################################
 
     - key: picks.my_pick
-      t: 'My 2022 Pick: '
+      t: 'Lựa chọn của tôi cho năm 2022: '
     - key: picks.intro
-      t: We asked members of the CSS community to share their “pick of the year”
+      t: Chúng tôi đã hỏi các thành viên của cộng đồng JavaScript chia sẻ về "Lựa chọn của năm" của họ
 
     - key: picks.david_east.name
       t: CSS Subgrid
     - key: picks.david_east.bio
-      t: Advocate for building on the web
+      t: Ủng hộ xây dựng trên web
     - key: picks.david_east.description
       t: |
-            CSS Subgrid allows child elements to inherit their parents grid properties. 
-            Soon, it will be much easier to lay elements out to the same grid 
-            lines across the entire page.
+            CSS Subgrid cho phép các phần tử con kế thừa các thuộc tính lưới của phần tử cha của chúng. 
+            Chẳng bao lâu nữa, việc sắp xếp các phần tử vào cùng một lưới 
+            sẽ dễ dàng hơn nhiều.
 
     - key: picks.bramus_van_damme.name
       t: The `:has()` Selector
@@ -171,9 +171,9 @@ translations:
       t: Chrome Developer Relations Engineer at Google
     - key: picks.bramus_van_damme.description
       t: |
-            You might know this one as the so-called “parent selector” but that name does it 
-            no justice as it only covers a small part of what it can do. 
-            This selector has essentially changed the way I write my CSS.
+            Bạn có thể gọi nó là “parent selector” nhưng đó không phải là tên hoàn toàn đúng, 
+            vì nó chỉ bao gồm phần nhỏ những điều nó có thể làm. 
+            Selector này về cơ bản đã thay đổi cách tôi viết CSS..
 
     - key: picks.kevin_j_powell.name
       t: Jhey Tompkins
@@ -181,9 +181,9 @@ translations:
       t: CSS Evangelist
     - key: picks.kevin_j_powell.description
       t: |
-            Jhey is always pushing the limits of what we can do with CSS with 
-            fun and impressive demos and Codepens. With all the new features landing in CSS recently, 
-            Jhey is at the forefront of explaining how they work.
+            Jhey luôn đẩy giới hạn của những gì chúng tôi có thể làm với CSS bằng các 
+            demo thú vị và ấn tượng và Codepens. Với tất cả các tính năng mới gần đây của CSS, 
+            Jhey đi đầu trong việc giải thích cách thức hoạt động của chúng.
 
     - key: picks.samuel_kraft.name
       t: The `:has()` Selector
@@ -191,8 +191,8 @@ translations:
       t: Design Engineer
     - key: picks.samuel_kraft.description
       t: |
-            The new :has() selector is super powerful and unlocks new styling possibilities. 
-            This great article from Jen Simmons breaks it down with explanations and practical examples.
+            Selector :has() mới rất mạnh mẽ và mở ra những phong cách mới. 
+            Bài viết tuyệt vời của Jen Simmons chia nhỏ nó bằng các giải thích và ví dụ thực tế.
             
     - key: picks.josh_comeau.name
       t: Modern CSS
@@ -200,9 +200,9 @@ translations:
       t: Software developer and educator
     - key: picks.josh_comeau.description
       t: |
-            CSS has changed so much over the past few years. 
-            Stephanie shows us how to leverage modern CSS features 
-            to solve old problems in new ways.
+            CSS đã thay đổi rất nhiều trong vài năm qua. 
+            Stephanie chỉ cho chúng ta cách tận dụng các tính năng CSS hiện đại 
+            để giải quyết các vấn đề cũ theo những cách mới.
 
     - key: picks.adam_argyle.name
       t: The `:has()` Selector
@@ -210,17 +210,17 @@ translations:
       t: UI/CSS DevRel at Google
     - key: picks.adam_argyle.description
       t: |
-            CSS just because even stronger at orchestrating UI interaction across components. 
-            We've barely scratched the surface of the impact of `:has()` on our styles.
+            CSS thậm chí còn mạnh hơn trong việc phối hợp tương tác UI giữa các components. 
+            Chúng ta vẫn chưa hoàn toàn hiểu :has() sẽ thay đổi phong cách của chúng ta như thế nào.
 
     - key: picks.eric_w_bailey.name
-      t: “Style with Stateful, Semantic Selectors” by Ben Myers
+      t: “Style với Stateful, Semantic Selectors” bởi Ben Myers
     - key: picks.eric_w_bailey.bio
-      t: Accessibility advocate and CSS nerd
+      t: Ủng hộ khả năng tiếp cận và đam mê CSS
     - key: picks.eric_w_bailey.description
       t: |
-            Ben demonstrates how utilizing ARIA 
-            attribute selectors can simply and powerfully tie appearance to state.
+            Ben chỉ ra cách tận dụng các bộ chọn thuộc tính ARIA 
+            để liên kết giao diện với trạng thái một cách dễ dàng và mạnh mẽ. 
 
     - key: picks.michelle_barker.name
       t: Interop 2022
@@ -228,10 +228,10 @@ translations:
       t: Writer and creator of front-end blog CSS { In Real Life }
     - key: picks.michelle_barker.description
       t: |
-            Interop is a collaboration between all of the major browser vendors, 
-            agreeing 15 key areas of focus for implementation — 
-            including game-changing new CSS features like container queries, 
-            cascade layers and color functions. 
+            Interop là sự hợp tác giữa tất cả các nhà cung cấp trình duyệt chính
+            thống nhất về 15 lĩnh vực triển khai chính — 
+            bao gồm các tính năng CSS thay đổi cuộc chơi như 
+            container queries, cascade layers và tính năng color. 
 
     - key: picks.gift_egwuenu.name
       t: Learn CSS
@@ -239,8 +239,8 @@ translations:
       t: Developer Advocate at Cloudflare
     - key: picks.gift_egwuenu.description
       t: |
-            My recommended resource for anyone looking to learn CSS from the ground up, 
-            I also use it as a reference everytime I need to look up any CSS property. 
+            Tôi đề xuất tài nguyên này cho bất kỳ ai muốn tìm hiểu CSS từ đầu. 
+            Tôi cũng sử dụng nó làm tài liệu tham khảo mỗi khi tôi cần tra cứu bất kỳ thuộc tính CSS nào. 
 
     - key: picks.ahmad_shadeed.name
       t: Container Queries
@@ -248,8 +248,8 @@ translations:
       t: Author of [Debugging CSS](https://debuggingcss.com/), Writing at [ishadeed.com](http://ishadeed.com)
     - key: picks.ahmad_shadeed.description
       t: |
-            If I would pick one highlight for 2022, it's container queries! 
-            They are finally here in stable browser near you
+            Nếu tôi chọn một điểm nổi bật cho năm 2022, thì đó là container queries! 
+            Nó cuối cùng đã có trong trình duyệt.
 
     # - key: picks.georgedoescode.name
     #   t: 
@@ -264,8 +264,8 @@ translations:
       t: Web technologies evangelist at Apple
     - key: picks.jen_simmons.description
       t: |
-            For two decades, “parent selector” was a top requested feature for CSS. 
-            Then in 2022, in a total surprise, the :has() pseudo-class arrived to solve this and far more.
+            Trong hai thập kỷ, “parent selector” là tính năng được yêu cầu nhiều nhất của CSS. 
+            Nhưng vào năm 2022, sự xuất hiện đầy bất ngờ của :has() pseudo-class đã giải quyết vấn đề này và đem lại nhiều hơn thế nữa..
 
     - key: picks.sara_soueidan.name
       t: The `:has()` Selector
@@ -273,9 +273,9 @@ translations:
       t: Independent inclusive design engineer
     - key: picks.sara_soueidan.description
       t: |
-            We've been wishing and waiting for CSS container queries for so long. 
-            But then `:has()` arrived shortly after, 
-            and it felt like it was "everything we never knew we always wanted". 
+            Chúng tôi đã mong muốn và chờ đợi các query CSS container quá lâu. 
+            Nhưng rồi `:has()` xuất hiện ngay sau đó, 
+            và cảm giác như đó là "thứ mà chúng tôi chưa bao giờ biết rằng chúng tôi luôn mong muốn". 
 
     - key: picks.adam_wathan.name
       t: Empty CSS Variables
@@ -283,10 +283,10 @@ translations:
       t: Creator of Tailwind CSS
     - key: picks.adam_wathan.description
       t: |
-            Not many people know this but `--my-var: ;` is totally valid CSS, 
-            and it's way more useful than you think. 
-            We use it in Tailwind CSS all the time to make it 
-            possible to decompose a single CSS property into multiple classes.
+            Không nhiều người biết điều này nhưng `--my-var: ;` là CSS hoàn toàn hợp lệ, 
+            và nó hữu ích hơn bạn nghĩ. 
+            Chúng tôi sử dụng nó rất nhiều trong Tailwind CSS 
+            để có thể thể chia nhỏ một CSS property thành nhiều lớp. 
 
     # - key: picks.christianoliff.bio
     #   t: Front-end developer for Trimble MAPS
@@ -300,11 +300,11 @@ translations:
       t: Web developer and creator of Polypane
     - key: picks.kilian_valkhof.description
       t: |
-          Started in 2021 as Compat 2021, browser engine makers 
-          have started coordinating which features they prioritize. 
-          Not only is this closing the various feature gaps that exist 
-          between between browsers, it's also increasing the speed with which new 
-          features like @layer lands across browsers.
+          Bắt đầu vào năm 2021 với tên gọi Compat 2021, 
+          các trình duyệt đã bắt đầu phối hợp những tính năng mà họ ưu tiên.
+          Điều này không chỉ thu hẹp các tính năng khác nhau 
+          tồn tại giữa các trình duyệt, mà còn tăng tốc độ 
+          triển khai các tính năng mới như `@layer` trong trình duyệt.
 
     # - key: picks.piccalilli_.bio
     #   t: Freelance designer & dev who runs piccalil.li
@@ -360,13 +360,13 @@ translations:
     ###########################################################################
 
     - key: sponsors.frontendmasters.description
-      t: Advance your skills with in-depth, modern front-end engineering courses.
+      t: Nâng cao kỹ năng của bạn với các khóa học chuyên sâu về modern front-end engineering.
     - key: sponsors.nijibox.description
-      t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+      t: Trình duyệt dành cho các nhà phát triển đầy tham vọng. Xây dựng các trang web đáp ứng nhanh, dễ truy cập và nhanh chóng.
     - key: sponsors.renderatl.description
-      t: The largest tech conference with a dedicated Design & CSS track.
+      t: Hội nghị công nghệ lớn nhất với chuyên mục Design & CSS track.
     - key: sponsors.google_chrome.description
-      t: Thanks to the Google Chrome team for supporting our work.
+      t: Cảm ơn nhóm Google Chrome đã hỗ trợ công việc của chúng tôi.
 
     ###########################################################################
     # FAQ/About
@@ -374,62 +374,62 @@ translations:
         
     - key: about.content
       t: >
-          The 2022 State of CSS survey ran from October 1 to November 1 2022, and collected 14,310 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+          Cuộc khảo sát State of CSS năm 2022 diễn ra từ ngày 1 tháng 10 năm 2022 và kết thúc vào ngày 1 tháng 11 năm 2022, và đã thu thập được 14.310 câu trả lời. Cuộc khảo sát do tôi, [Sacha Greif](https://sachagreif.com/), thực hiện, với sự trợ giúp của một nhóm cố vấn và cộng tác viên nguồn mở. 
 
-          This year's logo and t-shirt were reused from last year, when they were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+          Logo và áo phông của năm nay được sử dụng lại từ năm ngoái, khi chúng được thiết kế và hoạt họa bởi [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
-          ### Survey Goals
+          ### Mục tiêu cuộc khảo sát
 
-          This survey, along with the [State of JavaScript](https://stateofjs.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+          Cuộc khảo sát này, cùng với cuộc khảo sát [State of JavaScript](https://stateofjs.com/), được tạo ra để xác định các xu hướng sắp tới trong hệ sinh thái phát triển web nhằm giúp các nhà phát triển đưa ra lựa chọn công nghệ. 
 
-          As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+          Do đó, trọng tâm của các cuộc khảo sát này là dự đoán sự phát triển trong vài năm tới, thay vì phân tích những gì phổ biến hiện nay, đó là lý do tại sao các tính năng hoặc công nghệ phổ biến nhất không phải lúc nào cũng được đưa vào.
 
-          Additionally, survey data is also used by browser vendors to prioritize features and inform initiatives such as [Interop 2022](https://wpt.fyi/interop-2022).
+          Ngoài ra, dữ liệu khảo sát cũng được các nhà cung cấp trình duyệt sử dụng để ưu tiên các tính năng và cung cấp thông tin cho các sáng kiến ​​như [Interop 2022](https://wpt.fyi/interop-2022).
 
-          ### Survey Design
+          ### Thiết kế khảo sát
 
-          This year, survey design was lead by [Lea Verou](https://lea.verou.me/) thanks to a funding grant from the Google Chrome team, and managed publicly [on GitHub](https://github.com/orgs/Devographics/projects/1). All survey questions were optional. 
+          Năm nay, thiết kế khảo sát do [Lea Verou](https://lea.verou.me/) phụ trách, nhờ khoản tài trợ từ nhóm Google Chrome và được quản lý công khai [trên GitHub](https://github.com/orgs/Devographics/projects/1). Tất cả các câu hỏi khảo sát là tùy chọn. 
 
-          Additionally, going forward we will also coordinate survey design, review, and feedback through a [Working Group mailing list](https://www.devographics.com/working-group/).
+          Ngoài ra, trong tương lai, chúng tôi cũng sẽ phối hợp thiết kế, đánh giá và phản hồi khảo sát thông qua [mailing list của nhóm](https://www.devographics.com/working-group/).
 
-          ### Survey Audience
+          ### Đối tượng khảo sát
 
-          The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+          Cuộc khảo sát có thể truy cập trực tuyến một cách công khai và người trả lời không được lọc hoặc chọn dưới bất kỳ hình thức nào. Những người trả lời chủ yếu là sự kết hợp của những người trả lời khảo sát trước đây (được thông báo qua danh sách gửi thư chuyên dụng) và lưu lượng truy cập mạng xã hội. 
 
-          ### Project Funding
+          ### Kinh phí dự án
 
-          Funding from this project comes from a variety of sources:
+          Kinh phí cho dự án này đến từ các nguồn sau:
 
           - **T-shirt sales**. 
           
-          - **Sponsored Links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+          - **Liên kết được tài trợ**: các đường link đến các resources được đề xuất ở cuối mỗi trang được cung cấp bởi đối tác của chúng tôi là [Frontend Masters](https://frontendmasters.com/).
           
-          - **Sponsored Charts**: starting last year, anybody can now also choose to directly sponsor a chart for $10 or more, and get their Twitter avatar displayed next to it.
+          - **Tài trợ biểu đồ**: bắt đầu từ năm ngoái, bất kỳ ai cũng có thể chọn tài trợ trực tiếp cho một biểu đồ với giá từ 10 đô la trở lên và hiển thị hình đại diện Twitter của họ bên cạnh biểu đồ đó.
           
-          - **Google**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a budget to hire Lea to help design the survey, as well as funded me directly to help support my work. 
+          - **Google**: năm nay, nhóm [Google Chrome](https://www.google.com/chrome/) dành một khoản ngân sách để thuê Lea giúp thiết kế cuộc khảo sát, cũng như tài trợ trực tiếp cho tôi để giúp hỗ trợ công việc của tôi.
 
-          - **Nijibox**: Japan-based [Nijibox](https://nijibox.jp/) has also graciously accepted to sponsor my efforts to help make these yearly surveys more sustainable. 
+          - **Nijibox**: [Nijibox](https://nijibox.jp/) có trụ sở tại Nhật Bản cũng đã chọn tài trợ cho tôi để giúp thực hiện các cuộc khảo sát hàng năm này lâu dài hơn nữa.
 
-          ### Technical Overview
+          ### Tổng quan kỹ thuật
 
-          You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). Our code is [open-source](https://github.com/Devographics/Monorepo/). 
+          Bạn có thể tìm thấy thông tin chuyên sâu hơn về cách thực hiện khảo sát tại [đây](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). Code của chúng tôi lưu trữ tại [OSS](https://github.com/Devographics/Monorepo/). 
 
-          - **Data collection**: [Next.js](https://nextjs.org/) app running on [Vercel](https://vercel.com/).
+          - **Thu thập dữ liệu**: [Next.js](https://nextjs.org/) app chạy trên [Vercel](https://vercel.com/).
 
-          - **Data storage/processing**: MongoDB & MongoDB Aggregations running on [MongoDB Atlas](https://cloud.mongodb.com/).
+          - **Lưu trữ/xử lý dữ liệu**: MongoDB & MongoDB Aggregations running on [MongoDB Atlas](https://cloud.mongodb.com/).
           
-          - **Data API**: Node.js GraphQL API running on [Render](https://render.com/). 
+          - **Data API**: Node.js GraphQL API chạy trên [Render](https://render.com/). 
           
-          - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app running on [Netlify](https://netlify.com/).
+          - **Trang kết quả**: [Gatsby](https://www.gatsbyjs.com/) React app chạy trên [Netlify](https://netlify.com/).
           
           - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
           
-          - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+          - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) và [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
 
           ### Feedback
 
-          - [Report a technical issue](https://github.com/Devographics/Monorepo/issues)
-          - [Make a suggestion for next year](https://github.com/Devographics/surveys/issues/66)
-          - [Other non-technical issues](https://github.com/Devographics/surveys/issues)
-          - [Join our Discord](https://discord.gg/tuWRUWVyJs)
-          - [Join the Devographics Working Group](https://www.devographics.com/working-group/) to participate in the design and review of future surveys.
+          - [Báo cáo sự cố kỹ thuật](https://github.com/Devographics/Monorepo/issues)
+          - [Đưa ra đề xuất cho năm tới](https://github.com/Devographics/surveys/issues/66)
+          - [Các vấn đề phi kỹ thuật khác](https://github.com/Devographics/surveys/issues)
+          - [Tham gia Discord của chúng tôi](https://discord.gg/tuWRUWVyJs)
+          - [Tham gia Devographics Working Group](https://www.devographics.com/working-group/) để tham gia vào việc thiết kế và xem xét các cuộc điều tra trong tương lai.
