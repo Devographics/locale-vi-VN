@@ -211,7 +211,7 @@ translations:
     ###########################################################################
 
     - key: picks.my_pick
-      t: 'Lựa chọn của tôi trong năm 2022: '
+      t: 'Lựa chọn của tôi cho năm 2022: '
     - key: picks.intro
       t: Chúng tôi đã hỏi các thành viên của cộng đồng JavaScript chia sẻ về "Lựa chọn của năm" của họ
 
@@ -523,7 +523,7 @@ translations:
 
             Nó cũng nên được coi là một mô hình thu nhỏ của **một nhóm nhỏ các nhà phát triển** và không nhằm mục đích đại diện cho toàn bộ hệ sinh thái. 
 
-            ### Thiết kế của cuộc khảo sát
+            ### Thiết kế khảo sát
 
             Cuộc khảo sát được thiết kế một phần dựa trên cuộc khảo sát năm ngoái, với khoảng thời gian mở ra cho tất cả mọi người phản hồi trong đó có đề cương khảo sát được thảo luận trên [GitHub](https://github.com/Devographics/surveys/issues?q=is%3Aissue+is%3Aopen+label%3A%22State+of+JS+2022%22). 
             
@@ -555,7 +555,7 @@ translations:
 
             - **Tài trợ biểu đồ**: Các thành viên cộng đồng có thể quyên góp cho cuộc khảo sát để đổi lấy tên của họ xuất hiện trong báo cáo.  
 
-            - **Liên kết được tài trợ**: các liên kết đến các resources được đề xuất ở cuối mỗi trang được cung cấp bởi các đối tác của chúng tôi là [Frontend Masters](https://frontendmasters.com/) và [RenderATL](https://www.renderatl.com/).
+            - **Liên kết được tài trợ**: các đường link đến các resources được đề xuất ở cuối mỗi trang được cung cấp bởi các đối tác của chúng tôi là [Frontend Masters](https://frontendmasters.com/) và [RenderATL](https://www.renderatl.com/).
             
             - **Quỹ khác**: năm nay, [Google](https://www.google.com/) và [Nijibox](https://nijibox.jp/) tài trợ trực tiếp và hỗ trợ công việc của chúng tôi.
 
