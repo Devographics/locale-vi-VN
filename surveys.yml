@@ -56,27 +56,27 @@ translations:
     - key: general.faq
       t: FAQ
     - key: faq.create_account
-      t: Why do I need to create an account?
+      t: Tại sao tôi cần phải tạo một tài khoản?
     - key: faq.create_account.description
-      t: We ask you to create an account in order to avoid duplicate responses, save your data, and notify you when results are published.
+      t: Chúng tôi yêu cầu bạn tạo một tài khoản để tránh các câu trả lời trùng lặp, lưu dữ liệu của bạn và thông báo cho bạn khi kết quả được công bố.
     - key: faq.anonymous_survey
-      t: Can I take the survey anonymously?
+      t: Tôi có thể thực hiện khảo sát ẩn danh không?
     - key: faq.anonymous_survey.description
-      t: Yes, you can use a fake (something@example.com) or non-identifying email to take the survey as long as you save it for future access. 
+      t: Có, bạn có thể sử dụng email giả mạo (something@example.com) hoặc email không xác định để thực hiện khảo sát miễn là bạn lưu nó để truy cập sau này. 
     - key: faq.questions_required
-      t: Is answering every question required?
+      t: Có bắt buộc phải trả lời mọi câu hỏi?
     - key: faq.questions_required.description
-      t: No, every question of the survey is optional and can freely be skipped. 
+      t: Không, mọi câu hỏi của cuộc khảo sát là không bắt buộc và có thể tự do bỏ qua. 
     - key: faq.data_published
-      t: Will my data be made public?
+      t: Dữ liệu của tôi sẽ được công khai sao?
     - key: faq.data_published.description
-      t: Yes, all data will be released publicly, but only after being purged of any identifying information (emails, usernames, IDs, etc.).
+      t: Có, tất cả dữ liệu sẽ được tiết lộ công khai, nhưng chỉ sau khi đã xóa các thông tin cá nhân (email, username, ID, ...).
     - key: faq.survey_design
-      t: How are the surveys designed?
+      t: Cuộc khảo sát được thiết kế như thế nào?
     - key: faq.survey_design.description
-      t: Surveys are designed based on community feedback, as well as reviewed by experts. You can [learn more here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). 
+      t: Khảo sát được thiết kế dựa trên feedback của cộng đồng, cũng như được xem xét bởi các chuyên gia. Bạn có thể [tìm hiểu thêm tại đây](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). 
     - key: faq.results_released
-      t: When will the results be released?
+      t: Khi nào kết quả sẽ được công bố?
     - key: faq.results_released.description
       t: Results are generally released a few weeks after the survey closes.
     - key: faq.survey_deadline
@@ -207,14 +207,14 @@ translations:
       t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub. 
 
     - key: faq.results_released_css2022
-      t: When will the results be released?
+      t: Khi nào kết quả sẽ được công bố?
     - key: faq.results_released_css2022.description
       t: The survey will run until the end of October 2022, and the survey results will be released in early November. 
 
     - key: faq.data_used_css2022
-      t: How will this data be used?
+      t: Dữ liệu này sẽ được sử dụng như thế nào?
     - key: faq.data_used_css2022.description
-      t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
+      t: Tất cả dữ liệu được thu thập sẽ được phát hành công khai. Sau đó, nó sẽ trở thành nơi tham khảo cho cả nhà phát triển - người xem xét để đưa ra các lựa chọn công nghệ của họ, và các nhà cung cấp trình duyệt - những người sử dụng nó để tập trung ưu tiên các phần trọng tâm và đưa ra lộ trình phát triển phù hợp.
 
 
     # JS 2022
@@ -230,11 +230,11 @@ translations:
     #   t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub. 
 
     - key: faq.results_released_js2022
-      t: When will the results be released?
+      t: Khi nào kết quả sẽ được công bố?
     - key: faq.results_released_js2022.description
-      t: The survey will run until December 15, 2022, and the survey results will be released shortly afterwards. 
+      t: Cuộc khảo sát sẽ kéo dài đến ngày 15 tháng 12 năm 2022 và kết quả khảo sát sẽ được công bố ngay sau đó. 
 
     - key: faq.data_used_js2022
-      t: How will this data be used?
+      t: Dữ liệu này sẽ được sử dụng như thế nào?
     - key: faq.data_used_js2022.description
       t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.

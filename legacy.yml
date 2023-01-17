@@ -6,80 +6,80 @@ translations:
 
     # homepage
     - key: general.why_create_account
-      t: Why do I need to create an account?
+      t: Tại sao tôi cần phải tạo một tài khoản?
     - key: general.create_account_reasons
       t: >
           We ask you to create an account in order to:
 
-          - Avoid duplicate responses
+          - Tránh các câu trả lời trùng lặp
 
-          - Give you access to your data
+          - Cấp cho bạn quyền truy cập vào dữ liệu của bạn
 
-          - Save your session as you go
+          - Lưu phiên làm việc của bạn khi bạn rời đi
 
-          - Notify you when results are live
+          - Thông báo cho bạn khi công bố kết quả
     - key: general.survey_closed
       t: >
-          Sorry, the survey is now closed! You can still review your data but you won't be able to modify it.
+          Xin lỗi, cuộc khảo sát hiện đã kết thúc! Bạn vẫn có thể xem lại dữ liệu của mình nhưng sẽ không thể sửa đổi dữ liệu đó.
     - key: general.survey_read_only
       t: >
-          You are currently viewing this survey in read-only mode.
+          Bạn hiện đang xem khảo sát này ở chế độ chỉ đọc.
     - key: general.survey_preview
       t: >
-          This survey is in preview mode. Its questions are subject to change, and all 
-          inputted data will be deleted when the actual survey starts. 
+          Khảo sát này ở chế độ xem trước. Các câu hỏi của nó có thể thay đổi 
+          và tất cả dữ liệu đã nhập sẽ bị xóa khi cuộc khảo sát thực tế bắt đầu.
 
     - key: general.survey_read_only_back
       t: >
-          <a href="{link}">Go back</a> to the main survey page to start or resume a session.
+          <a href="{link}"><a href="{link}">Quay lại</a> trang khảo sát chính để bắt đầu hoặc tiếp tục.
     - key: general.take_survey
-      t: Take the {name} survey
+      t: Tham gia khảo sát {name}
 
     # surveys
     - key: general.open_surveys
-      t: Open Surveys
+      t: Mở khảo sát
     - key: general.no_open_surveys
-      t: No surveys are currently open.
+      t: Không có cuộc khảo sát nào đang mở.
     - key: general.closed_surveys
-      t: Closed Surveys
+      t: Đóng khảo sát
     - key: general.no_closed_surveys
-      t: No surveys are currently closed.
+      t: Không có cuộc khảo sát nào đang đóng.
     - key: general.preview_surveys
-      t: Preview Surveys
+      t: Xem trước khảo sát
     - key: general.no_preview_surveys
-      t: No surveys available to preview.
+      t: Không có bản khảo sát nào để xem trước.
     - key: general.start_survey
-      t: Start Survey »
+      t: Bắt đầu làm khảo sát »
     - key: general.continue_survey
-      t: Continue Survey »
+      t: Tiếp tục làm khảo sát »
     - key: general.review_survey
-      t: Review Survey »
+      t: Đánh giá khảo sát »
     - key: general.preview_survey
-      t: Preview Survey »
+      t: Xem trước khảo sát »
     - key: general.finish_survey
-      t: Finish Survey
+      t: Kết thúc khảo sát
     - key: general.next_section
-      t: Next section
+      t: Phần tiếp theo
     - key: general.previous_section
-      t: Previous section
+      t: Phần trước đó
     - key: general.survey_closed
-      t: This survey is now closed.
+      t: Khảo sát này hiện đã đóng.
     - key: general.survey_results
-      t: View Survey Results »
+      t: Xem kết quả khảo sát »
     - key: general.surveys_available_languages
-      t: 'Surveys available in:'
+      t: 'Khảo sát có sẵn trong:'
     - key: general.help_us_translate
-      t: Help us translate the surveys »
+      t: Giúp chúng tôi dịch cuộc khảo sát »
     - key: general.translators
-      t: Translators
+      t: Phiên dịch viên
     - key: general.translation_help
-      t: Translation Help
+      t: Hỗ trợ dịch thuật
     - key: general.newly_added
-      t: Newly added this year
+      t: Mới được thêm vào năm nay
     - key: general.new
-      t: New
+      t: Mới
     - key: general.devographics_banner
-      t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> is the new name of the collective running the State of JavaScript, CSS, and GraphQL surveys.
+      t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> là tên mới của nhóm điều hành các cuộc khảo sát State of JavaScript, CSS, và GraphQL.
 
     # credits
     - key: credits.thanks
@@ -87,7 +87,7 @@ translations:
     - key: credits.contributors
       t: Contributors
     - key: credits.contributors.description
-      t: Special thanks to the following people for helping us design the survey.
+      t: Đặc biệt cảm ơn những người sau đây đã giúp chúng tôi thiết kế cuộc khảo sát.
     - key: credits.accessibility
       t: Accessibility Consulting
     - key: credits.survey_design
@@ -107,7 +107,7 @@ translations:
 
     # support
     - key: general.support_from
-      t: With Support From
+      t: Với sự hỗ trợ từ
 
     # footer
     - key: general.privacy_policy
@@ -119,12 +119,12 @@ translations:
 
     # navigation
     - key: general.table_of_contents
-      t: Table of Contents
+      t: Mục lục
     - key: general.all_questions_optional
       t: >
-          Note: all questions are optional, reaching 100% completion is not required.
+          Lưu ý: tất cả các câu hỏi đều là tùy chọn, không bắt buộc phải hoàn thành 100%.
     - key: general.data_is_saved
-      t: Your data is saved whenever you navigate to the previous or next section.
+      t: Dữ liệu của bạn được lưu bất cứ khi nào bạn quay về trước hoặc đi tới phần tiếp theo.
     - key: general.close_nav
       t: Close menu
     - key: general.open_nav
@@ -139,33 +139,33 @@ translations:
       t: Back
     - key: general.thanks
       t: >
-          Thanks for filling out the survey! Your data is saved.
+          Cảm ơn bạn đã điền vào bản khảo sát! Dữ liệu của bạn đã được lưu.
 
 
-          Also, you can help us get the word out by sharing this survey. Every bit counts, and it'll help make our data even
-          more representative:
+          Ngoài ra, bạn có thể giúp chúng tôi bằng cách chia sẻ khảo sát này. 
+          Mỗi câu trả lời đều có giá trị và nó sẽ giúp làm cho dữ liệu của chúng tôi trở nên toàn diện hơn:
     - key: thanks.learn_more_about
-      t: 'Some of the features you might want to learn more about:'
+      t: 'Một số tính năng bạn có thể muốn tìm hiểu thêm:'
     - key: thanks.knowledge_score
       t: Knowledge Score
     - key: thanks.score_explanation
       t: >
-          You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
-          <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
-          puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-          of all respondents.
+          You’ve heard or used <span class="score-number score-number-known">{known}</span> trong tổng số
+          <span class="score-number score-number-total">{total}</span> tính năng được đề cập trong cuộc khảo sát, 
+          điều này đưa bạn vào top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+          trong số những người trả lời.
     - key: thanks.share_on_twitter
       t: Share on Twitter
     - key: thanks.share_score_message
       t: >
-          I got a {score}% knowledge score on this year's #{hashtag} survey! Take the survey here: {shareUrl}
+          Tôi đã nhận được {score}% knowledge score trong cuộc khảo sát #{hashtag} năm nay! Thực hiện khảo sát tại đây: {shareUrl}
     # share
     - key: general.share_subject
       t: >
           {surveyName} survey
     - key: general.share_text
       t: >
-          This year's {surveyName} survey is now open! {link}
+          Cuộc khảo sát {surveyName} năm nay hiện đang mở! {link}
 
     # forms
     - key: forms.select_option
@@ -175,25 +175,25 @@ translations:
 
     # partners
     - key: sponsors.our_partners
-      t: Our Partners
+      t: Những đối tác của chúng tôi
     - key: sponsors.become_partner
-      t: Become a partner
+      t: Trở thành đối tác
 
     # 404
     - key: notfound.title
       t: 404 Not Found
     - key: notfound.description
-      t: Sorry, we couldn't find what you were looking for. 
+      t: Xin lỗi, chúng tôi không thể tìm thấy những gì bạn đang tìm kiếm.
 
     # other
     - key: general.join_discord
-      t: Join us on <a href="{link}">Discord</a>. 
+      t: Tham gia cùng chúng tôi trên <a href="{link}">Discord</a>. 
     - key: general.translator_mode
-      t: Press option/alt to enable translator mode. 
+      t: Nhấn option/alt để bật chế độ phiên dịch. 
     - key: general.charts_nivo
-      t: Charts built with <a href="{link}">Nivo</a>.
+      t: Biểu đồ được xây dựng với <a href="{link}">Nivo</a>.
     - key: general.made_by_devographics
-      t: Made by <a href="{link}">Devographics</a>
+      t: Được làm bởi <a href="{link}">Devographics</a>
       
     ###########################################################################
     # Nav
@@ -211,30 +211,30 @@ translations:
     - key: sections.user_info.title
       t: About You
     - key: sections.user_info.description
-      t: Let's get to know the real you.
+      t: Hãy tìm hiểu con người thật của bạn..
 
     - key: sections.features.title
       t: Features
     - key: sections.features.description
-      t: Syntax, keywords, and other language features.
+      t: Cú pháp, từ khóa và các tính năng ngôn ngữ khác.
 
     - key: sections.resources.title
       t: Resources
     - key: sections.resources.description
-      t: What {topic} resources do you consult?
+      t: Bạn tham khảo tài nguyên {topic} nào?
 
     - key: sections.opinions.title
-      t: Opinions
+      t: Ý kiến
     - key: sections.opinions.description
-      t: How do you feel about the state of {topic}?
+      t: Bạn cảm thấy thế nào về tình trạng của {topic}?
 
     - key: sections.other_tools.title
       t: Other Tools
     - key: sections.other_tools.description
-      t: For these tools & technologies, just check the ones that you use regularly.
+      t: Đối với những công cụ & công nghệ này, chỉ cần kiểm tra những công cụ & công nghệ bạn sử dụng thường xuyên..
 
     - key: sections.report.title
-      t: Trend Report
+      t: Báo cáo xu hướng
 
     ###########################################################################
     # Options
@@ -242,63 +242,63 @@ translations:
 
     # features
     - key: options.features.never_heard
-      t: <span aria-hidden="true">🤷</span> Never heard of it/Not sure what it is
+      t: <span aria-hidden="true">🤷</span> Chưa bao giờ nghe về nó/Không chắc nó là gì
     - key: options.features.heard
-      t: <span aria-hidden="true">✅</span> Know what it is, but haven't used it
+      t: <span aria-hidden="true">✅</span> Biết nó là gì, nhưng chưa sử dụng nó
     - key: options.features.used
-      t: <span aria-hidden="true">👍</span> I've used it
+      t: <span aria-hidden="true">👍</span> Tôi đã sử dụng nó
 
     # features (no emoji)
     - key: options.features.never_heard.label
-      t: Never heard of it/Not sure what it is
+      t: Chưa bao giờ nghe về nó/Không chắc nó là gì
     - key: options.features.heard.label
-      t: Know what it is, but haven't used it
+      t: Biết nó là gì, nhưng chưa sử dụng nó
     - key: options.features.used.label
-      t: I've used it
+      t: Tôi đã sử dụng nó
 
     # features (short versions)
     - key: options.features.never_heard.short
-      t: Never heard of it
+      t: Chưa bao giờ nghe về nó
     - key: options.features.heard.short
-      t: Know about it
+      t: Biết về nó
     - key: options.features.used.short
-      t: Have used it
+      t: Đã sử dụng nó
 
     # patterns
     - key: options.patterns.use_never
-      t: Almost always avoid
+      t: Hầu như luôn tránh
     - key: options.patterns.use_sparingly
-      t: Use sparingly
+      t: Sử dụng một cách tiết kiệm
     - key: options.patterns.use_neutral
-      t: Neutral
+      t: Trung lập
     - key: options.patterns.use_frequently
-      t: Use frequently
+      t: Sử dụng thường xuyên
     - key: options.patterns.use_always
-      t: Use as much as I can
+      t: Sử dụng nhiều nhất trong khả năng có thể
 
     # tools experience
     - key: options.tools.never_heard
-      t: <span aria-hidden="true">🤷</span> Never heard of it/Not sure what it is
+      t: <span aria-hidden="true">🤷</span> Chưa bao giờ nghe về nó/Không chắc nó là gì
     - key: options.tools.interested
-      t: <span aria-hidden="true">✅</span> Heard of it > Would like to learn
+      t: <span aria-hidden="true">✅</span> Nghe nói về nó > Muốn học
     - key: options.tools.not_interested
-      t: <span aria-hidden="true">🚫</span> Heard of it > Not interested
+      t: <span aria-hidden="true">🚫</span> Nghe nói về nó > Không hứng thú
     - key: options.tools.would_use
-      t: <span aria-hidden="true">👍</span> Used it > Would use again
+      t: <span aria-hidden="true">👍</span> Used it > Sẽ sử dụng lại
     - key: options.tools.would_not_use
-      t: <span aria-hidden="true">👎</span> Used it > Would not use again
+      t: <span aria-hidden="true">👎</span> Used it > Sẽ không sử dụng lại
 
     # tools experience (no emoji)
     - key: options.tools.never_heard.legend
-      t: Never heard of it/Not sure what it is
+      t: Chưa bao giờ nghe về nó/Không chắc nó là gì
     - key: options.tools.interested.legend
-      t: Heard of it > Would like to learn
+      t: Nghe nói về nó > Muốn học
     - key: options.tools.not_interested.legend
-      t: Heard of it > Not interested
+      t: Nghe nói về nó > Không hứng thú
     - key: options.tools.would_use.legend
-      t: Used it > Would use again
+      t: Used it > Sẽ sử dụng lại
     - key: options.tools.would_not_use.legend
-      t: Used it > Would not use again
+      t: Used it > Sẽ không sử dụng lại
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short
@@ -306,19 +306,19 @@ translations:
     - key: options.tools.interested.short
       t: Interested
     - key: options.tools.not_interested.short
-      t: Not interested
+      t: Không hứng thú
     - key: options.tools.would_use.short
-      t: Would use again
+      t: Sẽ sử dụng lại
     - key: options.tools.would_not_use.short
-      t: Would not use
+      t: Sẽ không sử dụng
 
     # happiness
     - key: options.happiness.0
-      t: Very Unhappy
+      t: Rất không hài lòng
     - key: options.happiness.1
       t: Unhappy
     - key: options.happiness.2
-      t: Neutral
+      t: Trung lập
     - key: options.happiness.3
       t: Happy
     - key: options.happiness.4
@@ -326,11 +326,11 @@ translations:
 
     # happiness (short version)
     - key: options.happiness.0.short
-      t: Very Unhappy
+      t: Rất không hài lòng
     - key: options.happiness.1.short
       t: Unhappy
     - key: options.happiness.2.short
-      t: Neutral
+      t: Trung lập
     - key: options.happiness.3.short
       t: Happy
     - key: options.happiness.4.short
@@ -338,33 +338,33 @@ translations:
 
     # opinions
     - key: options.opinions.0
-      t: Disagree Strongly
+      t: Không đồng ý mạnh mẽ
     - key: options.opinions.1
-      t: Disagree
+      t: Không đồng ý
     - key: options.opinions.2
-      t: Neutral
+      t: Trung lập
     - key: options.opinions.3
-      t: Agree
+      t: Đồng ý
     - key: options.opinions.4
-      t: Agree Strongly
+      t: Đồng ý mạnh mẽ
 
     # age
     - key: options.age.range_less_than_10
-      t: 10 years old or under
+      t: 10 tuổi trở xuống
     - key: options.age.range_10_18
-      t: 11-18 years old
+      t: 11-18 tuổi
     - key: options.age.range_18_24
-      t: 19-24 years old
+      t: 19-24 tuổi
     - key: options.age.range_25_34
-      t: 25-34 years old
+      t: 25-34 tuổi
     - key: options.age.range_35_44
-      t: 35-44 years old
+      t: 35-44 tuổi
     - key: options.age.range_45_54
-      t: 45-54 years old
+      t: 45-54 tuổi
     - key: options.age.range_55_64
-      t: 55-64 years old
+      t: 55-64 tuổi
     - key: options.age.range_more_than_65
-      t: 65 years or older
+      t: 65 tuổi trở lên
 
     # age (short versions)
     - key: options.age.range_less_than_10.short
@@ -386,49 +386,49 @@ translations:
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
-      t: Less than one year
+      t: Ít hơn một năm
     - key: options.years_of_experience.range_1_2
-      t: 1 to 2 years
+      t: 1 đến 2 năm
     - key: options.years_of_experience.range_2_5
-      t: 3 to 5 years
+      t: 3 đến 5 năm
     - key: options.years_of_experience.range_5_10
-      t: 6 to 10 years
+      t: 6 đến 10 năm
     - key: options.years_of_experience.range_10_20
-      t: 11 to 20 years
+      t: 11 đến 20 năm
     - key: options.years_of_experience.range_more_than_20
-      t: More than 20 years
+      t: Hơn 20 năm
 
     # years of experience (short versions)
     - key: options.years_of_experience.range_less_than_1.short
-      t: '<1 years'
+      t: '<1 năm'
     - key: options.years_of_experience.range_1_2.short
-      t: 1-2 years
+      t: 1-2 năm
     - key: options.years_of_experience.range_2_5.short
-      t: 3-5 years
+      t: 3-5 năm
     - key: options.years_of_experience.range_5_10.short
-      t: 6-10 years
+      t: 6-10 năm
     - key: options.years_of_experience.range_10_20.short
-      t: 11-20 years
+      t: 11-20 năm
     - key: options.years_of_experience.range_more_than_20.short
-      t: '>20 years'
+      t: '>20 năm'
 
     # company size
     - key: options.company_size.range_1
-      t: One employee
+      t: Một nhân viên
     - key: options.company_size.range_1_5
-      t: 2 to 5 employees
+      t: 2 đến 5 nhân viên
     - key: options.company_size.range_5_10
-      t: 6 to 10 employees
+      t: 6 đến 10 nhân viên
     - key: options.company_size.range_10_20
-      t: 11 to 20 employees
+      t: 11 đến 20 nhân viên
     - key: options.company_size.range_20_50
-      t: 21 to 50 employees
+      t: 21 đến 50 nhân viên
     - key: options.company_size.range_50_100
-      t: 51 to 100 employees
+      t: 51 đến 100 nhân viên
     - key: options.company_size.range_100_1000
-      t: 101 to 1000 employees
+      t: 101 đến 1000 nhân viên
     - key: options.company_size.range_more_than_1000
-      t: More than 1000 employees
+      t: Hơn 1000 nhân viên
 
     # company size (short versions)
     - key: options.company_size.range_1.short
@@ -450,7 +450,7 @@ translations:
 
     # salary
     - key: options.yearly_salary.range_work_for_free
-      t: I work for free
+      t: Tôi làm việc miễn phí
     - key: options.yearly_salary.range_0_10
       t: $0k-$10k
     - key: options.yearly_salary.range_10_30
@@ -462,7 +462,7 @@ translations:
     - key: options.yearly_salary.range_100_200
       t: $100k-$200k
     - key: options.yearly_salary.range_more_than_200
-      t: More than $200k
+      t: Hơn $200k
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short
@@ -495,47 +495,47 @@ translations:
     # Gender
 
     - key: options.gender.female
-      t: Woman
+      t: Nữ
     - key: options.gender.male
-      t: Man
+      t: Nam
     - key: options.gender.non_binary
-      t: Non-Binary or Gender Non-Conforming
+      t: Lưỡng tính hoặc không theo tiêu chuẩn giới
     - key: options.gender.questioning
-      t: Questioning
+      t: Không rõ
     - key: options.gender.prefer_not_to_say
-      t: Prefer Not to Say
+      t: Không muốn nói
     - key: options.gender.not_listed
-      t: Not Listed
+      t: Không được liệt kê
 
     # Gender (short)
 
     - key: options.gender.female.short
-      t: Woman
+      t: Nữ
     - key: options.gender.male.short
-      t: Man
+      t: Nam
     - key: options.gender.non_binary.short
-      t: Non-Binary or GNC
+      t: Lưỡng tính hoặc không theo tiêu chuẩn giới
     - key: options.gender.questioning.short
-      t: Questioning
+      t: Không rõ
     - key: options.gender.prefer_not_to_say.short
-      t: Prefer Not to Say
+      t: Không muốn nói
     - key: options.gender.not_listed.short
-      t: Not Listed
+      t: Không được liệt kê
 
     # Race & Ethnicity
 
     - key: options.race_ethnicity.white_european
       t: White
     - key: options.race_ethnicity.south_asian
-      t: South Asian
+      t: Nam Á
     - key: options.race_ethnicity.south_east_asian
-      t: South East Asian
+      t: Đông Nam Á
     - key: options.race_ethnicity.hispanic_latin
-      t: Hispanic or Latino/Latina/Latinx
+      t: Tây Ban Nha hoặc Mỹ Latinh
     - key: options.race_ethnicity.east_asian
-      t: East Asian
+      t: Đông Á
     - key: options.race_ethnicity.middle_eastern
-      t: Middle Eastern
+      t: Trung Đông
     - key: options.race_ethnicity.black_african
       t: Black or of African descent
     - key: options.race_ethnicity.multiracial
@@ -543,9 +543,9 @@ translations:
     - key: options.race_ethnicity.biracial
       t: Biracial
     - key: options.race_ethnicity.native_american_islander_australian
-      t: Native American, Pacific Islander, or Indigenous Australian
+      t: Native American, Pacific Islander, hoặc Indigenous Australian
     - key: options.race_ethnicity.not_listed
-      t: Not listed
+      t: Không được liệt kê
 
     # Race & Ethnicity (short)
 
@@ -558,11 +558,11 @@ translations:
     - key: options.race_ethnicity.hispanic_latin.short
       t: Hispanic/Latin
     - key: options.race_ethnicity.east_asian.short
-      t: East Asian
+      t: Đông Á
     - key: options.race_ethnicity.middle_eastern.short
-      t: Middle Eastern
+      t: Trung Đông
     - key: options.race_ethnicity.black_african.short
-      t: Black/African Descent
+      t: Da Đen/Gốc Phi
     - key: options.race_ethnicity.multiracial.short
       t: Multiracial
     - key: options.race_ethnicity.biracial.short
@@ -570,7 +570,7 @@ translations:
     - key: options.race_ethnicity.native_american_islander_australian.short
       t: Native American/Pacific Islander/Indigenous Australian
     - key: options.race_ethnicity.not_listed.short
-      t: Not listed
+      t: Không được liệt kê
 
     # Disability Status
     - key: options.disability_status.visual_impairments
@@ -587,7 +587,7 @@ translations:
         Cognitive impairments (such as: anxiety, dyslexia, etc.)
     - key: options.disability_status.not_listed
       t: >
-        Not Listed
+        Không được liệt kê
 
     # Disability Status (short)
     - key: options.disability_status.visual_impairments
@@ -604,7 +604,7 @@ translations:
         Cognitive impairments
     - key: options.disability_status.not_listed
       t: >
-        Not Listed
+        Không được liệt kê
 
     # Form Factors
     - key: options.form_factors.desktop
@@ -804,8 +804,8 @@ translations:
       t: Overall Happiness
     - key: tools.happiness.description
       t: >
-          On a scale of one (very unhappy) to five (very happy), how happy are
-          you with the current overall state of things as it relates to the options listed above?
+          Trên thang điểm từ một (rất không hài lòng) đến năm (rất hạnh phúc), 
+          bạn hài lòng đến mức nào với tình trạng chung hiện tại liên quan đến các lựa chọn được liệt kê ở trên?
 
     ###########################################################################
     # Demographics (About You/User Info)

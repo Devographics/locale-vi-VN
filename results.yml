@@ -79,11 +79,11 @@ translations:
     t: By Ratio
 
   - key: options.features_simplified.know_it
-    t: Know about it
+    t: Biết về nó
   - key: options.features_simplified.used_it
-    t: Have used it
+    t: Đã sử dụng nó
   - key: options.features_simplified.usage_ratio
-    t: Ratio
+    t: Tỷ lệ
 
   - key: options.quadrant.assess
     t: ASSESS
@@ -432,9 +432,9 @@ translations:
     t: Technology Usage Cardinality
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
-        For each section, which percentage of respondents **use** 
-        (defined as having answered “would use again”) one, two, three, etc. technologies.
-        The bottom-most bar represents the sum of all other bars.  
+        Đối với mỗi phần, tỷ lệ phần trăm người trả lời **sử dụng** 
+        (được định nghĩa là đã trả lời “sẽ sử dụng lại”) một, hai, ba,...
+        Thanh dưới cùng đại diện cho tổng của tất cả các thanh khác.  
 
   - key: blocks.cardinality.max
     t: Most common answer
@@ -444,8 +444,8 @@ translations:
     t: Changes Over Time
   - key: blocks.tools_arrows.description
     t: |
-      Each line goes from the earliest to the latest available year of data. A higher point means a technology has been used by more people,
-      and a point further to the right means more users want to learn it; or have used it and would use it again.
+      Mỗi dòng đi từ năm sớm nhất đến năm cuối cùng có thể chọn của dữ liệu. Điểm cao hơn có nghĩa là công nghệ đã được nhiều người sử dụng hơn,
+      và đi xa hơn về bên phải có nghĩa là nhiều người dùng muốn tìm hiểu nó hơn; hoặc đã sử dụng nó và muốn sử dụng lại nó.
   - key: blocks.tools_arrows.note
     t: |
       - Some lines skip years.
@@ -486,8 +486,8 @@ translations:
     t: Positive/Negative Split
   - key: blocks.tools_experience_marimekko.description
     t: |
-      This chart splits positive (“want to learn”, “would use again”) vs
-      negative (“not interested”, “would not use again”) experiences on
+      This chart splits positive (“want to learn”, “sẽ sử dụng lại”) vs
+      negative (“không hứng thú”, “sẽ không sử dụng lại”) experiences on
       both sides of a central axis.
 
       Bar thickness represents the number of respondents aware of a technology.
@@ -535,9 +535,9 @@ translations:
     t: |
       Technologies with less than 10% awareness not included. Each ratio is defined as follows:
 
-      - Retention: **would use again** / (**would use again** + **would not use again**)
-      - Interest: **want to learn** / (**want to learn** + **not interested**)
-      - Usage: (**would use again** + **would not use again**) / **total**
+      - Retention: **sẽ sử dụng lại** / (**sẽ sử dụng lại** + **sẽ không sử dụng lại**)
+      - Interest: **want to learn** / (**want to learn** + **không hứng thú**)
+      - Usage: (**sẽ sử dụng lại** + **sẽ không sử dụng lại**) / **total**
       - Awareness: (**total** - **never heard**) / **total**
 
   # tools experience linechart
@@ -553,8 +553,8 @@ translations:
     t: Overall Happiness
   - key: blocks.happiness.description
     t: |
-      On a scale of one (very unhappy) to five (very happy), how happy are developers
-      with the current overall state of this category?
+      Trên thang điểm từ một (rất không hài lòng) đến năm (rất hài lòng), 
+      các nhà phát triển hài lòng đến mức nào với tình trạng chung hiện tại của hạng mục này?
 
   # newsletter
   - key: blocks.newsletter.title
@@ -573,8 +573,8 @@ translations:
     t: Features Overview
   - key: blocks.features_overview.description
     t: |
-      The size of the **outer circle** corresponds to the total number of users who know about a feature (*know about it* + *have used it* respondents), while
-      the **inner circle** represents those who have actually used it (*have used it* respondents).
+      The size of the **outer circle** corresponds to the total number of users who know about a feature (*Biết về nó* + *đã sử dụng nó* respondents), while
+      the **inner circle** represents those who have actually used it (*đã sử dụng nó* respondents).
 
       Hover on each circle to see detailed stats, including the ratio between both values. 
 
@@ -627,7 +627,7 @@ translations:
     t: |
       How different factors such as salary range, years of experience
       or company size influence usage (participants who answered either
-      “would use again” or “would not use again”).
+      “sẽ sử dụng lại” or “sẽ không sử dụng lại”).
 
       The baseline represents the base usage for each tool and the offsets
       correspond to the delta from this baseline in each range. Let's say
@@ -898,11 +898,11 @@ translations:
     t: Awareness Rank
 
   - key: table.would_not_use_percentage
-    t: Would not use %
+    t: Sẽ không sử dụng %
   - key: table.not_interested_percentage
-    t: Not interested %
+    t: Không hứng thú %
   - key: table.would_use_percentage
-    t: Would use again %
+    t: Sẽ sử dụng lại %
   - key: table.interested_percentage
     t: Interested %
 
@@ -931,7 +931,7 @@ translations:
   - key: award.tool_usage_delta_award.title
     t: Most Adopted Technology
   - key: award.tool_usage_delta_award.description
-    t: Awarded to the technology with the largest year-over-year “would use again” progression.
+    t: Được trao giải cho công nghệ có số lượng "sẽ sử dụng lại" hàng năm lớn nhất.
 
   - key: award.tool_satisfaction_award.title
     t: Highest Retention
