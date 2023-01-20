@@ -1,16 +1,16 @@
 # locale-vi-VI
 
-Repo này chứa các tệp tiếng Việt cho các bản khảo sát State of JS/CSS/... Bạn có thể xem danh sách [các ngôn ngữ tại đây](https://github.com/orgs/Devographics/repositories?q=locale&type=all&language=&sort=).
+Repo này chứa các tệp tiếng Việt cho các bản khảo sát State of JS/CSS/v.v. Bạn có thể xem danh sách [các ngôn ngữ tại đây](https://github.com/orgs/Devographics/repositories?q=locale&type=all&language=&sort=).
 
 ## Làm thế nào để giúp đỡ
 
 #### 1. Trở thành dịch giả
 
-Để bắt đầu giúp dịch khảo sát, bạn nên [tham gia Discord](https://discord.com/invite/zRDb35jfrt) và gửi tin nhắn trực tiếp cho tôi (`SachaG`) username GitHub của bạn, cùng với mã ngôn ngữ `vi-VN`) mà bạn muốn trợ giúp.
+Để bắt đầu giúp dịch khảo sát, bạn nên [tham gia Discord](https://discord.com/invite/zRDb35jfrt) và gửi tin nhắn trực tiếp cho tôi (`SachaG`) username GitHub của bạn, cùng với mã ngôn ngữ (`vi-VN`) mà bạn muốn trợ giúp.
 
 Sau đó, tôi sẽ cấp cho bạn quyền bảo trì đối với repo này và từ giờ trở đi, bạn có thể tự mình quản lý nó cùng với các thành viên khác trong nhóm dịch.
 
-Nếu bạn không tham gia nhóm Discord, bạn cũng có thể vào trang [issue](https://github.com/Devographics/locale-vi-VN/issues) để xem các file nào cần đang ưu tiên dịch, và có thể bắt đầu dịch. Với cách này bạn sẽ cần yêu cầu 1 thành viên khác review và merge file dịch của bạn.
+Nếu bạn không tham gia nhóm Discord, bạn cũng có thể vào trang [issue](https://github.com/Devographics/locale-vi-VN/issues) để xem các file nào đang cần ưu tiên dịch, và có thể bắt đầu dịch. Với cách này, bạn sẽ cần yêu cầu 1 thành viên khác review và merge file dịch của bạn.
 
 #### 2. Tìm những thứ cần dịch
 
@@ -36,7 +36,7 @@ query GetLocaleData {
 
 Mọi dịch giả sẽ được ghi tên trên bất kỳ trang web nào sử dụng bản dịch, trước tiên là với ứng dụng thực hiện khảo sát. Mặc dù điều này cuối cùng sẽ được tự động hóa thông qua API GitHub, nhưng hiện tại bạn có thể thêm tên của mình tại đây:
 
-- https://github.com/StateOfJS/Monorepo/blob/main/api-internal/src/data/locales.yml
+- https://github.com/devographics/monorepo/blob/main/api-internal/src/data/locales.yml
 
 #### 4. Đưa bản dịch của bạn lên product
 
