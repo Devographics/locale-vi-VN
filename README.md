@@ -22,7 +22,7 @@ Bạn có thể xem bên trang thực hiện khảo sát, hoặc trang web kết
 
 ```graphql
 query GetLocaleData {
-  locale(localeId: "ru-RU") {
+  locale(localeId: "vi-VI") {
     completion
     totalCount
     translatedCount
@@ -34,13 +34,13 @@ query GetLocaleData {
 
 #### 3. Nhận Credit
 
-Mọi dịch giả sẽ được ghi tên trên bất kỳ trang web nào sử dụng bản dịch, trước tiên là với ứng dụng thực hiện khảo sát. Mặc dù điều này cuối cùng sẽ được tự động hóa thông qua API GitHub, nhưng hiện tại bạn có thể thêm tên của mình tại đây:
+Mọi dịch giả sẽ được ghi tên trên bất kỳ trang web nào sử dụng bản dịch, trước tiên là trên ứng dụng thực hiện khảo sát. Mặc dù việc này cuối cùng sẽ được tự động hóa thông qua API GitHub, nhưng hiện tại bạn có thể thêm tên của mình tại đây:
 
 - https://github.com/devographics/monorepo/blob/main/api-internal/src/data/locales.yml
 
 #### 4. Đưa bản dịch của bạn lên product
 
-Hiện tại không có hook tự động để cập nhật lên product khi bản dịch được cập nhật. Vì vậy, cách tốt nhất hiện tại là gửi tin nhắn trực tiếp cho tôi trên Discord để cho tôi biết khi nào bạn hoàn tất.
+Hiện tại không có hook tự động cập nhật lên product khi bản dịch được cập nhật. Vì vậy, hiện tại cách tốt nhất là gửi tin nhắn trực tiếp cho tôi trên Discord để cho tôi biết khi nào bạn hoàn tất.
 
 ## Các file cần dịch
 
