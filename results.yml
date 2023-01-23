@@ -5,34 +5,34 @@ translations:
   ###########################################################################
 
   - key: results.start
-    t: Start
+    t: Bắt đầu
 
   - key: page.previous
-    t: "Previous:"
+    t: "Trang trước:"
   - key: page.next
-    t: "Next:"
+    t: "Trang tiếp theo:"
 
   - key: general.state_of_css_link
     t: State of CSS
 
   - key: general.netlify_link
-    t: Hosted on <a href="{link}">Netlify</a>.
+    t: Lưu trữ trên <a href="{link}">Netlify</a>.
 
   - key: general.completion_percentage
-    t: "Completion percentage:"
+    t: "Tỷ lệ hoàn thành:"
 
   - key: sponsors.thanks
-    t: Thanks to our partners for supporting us!
+    t: Cảm ơn các đối tác đã hỗ trợ chúng tôi!
 
   - key: sponsors.learn_more
-    t: Learn more.
+    t: Tìm hiểu thêm.
 
   - key: tabs.all_respondents
-    t: All Respondents
+    t: Tất cả câu trả lời
   - key: tabs.main_answers
-    t: Main Answers
+    t: Câu trả lời chính
   - key: tabs.other_answers
-    t: Other Answers
+    t: Câu trả lời khác
   - key: tabs.bracket_wins
     t: Wins
   - key: tabs.bracket_matchups
@@ -46,99 +46,99 @@ translations:
   - key: tabs.debug
     t: Debug
   - key: tabs.by_country
-    t: By Country
+    t: Theo quốc gia
   - key: tabs.by_experience
-    t: By Experience
+    t: Theo kinh nghiệm
   - key: tabs.by_degree
-    t: By Degree
+    t: Theo bằng cấp
   - key: tabs.by_salary
-    t: By Salary
+    t: Theo lương
   - key: tabs.by_gender
-    t: By Gender
+    t: Theo giới tính
 
   ###########################################################################
   # Options
   ###########################################################################
 
   - key: options.experience_ranking.satisfaction
-    t: Retention
+    t: Sự hài lòng
   - key: options.experience_ranking.interest
-    t: Interest
+    t: Quan tâm
   - key: options.experience_ranking.usage
-    t: Usage
+    t: Số lượng dùng
   - key: options.experience_ranking.awareness
-    t: Awareness
+    t: Nhận biết
 
   - key: options.features_mode.grouped
-    t: Grouped
+    t: Theo nhóm
   - key: options.features_mode.awareness_rank
-    t: By Awareness
+    t: Theo nhận biết
   - key: options.features_mode.usage_rank
-    t: By Usage
+    t: Theo số lượng sử dụng
   - key: options.features_mode.usage_ratio_rank
-    t: By Ratio
+    t: Theo tỷ lệ
 
   - key: options.features_simplified.know_it
     t: Biết về nó
   - key: options.features_simplified.used_it
     t: Đã sử dụng nó
   - key: options.features_simplified.usage_ratio
-    t: Tỷ lệ
+    t: Tỷ lệ sử dụng
 
   - key: options.quadrant.assess
-    t: ASSESS
+    t: Đánh giá
   - key: options.quadrant.assess.long
     t: |
-      ASSESS: Low usage, high retention. Technologies worth keeping an eye on.
+      Đánh giá: Tỷ lệ sử dụng thấp, tỷ lệ hài lòng cao. Công nghệ đáng để mắt tới.
   - key: options.quadrant.adopt
-    t: ADOPT
+    t: Áp dụng
   - key: options.quadrant.adopt.long
     t: |
-      ADOPT: High usage, high retention. Safe technologies to adopt.
+      Áp dụng: Tỷ lệ sử dụng cao, tỷ lệ hài lòng cao. Các công nghệ an toàn để áp dụng.
   - key: options.quadrant.avoid
-    t: AVOID
+    t: Tránh
   - key: options.quadrant.avoid.long
     t: |
-      AVOID: Low usage, low retention. Technologies probably best avoided currently.
+      Tránh: Tỷ lệ sử dụng thấp, tỷ lệ hài lòng thấp. Các công nghệ hiện tại khó được khuyên dùng.
   - key: options.quadrant.analyze
-    t: ANALYZE
+    t: Phân tích
   - key: options.quadrant.analyze.long
     t: |
-      ANALYZE: High usage, low retention. Reassess these technologies if you're currently using them.
+      Phân tích: Tỷ lệ sử dụng cao, tỷ lệ hài lòng thấp. Đánh giá lại những công nghệ này nếu bạn hiện đang sử dụng chúng.
 
   - key: options.quadrant.1
     t: 1
   - key: options.quadrant.1.long
     t: |
-      1: Low usage, high retention. Technologies worth keeping an eye on.
+      1: Tỷ lệ sử dụng thấp, tỷ lệ hài lòng cao. Công nghệ đáng để mắt tới.
   - key: options.quadrant.2
     t: 2
   - key: options.quadrant.2.long
     t: |
-      2: High usage, high retention. Safe technologies to adopt.
+      2: Tỷ lệ sử dụng cao, tỷ lệ hài lòng cao. Các công nghệ an toàn để áp dụng.
   - key: options.quadrant.3
     t: 3
   - key: options.quadrant.3.long
     t: |
-      3: Low usage, low retention. Technologies that are harder to recommend.
+      3: Tỷ lệ sử dụng thấp, tỷ lệ hài lòng thấp. Các công nghệ hiện tại khó được khuyên dùng.
   - key: options.quadrant.4
     t: 4
   - key: options.quadrant.4.long
     t: |
-      4: High usage, low retention. Reassess these technologies if you're currently using them.
+      4: Tỷ lệ sử dụng cao, tỷ lệ hài lòng thấp. Đánh giá lại những công nghệ này nếu bạn hiện đang sử dụng chúng.
       
   - key: ranges.selector.years_of_experience
-    t: Experience
+    t: Kinh nghiệm
   - key: ranges.selector.yearly_salary
-    t: Salary
+    t: Lương
   - key: ranges.selector.company_size
-    t: Company Size
+    t: Quy mô công ty
 
   # other learning methods
   - key: options.first_steps.blogs
-    t: Blogs
+    t: Blog
   - key: options.first_steps.forums
-    t: Forums
+    t: Forum
   - key: options.first_steps.view_source
     t: View Source
   - key: options.first_steps.copy_paste
@@ -150,210 +150,210 @@ translations:
 
   # other disablities
   - key: options.disability_status_others.adhd
-    t: ADHD
+    t: Rối loạn tăng động giảm chú ý
   - key: options.disability_status_others.autism
-    t: Autism
+    t: Tự kỷ
   - key: options.disability_status_others.glasses
-    t: Glasses
+    t: Cận thị
   - key: options.disability_status_others.old
-    t: Old Age
+    t: Bệnh người già
   - key: options.disability_status_others.back_pain
-    t: Back Pain
+    t: Đau lưng
   - key: options.disability_status_others.epilepsy
-    t: Epilepsy
+    t: Động kinh
   - key: options.disability_status_others.aspergers
-    t: Aspergers
+    t: Hội chứng Asperger
   - key: options.disability_status_others.color_blindness
-    t: Color Blindness
+    t: Mù màu
   - key: options.disability_status_others.anxiety
-    t: Anxiety
+    t: Hội chứng rối loạn lo âu
   - key: options.disability_status_others.dyslexia
-    t: Dyslexia
+    t: Chứng khó đọc
   - key: options.disability_status_others.diabetes
-    t: Diabetes
+    t: Bệnh tiểu đường
   - key: options.disability_status_others.carpal_tunnel
-    t: Carpal Tunnel
+    t: Hội chứng ống cổ tay
   - key: options.disability_status_others.migraine
-    t: Migraine
+    t: Chứng đau nửa đầu
   - key: options.disability_status_others.speech_impairment
-    t: Speech Impairment
+    t: Nói ngọng
   - key: options.disability_status_others.ocd
-    t: OCD
+    t: Hội chứng rối loạn ám ảnh cưỡng chế
   - key: options.disability_status_others.chronic_pain
-    t: Chronic Pain
+    t: Đau mãn tính
   - key: options.disability_status_others.chronic_fatigue
-    t: Chronic Fatigue
+    t: Hội chứng mệt mỏi mãn tính
   - key: options.disability_status_others.crohn
-    t: Crohn's Disease
+    t: Bệnh Crohn (viêm ruột từng vùng)
   - key: options.disability_status_others.depression
-    t: Depression
+    t: Trầm cảm
     
   ###########################################################################
   # Sections
   ###########################################################################
 
   - key: sections.introduction.title
-    t: Introduction
+    t: Giới thiệu
 
   - key: sections.demographics.title
-    t: Demographics
+    t: Nhân khẩu học
 
   - key: sections.tshirt.title
-    t: T-shirt
+    t: Áo thun
 
   - key: sections.technologies.title
-    t: Technologies
+    t: Công nghệ
 
   - key: sections.libraries.title
-    t: Libraries
+    t: Thư viện
 
   - key: sections.conclusion.title
-    t: Conclusion
+    t: Tổng kết
 
   - key: sections.about.title
     t: About
 
   - key: sections.how_to_help.title
-    t: How to Help
+    t: Làm thế nào để giúp
 
   - key: sections.support.title
-    t: Support Us
+    t: Hỗ trợ chúng tôi
   - key: sections.support.description
     t: >
-      We run this survey as a side project, but in order to make the
-      project sustainable we’re always looking for partners who can help support us,
-      either financially or by helping us spread the word.
-      If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
+      Chúng tôi đang tiến hành cuộc khảo sát này như một dự án phụ, 
+      nhưng để làm cho dự án này bền vững, chúng tôi luôn tìm kiếm các đối tác có thể hỗ trợ chúng tôi, 
+      cho dù đó là về mặt tài chính hay giúp chúng tôi quảng bá thông tin. 
+      Nếu bạn nghĩ rằng bạn có thể giúp đỡ theo bất kỳ cách nào, vui lòng [liên hệ với chúng tôi](mailto:hello@stateofjs.com)!
 
   - key: sections.awards.title
-    t: Awards
+    t: Giải thưởng
   - key: sections.awards.description
-    t: Things that stood out this year.
+    t: Những điều nổi bật trong năm nay.
 
   ###########################################################################
   # User Info
   ###########################################################################
 
   - key: user_info.locale
-    t: Language
+    t: Ngôn ngữ
   - key: user_info.locale.description
-    t: What language did respondents select to fill out the survey?
+    t: Người trả lời đã chọn ngôn ngữ nào để điền vào bản khảo sát?
   - key: user_info.locale.note
     t: >
-      This data is collected automatically based on respondent's settings while taking the survey; 
-      Languages with fewer than 20 respondents not shown.
+      Dữ liệu này được thu thập tự động dựa trên cài đặt của người trả lời trong khi thực hiện khảo sát; 
+      Các ngôn ngữ có ít hơn 20 người trả lời không được hiển thị.
 
   - key: user_info.source
     t: Source
   - key: user_info.source.description
-    t: How did respondents find out about the survey?
+    t: Làm thế nào mà người trả lời biết về cuộc khảo sát?
   - key: user_info.source.note
-    t: Respondent source is computed based on referrer data, URL tracking data, and self-reported answers.
+    t: Dữ liệu là sự kết hợp của các câu trả lời tự báo cáo, dữ liệu liên kết giới thiệu và dữ liệu theo dõi URL.
 
   - key: user_info.gender_by_country
-    t: Gender By Country
+    t: Giới tính theo quốc gia
   - key: user_info.gender_by_country.description
-    t: Gender distribution by country with at least 100 respondents, sorted by "mean gender" (each gender key being assigned an integer value in ascending order) descending.
+    t: Phân bổ giới tính theo quốc gia với ít nhất 100 người trả lời, được sắp xếp theo "giới tính trung bình" (mỗi giới tính được gán một giá trị số nguyên theo thứ tự tăng dần) giảm dần.
 
   - key: user_info.years_of_experience_by_salary
-    t: Years of Experience by Salary Range
+    t: Số năm kinh nghiệm theo mức lương
   - key: user_info.years_of_experience_by_salary.description
-    t: Years of experience by salary range.
+    t: Số năm kinh nghiệm theo mức lương.
 
   - key: user_info.yearly_salary_by_country
-    t: Salary By Country
+    t: Mức lương theo quốc gia
   - key: user_info.yearly_salary_by_country.description
-    t: Yearly salary distribution by country with at least 100 respondents, sorted by mean salary descending.
+    t: Phân phối tiền lương hàng năm theo quốc gia với ít nhất 100 người trả lời, được sắp xếp theo mức lương trung bình giảm dần.
 
   - key: user_info.yearly_salary_by_degree
-    t: Salary By Higher Education Degree
+    t: Mức lương theo trình độ học vấn
   - key: user_info.yearly_salary_by_degree.description
-    t: Yearly salary distribution by higher education degree, sorted by mean salary descending.
+    t: Phân phối tiền lương hàng năm theo trình độ học vấn, được sắp xếp theo mức lương trung bình giảm dần.
 
   - key: user_info.yearly_salary_by_experience
-    t: Salary By Experience
+    t: Lương theo kinh nghiệm
   - key: user_info.yearly_salary_by_experience.description
-    t: Yearly salary distribution by experience, sorted by mean salary descending.
+    t: Phân phối tiền lương hàng năm theo kinh nghiệm, được sắp xếp theo mức lương trung bình giảm dần.
 
   - key: user_info.race_ethnicity_by_years_of_experience
-    t: Race & Ethnicity by Years of Experience
+    t: Chủng tộc & dân tộc theo số năm kinh nghiệm
   - key: user_info.race_ethnicity_by_years_of_experience.description
-    t: Race & ethnicity distribution by years of experience, sorted by mean experience ascending.
+    t: Phân bố chủng tộc & dân tộc theo số năm kinh nghiệm, được sắp xếp theo kinh nghiệm trung bình tăng dần.
 
   - key: user_info.higher_education_degree_by_gender
-    t: Higher Education Degree by Gender
+    t: Trình độ đại học theo giới tính
   - key: user_info.higher_education_degree_by_gender.description
-    t: Higher education degree distribution by gender.
+    t: Phân bố bằng cấp giáo dục đại học theo giới tính.
 
   ###########################################################################
   # Locales
   ###########################################################################
 
   - key: options.locale.en-US
-    t: English
+    t: Tiếng Anh
   - key: options.locale.ca-ES
-    t: Catalan
+    t: Tiếng Catalan
   - key: options.locale.es-ES
-    t: Spanish
+    t: Tiếng Tây Ban Nha
   - key: options.locale.ru-RU
-    t: Russian
+    t: Tiếng Nga
   - key: options.locale.fr-FR
-    t: French
+    t: Tiếng Pháp
   - key: options.locale.zh-Hant
-    t: Chinese (Traditional)
+    t: Tiếng Trung (phồn thể)
   - key: options.locale.de-DE
-    t: German
+    t: Tiếng Đức
   - key: options.locale.cs-CZ
-    t: Czech
+    t: Tiếng Czech
   - key: options.locale.pt-PT
-    t: Portuguese
+    t: Tiếng Bồ Đào Nha
   - key: options.locale.pt-BR
-    t: Portuguese (Brazil)
+    t: Tiếng Bồ Đào Nha (Brazil)
   - key: options.locale.it-IT
-    t: Italian
+    t: Tiếng Ý
   - key: options.locale.sv-SE
-    t: Swedish
+    t: Tiếng Thụy Điển
   - key: options.locale.tr-TR
-    t: Turkish
+    t: Tiếng Thổ Nhĩ Kỳ
   - key: options.locale.id-ID
-    t: Indonesian
+    t: Tiếng Indonesia
   - key: options.locale.hi-IN
-    t: Hindi
+    t: Tiếng Hindi
   - key: options.locale.zh-Hans
-    t: Chinese (Simplified)
+    t: Tiếng Trung (giản thể)
   - key: options.locale.ja-JP
-    t: Japanese
+    t: Tiếng Nhật
   - key: options.locale.ua-UA
-    t: Ukrainian
+    t: Tiếng Ukraina
   - key: options.locale.pl-PL
-    t: Polish
+    t: Tiếng Ba lan
   - key: options.locale.fa-IR
-    t: Farsi
+    t: Tiếng Ba Tư
   - key: options.locale.nl-NL
-    t: Dutch
+    t: Tiếng Hà Lan
   - key: options.locale.ko-KR
-    t: Korean
+    t: Tiếng Hàn
   - key: options.locale.ro-RO
-    t: Romanian
+    t: Tiếng Romani
 
   ###########################################################################
   # Features
   ###########################################################################
 
   - key: features.learn_more
-    t: Learn More (MDN)
+    t: Tìm hiểu thêm (MDN)
   - key: features.mdn_link
     t: MDN
   - key: features.caniuse_link
     t: Can I use
   - key: features.specification_link
-    t: W3C Specification
+    t: Tiêu chuẩn W3C
 
   # knowledge score
   - key: features.knowledge_score
-    t: Knowledge Score
+    t: Điểm kiến ​​thức
   - key: features.knowledge_score.description
-    t: Out of all the features mentioned in the survey, how many did the respondent know about?
+    t: Trong số tất cả các tính năng được đề cập trong cuộc khảo sát, có bao nhiêu tính năng mà người trả lời đã biết?
 
   ###########################################################################
   # Tools & Methodologies
@@ -365,13 +365,13 @@ translations:
   - key: tools.github_link
     t: GitHub
   - key: tools.github_stars
-    t: stars
+    t: Số lượng GitHub star
   - key: tools.homepage_link
-    t: Homepage
+    t: Trang chủ
   - key: tools.npm_link
     t: NPM
   - key: tools.technology
-    t: Technology
+    t: Công nghệ
 
   ###########################################################################
   # Blocks
@@ -379,29 +379,29 @@ translations:
 
   # heatmaps
   - key: blocks.tools_company_size_heatmap
-    t: Usage by Company Size
+    t: Sử dụng theo quy mô công ty
   - key: blocks.tools_company_size_heatmap.description
     t: |
-      For each technology, how usage is spread among respondents
-      who picked different company size ranges.
+      Đối với mỗi công nghệ, mức độ người sử dụng được 
+      chọn lọc theo quy mô công ty.
 
   - key: blocks.tools_yearly_salary_heatmap
-    t: Usage by Salary Range
+    t: Mức độ sử dụng theo lương
   - key: blocks.tools_yearly_salary_heatmap.description
     t: |
-      For each technology, how usage is spread among respondents
-      who picked different salary ranges.
+      Đối với mỗi công nghệ, mức độ người sử dụng được 
+      chọn lọc theo các mức lương.
 
   - key: blocks.tools_years_of_experience_heatmap
-    t: Usage by Years Of Experience
+    t: Mức độ sử dụng theo số năm kinh nghiệm
   - key: blocks.tools_years_of_experience_heatmap.description
     t: |
-      For each technology, how usage is spread among respondents who picked different experience ranges.
-      Note that the experience in question here is general experience, not experience with a specific technology.
+      Đối với mỗi công nghệ, mức độ người sử dụng được chọn lọc theo số năm kinh nghiệm. 
+      Lưu ý rằng kinh nghiệm được đề cập ở đây là kinh nghiệm chung, không phải kinh nghiệm với một công nghệ cụ thể.
 
   # tool
   - key: blocks.entity.homepage_link
-    t: Homepage
+    t: Trang chủ
   - key: blocks.entity.github_link
     t: GitHub
   - key: blocks.entity.twitter_link
@@ -421,9 +421,9 @@ translations:
 
   # people
   - key: blocks.people.name
-    t: Name
+    t: Tên
   - key: blocks.people.social_links
-    t: Links
+    t: Link
   - key: blocks.people.responses
     t: Responses
 
@@ -433,124 +433,124 @@ translations:
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
         Đối với mỗi phần, tỷ lệ phần trăm người trả lời **sử dụng** 
-        (được định nghĩa là đã trả lời “sẽ sử dụng lại”) một, hai, ba,...
+        (được định nghĩa là đã trả lời “sẽ sử dụng lại”). 
         Thanh dưới cùng đại diện cho tổng của tất cả các thanh khác.  
 
   - key: blocks.cardinality.max
-    t: Most common answer
+    t: Câu trả lời phổ biến nhất
 
   # tools arrows
   - key: blocks.tools_arrows
-    t: Changes Over Time
+    t: Thay đổi theo thời gian
   - key: blocks.tools_arrows.description
     t: |
-      Mỗi dòng đi từ năm sớm nhất đến năm cuối cùng có thể chọn của dữ liệu. Điểm cao hơn có nghĩa là công nghệ đã được nhiều người sử dụng hơn,
+      Mỗi dòng đi từ năm sớm nhất đến năm cuối cùng có thể chọn của dữ liệu. Điểm cao hơn có nghĩa là công nghệ đã được nhiều người sử dụng hơn, 
       và đi xa hơn về bên phải có nghĩa là nhiều người dùng muốn tìm hiểu nó hơn; hoặc đã sử dụng nó và muốn sử dụng lại nó.
   - key: blocks.tools_arrows.note
     t: |
-      - Some lines skip years.
-      - Technologies with only one year of data are not shown. 
-      - Velocity formula = (most recent opinion - oldest opinion) + (most recent usage) - (oldest usage)
-      - A positive velocity means the usage and/or positive opinions have increased over time.
+      - Một số dòng bỏ qua năm.
+      - Các công nghệ chỉ có một năm dữ liệu không được hiển thị.
+      - Công thức tính = (ý kiến ​mới nhất - ý kiến ​​cũ nhất) + (sử dụng gần đây nhất) - (sử dụng cũ nhất)
+      - Tốc độ tích cực có nghĩa là việc sử dụng và/hoặc đánh giá tích cực tăng lên theo thời gian.
 
   # tools quadrant
   - key: blocks.tools_quadrant
-    t: Retention vs Usage
+    t: Hài lòng vs Sử dụng
   - key: blocks.tools_quadrant.description
     t: |
-      This chart shows each technology's **retention ratio** over its total **user count**.
-      It can be divided into four quadrants:
+      Biểu đồ này hiển thị **tỷ lệ hài lòng** của mỗi công nghệ trên tổng số **số lượng người dùng** của nó.
+      Nó có thể được chia thành bốn loại:
 
-        - **ASSESS**: Low usage, high retention. Technologies worth keeping an eye on.
+        - **Đánh giá**: Tỷ lệ sử dụng thấp, tỷ lệ hài lòng cao. Công nghệ đáng để mắt tới.
 
-        - **ADOPT**: High usage, high retention. Safe technologies to adopt.
+        - **Áp dụng**: Tỷ lệ sử dụng cao, tỷ lệ hài lòng cao. Các công nghệ an toàn để áp dụng.
 
-        - **AVOID**: Low usage, low retention. Technologies probably best avoided currently.
+        - **Tránh**: Tỷ lệ sử dụng thấp, tỷ lệ hài lòng thấp. Công nghệ có lẽ tốt nhất nên tránh hiện nay.
 
-        - **ANALYZE**: High usage, low retention. Reassess these technologies if you're currently using them.
+        - **Phân tích**: Tỷ lệ sử dụng cao, tỷ lệ hài lòng thấp. Đánh giá lại những công nghệ này nếu bạn hiện đang sử dụng chúng.
 
   # category other tools
   - key: blocks.category_other_tools
-    t: Other Tools
+    t: Các công cụ khác
   - key: blocks.category_other_tools.description
-    t: Other tools in this category (freeform answers).
+    t: Các công cụ khác trong danh mục này (trả lời tự do).
 
   # tool experience
   - key: blocks.tool_experience
-    t: "{name} Experience"
+    t: "{name} kinh nghiệm"
   - key: blocks.tool_experience.description
-    t: Respondent's experience with {name}.
+    t: Kinh nghiệm của người trả lời với {name}.
 
   # tool positive/negative split ("marimekko" chart)
   - key: blocks.tools_experience_marimekko
-    t: Positive/Negative Split
+    t: Phân chia tích cực/tiêu cực
   - key: blocks.tools_experience_marimekko.description
     t: |
-      This chart splits positive (“want to learn”, “sẽ sử dụng lại”) vs
-      negative (“không hứng thú”, “sẽ không sử dụng lại”) experiences on
-      both sides of a central axis.
+      Biểu đồ này phân chia tích cực (“muốn học”, “sẽ sử dụng lại”) vs 
+      tiêu cực (“không quan tâm”, “sẽ không sử dụng lại”) 
+      trình bày trên cả hai mặt của trục trung tâm.
 
-      Bar thickness represents the number of respondents aware of a technology.
+      Độ dày của thanh biểu thị số lượng người trả lời biết về một công nghệ.
 
   # tool tier list
   - key: blocks.tools_tier_list
-    t: Library Tier List
+    t: Danh sách cấp thư viện
   - key: blocks.tools_tier_list.description
     t: |
-      This chart ranks libraries based on their retention ratio (percentage of users
-      who would use a library again). Note that libraries used by less than 10% of survey 
-      respondents are not included.
+      Biểu đồ này xếp hạng các thư viện dựa trên tỷ lệ hài lòng 
+      (phần trăm người dùng sẽ sử dụng lại thư viện). 
+      Lưu ý rằng các thư viện được ít hơn 10% người trả lời sẽ không được bao gồm.
   - key: blocks.tools_tier_list.bounds
     t: >
       {lowerBound}% - {upperBound}%
 
   # tools section streams
   - key: blocks.tools_section_streams
-    t: Experience Over Time
+    t: Kinh nghiệm theo thời gian
   - key: blocks.tools_section_streams.description
     t: |
-      Overview of opinions on the technologies surveyed over time.
+      Tổng quan ý kiến ​​​​về các công nghệ được khảo sát theo thời gian.
   - key: blocks.tools_section_streams.note
     t: |
-      Technologies with only one year of data are not included.
+      Các công nghệ chỉ có một năm dữ liệu không được bao gồm.
 
   # tools section overview
   - key: blocks.tools_section_overview
-    t: Category Overview
+    t: Tổng quan về danh mục
   - key: blocks.tools_section_overview.description
     t: |
-      Overview of opinions on the technologies surveyed. Darker segments represent positive opinions,
-      while lighter segments correspond to negative sentiment.
+      Tổng quan ý kiến ​​về các công nghệ được khảo sát. 
+      Phần tối hơn đại diện cho ý kiến ​​tích cực, trong khi phần sáng hơn tương ứng với cảm xúc tiêu cực.
 
   # tools experience ranking
   - key: blocks.tools_experience_ranking
-    t: Rankings Over Time
+    t: Xếp hạng theo thời gian
   - key: blocks.tools_experience_ranking.percentages
-    t: Percentages
+    t: Tỷ lệ phần trăm
   - key: blocks.tools_experience_ranking.rankings
-    t: Rankings
+    t: Bảng xếp hạng
   - key: blocks.tools_experience_ranking.description
-    t: Retention, interest, usage, and awareness ratio rankings.
+    t: Xếp hạng sự hài lòng, quan tâm, sử dụng và nhận biết.
   - key: blocks.tools_experience_ranking.note
     t: |
-      Technologies with less than 10% awareness not included. Each ratio is defined as follows:
+      Không bao gồm các công nghệ có mức độ nhận biết dưới 10%. Mỗi tỷ lệ được xác định như sau:
 
-      - Retention: **sẽ sử dụng lại** / (**sẽ sử dụng lại** + **sẽ không sử dụng lại**)
-      - Interest: **want to learn** / (**want to learn** + **không hứng thú**)
-      - Usage: (**sẽ sử dụng lại** + **sẽ không sử dụng lại**) / **total**
-      - Awareness: (**total** - **never heard**) / **total**
+      - Sự hài lòng: **sẽ sử dụng lại** / (**sẽ sử dụng lại** + **sẽ không sử dụng lại**)
+      - Quan tâm: **muốn học** / (**muốn học** + **không quan tâm**)
+      - Sử dụng: (**sẽ sử dụng lại** + **sẽ không sử dụng lại**) / **tổng**
+      - Nhận biết: (**tổng** - **chưa bao giờ nghe**) / **tổng**
 
   # tools experience linechart
   - key: blocks.tools_experience_linechart
-    t: Ratios Over Time
+    t: Tỷ lệ theo thời gian
   - key: blocks.tools_experience_linechart.description
-    t: Retention, interest, usage, and awareness ratio over time.
+    t: Tỷ lệ sự hài lòng, quan tâm, sử dụng và nhận biết theo thời gian.
   - key: blocks.tools_experience_linechart.note
     aliasFor: blocks.tools_experience_ranking.note
 
   # happiness
   - key: blocks.happiness
-    t: Overall Happiness
+    t: Tổng thể sự hài lòng
   - key: blocks.happiness.description
     t: |
       Trên thang điểm từ một (rất không hài lòng) đến năm (rất hài lòng), 
@@ -558,36 +558,36 @@ translations:
 
   # newsletter
   - key: blocks.newsletter.title
-    t: Stay Tuned
+    t: Giữ nguyên
   - key: blocks.newsletter.description
     t: |
-      If you'd like to know when we release additional results or announce next year's edition,
-      just leave us your email below:
+      Nếu bạn muốn biết khi nào chúng tôi công bố kết quả bổ sung hoặc công bố ấn bản năm sau, 
+      chỉ cần để lại cho chúng tôi email của bạn dưới đây:
   - key: blocks.newsletter.email
-    t: Your Email
+    t: Email của bạn
   - key: blocks.newsletter.submit
-    t: Notify Me
+    t: Thông báo cho tôi
 
   # features_overview
   - key: blocks.features_overview
-    t: Features Overview
+    t: Tổng quan về tính năng
   - key: blocks.features_overview.description
     t: |
-      The size of the **outer circle** corresponds to the total number of users who know about a feature (*Biết về nó* + *đã sử dụng nó* respondents), while
-      the **inner circle** represents those who have actually used it (*đã sử dụng nó* respondents).
+      Kích thước của **vòng tròn bên ngoài** tương ứng với tổng số người dùng biết về một tính năng (với các câu trả lời chọn *biết về nó* + *đã sử dụng nó*), 
+      trong khi **vòng tròn bên trong** đại diện cho những người đã thực sự sử dụng nó (với các câu trả lời chọn *đã sử dụng nó*).
 
-      Hover on each circle to see detailed stats, including the ratio between both values. 
+      Di chuột vào từng vòng tròn để xem số liệu thống kê chi tiết, bao gồm tỷ lệ giữa cả hai.
 
   # export
   - key: export.export
     t: Export
   - key: export.title
-    t: Export data for {title}
+    t: Export dữ liệu cho {title}
   - key: export.nocsv
-    t: Sorry, CSV export is not available for this dataset.
+    t: Xin lỗi, export CSV không khả dụng cho tập dữ liệu này.
   - key: export.graphql
     t: >
-      You can copy paste this query into our <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">public GraphQL API</a>.
+      Bạn có thể sao chép, dán truy vấn này vào <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">API GraphQL công khai</a> của chúng tôi.
   - key: export.export_json
     t: Get JSON Data
   - key: export.export_graphql
@@ -604,112 +604,112 @@ translations:
   - key: custom_data.submit
     t: Submit
   - key: custom_data.empty_contents
-    t: Please enter some data in the "Custom Data" field.
+    t: Vui lòng nhập một số dữ liệu vào trường "Custom Data".
   - key: custom_data.edit_title
-    t: Edit Chart Title
+    t: Chỉnh sửa tiêu đề chart
   - key: custom_data.customize
     t: Customize Data
   - key: custom_data.details
     t: >
 
-        1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
+        1. Sao chép nội dung của trường "GraphQL Query" và dán chúng vào bảng giữa của [trình khám phá GraphQL API](https://graphiql.stateofjs.com/).
 
-        2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
+        2. Sửa đổi câu truy vấn bằng cách thêm một hoặc nhiều **bộ lọc** bằng cách sử dụng thanh bên trình khám phá bên trái. Đảm bảo giữ nguyên cấu trúc tổng thể của dữ liệu.
 
-        3. In the explorer window, click the Play ("Execute Query") button.
+        3. Trong cửa sổ explorer, nhấp vào nút Play ("Execute Query").
 
-        4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
+        4. Sao chép kết quả truy vấn đã sửa đổi (`{ data: … }` ) vào trường "Custom Data" ở trên và gửi.
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
     t: Usage Variations
   - key: blocks.tools_usage_variations.description
     t: |
-      How different factors such as salary range, years of experience
-      or company size influence usage (participants who answered either
-      “sẽ sử dụng lại” or “sẽ không sử dụng lại”).
+      Các yếu tố khác nhau như mức lương, số năm kinh nghiệm 
+      hoặc quy mô công ty ảnh hưởng như thế nào đến việc sử dụng (những người đã trả lời là
+      “sẽ sử dụng lại” hoặc “sẽ không sử dụng lại”).
 
-      The baseline represents the base usage for each tool and the offsets
-      correspond to the delta from this baseline in each range. Let's say
-      tool X has an overall usage of 10% across all respondents (the baseline),
-      then if the percentage of users having from 1 to 2 years of experience
-      using this tool is 13% (compared to all users having from 1 to 2 years
-      of experience), then we have a positive delta of +3%.
+      Đường cơ sở biểu thị mức sử dụng cơ bản cho từng công cụ 
+      và độ lệch tương ứng từ đường cơ sở này trong mỗi phạm vi.
+      Giả sử Công cụ X có tổng mức sử dụng là 10% trong tổng số người trả lời (đường cơ sở),
+      và nếu 13% người dùng có 1 đến 2 năm kinh nghiệm sử dụng công cụ này
+      (so với tất cả người dùng có 1-2 năm kinh nghiệm), 
+      vậy mức tăng của chúng tôi là +3%.
   - key: blocks.tools_usage_variations.note
     t: |
-      Please keep in mind that tools having a lower overall usage tends to vary more.
+      Xin lưu ý rằng các công cụ có mức sử dụng tổng thể thấp hơn có xu hướng thay đổi nhiều hơn.
 
   # Recommended Resources
   - key: blocks.recommended_resources
-    t: Recommended Resources
+    t: Tài nguyên được đề xuất
   - key: blocks.recommended_events
-    t: Recommended Events
+    t: Sự kiện được đề xuất
 
   # Brackets
   - key: tool_evaluation.tool_evaluation_wins
-    t: Library Evaluation Rankings
+    t: Xếp hạng đánh giá thư viện
   - key: tool_evaluation.tool_evaluation_wins.description
-    t: Which factors do you prioritize when evaluating a new library? Results are ranked by number of tournament rounds won.
+    t: Bạn ưu tiên những yếu tố nào khi đánh giá một thư viện mới? Kết quả được xếp hạng theo số vòng giải đấu giành được.
 
   - key: tool_evaluation.tool_evaluation_matchups
-    t: Library Evaluation Rankings (Matchups)
+    t: Xếp hạng đánh giá thư viện (Matchups)
   - key: tool_evaluation.tool_evaluation_matchups.description
-    t: Which factors do you prioritize when evaluating a new library? Percentage of rounds won by left-hand item against top-side item.
+    t: Bạn ưu tiên những yếu tố nào khi đánh giá một thư viện mới? Tỷ lệ phần trăm số vòng thắng của mục bên trái so với mục bên trên.
 
   # other
   - key: blocks.freeform
-    t: (freeform question)
+    t: (câu hỏi dạng tự do)
 
   ###########################################################################
   # Charts
   ###########################################################################
 
   - key: chart_units.respondents
-    t: "{count} question respondents ({percentage}% completion percentage)"
+    t: "{count} người trả lời câu hỏi (tỷ lệ hoàn thành {percentage}%)"
   - key: chart_units.percentage
-    t: Percents
+    t: Phần trăm
   - key: chart_units.count
-    t: Count
+    t: Số lượng
   - key: chart_units.percentage_question
-    t: "% of question respondents"
+    t: "% của người trả lời câu hỏi"
   - key: chart_units.percentage_survey
-    t: "% of survey respondents"
+    t: "% của người trả lời khảo sát"
 
   - key: charts.average
-    t: Average
+    t: Trung bình
   - key: charts.mean
-    t: Mean
+    t: Nghĩa là
   - key: charts.overall
-    t: Overall
+    t: Tổng thể
   - key: charts.all_respondents
-    t: All Respondents
+    t: Tất cả người trả lời
   - key: charts.facet_responses
-    t: '{count} responses'
+    t: '{count} phản hồi'
 
   - key: charts.axis_legends.years_of_experience
-    t: Years of Experience
+    t: Số năm kinh nghiệm
   - key: charts.axis_legends.yearly_salary
-    t: Salary Range (USD)
+    t: Phạm vi lương (USD)
   - key: charts.axis_legends.company_size
-    t: Number of Employees
+    t: Số lượng nhân viên trong công ty
   - key: charts.axis_legends.backend_proficiency
-    t: Back-end Proficiency
+    t: Thành thạo back-end
   - key: charts.axis_legends.css_proficiency
-    t: CSS Proficiency
+    t: Thành thạo CSS
   - key: charts.axis_legends.javascript_proficiency
-    t: JavaScript Proficiency
+    t: Thành thạo JavaScript
   - key: charts.axis_legends.users_percentage
-    t: Percentage of Users
+    t: Tỷ lệ người dùng
   - key: charts.axis_legends.users_count
-    t: User Count
+    t: Số lượng người dùng
   - key: charts.axis_legends.interest_percentage
-    t: Interest %
+    t: Qaun tâm %
   - key: charts.axis_legends.satisfaction_percentage
-    t: Retention %
+    t: Sự hài lòng %
   - key: charts.axis_legends.usage_percentage
-    t: Usage %
+    t: Sử dụng %
   - key: charts.axis_legends.awareness_percentage
-    t: Awareness %
+    t: Nhận biết %
 
   - key: chart_units.interest_percentage
     aliasFor: charts.axis_legends.interest_percentage
@@ -721,60 +721,60 @@ translations:
     aliasFor: charts.axis_legends.awareness_percentage
     
   - key: charts.axis_legends.happiness
-    t: Happiness
+    t: Hạnh phúc
   - key: charts.axis_legends.knowledge_score
-    t: Known Features
+    t: Các tính năng đã biết
   - key: charts.axis_legends.frequency
-    t: Frequency
+    t: Tính thường xuyên
   - key: charts.axis_legends.age
-    t: Age
+    t: Tuổi
   - key: charts.axis_legends.users_percentage_survey
-    t: "% of survey respondents"
+    t: "% của người trả lời khảo sát"
   - key: charts.axis_legends.users_percentage_question
-    t: "% of question respondents"
+    t: "% của người trả lời câu hỏi"
 
   - key: charts.ranges_multiple_diverging_lines.baseline
-    t: baseline
+    t: Đường cơ sở
   - key: charts.ranges_multiple_diverging_lines.positive_offset
     t: positive offset
   - key: charts.ranges_multiple_diverging_lines.negative_offset
     t: negative offset
 
   - key: charts.tools_arrows.negative_opinion
-    t: Negative opinions
+    t: Ý kiến ​​tiêu cực
   - key: charts.tools_arrows.positive_opinion
-    t: Positive opinions
+    t: Ý kiến tích cực
   - key: charts.tools_arrows.have_not_used
-    t: Have not used
+    t: Chưa sử dụng
   - key: charts.tools_arrows.have_used
-    t: Have used
+    t: Đã sử dụng
   - key: charts.tools_arrows.x_axis
-    t: X-axis range
+    t: Phạm vi trục X
   - key: charts.tools_arrows.y_axis
-    t: Y-axis range
+    t: Phạm vi trục Y
   - key: charts.tools_arrows.legend
-    t: Legend
+    t: Huyền thoại
   - key: charts.tools_arrows.velocity
-    t: Velocity
+    t: Tốc độ
   - key: charts.tools_arrows.velocity_positive
-    t: Overall more positive opinions and/or usage over time
+    t: Nhìn chung, nhiều ý kiến ​​và/hoặc cách sử dụng tích cực hơn theo thời gian
   - key: charts.tools_arrows.velocity_negative
-    t: Overall more negative opinions and/or less usage over time
+    t: Nhìn chung, ngày càng có nhiều ý kiến ​​tiêu cực và việc sử dụng ngày càng ít đi theo thời gian
   - key: charts.tools_arrows.opinions_positive
-    t: Mostly positive opinions
+    t: Chủ yếu là ý kiến ​​tích cực
   - key: charts.tools_arrows.opinions_negative
-    t: Mostly negative opinions
+    t: Chủ yếu là ý kiến ​​tiêu cực
   - key: charts.tools_arrows.low_usage
-    t: Low usage
+    t: Mức sử dụng thấp
   - key: charts.tools_arrows.high_usage
-    t: High usage
+    t: Mức sử dụng cao
   - key: charts.tools_arrows.popularity_positive
-    t: Rising popularity
+    t: Trở nên phổ biến hơn
   - key: charts.tools_arrows.popularity_negative
-    t: Falling popularity
+    t: Giảm phổ biến
 
   - key: charts.no_answer
-    t: No Answer
+    t: Không có câu trả lời
 
   - key: charts.tick.links
     t: Links
@@ -784,17 +784,17 @@ translations:
   ###########################################################################
 
   - key: comments.comments
-    t: Comments
+    t: Nhận xét
   - key: comments.comments_for
-    t: Comments for “{name}”
+    t: Nhận xét cho “{name}”
   - key: comments.description
     t: |
-      These comments were submitted as part of the survey 
-      through an optional freeform text field next to the main question. 
+      Những nhận xét này đã được gửi như một phần của cuộc khảo sát 
+      thông qua một form tùy chọn bên cạnh câu hỏi chính.
   - key: comments.report_abuse
-    t: Report this comment
+    t: Báo cáo nhận xét này
   - key: comments.share
-    t: Share Comment
+    t: Chia sẻ nhận xét
 
   ###########################################################################
   # Sharing
@@ -807,19 +807,19 @@ translations:
   - key: share.preview
     t: Social media preview
   - key: share.site.title
-    t: Discover the {siteTitle} results
+    t: Khám phá kết quả {siteTitle}
   - key: share.site.twitter_text
-    t: "Discover the {siteTitle} results {link} {hashtag}"
+    t: "Khám phá kết quả {siteTitle} {link} {hashtag}"
   - key: share.site.subject
-    t: "{siteTitle} Survey Results"
+    t: "Kết quả khảo sát {siteTitle}"
   - key: share.site.body
-    t: "Here are some interesting survey results: {link}"
+    t: "Dưới đây là một số kết quả khảo sát thú vị: {link}"
   - key: share.block.twitter_text
     t: "{hashtag} {year}: {title} {link}"
   - key: share.block.subject
-    t: "{siteTitle} Survey Results"
+    t: "Kết quả khảo sát {siteTitle}"
   - key: share.block.body
-    t: "Here are some interesting survey results ({title}): {link}"
+    t: "Dưới đây là một số kết quả khảo sát thú vị ({title}): {link}"
   - key: share.twitter
     t: Share on Twitter
   - key: share.facebook
@@ -853,11 +853,11 @@ translations:
   - key: table.item
     t: Item
   - key: table.percentage_survey
-    t: "% of survey respondents"
+    t: "% của người trả lời khảo sát"
   - key: table.percentage_question
-    t: "% of question respondents"
+    t: "% của người trả lời câu hỏi"
   - key: table.percentage_facet
-    t: "% of facet respondents"
+    t: "% của người trả lời"
   - key: table.count
     t: Count
   - key: table.year
@@ -884,90 +884,90 @@ translations:
 
 
   - key: table.percentages_table
-    t: Percentages
+    t: Tỷ lệ phần trăm
   - key: table.rankings_table
-    t: Rankings
+    t: Bảng xếp hạng
 
   - key: table.satisfaction_rank
-    t: Retention Rank
+    t: Xếp hạng độ hài lòng
   - key: table.interest_rank
-    t: Interest Rank
+    t: Xếp hạng độ quan tâm
   - key: table.usage_rank
-    t: Usage Rank
+    t: Xếp hạng độ sử dụng
   - key: table.awareness_rank
-    t: Awareness Rank
+    t: Xếp hạng độ nhận biết
 
   - key: table.would_not_use_percentage
     t: Sẽ không sử dụng %
   - key: table.not_interested_percentage
-    t: Không hứng thú %
+    t: Không quan tâm %
   - key: table.would_use_percentage
     t: Sẽ sử dụng lại %
   - key: table.interested_percentage
-    t: Interested %
+    t: Quan tâm %
 
   ###########################################################################
   # Awards
   ###########################################################################
 
   - key: awards.runner_ups
-    t: Runner Ups
+    t: Á quân
 
   - key: award.feature_adoption_award.title
-    t: Most Used Feature
+    t: Tính năng được sử dụng nhiều nhất
   - key: award.feature_adoption_award.description
-    t: Awarded to the most adopted feature.
+    t: Được trao giải cho tính năng được áp dụng nhiều nhất.
 
   - key: award.feature_adoption_delta_award.title
-    t: Most Adopted Feature
+    t: Tính năng áp dụng nhiều nhất
   - key: award.feature_adoption_delta_award.description
-    t: Awarded to the feature with the largest year-over-year ”have used” progression.
+    t: Được trao cho tính năng có tiến trình "đã sử dụng" hàng năm lớn nhất.
 
   - key: award.tool_usage_award.title
-    t: Most Used Technology
+    t: Công nghệ được sử dụng nhiều nhất
   - key: award.tool_usage_award.description
-    t: Awarded to the technology with the largest user base.
+    t: Được trao cho công nghệ có người dùng lớn nhất.
 
   - key: award.tool_usage_delta_award.title
-    t: Most Adopted Technology
+    t: Công nghệ áp dụng nhiều nhất
   - key: award.tool_usage_delta_award.description
     t: Được trao giải cho công nghệ có số lượng "sẽ sử dụng lại" hàng năm lớn nhất.
 
   - key: award.tool_satisfaction_award.title
-    t: Highest Retention
+    t: Mức hài lòng cao nhất
   - key: award.tool_satisfaction_award.description
-    t: Awarded to the technology with the highest percentage of returning users.
+    t: Được trao cho công nghệ có tỷ lệ người dùng quay lại cao nhất.
 
   - key: award.tool_interest_award.title
-    t: Highest Interest
+    t: Quan tâm nhất
   - key: award.tool_interest_award.description
-    t: Awarded to the technology developers are most interested in learning once they are aware of it.
+    t: Được trao cho công nghệ mà các nhà phát triển quan tâm nhất.
 
   - key: award.resource_usage_award.title
-    t: Most Used Resource
+    t: Tài nguyên được sử dụng nhiều nhất
   - key: award.resource_usage_award.description
-    t: Awarded to the resource with the largest user base.
+    t: Cấp cho tài nguyên được nhiều người sử dụng nhất.
 
   - key: award.prediction_award.title
-    t: Prediction Award
+    t: Giải dự đoán
   - key: award.prediction_award.description
-    t: Awarded to an up-and-coming technology that might take over… or not?
+    t: Được trao cho các công nghệ mới nổi có thể trở nên phổ biến trong tương lai.
 
   - key: award.most_write_ins_award.title
-    t: Most Write-Ins
+    t: Được đề cập nhiều nhất
   - key: award.most_write_ins_award.description
-    t: Awarded to the item with the most write-in answers
+    t: Trao giải cho hạng mục được người trả lời nhắc đến nhiều nhất.
 
   - key: award.most_commented_feature_award.title
-    t: Most Commented Feature
+    t: Tính năng được bình luận nhiều nhất
   - key: award.most_commented_feature_award.description
-    t: Awarded to the feature which received the most comments.
+    t: Trao giải cho tính năng nhận được nhiều bình luận nhất.
 
 
   - key: award.most_commented_tool_award.title
-    t: Most Commented Library
+    t: Thư viện được bình luận nhiều nhất
   - key: award.most_commented_tool_award.description
-    t: Awarded to the library which received the most comments.
+    t: Trao giải cho thư viện nhận được nhiều bình luận nhất.
 
   ###########################################################################
   # Hints
@@ -975,132 +975,132 @@ translations:
 
   - key: hints.hint_hint
     t: >
-      You'll find little hints like this one throughout the survey results
-      that will point out extra features and details.
+      Bạn sẽ tìm thấy những gợi ý nhỏ như thế này trong suốt kết quả khảo sát. 
+      Chúng giúp đưa ra các tính năng và chi tiết bổ sung.
 
   - key: hints.units_switcher_hint
     t: >
-      You can use the segmented control at the bottom of each block to switch 
-      between different units to get an alternate view of the same data.
+      Bạn có thể sử dụng bảng điều khiển ở dưới cùng của block để chuyển đổi giữa các đơn vị  
+      giúp xem được các chế độ khác nhau cho cùng một dữ liệu.
 
   - key: hints.export_hint
     t: >
-      The <span class="hint-icon hint-export-button">Data</span> tab lets you view the raw 
-      data for any chart, view it as JSON, or get a GraphQL query you can 
-      run against our public API.
+      Tab <span class="hint-icon hint-export-button">Data</span> cho phép bạn xem dữ liệu thô cho bất kỳ biểu đồ nào, 
+      xem nó dưới dạng JSON hoặc nhận truy vấn GraphQL 
+      mà bạn có thể chạy trong API công khai của chúng tôi.
 
   - key: hints.completion_hint
     t: >
-      Since all questions are optional, some of them got fewer responses than others. 
-      The completion indicator (<span class="hint-completion-indicator">◕</span>) tells you exactly how many people answered any given question.
+      Vì tất cả các câu hỏi đều là tùy chọn nên một số câu hỏi nhận được ít câu trả lời hơn những câu hỏi khác. 
+      Chỉ số hoàn thành (<span class="hint-completion-indicator">◕</span>) cho bạn biết chính xác có bao nhiêu người đã trả lời một câu hỏi nhất định.
 
   - key: hints.tool_modal_hint
     t: >
-      You can click on any technology name to get extra details and 
-      a more in-depth look at its related data.
+      Bạn có thể nhấp vào tên của bất kỳ công nghệ nào để biết thêm chi tiết 
+      và có được cái nhìn sâu hơn vào dữ liệu liên quan của nó.
 
   - key: hints.rankings_modes_hint
     t: >
-      The Experience Over Time chart can be toggled between retention, interest, usage, and awareness
-      to give you a fuller picture of a category.
+      Biểu đồ Kinh nghiệm theo thời gian có thể được chuyển đổi qua lại giữa tỷ lệ hài lòng, quan tâm, 
+      sử dụng và nhận biết để cung cấp cho bạn một bức tranh đầy đủ hơn về một danh mục.
 
   - key: hints.sharing_hint
     t: >
-      Sharing this survey on Twitter, Facebook, or by email is scientifically proven to 
-      improve your coding performance by up to 15%.
+      Chia sẻ khảo sát này trên Twitter, Facebook hoặc qua email thì đã được khoa học chứng minh là 
+      cải thiện hiệu suất viết code của bạn lên tới 15%.
 
   - key: hints.tshirt_hint
     t: >
-      Another guaranteed scientific finding: buying our t-shirt will 
-      increase your programming skills by over 9000!
+      Một phát hiện khoa học đảm bảo khác: mua áo phông của chúng tôi 
+      sẽ tăng kỹ năng lập trình của bạn lên hơn 9000!
 
   - key: hints.variants_hint
     t: >
-      Some charts feature additional tabs that offer complementary breakdowns of the same data,
-      or related data. Make sure to check them out!
+      Một số biểu đồ có các tab bổ sung cung cấp các phân tích bổ sung cho cùng một dữ liệu hoặc dữ liệu liên quan. 
+      Đừng bỏ qua chúng!
 
   - key: hints.share_hint
     t: >
-      The <span class="hint-icon hint-share-button">Share</span> tab makes it easy to share any chart, 
-      or even download it as an image. 
+      Tab <span class="hint-icon hint-share-button">Share</span> giúp bạn dễ dàng chia sẻ bất kỳ biểu đồ nào, 
+      hoặc thậm chí tải xuống dưới dạng hình ảnh.
 
   - key: hints.bracket_hint
     t: >
-      <span class="hint-bracket"><span class="hint-text">The following chart provides the results of a tournament-style 8-player bracket in which
-      respondents were tasked with picking the winner of each match-up until a single winner remained.</span><span class="hint-diagram"/></span>
+      <span class="hint-bracket"><span class="hint-text">Biểu đồ sau đây cung cấp kết quả của 8 người chơi theo kiểu giải đấu, 
+      trong đó người trả lời được giao nhiệm vụ chọn người chiến thắng trong mỗi trận đấu cho đến khi còn lại một người chiến thắng.</span><span class="hint-diagram"/></span>
 
   - key: hints.comments_hint
     t: >
-      The <span class="hint-icon hint-comment-button">Comment</span> tab lets you view comments left by survey respondents as they were filling out the survey. 
+      Tab <span class="hint-icon hint-comment-button">Comment</span> cho phép bạn xem các nhận xét do người trả lời khảo sát để lại khi họ điền vào khảo sát. 
 
   ###########################################################################
   # Sponsor Chart
   ###########################################################################
 
   - key: sections.sponsor_finish.title
-    t: Thanks
+    t: Cảm ơn
 
   - key: sponsor.sponsor_finish
     t: >
-      Thanks for supporting the survey. Your avatar should appear next to the chart you picked
-      within the next hour or so. If it doesn't, please [get in touch](mailto:chartsponsor@stateofjs.com).
+      Cảm ơn bạn đã hỗ trợ cuộc khảo sát này. Hình đại diện của bạn sẽ xuất hiện bên cạnh biểu đồ đã chọn sau khoảng một giờ. 
+      Nếu không, vui lòng [liên hệ với chúng tôi](mailto:chartsponsor@stateofjs.com).
     
 
   - key: sponsor.sponsored_by
     t: >
-        **{name}** donated **${amount}** to sponsor this chart
+        **{name}** đã quyên góp **${amount}** để tài trợ cho biểu đồ này
 
   - key: sponsor.sponsor_button
-    t: Sponsor This Chart
+    t: Tài trợ cho biểu đồ này
 
   - key: sponsor.sponsor_chart.title
-    t: Sponsor Chart "{title}"
+    t: Biểu đồ được tài trợ "{title}"
 
   - key: sponsor.sponsor_chart.description
     t: >
-        Support this survey financially by donating $10 or more, and get your
-        Twitter avatar featured next to a chart!
+        Hỗ trợ tài chính cho cuộc khảo sát này bằng cách quyên góp $10 trở lên 
+        và ảnh đại diện Twitter của bạn sẽ xuất hiện bên cạnh biểu đồ!
 
   - key: sponsor.chart_id
     t: 'Chart ID: '
 
   - key: sponsor.sponsor_this_chart
-    t: Sponsor This Chart (${baseAmount}+) 
+    t: Tài trợ cho biểu đồ này (${baseAmount}+) 
 
   - key: sponsor.how_it_works.title
-    t: How It Works
+    t: Quy trình chi tiết
 
   - key: sponsor.how_it_works.description
     t: >
-      1. When you **click the "Sponsor This Chart" button**, you will be redirected to our partner [SendOwl](https://www.sendowl.com/)'s checkout page. 
+      1. Khi bạn **nhấp vào nút "Tài trợ cho Biểu đồ này"**, bạn sẽ được chuyển hướng đến trang thanh toán của đối tác của chúng tôi là [SendOwl](https://www.sendowl.com/). 
       
       
-      2. You can then **adjust the amount** you'd like to sponsor the survey for, starting at USD10.  
+      2. Sau đó, bạn có thể **điều chỉnh** **số tiền** bạn muốn quyên góp cho cuộc khảo sát này, bắt đầu từ $10.
       
       
-      3. Once you checkout, you will be able to **provide your Twitter username**. 
+      3. Sau khi thanh toán, bạn có thể **cung cấp tên người dùng Twitter của mình**.
       
       
-      4. You will see a **File Download** page, but you can safely ignore it. 
+      4. Bạn sẽ thấy trang **File Download**, nhưng bạn có thể bỏ qua nó một cách an toàn. 
       
       
-      5. The site will rebuild in the background and your username and donation will **appear next to the chart within the next hour**. 
+      5. Trang web sẽ được rebuild và tên người dùng cũng như khoản đóng góp của bạn sẽ **xuất hiện bên cạnh biểu đồ trong vòng một giờ tới**.
 
 
   - key: sponsor.faq.title
     t: F.A.Q.
 
   - key: sponsor.faq.usage.title
-    t: What will my donation be used for?
+    t: Khoản đóng góp của tôi sẽ được sử dụng để làm gì?
 
   - key: sponsor.faq.usage.description
-    t: Your donation will help support survey maintainers, as well as help hire more contributors (illustrators, accessibilty and diversity experts, etc.).
+    t: Đóng góp của bạn sẽ giúp hỗ trợ những người duy trì khảo sát, cũng như giúp thuê thêm những người đóng góp (họa sĩ minh họa, chuyên gia về tính đa dạng và khả năng tiếp cận, v.v.).
 
   - key: sponsor.faq.public.title
-    t: Will my donation be public?
+    t: Đóng góp của tôi sẽ được công khai?
 
   - key: sponsor.faq.public.description
-    t: Yes. Your **Twitter username** as well as the **amount you donated** will be displayed publicly next to the chart.
+    t: Có. **Tên người dùng Twitter** của bạn cũng như **số tiền bạn đã quyên góp** sẽ được hiển thị công khai bên cạnh biểu đồ.
 
   # - key: sponsor.faq.donation_public.title
   #   t: Can I donate on somebody else's behalf?
@@ -1109,22 +1109,22 @@ translations:
   #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it. 
 
   - key: sponsor.faq.refund.title
-    t: What's your refund policy?
+    t: Chính sách hoàn tiền của bạn là gì?
 
   - key: sponsor.faq.refund.description
-    t: All donations are refundable within a 1-week period, minus transaction fees. 
+    t: Tất cả các khoản đóng góp sẽ được hoàn lại trong vòng 1 tuần trừ phí giao dịch.
 
   - key: sponsor.faq.influence.title
-    t: Do donations influence the survey contents?
+    t: Việc quyên góp có ảnh hưởng đến nội dung của cuộc khảo sát không?
 
   - key: sponsor.faq.influence.description
-    t: Donations take place once the survey is already published, and donors to not have any influence on the contents of the survey. 
+    t: Việc quyên góp được thực hiện sau khi kết quả khảo sát được công bố và các nhà tài trợ không có bất kỳ ảnh hưởng nào đến nội dung của cuộc khảo sát.
 
   - key: sponsor.faq.feedback.title
-    t: Where can I leave feedback/ask questions?
+    t: Tôi có thể để lại phản hồi/đặt câu hỏi ở đâu?
 
   - key: sponsor.faq.feedback.description
-    t: You can do so [on GitHub](https://github.com/StateOfJS/Monorepo/issues/69) or [in our Discord](https://discord.gg/tuWRUWVyJs).
+    t: Bạn có thể làm như vậy [trên GitHub](https://github.com/StateOfJS/Monorepo/issues/69) hoặc [trong Discord](https://discord.gg/tuWRUWVyJs).
 
 
   ###########################################################################
@@ -1135,12 +1135,12 @@ translations:
     t: Data Explorer
   - key: sections.data_explorer.description
     t: |
-      Dynamically explore the survey's audience by picking two questions, and seeing how
-      respondents are distributed between them. 
+      Tự động khám phá đối tượng của cuộc khảo sát bằng cách chọn hai câu hỏi 
+      và xem cách người trả lời được phân phối giữa họ.
 
   - key: hints.data_explorer
     t: |
-      This is a preview version of our new Data Explorer. If you find any issues or data inconsistencies please [let us know]({issueLink}).
+      Đây là phiên bản xem trước của Data Explorer mới của chúng tôi. Nếu bạn tìm thấy bất kỳ vấn đề hoặc dữ liệu không nhất quán nào, vui lòng [cho chúng tôi biết]({issueLink}).
 
   # heading
 
@@ -1149,29 +1149,29 @@ translations:
 
   - key: explorer.total_respondents
     t: |
-      (**{totalCount}** total respondents)
+      (Tổng số **{totalCount}** người trả lời)
 
   - key: explorer.count_per_dot
     t: |
-      {respondentsPerDot} Respondents
+      {respondentsPerDot} người trả lời
   - key: explorer.percentage_per_dot
     t: |
       {percentsPerDot}%
   - key: explorer.extra_respondents
-    t: Extra Respondents
+    t: Thêm người trả lời thêm
   - key: explorer.missing_respondents
-    t: Missing Respondents
+    t: Thiếu người trả lời
 
   - key: explorer.count_per_dot.tooltip
     t: |
-      1 dot represents {respondentsPerDot} respondents
+      1 dấu chấm đại diện cho {respondentsPerDot} người trả lời
   - key: explorer.percentage_per_dot.tooltip
     t: |
-      1 dot represents {percentsPerDot}% of respondents
+      1 dấu chấm đại diện cho {percentsPerDot}% số người trả lời
   - key: explorer.extra_respondents.tooltip
-    t: Highlighted dots indicate higher-than-expected results.
+    t: Các dấu chấm nổi bật cho biết kết quả cao hơn mong đợi.
   - key: explorer.missing_respondents.tooltip
-    t: Empty dots indicate lower-than-expected results. 
+    t: Dấu chấm trống biểu thị kết quả thấp hơn mong đợi.
 
   - key: explorer.units_count
     t: Count
@@ -1179,7 +1179,7 @@ translations:
     t: "% of Row"
 
   - key: explorer.edit
-    t: Edit Parameters…
+    t: Chỉnh sửa thông số…
 
   - key: explorer.get_data
     t: Get Data…
@@ -1189,17 +1189,17 @@ translations:
   - key: explorer.loading.1
     t: Querying API…
   - key: explorer.loading.2
-    t: Waiting for a response…
+    t: Đang chờ phản hồi…
   - key: explorer.loading.3
-    t: Still working…
+    t: Vẫn đang xử lý…
   - key: explorer.loading.4
-    t: Hang on just a little bit longer…
+    t: Cố lên một chút nữa…
   - key: explorer.loading.5
-    t: Sorry, this is taking a while. You can try waiting a little longer, or [report an issue]({issueLink}).
+    t: Xin lỗi, quá trình này mất một lúc. Bạn có thể thử đợi lâu hơn một chút hoặc [báo cáo sự cố]({issueLink}).
   - key: explorer.timeout
-    t: Timeout
+    t: Hết giờ
   - key: explorer.timeout.description
-    t: The API didn't respond in time. Please try again later, or [report an issue]({issueLink}).
+    t: API không phản hồi kịp thời. Vui lòng thử lại sau hoặc [báo cáo sự cố]({issueLink}).
 
   # share
 
@@ -1208,85 +1208,85 @@ translations:
   - key: explorer.share.title
     t: Share “{xAxisLabel}” vs “{yAxisLabel}”
   - key: explorer.share.tweet
-    t: “{xAxisLabel}” vs “{yAxisLabel}” from the {surveyName} {year} survey
+    t: “{xAxisLabel}” vs “{yAxisLabel}” từ khảo sát {surveyName} {year}
 
   # axis
 
   - key: explorer.axis_total
-    t: "{totalCount} respondents"
+    t: "{totalCount} người trả lời"
   - key: explorer.axis_percent
-    t: "{percentCount}% of respondents"
+    t: "{percentCount}% của người trả lời"
 
   - key: explorer.x_axis_details
     t: |
-      Out of all respondents who completed question “{yAxisLabel}”, **{totalCount}** survey respondents picked “{xQuestionLabel}” for “{xAxisLabel}”
+      Trong số tất cả những người trả lời đã hoàn thành câu hỏi “{yAxisLabel}”, **{totalCount}** người trả lời khảo sát đã chọn “{xQuestionLabel}” cho “{xAxisLabel}”
   - key: explorer.y_axis_details
     t: |
-      **{totalCount}** survey respondents picked “{yQuestionLabel}”
+      **{totalCount}** người trả lời khảo sát đã chọn “{yQuestionLabel}”
   - key: explorer.main_legend_count
     t: |
-      **{totalCount}** respondents, **1** dot = **{respondentsPerDot}** respondents, **{dotsPerLine}** dots per line
+      **{totalCount}** người trả lời, **1** dấu chấm = **{respondentsPerDot}** người trả lời, **{dotsPerLine}** số chấm trên mỗi dòng
 
   # controls
   - key: explorer.dots_per_line
-    t: Dots per line
+    t: Số chấm trên mỗi dòng
   - key: explorer.respondents_per_dot
-    t: Respondents per dot
+    t: Người trả lời trên mỗi dấu chấm
   - key: explorer.show_cell_counts
-    t: Show cell counts
+    t: Hiển thị số lượng ô
 
   - key: explorer.sections.demographics
-    t: Demographics
+    t: Nhân khẩu học
   - key: explorer.sections.features
-    t: Features
+    t: Tính năng
   - key: explorer.sections.tools
-    t: Libraries
+    t: Thư viện
 
   - key: explorer.all_fields
-    t: All fields
+    t: Tất cả các lĩnh vực
   - key: explorer.select_item
-    t: Select item
+    t: Chọn mục
 
   # details views
 
   - key: explorer.count_details.1
     t: |
-      **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+      **{xAxisTotal}** “{xAxisLabel}” người trả lời đã chọn “{xAnswerLabel}”.
   
   - key: explorer.count_details.2
     t: |
-        **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”. 
+        **{yAxisPercentage}%** trong số “{yAxisLabel}” người trả lời đã chọn “{yAnswerLabel}”. 
   
   - key: explorer.count_details.3
     t: |
-        Applying that percentage to the previous **{xAxisTotal}** respondents figure 
-        gives us an expected baseline of **{normalizedCount}** respondents in this intersection. 
+        Áp dụng tỷ lệ phần trăm đó cho **{xAxisTotal}** người trả lời trước đó 
+        cung cấp cho chúng tôi đường cơ sở dự kiến ​​về **{normalizedCount}** người trả lời trong chỗ giao nhau này. 
   
   - key: explorer.count_details.4_extra
     t: |
-        The actual count is **{bucketCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*. 
+        Số lượng thực tế là **{bucketCount}**, và bổ sung **{normalizedCountDelta}** người trả lời được *làm nổi bật lên*. 
  
   - key: explorer.count_details.4_missing
     t: |
-        The actual count is **{bucketCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots. 
+        Số lượng thực tế là **{bucketCount}** và **{normalizedCountDelta}** người trả lời bị thiếu sẽ xuất hiện dưới dạng dấu chấm trống.
 
   - key: explorer.percentage_details.1_extra
     t: |
-      Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
-      within **“{yAxisLabel}” respondents who selected “{yAnswerLabel}”** that percentage climbs to  **{bucketPercentage}%**.
+      Nhìn chung, **{xAxisPercentage}%** của người trả lời cho “{xAxisLabel}” đã chọn “{xAnswerLabel}”, nhưng trong phạm vi 
+      **“{yAxisLabel}” thì số người trả lời đã chọn “{yAnswerLabel}”** có tỷ lệ phần trăm tăng lên  **{bucketPercentage}%**.
   
   - key: explorer.percentage_details.1_missing
     t: |
-      Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
-      within **“{yAxisLabel}” respondents who selected “{yAnswerLabel}”** that percentage drops to  **{bucketPercentage}%**.
+      Nhìn chung, **{xAxisPercentage}%** của người trả lời cho “{xAxisLabel}” đã chọn “{xAnswerLabel}”, nhưng trong phạm vi 
+      **“{yAxisLabel}” thì số người trả lời đã chọn “{yAnswerLabel}”** có tỷ lệ phần trăm giảm xuống  **{bucketPercentage}%**.
 
   - key: explorer.percentage_details.2_extra
     t: |
-        Those extra **{normalizedPercentageDelta}%** respondents are *highlighted*. 
+        **{normalizedPercentageDelta}%** người trả lời bổ sung đó thì được *làm nổi bật lên*. 
   
   - key: explorer.percentage_details.2_missing
     t: |
-        Those missing **{normalizedPercentageDelta}%** respondents appear as empty dots. 
+        **{normalizedPercentageDelta}%** người trả lời bị thiếu xuất hiện dưới dạng dấu chấm trống. 
 
   # - key: explorer.percentage_details.1
   #   t: |
@@ -1312,17 +1312,17 @@ translations:
 
   - key: explorer.extra_missing_respondents
     t: |
-      ### Extra & Missing Respondents
+      ### Người trả lời thừa & thiếu
 
-      The chart above aims to identify areas showing higher-than-expected 
-      or lower-than-expected values compared to a calculated baseline. 
+      Biểu đồ trên nhằm mục đích xác định các khu vực hiển thị cao hơn mong đợi 
+      hoặc các giá trị thấp hơn mong đợi so với đường cơ sở được tính toán. 
       
-      For example, assuming there are 1000 CSS Grid users, and that 50% of survey respondents work in a large company, 
-      you'd expect to find 500 CSS Grid users working in large companies. 
+      Ví dụ: giả sử có 1000 người dùng CSS Grid và 50% người trả lời khảo sát làm việc trong một công ty lớn, 
+      bạn mong muốn tìm thấy 500 người dùng CSS Grid làm việc trong các công ty lớn.
 
-      Any deviation above or below that expected total could potentially indicate an interesting
-      correlation between both variables, and is highlighted on the chart with either colored 
-      dots (for extra respondents above the baseline) or empty dots (for missing respondents).
+      Bất kỳ độ lệch nào trên hoặc dưới tổng số dự kiến ​​có thể chỉ ra một điều thú vị 
+      tương quan giữa cả hai biến, và được đánh dấu trên biểu đồ bằng một trong hai màu dấu chấm 
+      (dành cho người trả lời bổ sung trên đường cơ sở) hoặc dấu chấm trống (dành cho người trả lời thiếu).
 
 
   ###########################################################################
@@ -1336,8 +1336,8 @@ translations:
     t: Compare “{chartName}”
   - key: filters.description
     t: |
-      Using a combination of demographics filters, you can define up to four **custom data series** to dynamically
-      load and compare them with the default data for this question. 
+      Sử dụng kết hợp các bộ lọc nhân khẩu học, bạn có thể xác định tối đa bốn **chuỗi dữ liệu tùy chỉnh** để tự động 
+      tải và so sánh chúng với dữ liệu mặc định cho câu hỏi này.
 
   - key: filters.series.heading
     t: Series {index}

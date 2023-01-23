@@ -294,7 +294,7 @@ translations:
     - key: options.tools.interested
       t: <span aria-hidden="true">✅</span> Nghe nói về nó > Muốn học
     - key: options.tools.not_interested
-      t: <span aria-hidden="true">🚫</span> Nghe nói về nó > Không hứng thú
+      t: <span aria-hidden="true">🚫</span> Nghe nói về nó > Không quan tâm
     - key: options.tools.would_use
       t: <span aria-hidden="true">👍</span> Used it > Sẽ sử dụng lại
     - key: options.tools.would_not_use
@@ -306,19 +306,19 @@ translations:
     - key: options.tools.interested.legend
       t: Nghe nói về nó > Muốn học
     - key: options.tools.not_interested.legend
-      t: Nghe nói về nó > Không hứng thú
+      t: Nghe nói về nó > Không quan tâm
     - key: options.tools.would_use.legend
-      t: Used it > Sẽ sử dụng lại
+      t: Đã sử dụng nó > Sẽ sử dụng lại
     - key: options.tools.would_not_use.legend
-      t: Used it > Sẽ không sử dụng lại
+      t: Đã sử dụng nó > Sẽ không sử dụng lại
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short
-      t: Never heard
+      t: Chưa bao giờ nghe
     - key: options.tools.interested.short
-      t: Interested
+      t: Có quan tâm
     - key: options.tools.not_interested.short
-      t: Không hứng thú
+      t: Không quan tâm
     - key: options.tools.would_use.short
       t: Sẽ sử dụng lại
     - key: options.tools.would_not_use.short
@@ -328,25 +328,25 @@ translations:
     - key: options.happiness.0
       t: Rất không hài lòng
     - key: options.happiness.1
-      t: Unhappy
+      t: Không hài lòng
     - key: options.happiness.2
       t: Trung lập
     - key: options.happiness.3
-      t: Happy
+      t: Hài lòng
     - key: options.happiness.4
-      t: Very Happy
+      t: Rất hài lòng
 
     # happiness (short version)
     - key: options.happiness.0.short
       t: Rất không hài lòng
     - key: options.happiness.1.short
-      t: Unhappy
+      t: Không hài lòng
     - key: options.happiness.2.short
       t: Trung lập
     - key: options.happiness.3.short
-      t: Happy
+      t: Hài lòng
     - key: options.happiness.4.short
-      t: Very Happy
+      t: Rất hài lòng
 
     # opinions
     - key: options.opinions.0
@@ -587,16 +587,16 @@ translations:
     # Disability Status
     - key: options.disability_status.visual_impairments
       t: >
-        Khiếm thị (chẳng hạn như: mù, mù màu, ...)
+        Khiếm thị (chẳng hạn như: mù, mù màu, v.v)
     - key: options.disability_status.hearing_impairments
       t: >
-        Khiếm thính (chẳng hạn như: điếc, ù tai, ...)
+        Khiếm thính (chẳng hạn như: điếc, ù tai, v.v)
     - key: options.disability_status.mobility_impairments
       t: >
-        Suy giảm khả năng vận động (chẳng hạn như: viêm khớp, ống cổ tay, ...)
+        Suy giảm khả năng vận động (chẳng hạn như: viêm khớp, ống cổ tay, v.v)
     - key: options.disability_status.cognitive_impairments
       t: >
-        Suy giảm nhận thức (chẳng hạn như: lo lắng, chứng khó đọc, ...)
+        Suy giảm nhận thức (chẳng hạn như: lo lắng, chứng khó đọc, v.v)
     - key: options.disability_status.not_listed
       t: >
         Không được liệt kê
@@ -640,9 +640,9 @@ translations:
     - key: options.form_factors.print
       t: Máy in
     - key: options.form_factors.testing_tools
-      t: Công cụ test (Axe, Lighthouse, ...)
+      t: Công cụ test (Axe, Lighthouse, v.v)
     - key: options.form_factors.vision_simulator
-      t: Altered Vision Simulator (mù màu, ...)
+      t: Altered Vision Simulator (mù màu, v.v)
 
     # Industry Sector
     - key: options.industry_sector.ecommerce
@@ -712,7 +712,7 @@ translations:
     - key: options.tool_evaluation.developer_experience_tooling
       t: Trải nghiệm cho nhà phát triển
     - key: options.tool_evaluation.developer_experience_tooling.description
-      t: Nó có các công cụ tốt dành cho nhà phát triển, hay hệ sinh thái với nhiều plugin không,...?
+      t: Nó có các công cụ tốt dành cho nhà phát triển, hay hệ sinh thái với nhiều plugin không, v.v?
     - key: options.tool_evaluation.performance_user_experience
       t: Trải nghiệm người dùng
     - key: options.tool_evaluation.performance_user_experience.description
@@ -1060,7 +1060,7 @@ translations:
     - key: tools_others.libraries.others
       t: Thư viện khác
     - key: tools_others.libraries.others.description
-      t: Câu trả lời khác (không bắt buộc).
+      t: Câu trả lời khác (trả lời tự do).
 
     - key: tools_others.text_editors
       t: Trình soạn thảo văn bản
@@ -1069,7 +1069,7 @@ translations:
     - key: tools_others.text_editors.others
       t: Trình soạn thảo văn bản khác
     - key: tools_others.text_editors.others.description
-      t: Câu trả lời khác (không bắt buộc).
+      t: Câu trả lời khác (trả lời tự do).
 
     - key: tools_others.utilities
       t: Tiện ích
@@ -1078,7 +1078,7 @@ translations:
     - key: tools_others.utilities.others
       t: Tiện ích khác
     - key: tools_others.utilities.others.description
-      t: Tiện ích khác (không bắt buộc).
+      t: Tiện ích khác (trả lời tự do).
 
     - key: tools_others.browsers
       t: Trình duyệt
@@ -1087,7 +1087,7 @@ translations:
     - key: tools_others.browsers.others
       t: Trình duyệt khác
     - key: tools_others.browsers.others.description
-      t: Trình duyệt khác (không bắt buộc).
+      t: Trình duyệt khác (trả lời tự do).
 
     - key: tools_others.build_tools
       t: Công cụ build
@@ -1096,7 +1096,7 @@ translations:
     - key: tools_others.build_tools.others
       t: Công cụ build khác
     - key: tools_others.build_tools.others.description
-      t: Công cụ build khác (không bắt buộc).
+      t: Công cụ build khác (trả lời tự do).
 
     - key: tools_others.non_js_languages
       t: Ngôn ngữ không phải JavaScript
@@ -1105,7 +1105,7 @@ translations:
     - key: tools_others.non_js_languages.others
       t: Những ngôn ngữ khác
     - key: tools_others.non_js_languages.others.description
-      t: Những ngôn ngữ khác (không bắt buộc).
+      t: Những ngôn ngữ khác (trả lời tự do).
 
     - key: tools_others.javascript_flavors
       t: JavaScript Flavors
@@ -1114,7 +1114,7 @@ translations:
     - key: tools_others.javascript_flavors.others
       t: JavaScript Flavors khác
     - key: tools_others.javascript_flavors.others.description
-      t: Câu trả lời khác (không bắt buộc).
+      t: Câu trả lời khác (trả lời tự do).
 
     ###########################################################################
     # Usage
@@ -1132,7 +1132,7 @@ translations:
     - key: resources.first_steps.others
       t: Phương pháp học đầu tiên khác
     - key: resources.first_steps.others.description
-      t: Câu trả lời khác (không bắt buộc).
+      t: Câu trả lời khác (trả lời tự do).
     
     # blogs & magazines
     - key: resources.blogs_news_magazines
@@ -1142,7 +1142,7 @@ translations:
     - key: resources.blogs_news_magazines.others
       t: Blog & Tạp chí khác
     - key: resources.blogs_news_magazines.others.description
-      t: Câu trả lời khác (không bắt buộc).
+      t: Câu trả lời khác (trả lời tự do).
 
     # sites & courses
     - key: resources.sites_courses
@@ -1152,7 +1152,7 @@ translations:
     - key: resources.sites_courses.others
       t: Trang web & khóa học khác
     - key: resources.sites_courses.others.description
-      t: Câu trả lời khác (không bắt buộc).
+      t: Câu trả lời khác (trả lời tự do).
 
     # podcasts
     - key: resources.podcasts
@@ -1162,7 +1162,7 @@ translations:
     - key: resources.podcasts.others
       t: Podcast khác
     - key: resources.podcasts.others.description
-      t: Other answers (không bắt buộc).
+      t: Câu trả lời khác (trả lời tự do).
 
     # people
     - key: resources.people
@@ -1178,7 +1178,7 @@ translations:
     - key: resources.people.others.description
       t: >
         Những người bạn đọc, theo dõi hoặc chỉ muốn làm nổi bật lên công việc của họ
-        (không bắt buộc, tên được phân tách bằng dấu phẩy).
+        (trả lời tự do, tên được phân tách bằng dấu phẩy).
 
     # other surveys
     - key: resources.other_surveys
