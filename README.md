@@ -1,26 +1,28 @@
-# locale-en-US
+# locale-vi-VI
 
-This repo contains the English language files for the State of JS/CSS/etc. surveys, which serve as a base to translate all the other languages. You can view a list of [all the locales repos here](https://github.com/StateOfJS/?q=locale-&type=&language=&sort=).
+Repo này chứa các tệp tiếng Việt cho các bản khảo sát State of JS/CSS/v.v. Bạn có thể xem danh sách [các ngôn ngữ tại đây](https://github.com/orgs/Devographics/repositories?q=locale&type=all&language=&sort=).
 
-## How To Help
+## Làm thế nào để giúp đỡ
 
-#### 1. Becoming a Translator
+#### 1. Trở thành dịch giả
 
-To start helping translate the survey, you should [join the Discord](https://discord.com/invite/zRDb35jfrt) and DM me (`SachaG`) your GitHub username, along with the locale code (`fr-FR`, `zh-Hant`, etc.) for the language you'd like to help with.
+Để bắt đầu giúp dịch khảo sát, bạn nên [tham gia Discord](https://discord.com/invite/zRDb35jfrt) và gửi tin nhắn trực tiếp cho tôi (`SachaG`) username GitHub của bạn, cùng với mã ngôn ngữ (`vi-VN`) mà bạn muốn trợ giúp.
 
-I will then give you maintainer rights over a repo containing all the translation `yaml` files, and from now on you can manage it yourself along with other members of the translation team.  
+Sau đó, tôi sẽ cấp cho bạn quyền bảo trì đối với repo này và từ giờ trở đi, bạn có thể tự mình quản lý nó cùng với các thành viên khác trong nhóm dịch.
 
-#### 2. Finding Things to Translate
+Nếu bạn không tham gia nhóm Discord, bạn cũng có thể vào trang [issue](https://github.com/Devographics/locale-vi-VN/issues) để xem các file nào đang cần ưu tiên dịch, và có thể bắt đầu dịch. Với cách này, bạn sẽ cần yêu cầu 1 thành viên khác review và merge file dịch của bạn.
 
-You can either browse the survey-taking app, survey results site, etc. and find untranslated strings this way, or else use our API to get extra data such as the completion percentage for a locale or a list of all the untranslated strings: 
+#### 2. Tìm những thứ cần dịch
+
+Bạn có thể xem bên trang thực hiện khảo sát, hoặc trang web kết quả khảo sát, v.v. và tìm các câu chưa được dịch hoặc sử dụng API của chúng tôi để nhận thêm dữ liệu, chẳng hạn như tỷ lệ phần trăm hoàn thành cho một ngôn ngữ hoặc danh sách tất cả các chuỗi chưa được dịch:
 
 - https://graphiql-internal.devographics.com/
 
-Here is a sample query: 
+Đây là một query mẫu:
 
 ```graphql
 query GetLocaleData {
-  locale(localeId: "ru-RU") {
+  locale(localeId: "vi-VI") {
     completion
     totalCount
     translatedCount
@@ -30,54 +32,54 @@ query GetLocaleData {
 }
 ```
 
-#### 3. Getting Credit
+#### 3. Nhận Credit
 
-Every translator will be credited on any site that makes use of the translations, starting with the survey-taking app. While this will eventually be automated via the GitHub API, for now you can add your name here:
+Mọi dịch giả sẽ được ghi tên trên bất kỳ trang web nào sử dụng bản dịch, trước tiên là trên ứng dụng thực hiện khảo sát. Mặc dù việc này cuối cùng sẽ được tự động hóa thông qua API GitHub, nhưng hiện tại bạn có thể thêm tên của mình tại đây:
 
-- https://github.com/StateOfJS/Monorepo/blob/main/api/src/data/locales.yml
+- https://github.com/devographics/monorepo/blob/main/api-internal/src/data/locales.yml
 
-#### 4. Pushing Your Changes Live
+#### 4. Đưa bản dịch của bạn lên product
 
-There is currently no automated hook to update the production apps when a translation is updated, so for now the best way is to DM me on Discord to let me know when you're finished. 
+Hiện tại không có hook tự động cập nhật lên product khi bản dịch được cập nhật. Vì vậy, hiện tại cách tốt nhất là gửi tin nhắn trực tiếp cho tôi trên Discord để cho tôi biết khi nào bạn hoàn tất.
 
-## Translation Files
+## Các file cần dịch
 
-#### Surveys App
+#### Trang khảo sát
 
-These strings are related to the app that you use to fill out the actual survey. 
+Các chuỗi này có liên quan đến trang mà bạn sử dụng để điền vào bản khảo sát thực tế.
 
 - `surveys.yml`
 - `accounts.yml`
 - `state_of_js_2020_survey.yml`
 
-#### Results App
+#### Trang kết quả
 
-These strings only appear in the static site that displays the survey results and stats.
+Các chuỗi này chỉ xuất hiện trong trang hiển thị kết quả khảo sát và số liệu thống kê.
 
 - `results.yml`
 - `state_of_css_2020.yml`
 - `state_of_js_2020.yml`
 
-#### Both
+#### Cả hai
 
-These strings appear in both.
+Những chuỗi này xuất hiện trong cả hai.
 
 - `common.yml`
 - `state_of_css.yml`
 - `state_of_js.yml`
 
-#### Other
+#### Khác
 
 - `homepage.yml`
 
-## Joining Translation Teams
+## Tham gia nhóm dịch thuật
 
-It's recommended you join the [translation team](https://github.com/orgs/StateOfJS/teams/translators/teams) for the language you want to translate.
+Bạn nên tham gia [nhóm dịch thuật](https://github.com/orgs/StateOfJS/teams/translators/teams) cho ngôn ngữ bạn muốn dịch.
 
 ## Local Development
 
-There is currently no easy way to see your strings in context while developing locally. We are working on it. 
+Hiện tại không có cách nào dễ dàng để xem kết quả dịch của bạn tại máy local. Chúng tôi đang cố gắng thực hiện nó.
 
-## Getting Help
+## Tìm sự giúp đỡ
 
-Join [our Discord](https://discord.gg/zRDb35jfrt).
+Tham gia [nhóm của chúng tôi trên Discord](https://discord.gg/zRDb35jfrt).

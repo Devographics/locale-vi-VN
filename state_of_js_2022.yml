@@ -125,15 +125,15 @@ translations:
     - key: blocks.tools_quadrant.description
       t: |
         Biểu đồ này hiển thị **tỷ lệ giữ chân** của mỗi công nghệ trên tổng số **số lượng người dùng** của nó.
-        Nó có thể được chia thành bốn phần:
+        Nó có thể được chia thành bốn loại:
 
-          - **1**: Tỷ lệ sử dụng thấp, tỷ lệ duy trì cao. Công nghệ đáng để mắt tới.
+          - **1**: Tỷ lệ sử dụng thấp, tỷ lệ hài lòng cao. Công nghệ đáng để mắt tới.
 
-          - **2**: Tỷ lệ sử dụng cao, tỷ lệ duy trì cao. Các công nghệ an toàn để áp dụng.
+          - **2**: Tỷ lệ sử dụng cao, tỷ lệ hài lòng cao. Các công nghệ an toàn để áp dụng.
 
-          - **3**: Tỷ lệ sử dụng thấp, tỷ lệ duy trì thấp. Các công nghệ hiện tại khó được khuyên dùng.
+          - **3**: Tỷ lệ sử dụng thấp, tỷ lệ hài lòng thấp. Các công nghệ hiện tại khó được khuyên dùng.
 
-          - **4**: Tỷ lệ sử dụng cao, tỷ lệ duy trì thấp. Đánh giá lại những công nghệ này nếu bạn hiện đang sử dụng chúng.
+          - **4**: Tỷ lệ sử dụng cao, tỷ lệ hài lòng thấp. Đánh giá lại những công nghệ này nếu bạn hiện đang sử dụng chúng.
 
 
     ###########################################################################
@@ -142,7 +142,7 @@ translations:
 
     - key: blocks.gender.note
       t: |
-          Nếu bạn hứng thú và muốn tìm hiểu thêm, chúng tôi [đã viết một bài blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) đề cập đến giới tính trong cuộc khảo sát. 
+          Nếu bạn quan tâm và muốn tìm hiểu thêm, chúng tôi [đã viết một bài blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) đề cập đến giới tính trong cuộc khảo sát. 
 
     - key: blocks.currently_missing_from_css.note
       t: |
@@ -155,9 +155,9 @@ translations:
 
         - State of JS: danh sách gửi thư [State of JS](https://stateofjs.com).
 
-        - State of CSS: danh sách gửi thư State of CSS; cũng như khớp với `email`, `by email`,...
+        - State of CSS: danh sách gửi thư State of CSS; cũng như khớp với `email`, `by email`, v.v
 
-        - Work: khớp với `work`, `colleagues`, `coworkers`,...
+        - Work: khớp với `work`, `colleagues`, `coworkers`, v.v
 
     ###########################################################################
     # Awards
@@ -533,7 +533,7 @@ translations:
 
             Cuộc khảo sát có thể truy cập trực tuyến một cách công khai và người trả lời không được lọc hoặc chọn dưới bất kỳ hình thức nào. Những người trả lời chủ yếu là sự kết hợp của những người trả lời khảo sát trước đây (được thông báo qua danh sách gửi thư chuyên dụng) và lưu lượng truy cập mạng xã hội. 
 
-            Lưu ý rằng các  frameworks, libraries, ... được tự do khuyến khích khán giả của họ tham gia khảo sát và một số trong số họ đã tận dụng lợi thế này thông qua các banner, tweet, ... Bảng phân tích chi tiết về các nguồn lưu lượng truy cập được bao gồm trong biểu đồ "Nguồn". 
+            Lưu ý rằng các  framework, library, v.v được tự do khuyến khích khán giả của họ tham gia khảo sát và một số trong số họ đã tận dụng lợi thế này thông qua các banner, tweet, v.v. Bảng phân tích chi tiết về các nguồn lưu lượng truy cập được bao gồm trong biểu đồ "Nguồn". 
 
             ### Representativeness & Inclusivity
 
@@ -545,7 +545,7 @@ translations:
             
             - **Phân tích dữ liệu**: thông qua các tính năng như khía cạnh và biến thể, chúng tôi luôn cố gắng làm cho việc thể hiện tiếng nói của bất kỳ phân khúc nào trở nên dễ dàng hơn, bất kể phân khúc đó có thể bị thu nhỏ đến mức nào trong dữ liệu của chúng tôi. 
             
-            - **Hạ rào cản**: làm cho bản khảo sát quá dài, không thể tiếp cận, tải chậm, chỉ sử dụng tiếng Anh, ... có thể khiến một bộ phận cộng đồng không thể thực hiện được khảo sát. Việc giải quyết những vấn đề này sẽ hạ thấp rào cản và giúp cho đối tượng của chúng tôi trở nên đa dạng hơn. 
+            - **Hạ rào cản**: làm cho bản khảo sát quá dài, không thể tiếp cận, tải chậm, chỉ sử dụng tiếng Anh, v.v có thể khiến một bộ phận cộng đồng không thể thực hiện được khảo sát. Việc giải quyết những vấn đề này sẽ hạ thấp rào cản và giúp cho đối tượng của chúng tôi trở nên đa dạng hơn. 
 
             ### Kinh phí dự án
 

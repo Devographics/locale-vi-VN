@@ -5,11 +5,11 @@ translations:
     ###########################################################################
 
     - key: general.no_preview_surveys
-      t: No surveys to preview
+      t: Không có khảo sát nào để xem trước
     - key: general.global_nav
-      t: Global
+      t: Toàn cầu
     - key: general.survey_status_preview
-      t: Preview
+      t: Xem trước
     - key: general.survey_status_open
       t: Open
     - key: general.survey_status_closed
@@ -20,34 +20,34 @@ translations:
     ###########################################################################
 
     - key: error.duplicate_response
-      t: Sorry, you already have a session in progress for this survey. 
+      t: Rất tiếc, bạn đang có một phiên khảo sát đang diễn ra.
 
     ###########################################################################
     # Accounts
     ###########################################################################
 
     - key: accounts.create_account
-      t: Create an Account
+      t: Tạo tài khoản
     - key: accounts.create_account.description
-      t: Having an account lets you **access your own data in the future** and be notified when survey results are published.
+      t: Việc có tài khoản cho phép bạn **truy cập dữ liệu của chính mình trong tương lai** và được thông báo khi kết quả khảo sát được công bố.
     - key: accounts.create_account.note
-      t: If you **already have an account** we will send you a magic log-in link by email.
+      t: Nếu bạn **đã có tài khoản**, chúng tôi sẽ gửi cho bạn một link đăng nhập qua email.
     - key: accounts.create_account.action
-      t: Continue with Account
+      t: Tiếp tục với Tài khoản
     - key: accounts.your_email
-      t: Your Email
+      t: Email của bạn
 
     - key: accounts.continue_as_guest
-      t: Continue as Guest
+      t: Tiếp tục với tư cách là Khách
     - key: accounts.continue_as_guest.description
-      t: Taking the survey anonymously means you **won't be able to access your data again** after you end your session.
+      t: Tham gia khảo sát ẩn danh có nghĩa là bạn **sẽ không thể truy cập lại dữ liệu của mình** sau khi kết thúc phiên khảo sát.
     - key: accounts.continue_as_guest.action
-      t: Continue as Guest
+      t: Tiếp tục với tư cách là Khách
 
     - key: accounts.magic_link.no_email
-      t: Please enter your email
+      t: Vui lòng nhập địa chỉ email của bạn
     - key: accounts.magic_link.success
-      t: Check your inbox! We sent you a magic link, just click it to confirm your account and log in.
+      t: Kiểm tra hộp thư của bạn! Chúng tôi đã gửi cho bạn một link, chỉ cần nhấp vào link đó để xác nhận tài khoản của bạn và đăng nhập.
             
     ###########################################################################
     # FAQ
@@ -56,37 +56,37 @@ translations:
     - key: general.faq
       t: FAQ
     - key: faq.create_account
-      t: Why do I need to create an account?
+      t: Tại sao tôi cần phải tạo một tài khoản?
     - key: faq.create_account.description
-      t: We ask you to create an account in order to avoid duplicate responses, save your data, and notify you when results are published.
+      t: Chúng tôi yêu cầu bạn tạo một tài khoản để tránh các câu trả lời trùng lặp, lưu dữ liệu của bạn và thông báo cho bạn khi kết quả được công bố.
     - key: faq.anonymous_survey
-      t: Can I take the survey anonymously?
+      t: Tôi có thể thực hiện khảo sát ẩn danh không?
     - key: faq.anonymous_survey.description
-      t: Yes, you can use a fake (something@example.com) or non-identifying email to take the survey as long as you save it for future access. 
+      t: Có, bạn có thể sử dụng email giả mạo (something@example.com) hoặc email không xác định để thực hiện khảo sát miễn là bạn lưu nó để truy cập sau này. 
     - key: faq.questions_required
-      t: Is answering every question required?
+      t: Có bắt buộc phải trả lời mọi câu hỏi?
     - key: faq.questions_required.description
-      t: No, every question of the survey is optional and can freely be skipped. 
+      t: Không, mọi câu hỏi của cuộc khảo sát là không bắt buộc và có thể tự do bỏ qua. 
     - key: faq.data_published
-      t: Will my data be made public?
+      t: Dữ liệu của tôi sẽ được công khai sao?
     - key: faq.data_published.description
-      t: Yes, all data will be released publicly, but only after being purged of any identifying information (emails, usernames, IDs, etc.).
+      t: Có, tất cả dữ liệu sẽ được tiết lộ công khai, nhưng chỉ sau khi đã xóa các thông tin cá nhân (email, username, ID, v.v).
     - key: faq.survey_design
-      t: How are the surveys designed?
+      t: Cuộc khảo sát được thiết kế như thế nào?
     - key: faq.survey_design.description
-      t: Surveys are designed based on community feedback, as well as reviewed by experts. You can [learn more here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). 
+      t: Khảo sát được thiết kế dựa trên feedback của cộng đồng, cũng như được xem xét bởi các chuyên gia. Bạn có thể [tìm hiểu thêm tại đây](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). 
     - key: faq.results_released
-      t: When will the results be released?
+      t: Khi nào kết quả sẽ được công bố?
     - key: faq.results_released.description
-      t: Results are generally released a few weeks after the survey closes.
+      t: Kết quả thường được công bố một vài tuần sau khi cuộc khảo sát kết thúc.
     - key: faq.survey_deadline
-      t: When will the survey close?
+      t: Khi nào cuộc khảo sát sẽ kết thúc?
     - key: faq.survey_deadline.description
-      t: This survey is scheduled to run until {date}
+      t: Cuộc khảo sát này được lên lịch để thực hiện cho đến {date}
     - key: faq.team
-      t: Who runs these surveys?
+      t: Ai điều hành các cuộc khảo sát này?
     - key: faq.team.description
-      t: Surveys are run by [Devographics](http://devographics.com) together with a collective of contributors, translators, and volunteers. 
+      t: Các cuộc khảo sát được thực hiện bởi [Devographics](http://devographics.com) cùng với một nhóm cộng tác viên, dịch giả và tình nguyện viên. 
 
     ###########################################################################
     # Form Controls
@@ -95,40 +95,40 @@ translations:
     - key: bracket.vs
       t: VS
     - key: bracket.start_over
-      t: Start Over
+      t: Bắt đầu lại
     - key: bracket.winner
       t: >
       Winner: 
     - key: bracket.round
       t: Round
     - key: bracket.empty_bracket
-      t: Pending result (complete the previous round first)
+      t: Kết quả đang chờ xử lý (hoàn thành vòng trước trước)
     - key: bracket.result
-      t: Result
+      t: Kết quả
     - key: bracket.cancel
-      t: Cancel
+      t: Hủy bỏ
 
     - key: experience.leave_comment
-      t: Leave a Comment (optional)
+      t: Để lại bình luận (tùy chọn)
     - key: experience.leave_comment_short
-      t: Leave a Comment
+      t: Để lại bình luận
     - key: experience.tell_us_more
-      t: "You picked “{response}”. Tell us more about your choice:"
+      t: "Bạn đã chọn “{response}”. Hãy cho chúng tôi biết thêm về lựa chọn của bạn:"
     - key: experience.tell_us_more_no_value
-      t: "You didn't pick any response. Tell us why:"
+      t: "Bạn đã không chọn bất kỳ câu trả lời nào. Hãy cho chúng tôi biết tại sao:"
 
     ###########################################################################
     # Response
     ###########################################################################
 
     - key: response.completion
-      t: '{completion}% completed'
+      t: 'Đã hoàn thành{completion}%'
 
     - key: response.details
-      t: Started on {startedAt}, {completion}% completed.
+      t: Đã bắt đầu vào {startedAt}, đã hoàn thành {completion}%.
 
     - key: response.view_results
-      t: View Results
+      t: Xem kết quả
 
     ###########################################################################
     # Survey-Specific Intros
@@ -136,59 +136,59 @@ translations:
 
     - key: general.js2020.survey_intro
       t: |
-          2020 has been a tough year for everyone, one that makes worrying about the
-          latest JavaScript frameworks seem pretty futile in comparison. 
+          Năm 2020 là một năm khó khăn đối với tất cả mọi người, 
+          một năm khiến chúng ta lo lắng về các framework JavaScript mới nhất có vẻ khá vô ích khi so sánh.
 
-          Still, the world has to move on, and so does JavaScript. And once again, with your help
-          we'll try to build a comprehensive picture of the ecosystem to find out a little bit more
-          about where it's going. 
+          Tuy nhiên, thế giới vẫn phải tiếp tục phát triển và JavaScript cũng vậy. Và một lần nữa, với sự giúp đỡ của bạn 
+          chúng tôi sẽ cố gắng xây dựng một bức tranh toàn cảnh về hệ sinh thái 
+          để tìm hiểu thêm một chút về nơi nó sẽ đi tới.
 
     - key: general.css2021.survey_intro
       t: |
-          Hey CSS, what have you been up to lately? Oh really, `@container`? Oh and 
-          intrinsic sizing? And `@property` too?! Wow, you've been busy!
+          Này CSS, dạo này bạn làm gì thế? Ôi thật sao, `@container`? 
+          Và cả `@property` nữa?! Wow, bạn thật bận rộn!
 
-          Even though the pandemic kept on making everybody's lives harder throughout 2021, somehow
-          dedicated contributors around the world managed to keep CSS moving forward. 
-          And so once more it's time to survey the CSS ecosystem and figure out
-          where this is all going. And maybe learn about a few new things while you're at it!
+          Mặc dù đại dịch vẫn tiếp tục khiến cuộc sống của mọi người trở nên khó khăn hơn trong suốt năm 2021, 
+          nhưng bằng cách nào đó những người đóng góp tận tâm trên khắp thế giới đã quản lý để giúp CSS tiếp tục phát triển. 
+          Vì vậy, một lần nữa đã đến lúc khảo sát hệ sinh thái CSS và tìm ra xem chúng đang đi về đâu. 
+          Và có lẽ bạn sẽ học được một vài điều mới trong khi bạn đang ở đó!
 
     - key: general.js2021.survey_intro
       t: |
-          First the 2020 Olympics got pushed back to 2021, 
-          and now the 2021 State of JavaScript survey is happening now, in 2022!
+          Đầu tiên, Thế vận hội 2020 bị lùi sang năm 2021, 
+          và bây giờ cuộc khảo sát về Tình trạng JavaScript năm 2021 đang diễn ra ngay lúc này, vào năm 2022!
 
-          It's true: between work, family, and and all the turmoil in the world, 
-          some things got disrupted a little.
+          Đó là sự thật: giữa công việc, gia đình và tất cả những xáo trộn trên thế giới, 
+          một số thứ đã bị gián đoạn một chút.
 
-          But while the year may be off-by-one, we hope the data provided by the 
-          survey itself will be just as informative and insightful as ever. 
-          And don't worry, there will be another survey towards the end of this year to set things straight again!
+          Nhưng trong khi năm có thể khác nhau, chúng tôi hy vọng dữ liệu được cung cấp bởi bản thân cuộc khảo sát 
+          sẽ có nhiều thông tin và sâu sắc hơn bao giờ hết. 
+          Và đừng lo lắng, sẽ có một cuộc khảo sát khác vào cuối năm nay để sắp xếp lại mọi thứ!
 
     - key: general.graphql2022.survey_intro
       t: |
-          When GraphQL was first introduced it offered a radically new way to build APIs, with more control, more granularity, and more flexibility. 
+          Khi GraphQL được giới thiệu lần đầu tiên, nó đã cung cấp một cách hoàn toàn mới để xây dựng API, với nhiều quyền kiểm soát hơn, chi tiết hơn và linh hoạt hơn. 
 
-          But that flexibility came at a price in the form of extra complexity, and a crop of frameworks, libraries, and services quickly appeared to help define better patterns and workflows. 
+          Nhưng tính linh hoạt đó phải trả giá ở dạng phức tạp hơn và một loạt các framework, librariy, và service nhanh chóng xuất hiện để giúp xác định các pattern và workflow tốt hơn. 
 
-          Now, for the first time ever we're surveying the GraphQL community to figure out which of these many tools are the most popular, and which features are actually being used. With your help, let's see what GraphQL has been up to in 2022!
+          Bây giờ, lần đầu tiên chúng tôi khảo sát cộng đồng GraphQL để tìm ra công cụ nào trong số nhiều công cụ này là phổ biến nhất và tính năng nào đang thực sự được sử dụng. Với sự trợ giúp của bạn, chúng ta hãy xem GraphQL đã làm được những gì vào năm 2022!
          
     - key: general.css2022.survey_intro
       t: |
-          CSS keeps progressing at an unprecedented rate. Luckily this year we got help from someone at the forefront of all these changes: [Lea Verou](https://lea.verou.me/) took the lead on selecting this year's questions, with a special focus on highlighting new and upcoming CSS features. 
+          CSS tiếp tục phát triển với tốc độ chưa từng thấy. May mắn thay, năm nay chúng tôi đã nhận được sự giúp đỡ từ một người đi đầu trong tất cả những thay đổi này: [Lea Verou](https://lea.verou.me/) dẫn đầu trong việc lựa chọn các câu hỏi của năm nay, đặc biệt tập trung vào việc làm nổi bật các tính năng CSS mới và sắp ra mắt. 
 
-          What's more, the survey results will also help browser vendors prioritize their roadmaps and work towards better compatibility between browsers. 
+          Ngoài ra, kết quả khảo sát cũng sẽ giúp các nhà cung cấp trình duyệt ưu tiên lộ trình của họ và hướng tới khả năng tương thích tốt hơn giữa các trình duyệt.
 
-          With all this out of the way, let's see how CSS evolved in 2022!
+          Với tất cả những điều này, hãy xem CSS phát triển như thế nào vào năm 2022!
 
     - key: general.js2022.survey_intro
       t: |
-          For the first time in a while, it feels like the status quo of the JavaScript ecosystem is being questioned. 
+          Lần đầu tiên sau một thời gian, có vẻ như hiện trạng của hệ sinh thái JavaScript đang bị nghi ngờ.
 
-          Faster bundling with Vite, island architecture with Astro, resumability with Qwik… New entrants are challenging the old guard, and the result is a lot more excitement, but also
-          a lot more uncertainty. 
+          Đóng gói nhanh hơn với Vite, kiến ​​trúc island với Astro, khả năng tiếp tục với Qwik… 
+          Những kẻ mới tham gia đang thách thức người gác đền, và kết quả là nhiều hứng thú hơn, nhưng cũng nhiều điều không chắc chắn hơn.
 
-          So once more, let's try and figure out together where JavaScript is going, in 2022 and beyond. 
+          Vì vậy, một lần nữa, chúng ta hãy thử và cùng nhau tìm hiểu xem JavaScript sẽ đi về đâu vào năm 2022 và hơn thế nữa. 
 
     ###########################################################################
     # Survey-Specific FAQs
@@ -197,32 +197,32 @@ translations:
     # CSS 2022
 
     - key: faq.learn_more_css2022
-      t: Where can I learn more?
+      t: Tôi có thể tìm hiểu thêm ở đâu?
     - key: faq.learn_more_css2022.description
-      t: You can learn more about [last year's survey here](https://2021.stateofcss.com/en-US/about/). 
+      t: Bạn có thể tìm hiểu thêm về [cuộc khảo sát năm ngoái tại đây](https://2021.stateofcss.com/en-US/about/). 
 
     - key: faq.survey_design_css2022
-      t: How was this survey designed?
+      t: Khảo sát này được thiết kế như thế nào?
     - key: faq.survey_design_css2022.description
-      t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub. 
+      t: Năm nay, nhờ khoản trợ cấp từ [Quỹ UI](https://web.dev/ui-fund/) của Google, [Lea Verou](https://lea.verou.me/) đã có thể dẫn đầu và quản lý [quy trình thiết kế khảo sát mở](https://github.com/orgs/Devographics/projects/1/views/1) trên GitHub. 
 
     - key: faq.results_released_css2022
-      t: When will the results be released?
+      t: Khi nào kết quả sẽ được công bố?
     - key: faq.results_released_css2022.description
-      t: The survey will run until the end of October 2022, and the survey results will be released in early November. 
+      t: Cuộc khảo sát sẽ diễn ra cho đến cuối tháng 10 năm 2022 và kết quả khảo sát sẽ được công bố vào đầu tháng 11.
 
     - key: faq.data_used_css2022
-      t: How will this data be used?
+      t: Dữ liệu này sẽ được sử dụng như thế nào?
     - key: faq.data_used_css2022.description
-      t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
+      t: Tất cả dữ liệu được thu thập sẽ được phát hành công khai. Sau đó, nó sẽ trở thành nơi tham khảo cho cả nhà phát triển - người xem xét để đưa ra các lựa chọn công nghệ của họ, và các nhà cung cấp trình duyệt - những người sử dụng nó để tập trung ưu tiên các phần trọng tâm và đưa ra lộ trình phát triển phù hợp.
 
 
     # JS 2022
 
     - key: faq.learn_more_js2022
-      t: Where can I learn more?
+      t: Tôi có thể tìm hiểu thêm ở đâu?
     - key: faq.learn_more_js2022.description
-      t: You can learn more about [last year's survey here](https://2021.stateofjs.com/en-US/about/). 
+      t: Bạn có thể tìm hiểu thêm về [cuộc khảo sát năm ngoái tại đây](https://2021.stateofjs.com/en-US/about/). 
 
     # - key: faq.survey_design_js2022
     #   t: How was this survey designed?
@@ -230,11 +230,11 @@ translations:
     #   t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub. 
 
     - key: faq.results_released_js2022
-      t: When will the results be released?
+      t: Khi nào kết quả sẽ được công bố?
     - key: faq.results_released_js2022.description
-      t: The survey will run until December 15, 2022, and the survey results will be released shortly afterwards. 
+      t: Cuộc khảo sát sẽ kéo dài đến ngày 15 tháng 12 năm 2022 và kết quả khảo sát sẽ được công bố ngay sau đó. 
 
     - key: faq.data_used_js2022
-      t: How will this data be used?
+      t: Dữ liệu này sẽ được sử dụng như thế nào?
     - key: faq.data_used_js2022.description
-      t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
+      t: Tất cả dữ liệu được thu thập sẽ được phát hành công khai. Sau đó, nó sẽ trở thành một nguồn tài nguyên cho cả các nhà phát triển, những người tham khảo nó để đưa ra các lựa chọn công nghệ của họ và các nhà cung cấp trình duyệt, những người sử dụng nó để tập trung ưu tiên các phần trọng tâm và đưa ra lộ trình phát triển phù hợp.
