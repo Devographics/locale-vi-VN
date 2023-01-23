@@ -113,8 +113,8 @@ translations:
 
     - key: award.tool_satisfaction_award.comment
       t: |
-        Trong số tất cả các giải pháp CSS-in-JS, CSS Modules là giải pháp duy nhất duy trì
-        tỷ lệ cao ngất **{value}**.
+        Trong số tất cả các giải pháp CSS-in-JS, CSS Modules là giải pháp duy nhất có
+        tỷ lệ hài lòng cao ngất **{value}**.
 
     # - key: award.tool_interest_award.comment
     #   t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
