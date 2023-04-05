@@ -126,7 +126,7 @@ translations:
   - key: options.quadrant.4.long
     t: |
       4: Tỷ lệ sử dụng cao, tỷ lệ hài lòng thấp. Đánh giá lại những công nghệ này nếu bạn hiện đang sử dụng chúng.
-      
+
   - key: ranges.selector.years_of_experience
     t: Kinh nghiệm
   - key: ranges.selector.yearly_salary
@@ -187,7 +187,7 @@ translations:
     t: Bệnh Crohn (viêm ruột từng vùng)
   - key: options.disability_status_others.depression
     t: Trầm cảm
-    
+
   ###########################################################################
   # Sections
   ###########################################################################
@@ -432,9 +432,9 @@ translations:
     t: Technology Usage Cardinality
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
-        Đối với mỗi phần, tỷ lệ phần trăm người trả lời **sử dụng** 
-        (được định nghĩa là đã trả lời “sẽ sử dụng lại”). 
-        Thanh dưới cùng đại diện cho tổng của tất cả các thanh khác.  
+      Đối với mỗi phần, tỷ lệ phần trăm người trả lời **sử dụng** 
+      (được định nghĩa là đã trả lời “sẽ sử dụng lại”). 
+      Thanh dưới cùng đại diện cho tổng của tất cả các thanh khác.
 
   - key: blocks.cardinality.max
     t: Câu trả lời phổ biến nhất
@@ -612,13 +612,13 @@ translations:
   - key: custom_data.details
     t: >
 
-        1. Sao chép nội dung của trường "GraphQL Query" và dán chúng vào bảng giữa của [trình khám phá GraphQL API](https://graphiql.stateofjs.com/).
+      1. Sao chép nội dung của trường "GraphQL Query" và dán chúng vào bảng giữa của [trình khám phá GraphQL API](https://graphiql.stateofjs.com/).
 
-        2. Sửa đổi câu truy vấn bằng cách thêm một hoặc nhiều **bộ lọc** bằng cách sử dụng thanh bên trình khám phá bên trái. Đảm bảo giữ nguyên cấu trúc tổng thể của dữ liệu.
+      2. Sửa đổi câu truy vấn bằng cách thêm một hoặc nhiều **bộ lọc** bằng cách sử dụng thanh bên trình khám phá bên trái. Đảm bảo giữ nguyên cấu trúc tổng thể của dữ liệu.
 
-        3. Trong cửa sổ explorer, nhấp vào nút Play ("Execute Query").
+      3. Trong cửa sổ explorer, nhấp vào nút Play ("Execute Query").
 
-        4. Sao chép kết quả truy vấn đã sửa đổi (`{ data: … }` ) vào trường "Custom Data" ở trên và gửi.
+      4. Sao chép kết quả truy vấn đã sửa đổi (`{ data: … }` ) vào trường "Custom Data" ở trên và gửi.
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
@@ -684,7 +684,7 @@ translations:
   - key: charts.all_respondents
     t: Tất cả người trả lời
   - key: charts.facet_responses
-    t: '{count} phản hồi'
+    t: "{count} phản hồi"
 
   - key: charts.axis_legends.years_of_experience
     t: Số năm kinh nghiệm
@@ -719,7 +719,7 @@ translations:
     aliasFor: charts.axis_legends.usage_percentage
   - key: chart_units.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
-    
+
   - key: charts.axis_legends.happiness
     t: Hạnh phúc
   - key: charts.axis_legends.knowledge_score
@@ -882,7 +882,6 @@ translations:
   - key: table.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
 
-
   - key: table.percentages_table
     t: Tỷ lệ phần trăm
   - key: table.rankings_table
@@ -963,7 +962,6 @@ translations:
   - key: award.most_commented_feature_award.description
     t: Trao giải cho tính năng nhận được nhiều bình luận nhất.
 
-
   - key: award.most_commented_tool_award.title
     t: Thư viện được bình luận nhiều nhất
   - key: award.most_commented_tool_award.description
@@ -1031,7 +1029,7 @@ translations:
 
   - key: hints.comments_hint
     t: >
-      Tab <span class="hint-icon hint-comment-button">Comment</span> cho phép bạn xem các nhận xét do người trả lời khảo sát để lại khi họ điền vào khảo sát. 
+      Tab <span class="hint-icon hint-comment-button">Comment</span> cho phép bạn xem các nhận xét do người trả lời khảo sát để lại khi họ điền vào khảo sát.
 
   ###########################################################################
   # Sponsor Chart
@@ -1044,11 +1042,10 @@ translations:
     t: >
       Cảm ơn bạn đã hỗ trợ cuộc khảo sát này. Hình đại diện của bạn sẽ xuất hiện bên cạnh biểu đồ đã chọn sau khoảng một giờ. 
       Nếu không, vui lòng [liên hệ với chúng tôi](mailto:chartsponsor@stateofjs.com).
-    
 
   - key: sponsor.sponsored_by
     t: >
-        **{name}** đã quyên góp **${amount}** để tài trợ cho biểu đồ này
+      **{name}** đã quyên góp **${amount}** để tài trợ cho biểu đồ này
 
   - key: sponsor.sponsor_button
     t: Tài trợ cho biểu đồ này
@@ -1058,14 +1055,14 @@ translations:
 
   - key: sponsor.sponsor_chart.description
     t: >
-        Hỗ trợ tài chính cho cuộc khảo sát này bằng cách quyên góp $10 trở lên 
-        và ảnh đại diện Twitter của bạn sẽ xuất hiện bên cạnh biểu đồ!
+      Hỗ trợ tài chính cho cuộc khảo sát này bằng cách quyên góp $10 trở lên 
+      và ảnh đại diện Twitter của bạn sẽ xuất hiện bên cạnh biểu đồ!
 
   - key: sponsor.chart_id
-    t: 'Chart ID: '
+    t: "Chart ID: "
 
   - key: sponsor.sponsor_this_chart
-    t: Tài trợ cho biểu đồ này (${baseAmount}+) 
+    t: Tài trợ cho biểu đồ này (${baseAmount}+)
 
   - key: sponsor.how_it_works.title
     t: Quy trình chi tiết
@@ -1073,19 +1070,18 @@ translations:
   - key: sponsor.how_it_works.description
     t: >
       1. Khi bạn **nhấp vào nút "Tài trợ cho Biểu đồ này"**, bạn sẽ được chuyển hướng đến trang thanh toán của đối tác của chúng tôi là [SendOwl](https://www.sendowl.com/). 
-      
-      
-      2. Sau đó, bạn có thể **điều chỉnh** **số tiền** bạn muốn quyên góp cho cuộc khảo sát này, bắt đầu từ $10.
-      
-      
-      3. Sau khi thanh toán, bạn có thể **cung cấp tên người dùng Twitter của mình**.
-      
-      
-      4. Bạn sẽ thấy trang **File Download**, nhưng bạn có thể bỏ qua nó một cách an toàn. 
-      
-      
-      5. Trang web sẽ được rebuild và tên người dùng cũng như khoản đóng góp của bạn sẽ **xuất hiện bên cạnh biểu đồ trong vòng một giờ tới**.
 
+
+      2. Sau đó, bạn có thể **điều chỉnh** **số tiền** bạn muốn quyên góp cho cuộc khảo sát này, bắt đầu từ $10.
+
+
+      3. Sau khi thanh toán, bạn có thể **cung cấp tên người dùng Twitter của mình**.
+
+
+      4. Bạn sẽ thấy trang **File Download**, nhưng bạn có thể bỏ qua nó một cách an toàn. 
+
+
+      5. Trang web sẽ được rebuild và tên người dùng cũng như khoản đóng góp của bạn sẽ **xuất hiện bên cạnh biểu đồ trong vòng một giờ tới**.
 
   - key: sponsor.faq.title
     t: F.A.Q.
@@ -1106,7 +1102,7 @@ translations:
   #   t: Can I donate on somebody else's behalf?
 
   # - key: sponsor.faq.donation_public.description
-  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it. 
+  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
 
   - key: sponsor.faq.refund.title
     t: Chính sách hoàn tiền của bạn là gì?
@@ -1125,7 +1121,6 @@ translations:
 
   - key: sponsor.faq.feedback.description
     t: Bạn có thể làm như vậy [trên GitHub](https://github.com/StateOfJS/Monorepo/issues/69) hoặc [trong Discord](https://discord.gg/tuWRUWVyJs).
-
 
   ###########################################################################
   # Data Explorer
@@ -1235,13 +1230,6 @@ translations:
   - key: explorer.show_cell_counts
     t: Hiển thị số lượng ô
 
-  - key: explorer.sections.demographics
-    t: Nhân khẩu học
-  - key: explorer.sections.features
-    t: Tính năng
-  - key: explorer.sections.tools
-    t: Thư viện
-
   - key: explorer.all_fields
     t: Tất cả các lĩnh vực
   - key: explorer.select_item
@@ -1252,29 +1240,29 @@ translations:
   - key: explorer.count_details.1
     t: |
       **{xAxisTotal}** “{xAxisLabel}” người trả lời đã chọn “{xAnswerLabel}”.
-  
+
   - key: explorer.count_details.2
     t: |
-        **{yAxisPercentage}%** trong số “{yAxisLabel}” người trả lời đã chọn “{yAnswerLabel}”. 
-  
+      **{yAxisPercentage}%** trong số “{yAxisLabel}” người trả lời đã chọn “{yAnswerLabel}”.
+
   - key: explorer.count_details.3
     t: |
-        Áp dụng tỷ lệ phần trăm đó cho **{xAxisTotal}** người trả lời trước đó 
-        cung cấp cho chúng tôi đường cơ sở dự kiến ​​về **{normalizedCount}** người trả lời trong chỗ giao nhau này. 
-  
+      Áp dụng tỷ lệ phần trăm đó cho **{xAxisTotal}** người trả lời trước đó 
+      cung cấp cho chúng tôi đường cơ sở dự kiến ​​về **{normalizedCount}** người trả lời trong chỗ giao nhau này.
+
   - key: explorer.count_details.4_extra
     t: |
-        Số lượng thực tế là **{bucketCount}**, và bổ sung **{normalizedCountDelta}** người trả lời được *làm nổi bật lên*. 
- 
+      Số lượng thực tế là **{cellCount}**, và bổ sung **{normalizedCountDelta}** người trả lời được *làm nổi bật lên*.
+
   - key: explorer.count_details.4_missing
     t: |
-        Số lượng thực tế là **{bucketCount}** và **{normalizedCountDelta}** người trả lời bị thiếu sẽ xuất hiện dưới dạng dấu chấm trống.
+      Số lượng thực tế là **{cellCount}** và **{normalizedCountDelta}** người trả lời bị thiếu sẽ xuất hiện dưới dạng dấu chấm trống.
 
   - key: explorer.percentage_details.1_extra
     t: |
       Nhìn chung, **{xAxisPercentage}%** của người trả lời cho “{xAxisLabel}” đã chọn “{xAnswerLabel}”, nhưng trong phạm vi 
       **“{yAxisLabel}” thì số người trả lời đã chọn “{yAnswerLabel}”** có tỷ lệ phần trăm tăng lên  **{bucketPercentage}%**.
-  
+
   - key: explorer.percentage_details.1_missing
     t: |
       Nhìn chung, **{xAxisPercentage}%** của người trả lời cho “{xAxisLabel}” đã chọn “{xAnswerLabel}”, nhưng trong phạm vi 
@@ -1282,33 +1270,32 @@ translations:
 
   - key: explorer.percentage_details.2_extra
     t: |
-        **{normalizedPercentageDelta}%** người trả lời bổ sung đó thì được *làm nổi bật lên*. 
-  
+      **{normalizedPercentageDelta}%** người trả lời bổ sung đó thì được *làm nổi bật lên*.
+
   - key: explorer.percentage_details.2_missing
     t: |
-        **{normalizedPercentageDelta}%** người trả lời bị thiếu xuất hiện dưới dạng dấu chấm trống. 
+      **{normalizedPercentageDelta}%** người trả lời bị thiếu xuất hiện dưới dạng dấu chấm trống.
 
   # - key: explorer.percentage_details.1
   #   t: |
   #     **{xAxisPercentage}%** of **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
-  
+
   # - key: explorer.percentage_details.2
   #   t: |
-  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”. 
-  
+  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+
   # - key: explorer.percentage_details.3
   #   t: |
-  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure 
-  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection. 
-  
+  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure
+  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection.
+
   # - key: explorer.percentage_details.4_extra
   #   t: |
-  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*. 
-  
+  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
   # - key: explorer.percentage_details.4_missing
   #   t: |
-  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots. 
-
+  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
 
   - key: explorer.extra_missing_respondents
     t: |
@@ -1316,7 +1303,7 @@ translations:
 
       Biểu đồ trên nhằm mục đích xác định các khu vực hiển thị cao hơn mong đợi 
       hoặc các giá trị thấp hơn mong đợi so với đường cơ sở được tính toán. 
-      
+
       Ví dụ: giả sử có 1000 người dùng CSS Grid và 50% người trả lời khảo sát làm việc trong một công ty lớn, 
       bạn mong muốn tìm thấy 500 người dùng CSS Grid làm việc trong các công ty lớn.
 
@@ -1324,11 +1311,9 @@ translations:
       tương quan giữa cả hai biến, và được đánh dấu trên biểu đồ bằng một trong hai màu dấu chấm 
       (dành cho người trả lời bổ sung trên đường cơ sở) hoặc dấu chấm trống (dành cho người trả lời thiếu).
 
-
   ###########################################################################
   # Filters
   ###########################################################################
-
 
   - key: filters.compare_data
     t: Compare Data
