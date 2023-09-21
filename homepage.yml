@@ -1,83 +1,82 @@
 locale: vi-VN
 translations:
-    ###########################################################################
-    # Homepage
-    ###########################################################################
+  ###########################################################################
+  # Homepage
+  ###########################################################################
 
-    - key: homepage.hand_coded
-      t: Hand-coded tại Nhật Bản.
-    - key: homepage.leave_issue
-      t: Để lại một issue
-    - key: homepage.get_in_touch
-      t: Liên lạc
+  - key: homepage.hand_coded
+    t: Hand-coded tại Nhật Bản.
+  - key: homepage.leave_issue
+    t: Để lại một issue
+  - key: homepage.get_in_touch
+    t: Liên lạc
 
-    - key: homepage.previous_years
-      t: 'Năm ngoái:'
+  - key: homepage.previous_years
+    t: "Năm ngoái:"
 
-    - key: homepage.take_survey
-      t: Thực hiện khảo sát
+  - key: homepage.take_survey
+    t: Thực hiện khảo sát
 
-    - key: homepage.view_results
-      t: Xem kết quả
+  - key: homepage.view_results
+    t: Xem kết quả
 
-    - key: homepage.results_coming_soon
-      t: Kết quả sẽ có sớm…
+  - key: homepage.results_coming_soon
+    t: Kết quả sẽ có sớm…
 
-    - key: share.help_spread
-      t: Help Spread the Word!
+  - key: share.help_spread
+    t: Help Spread the Word!
 
-    - key: homepage.other_surveys
-      t: 'khảo sát khác:'
+  - key: homepage.other_surveys
+    t: "khảo sát khác:"
 
-    - key: homepage.survey_open_now
-      t: Hiện đang mở
+  - key: homepage.survey_open_now
+    t: Hiện đang mở
 
-    - key: homepage.survey_preview
-      t: Xem trước khảo sát
+  - key: homepage.survey_preview
+    t: Xem trước khảo sát
 
-    - key: homepage.most_recent_survey
-      t: Gần đây nhất
+  - key: homepage.most_recent_survey
+    t: Gần đây nhất
 
-    - key: homepage.current_survey
-      t: Khảo sát hiện tại
+  - key: homepage.current_survey
+    t: Khảo sát hiện tại
 
-    - key: homepage.past_surveys
-      t: Khảo sát trước đây
+  - key: homepage.past_surveys
+    t: Khảo sát trước đây
 
-    - key: homepage.view_questions
-      t: Xem câu hỏi
+  - key: homepage.view_questions
+    t: Xem câu hỏi
 
-    - key: homepage.preview_questions
-      t: Xem trước câu hỏi
+  - key: homepage.preview_questions
+    t: Xem trước câu hỏi
 
-    # newsletter
-    - key: newsletter.stay_tuned
-      t: Đừng bỏ lỡ cuộc khảo sát tiếp theo
-    - key: newsletter.leave_your_email
-      t: Để lại cho chúng tôi email của bạn và chúng tôi sẽ cho bạn biết khi cuộc khảo sát tiếp theo diễn ra.
-    - key: newsletter.email
-      t: Email của bạn
-    - key: newsletter.submit
-      t: Thông báo cho tôi
+  # newsletter
+  - key: newsletter.stay_tuned
+    t: Đừng bỏ lỡ cuộc khảo sát tiếp theo
+  - key: newsletter.leave_your_email
+    t: Để lại cho chúng tôi email của bạn và chúng tôi sẽ cho bạn biết khi cuộc khảo sát tiếp theo diễn ra.
+  - key: newsletter.email
+    t: Email của bạn
+  - key: newsletter.submit
+    t: Thông báo cho tôi
 
-    # languages
-    - key: languages.available_languages
-      t: 'Ngôn ngữ có sẵn:'
-    - key: languages.help_us_translate
-      t: Giúp chúng tôi dịch bản khảo sát sang ngôn ngữ của bạn →
+  # languages
+  - key: languages.available_languages
+    t: "Ngôn ngữ có sẵn:"
+  - key: languages.help_us_translate
+    t: Giúp chúng tôi dịch bản khảo sát sang ngôn ngữ của bạn →
 
-    # partners
-    - key: homepage.with_support_from
-      aliasFor: sponsors.with_support_from
+  # partners
+  - key: homepage.with_support_from
+    aliasFor: sponsors.with_support_from
 
-    # footer
-    - key: homepage.made_by_devographics
-      aliasFor: general.made_by_devographics
-    - key: homepage.netlify_link
-      aliasFor: general.netlify_link
-    - key: homepage.leave_issue
-      aliasFor: general.leave_issue
-    - key: homepage.join_discord
-      aliasFor: general.join_discord
-    - key: homepage.astro_link
-      t: Powered by [Astro](https://astro.build/)
+  # footer
+  - key: homepage.made_by_devographics
+    aliasFor: general.made_by_devographics
+  - key: homepage.netlify_link
+    aliasFor: general.netlify_link
+
+  - key: homepage.join_discord
+    aliasFor: general.join_discord
+  - key: homepage.astro_link
+    t: Powered by [Astro](https://astro.build/)
