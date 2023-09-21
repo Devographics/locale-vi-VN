@@ -18,7 +18,7 @@ translations:
       - Lưu phiên làm việc của bạn khi bạn rời đi
 
       - Thông báo cho bạn khi công bố kết quả
-  - key: general.survey_closed
+  - key: general.survey_closed_detailed
     t: >
       Xin lỗi, cuộc khảo sát hiện đã kết thúc! Bạn vẫn có thể xem lại dữ liệu của mình nhưng sẽ không thể sửa đổi dữ liệu đó.
   - key: general.survey_read_only
@@ -602,19 +602,19 @@ translations:
       Không được liệt kê
 
   # Disability Status (short)
-  - key: options.disability_status.visual_impairments
+  - key: options.disability_status.visual_impairments.short
     t: >
       Khiếm thị
-  - key: options.disability_status.hearing_impairments
+  - key: options.disability_status.hearing_impairments.short
     t: >
       Khiếm thính
-  - key: options.disability_status.mobility_impairments
+  - key: options.disability_status.mobility_impairments.short
     t: >
       Suy giảm khả năng vận động
-  - key: options.disability_status.cognitive_impairments
+  - key: options.disability_status.cognitive_impairments.short
     t: >
       Suy giảm nhận thức
-  - key: options.disability_status.not_listed
+  - key: options.disability_status.not_listed.short
     t: >
       Không được liệt kê
 
