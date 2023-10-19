@@ -342,7 +342,7 @@ translations:
 
   - key: general.css2022.survey_intro
     t: |
-       CSS tiếp tục phát triển với tốc độ chưa từng thấy. May mắn thay, năm nay chúng tôi đã nhận được sự giúp đỡ từ một người đi đầu trong tất cả những thay đổi này: [Lea Verou](https://lea.verou.me/) đã dẫn dắt việc lựa chọn các câu hỏi trong năm nay, với trọng tâm đặc biệt là làm nổi bật các tính năng CSS mới và các tính năng sắp tới.
+      CSS tiếp tục phát triển với tốc độ chưa từng thấy. May mắn thay, năm nay chúng tôi đã nhận được sự giúp đỡ từ một người đi đầu trong tất cả những thay đổi này: [Lea Verou](https://lea.verou.me/) đã dẫn dắt việc lựa chọn các câu hỏi trong năm nay, với trọng tâm đặc biệt là làm nổi bật các tính năng CSS mới và các tính năng sắp tới.
 
       Hơn nữa, kết quả khảo sát cũng sẽ giúp các nhà cung cấp trình duyệt ưu tiên lộ trình của họ và làm việc hướng tới khả năng tương thích tốt hơn giữa các trình duyệt.
 
