@@ -1,240 +1,532 @@
 locale: vi-VN
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
+  ###########################################################################
+  # General
+  ###########################################################################
 
-    - key: general.no_preview_surveys
-      t: Không có khảo sát nào để xem trước
-    - key: general.global_nav
-      t: Toàn cầu
-    - key: general.survey_status_preview
-      t: Xem trước
-    - key: general.survey_status_open
-      t: Open
-    - key: general.survey_status_closed
-      t: Closed
+  - key: general.title
+    t: Khảo sát của Devographics
+  - key: general.description
+    t: Trạng thái của JavaScript, trạng thái của CSS, trạng thái của HTML và các khảo sát dành cho nhà phát triển khác.
 
-    ###########################################################################
-    # Errors
-    ###########################################################################
+  - key: general.no_preview_surveys
+    t: Không có khảo sát nào để xem trước
+  - key: general.global_nav
+    t: Toàn cầu
+  - key: general.survey_status_preview
+    t: Xem trước
+  - key: general.survey_status_open
+    t: Mở
+  - key: general.survey_status_closed
+    t: Đóng
+  - key: general.survey_status_hidden
+    t: Ẩn
 
-    - key: error.duplicate_response
-      t: Rất tiếc, bạn đang có một phiên khảo sát đang diễn ra.
+  - key: general.pick_up_to
+    t: Chọn tối đa {limit} mục.
 
-    ###########################################################################
-    # Accounts
-    ###########################################################################
+  - key: general.privacy_policy
+    t: Chính sách bảo mật
+  - key: general.privacy_policy.description
+    t: >
+      ### 1. Thu thập dữ liệu
 
-    - key: accounts.create_account
-      t: Tạo tài khoản
-    - key: accounts.create_account.description
-      t: Việc có tài khoản cho phép bạn **truy cập dữ liệu của chính mình trong tương lai** và được thông báo khi kết quả khảo sát được công bố.
-    - key: accounts.create_account.note
-      t: Nếu bạn **đã có tài khoản**, chúng tôi sẽ gửi cho bạn một link đăng nhập qua email.
-    - key: accounts.create_account.action
-      t: Tiếp tục với Tài khoản
-    - key: accounts.your_email
-      t: Email của bạn
+      Ngoài dữ liệu được thu thập thông qua các câu hỏi của khảo sát, chúng tôi còn thu thập thiết bị, trình duyệt, hệ điều hành, phiên bản trình duyệt và nguồn giới thiệu của bạn.
 
-    - key: accounts.continue_as_guest
-      t: Tiếp tục với tư cách là Khách
-    - key: accounts.continue_as_guest.description
-      t: Tham gia khảo sát ẩn danh có nghĩa là bạn **sẽ không thể truy cập lại dữ liệu của mình** sau khi kết thúc phiên khảo sát.
-    - key: accounts.continue_as_guest.action
-      t: Tiếp tục với tư cách là Khách
+      Lưu ý rằng tất cả các câu hỏi đều hoàn toàn tự nguyện và chúng tôi không bao giờ liên kết bất kỳ thông tin nhận dạng nào (như địa chỉ email) với câu trả lời khảo sát của bạn.
 
-    - key: accounts.magic_link.no_email
-      t: Vui lòng nhập địa chỉ email của bạn
-    - key: accounts.magic_link.success
-      t: Kiểm tra hộp thư của bạn! Chúng tôi đã gửi cho bạn một link, chỉ cần nhấp vào link đó để xác nhận tài khoản của bạn và đăng nhập.
-            
-    ###########################################################################
-    # FAQ
-    ###########################################################################
+      ### 2. Thu thập email
 
-    - key: general.faq
-      t: FAQ
-    - key: faq.create_account
-      t: Tại sao tôi cần phải tạo một tài khoản?
-    - key: faq.create_account.description
-      t: Chúng tôi yêu cầu bạn tạo một tài khoản để tránh các câu trả lời trùng lặp, lưu dữ liệu của bạn và thông báo cho bạn khi kết quả được công bố.
-    - key: faq.anonymous_survey
-      t: Tôi có thể thực hiện khảo sát ẩn danh không?
-    - key: faq.anonymous_survey.description
-      t: Có, bạn có thể sử dụng email giả mạo (something@example.com) hoặc email không xác định để thực hiện khảo sát miễn là bạn lưu nó để truy cập sau này. 
-    - key: faq.questions_required
-      t: Có bắt buộc phải trả lời mọi câu hỏi?
-    - key: faq.questions_required.description
-      t: Không, mọi câu hỏi của cuộc khảo sát là không bắt buộc và có thể tự do bỏ qua. 
-    - key: faq.data_published
-      t: Dữ liệu của tôi sẽ được công khai sao?
-    - key: faq.data_published.description
-      t: Có, tất cả dữ liệu sẽ được tiết lộ công khai, nhưng chỉ sau khi đã xóa các thông tin cá nhân (email, username, ID, v.v).
-    - key: faq.survey_design
-      t: Cuộc khảo sát được thiết kế như thế nào?
-    - key: faq.survey_design.description
-      t: Khảo sát được thiết kế dựa trên feedback của cộng đồng, cũng như được xem xét bởi các chuyên gia. Bạn có thể [tìm hiểu thêm tại đây](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). 
-    - key: faq.results_released
-      t: Khi nào kết quả sẽ được công bố?
-    - key: faq.results_released.description
-      t: Kết quả thường được công bố một vài tuần sau khi cuộc khảo sát kết thúc.
-    - key: faq.survey_deadline
-      t: Khi nào cuộc khảo sát sẽ kết thúc?
-    - key: faq.survey_deadline.description
-      t: Cuộc khảo sát này được lên lịch để thực hiện cho đến {date}
-    - key: faq.team
-      t: Ai điều hành các cuộc khảo sát này?
-    - key: faq.team.description
-      t: Các cuộc khảo sát được thực hiện bởi [Devographics](http://devographics.com) cùng với một nhóm cộng tác viên, dịch giả và tình nguyện viên. 
-
-    ###########################################################################
-    # Form Controls
-    ###########################################################################
-
-    - key: bracket.vs
-      t: VS
-    - key: bracket.start_over
-      t: Bắt đầu lại
-    - key: bracket.winner
-      t: >
-      Winner: 
-    - key: bracket.round
-      t: Round
-    - key: bracket.empty_bracket
-      t: Kết quả đang chờ xử lý (hoàn thành vòng trước trước)
-    - key: bracket.result
-      t: Kết quả
-    - key: bracket.cancel
-      t: Hủy bỏ
-
-    - key: experience.leave_comment
-      t: Để lại bình luận (tùy chọn)
-    - key: experience.leave_comment_short
-      t: Để lại bình luận
-    - key: experience.tell_us_more
-      t: "Bạn đã chọn “{response}”. Hãy cho chúng tôi biết thêm về lựa chọn của bạn:"
-    - key: experience.tell_us_more_no_value
-      t: "Bạn đã không chọn bất kỳ câu trả lời nào. Hãy cho chúng tôi biết tại sao:"
-
-    ###########################################################################
-    # Response
-    ###########################################################################
-
-    - key: response.completion
-      t: 'Đã hoàn thành{completion}%'
-
-    - key: response.details
-      t: Đã bắt đầu vào {startedAt}, đã hoàn thành {completion}%.
-
-    - key: response.view_results
-      t: Xem kết quả
-
-    ###########################################################################
-    # Survey-Specific Intros
-    ###########################################################################
-
-    - key: general.js2020.survey_intro
-      t: |
-          Năm 2020 là một năm khó khăn đối với tất cả mọi người, 
-          một năm khiến chúng ta lo lắng về các framework JavaScript mới nhất có vẻ khá vô ích khi so sánh.
-
-          Tuy nhiên, thế giới vẫn phải tiếp tục phát triển và JavaScript cũng vậy. Và một lần nữa, với sự giúp đỡ của bạn 
-          chúng tôi sẽ cố gắng xây dựng một bức tranh toàn cảnh về hệ sinh thái 
-          để tìm hiểu thêm một chút về nơi nó sẽ đi tới.
-
-    - key: general.css2021.survey_intro
-      t: |
-          Này CSS, dạo này bạn làm gì thế? Ôi thật sao, `@container`? 
-          Và cả `@property` nữa?! Wow, bạn thật bận rộn!
-
-          Mặc dù đại dịch vẫn tiếp tục khiến cuộc sống của mọi người trở nên khó khăn hơn trong suốt năm 2021, 
-          nhưng bằng cách nào đó những người đóng góp tận tâm trên khắp thế giới đã quản lý để giúp CSS tiếp tục phát triển. 
-          Vì vậy, một lần nữa đã đến lúc khảo sát hệ sinh thái CSS và tìm ra xem chúng đang đi về đâu. 
-          Và có lẽ bạn sẽ học được một vài điều mới trong khi bạn đang ở đó!
-
-    - key: general.js2021.survey_intro
-      t: |
-          Đầu tiên, Thế vận hội 2020 bị lùi sang năm 2021, 
-          và bây giờ cuộc khảo sát về Tình trạng JavaScript năm 2021 đang diễn ra ngay lúc này, vào năm 2022!
-
-          Đó là sự thật: giữa công việc, gia đình và tất cả những xáo trộn trên thế giới, 
-          một số thứ đã bị gián đoạn một chút.
-
-          Nhưng trong khi năm có thể khác nhau, chúng tôi hy vọng dữ liệu được cung cấp bởi bản thân cuộc khảo sát 
-          sẽ có nhiều thông tin và sâu sắc hơn bao giờ hết. 
-          Và đừng lo lắng, sẽ có một cuộc khảo sát khác vào cuối năm nay để sắp xếp lại mọi thứ!
-
-    - key: general.graphql2022.survey_intro
-      t: |
-          Khi GraphQL được giới thiệu lần đầu tiên, nó đã cung cấp một cách hoàn toàn mới để xây dựng API, với nhiều quyền kiểm soát hơn, chi tiết hơn và linh hoạt hơn. 
-
-          Nhưng tính linh hoạt đó phải trả giá ở dạng phức tạp hơn và một loạt các framework, librariy, và service nhanh chóng xuất hiện để giúp xác định các pattern và workflow tốt hơn. 
-
-          Bây giờ, lần đầu tiên chúng tôi khảo sát cộng đồng GraphQL để tìm ra công cụ nào trong số nhiều công cụ này là phổ biến nhất và tính năng nào đang thực sự được sử dụng. Với sự trợ giúp của bạn, chúng ta hãy xem GraphQL đã làm được những gì vào năm 2022!
-         
-    - key: general.css2022.survey_intro
-      t: |
-          CSS tiếp tục phát triển với tốc độ chưa từng thấy. May mắn thay, năm nay chúng tôi đã nhận được sự giúp đỡ từ một người đi đầu trong tất cả những thay đổi này: [Lea Verou](https://lea.verou.me/) dẫn đầu trong việc lựa chọn các câu hỏi của năm nay, đặc biệt tập trung vào việc làm nổi bật các tính năng CSS mới và sắp ra mắt. 
-
-          Ngoài ra, kết quả khảo sát cũng sẽ giúp các nhà cung cấp trình duyệt ưu tiên lộ trình của họ và hướng tới khả năng tương thích tốt hơn giữa các trình duyệt.
-
-          Với tất cả những điều này, hãy xem CSS phát triển như thế nào vào năm 2022!
-
-    - key: general.js2022.survey_intro
-      t: |
-          Lần đầu tiên sau một thời gian, có vẻ như hiện trạng của hệ sinh thái JavaScript đang bị nghi ngờ.
-
-          Đóng gói nhanh hơn với Vite, kiến ​​trúc island với Astro, khả năng tiếp tục với Qwik… 
-          Những kẻ mới tham gia đang thách thức người gác đền, và kết quả là nhiều hứng thú hơn, nhưng cũng nhiều điều không chắc chắn hơn.
-
-          Vì vậy, một lần nữa, chúng ta hãy thử và cùng nhau tìm hiểu xem JavaScript sẽ đi về đâu vào năm 2022 và hơn thế nữa. 
-
-    ###########################################################################
-    # Survey-Specific FAQs
-    ###########################################################################
-
-    # CSS 2022
-
-    - key: faq.learn_more_css2022
-      t: Tôi có thể tìm hiểu thêm ở đâu?
-    - key: faq.learn_more_css2022.description
-      t: Bạn có thể tìm hiểu thêm về [cuộc khảo sát năm ngoái tại đây](https://2021.stateofcss.com/en-US/about/). 
-
-    - key: faq.survey_design_css2022
-      t: Khảo sát này được thiết kế như thế nào?
-    - key: faq.survey_design_css2022.description
-      t: Năm nay, nhờ khoản trợ cấp từ [Quỹ UI](https://web.dev/ui-fund/) của Google, [Lea Verou](https://lea.verou.me/) đã có thể dẫn đầu và quản lý [quy trình thiết kế khảo sát mở](https://github.com/orgs/Devographics/projects/1/views/1) trên GitHub. 
-
-    - key: faq.results_released_css2022
-      t: Khi nào kết quả sẽ được công bố?
-    - key: faq.results_released_css2022.description
-      t: Cuộc khảo sát sẽ diễn ra cho đến cuối tháng 10 năm 2022 và kết quả khảo sát sẽ được công bố vào đầu tháng 11.
-
-    - key: faq.data_used_css2022
-      t: Dữ liệu này sẽ được sử dụng như thế nào?
-    - key: faq.data_used_css2022.description
-      t: Tất cả dữ liệu được thu thập sẽ được phát hành công khai. Sau đó, nó sẽ trở thành nơi tham khảo cho cả nhà phát triển - người xem xét để đưa ra các lựa chọn công nghệ của họ, và các nhà cung cấp trình duyệt - những người sử dụng nó để tập trung ưu tiên các phần trọng tâm và đưa ra lộ trình phát triển phù hợp.
+      Chúng tôi có thể tùy chọn thu thập email của bạn để:
 
 
-    # JS 2022
+      1. Tạo một magic log-in link, sau đó chúng tôi sẽ loại bỏ email của bạn và chỉ giữ lại một hàm băm một chiều trong cơ sở dữ liệu người dùng của chúng tôi.
 
-    - key: faq.learn_more_js2022
-      t: Tôi có thể tìm hiểu thêm ở đâu?
-    - key: faq.learn_more_js2022.description
-      t: Bạn có thể tìm hiểu thêm về [cuộc khảo sát năm ngoái tại đây](https://2021.stateofjs.com/en-US/about/). 
+      2. Liên hệ với bạn khi kết quả khảo sát có sẵn, cũng như khi chúng tôi ra mắt các phiên bản khảo sát trong tương lai và để thi thoảng gửi thông báo. Bạn có thể hủy đăng ký danh sách gửi thư của chúng tôi bất kỳ lúc nào và email của bạn sẽ bị loại bỏ khỏi hồ sơ của chúng tôi khi được gửi đến nhà cung cấp bản tin email của chúng tôi.
 
-    # - key: faq.survey_design_js2022
-    #   t: How was this survey designed?
-    # - key: faq.survey_design_css2022.description
-    #   t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub. 
+      3. Gửi cho bạn danh sách tóm tắt các tính năng hoặc công cụ mà bạn muốn tìm hiểu thêm. Chúng tôi sẽ loại bỏ địa chỉ của bạn sau khi email được gửi đi thông qua nhà cung cấp email giao dịch của chúng tôi.
 
-    - key: faq.results_released_js2022
-      t: Khi nào kết quả sẽ được công bố?
-    - key: faq.results_released_js2022.description
-      t: Cuộc khảo sát sẽ kéo dài đến ngày 15 tháng 12 năm 2022 và kết quả khảo sát sẽ được công bố ngay sau đó. 
 
-    - key: faq.data_used_js2022
-      t: Dữ liệu này sẽ được sử dụng như thế nào?
-    - key: faq.data_used_js2022.description
-      t: Tất cả dữ liệu được thu thập sẽ được phát hành công khai. Sau đó, nó sẽ trở thành một nguồn tài nguyên cho cả các nhà phát triển, những người tham khảo nó để đưa ra các lựa chọn công nghệ của họ và các nhà cung cấp trình duyệt, những người sử dụng nó để tập trung ưu tiên các phần trọng tâm và đưa ra lộ trình phát triển phù hợp.
+      Khi chúng tôi thu thập địa chỉ email của bạn, nó sẽ không bao giờ được liên kết với phản hồi của bạn cho khảo sát hoặc với tài khoản người dùng của bạn.
+
+      ### 3. Cookies
+
+      Chúng tôi đặt cookie đăng nhập và nhà cung cấp dịch vụ lưu trữ của chúng tôi (Vercel) cũng có thể đặt cookie riêng của họ. Chúng tôi không đặt bất kỳ cookie nào khác hoặc sử dụng phân tích hoặc quảng cáo phía khách hàng.
+
+      ### 4. Sử dụng dữ liệu
+
+      Chúng tôi xử lý dữ liệu và sau đó sử dụng dữ liệu đó để công bố báo cáo. Chúng tôi cũng công khai toàn bộ bộ dữ liệu.
+
+      ### 5. Xóa dữ liệu/Tài khoản
+
+      Bạn có thể gửi email cho chúng tôi theo địa chỉ [hello@stateofjs.com](mailto:hello@stateofjs.com) nếu bạn muốn chúng tôi xóa tất cả hoặc một phần dữ liệu của bạn.
+
+  ###########################################################################
+  # Other UI Strings
+  ###########################################################################
+
+  - key: textlist.placeholder
+    t: Mục {index}…
+
+  - key: feature.unimplemented
+    t: Chưa có triển khai trình duyệt
+
+  - key: general.skip_question
+    t: Bỏ qua
+
+  - key: general.unskip_question
+    t: Trả lời câu hỏi
+
+  - key: general.skip_question.description
+    t: Bỏ qua câu hỏi và đánh dấu là đã hoàn thành
+
+  - key: general.unskip_question.description
+    t: Hủy bỏ câu hỏi và trả lời nó
+
+  - key: years.less_than_one_year
+    t: Ít hơn một năm
+
+  - key: years.years
+    t: năm
+
+  - key: likert.option.0
+    t: Rất không hài lòng
+  - key: likert.option.1
+    t: Không hài lòng
+  - key: likert.option.2
+    t: Trung lập
+  - key: likert.option.3
+    t: Hài lòng
+  - key: likert.option.4
+    t: Rất hài lòng
+
+  - key: general.numeric_input.invalid_input
+    t: Vui lòng đảm bảo rằng bạn nhập một số hợp lệ.
+
+  ###########################################################################
+  # Errors & Messages
+  ###########################################################################
+
+  - key: error.duplicate_response
+    t: Xin lỗi, bạn đã có một phiên đang hoạt động cho khảo sát này.
+
+  - key: error.report_issue
+    t: Báo cáo sự cố
+
+  - key: success.data_saved
+    t: Dữ liệu đã được lưu
+  - key: success.data_saved.description
+    t: Dữ liệu của bạn đã được lưu.
+
+  ###########################################################################
+  # Accounts
+  ###########################################################################
+
+  - key: accounts.create_account
+    t: Tiếp tục với Tài khoản
+  - key: accounts.create_account.description
+    t: Có tài khoản cho phép bạn **truy cập dữ liệu của mình trong tương lai** và được thông báo khi kết quả khảo sát được công bố.
+  - key: accounts.create_account.note
+    t: Nếu bạn **đã có tài khoản**, chúng tôi sẽ gửi cho bạn một magic log-in link qua email.
+  - key: accounts.create_account.action
+    t: Tiếp tục với Tài khoản
+  - key: accounts.your_email
+    t: Email của bạn
+
+  - key: accounts.upgrade_account.action
+    t: Nâng cấp tài khoản của bạn
+  - key: accounts.upgrade_account.description
+    t: Nâng cấp tài khoản của bạn với địa chỉ email sẽ cho phép bạn truy cập phản hồi khảo sát của mình sau khi bạn kết thúc phiên.
+
+  - key: accounts.continue_as_guest
+    t: Tiếp tục với tư cách Khách
+  - key: accounts.continue_as_guest.description
+    t: Tham gia khảo sát ẩn danh nghĩa là bạn sẽ **không thể truy cập dữ liệu của mình một lần nữa** sau khi kết thúc phiên.
+  - key: accounts.continue_as_guest.action
+    t: Tiếp tục với tư cách Khách
+
+  - key: accounts.magic_link.no_email
+    t: Vui lòng nhập email của bạn
+  - key: accounts.magic_link.success
+    t: Hãy kiểm tra hộp thư của bạn! Chúng tôi đã gửi cho bạn một magic link, chỉ cần nhấp vào đó để xác nhận tài khoản của bạn và đăng nhập.
+    # Open known mail provider directly in browser with the right search params
+  - key: accounts.magic_link.browser
+    t: <a href="{link}">Nhấp để mở hộp thư của bạn.</a>
+
+  ###########################################################################
+  # FAQ
+  ###########################################################################
+
+  - key: general.faq
+    t: FAQ
+  - key: faq.create_account
+    t: Tại sao tôi cần tạo tài khoản?
+  - key: faq.create_account.description
+    t: Chúng tôi yêu cầu bạn tạo tài khoản để tránh các phản hồi trùng lặp, lưu dữ liệu của bạn và thông báo cho bạn khi kết quả được công bố.
+  - key: faq.anonymous_survey
+    t: Tôi có thể tham gia khảo sát ẩn danh không?
+  - key: faq.anonymous_survey.description
+    t: Có, bạn có thể sử dụng email giả (something@example.com) or hoặc không xác định để tham gia khảo sát miễn là bạn lưu nó để truy cập trong tương lai.
+  - key: faq.questions_required
+    t: Có bắt buộc phải trả lời mọi câu hỏi không?
+  - key: faq.questions_required.description
+    t: Không, mọi câu hỏi trong khảo sát đều là tùy chọn và bạn có thể bỏ qua chúng một cách tự do.
+  - key: faq.data_published
+    t: Dữ liệu của tôi có được công khai không?
+  - key: faq.data_published.description
+    t: Có, tất cả dữ liệu sẽ được công khai, nhưng chỉ sau khi được xóa sạch mọi thông tin nhận dạng (email, tên người dùng, ID, v.v.).
+  - key: faq.survey_design
+    t: Các khảo sát được thiết kế như thế nào?
+  - key: faq.survey_design.description
+    t: Các khảo sát được thiết kế dựa trên phản hồi của cộng đồng và được các chuyên gia đánh giá. Bạn có thể [tìm hiểu thêm tại đây](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+  - key: faq.results_released
+    t: Khi nào kết quả sẽ được công bố?
+  - key: faq.results_released.description
+    t: Kết quả thường được công bố một vài tuần sau khi khảo sát đóng cửa.
+  - key: faq.survey_deadline
+    t: Khi nào khảo sát sẽ đóng cửa?
+  - key: faq.survey_deadline.description
+    t: Khảo sát này được lên lịch chạy đến ngày {date}
+  - key: faq.team
+    t: Ai là người điều hành khảo sát này?
+  - key: faq.team.description
+    t: Khảo sát này được điều hành bởi [Devographics](http://devographics.com) cùng với một nhóm cộng tác viên, dịch giả và tình nguyện viên.
+
+  ###########################################################################
+  # Form Controls
+  ###########################################################################
+
+  - key: bracket.vs
+    t: VS
+  - key: bracket.start_over
+    t: Bắt đầu lại
+  - key: bracket.winner
+    t: >
+    Người chiến thắng:
+  - key: bracket.round
+    t: Vòng
+  - key: bracket.empty_bracket
+    t: Kết quả đang chờ xử lý (trước tiên hoàn thành vòng trước)
+  - key: bracket.result
+    t: Kết quả
+  - key: bracket.cancel
+    t: Hủy
+
+  - key: experience.leave_comment
+    t: Để lại bình luận (tùy chọn)
+  - key: experience.leave_comment_short
+    t: Để lại bình luận
+  - key: experience.tell_us_more
+    t: "Bạn đã trả lời “{response}”. Hãy cho chúng tôi biết thêm về lựa chọn của bạn:"
+  - key: experience.tell_us_more_generic
+    t: "Hãy cho chúng tôi biết thêm về câu trả lời của bạn:"
+  - key: experience.tell_us_more_no_value
+    t: "Bạn đã không chọn bất kỳ câu trả lời nào. Hãy cho chúng tôi biết lý do:"
+
+  ###########################################################################
+  # Response
+  ###########################################################################
+
+  - key: response.completion
+    t: "{completion}% hoàn thành"
+
+  - key: response.details
+    t: Bắt đầu vào {startedAt}, {completion}% hoàn thành.
+
+  ###########################################################################
+  # Reading List
+  ###########################################################################
+
+  - key: readinglist.prompt
+    t: >
+      Bạn đã chọn “{option}”. Nếu bạn muốn tìm hiểu thêm về tính năng này ở cuối khảo sát, bạn có thể nhấp vào biểu tượng "+" ở trên để thêm nó vào **danh sách đọc của mình**.
+
+  - key: readinglist.add_to_list
+    t: Thêm vào danh sách đọc của bạn
+
+  - key: readinglist.remove_from_list
+    t: Xóa khỏi danh sách đọc
+
+  - key: readinglist.added_to_list
+    t: Đã thêm “{label}” vào danh sách đọc của bạn.
+
+  - key: readinglist.title
+    t: Danh sách đọc
+
+  - key: readinglist.description
+    t: >
+      Lưu các mục ở đây bằng nút "+", và bạn sẽ có được danh sách các đường link để tìm hiểu thêm về chúng ở cuối khảo sát.
+
+  - key: readinglist.empty
+    t: >
+      Bạn không có bất kỳ mục nào trong danh sách đọc của mình
+      Hãy thử quay lại khảo sát và thêm các tính năng hoặc thư viện
+      mà bạn muốn tìm hiểu thêm bằng cách sử dụng nút "+".
+
+  - key: readinglist.results
+    t: >
+      Dưới đây là một số tài nguyên để tìm hiểu thêm về các mục trong danh sách đọc của bạn:
+
+  - key: readinglist.homepage_link
+    t: Trang chủ
+
+  - key: readinglist.receive_copy
+    t: >
+      Nhập email của bạn để nhận bản sao danh sách đọc của bạn ngay trong hộp thư của bạn:
+  - key: readinglist.send_by_email
+    t: Gửi
+  - key: readinglist.email_sent
+    t: Cảm ơn! Danh sách đọc của bạn đang trên đường đến hộp thư của bạn.
+
+  ###########################################################################
+  # Score & Knowledge Ranks
+  ###########################################################################
+
+  - key: knowledge_rank.your_rank
+    t: "Xếp hạng của bạn:"
+  - key: knowledge_rank.rank1
+    t: Mới bắt đầu
+  - key: knowledge_rank.rank2
+    t: Thực tập sinh
+  - key: knowledge_rank.rank3
+    t: Trung cấp
+  - key: knowledge_rank.rank4
+    t: Chuyên gia
+  - key: knowledge_rank.rank5
+    t: Học giả
+  - key: knowledge_rank.rank6
+    t: Tinh hoa
+
+  ###########################################################################
+  # Survey-Specific Intros
+  ###########################################################################
+
+  - key: general.js2020.survey_intro
+    t: |
+      Năm 2020 là một năm khó khăn đối với tất cả mọi người, một năm khiến việc lo lắng về các
+      JavaScript frameworks mới nhất có vẻ khá vô ích khi đem ra so sánh.
+
+      Tuy nhiên, thế giới phải tiếp tục, và JavaScript cũng vậy. Và một lần nữa, với sự giúp đỡ của bạn,
+      chúng tôi sẽ cố gắng xây dựng một bức tranh toàn diện về hệ sinh thái
+      để tìm hiểu thêm một chút về nơi nó đang hướng tới.
+
+  - key: general.css2021.survey_intro
+    t: |
+      CSS thân mến, gần đây bạn đã làm gì thế? Ồ, thực sự sao, `@container`?
+      intrinsic sizing? Và `@property` nữa à?! Wow, bạn đã rất bận rộn!
+
+      Mặc dù đại dịch tiếp tục khiến cuộc sống của mọi người trở nên khó khăn hơn trong suốt năm 2021,
+      nhưng bằng cách nào đó, những người đóng góp tận tâm trên khắp thế giới đã cố gắng giữ cho CSS tiếp tục phát triển.
+      Vì vậy, một lần nữa, đã đến lúc khảo sát hệ sinh thái CSS và tìm hiểu xem tất cả những điều này
+      sẽ đi đến đâu. Và có thể học được một vài điều mới khi bạn ở đó!
+
+  - key: general.js2021.survey_intro
+    t: |
+      Đầu tiên, Thế vận hội Olympic 2020 bị hoãn lại đến năm 2021,
+      và bây giờ khảo sát State of JavaScript 2021 đang diễn ra ngay bây giờ, vào năm 2022!
+
+      Đúng vậy: giữa công việc, gia đình và tất cả những biến động trên thế giới,
+      một số thứ đã bị gián đoạn một chút.
+
+      Nhưng mặc dù năm nay có thể lệch một chút, chúng tôi hy vọng rằng dữ liệu được cung cấp
+      bởi khảo sát sẽ vẫn có nhiều thông tin và chi tiết như mọi khi.
+      Và đừng lo lắng, sẽ có một khảo sát khác vào cuối năm nay để sắp xếp lại mọi thứ!
+
+  - key: general.graphql2022.survey_intro
+    t: |
+      Khi GraphQL lần đầu tiên được giới thiệu, nó đã cung cấp một cách hoàn toàn mới để xây dựng API, với nhiều quyền kiểm soát hơn, chi tiết hơn và linh hoạt hơn.
+
+      Nhưng sự linh hoạt đó phải trả giá dưới dạng thêm độ phức tạp và một loạt các frameworks, thư viện và dịch vụ đã nhanh chóng xuất hiện để giúp xác định các pattern và quy trình làm việc tốt hơn.
+
+      Bây giờ, lần đầu tiên, chúng tôi đang khảo sát cộng đồng GraphQL để tìm hiểu xem trong số rất nhiều công cụ này, công cụ nào phổ biến nhất và các tính năng nào thực sự được sử dụng. Với sự giúp đỡ của bạn, hãy cùng xem GraphQL đã làm được những gì trong năm 2022!
+
+  - key: general.css2022.survey_intro
+    t: |
+      CSS tiếp tục phát triển với tốc độ chưa từng thấy. May mắn thay, năm nay chúng tôi đã nhận được sự giúp đỡ từ một người đi đầu trong tất cả những thay đổi này: [Lea Verou](https://lea.verou.me/) đã dẫn dắt việc lựa chọn các câu hỏi trong năm nay, với trọng tâm đặc biệt là làm nổi bật các tính năng CSS mới và các tính năng sắp tới.
+
+      Hơn nữa, kết quả khảo sát cũng sẽ giúp các nhà cung cấp trình duyệt ưu tiên lộ trình của họ và làm việc hướng tới khả năng tương thích tốt hơn giữa các trình duyệt.
+
+      Với tất cả những điều này, hãy cùng xem CSS đã phát triển như thế nào trong năm 2022!
+
+  - key: general.js2022.survey_intro
+    t: |
+      Lần đầu tiên sau một thời gian, có cảm giác như hiện trạng của hệ sinh thái JavaScript đang bị nghi ngờ.
+
+      Đóng gói nhanh hơn với Vite, kiến ​​trúc island với Astro, khả năng tiếp tục với Qwik… Những kẻ mới tham gia đang thách thức người gác đền, và kết quả
+      là có nhiều sự phấn khích hơn, nhưng cũng có nhiều bất ổn hơn.
+
+      Vì vậy, một lần nữa, chúng ta hãy cố gắng cùng nhau tìm hiểu xem JavaScript sẽ đi về đâu, trong năm 2022 và hơn thế nữa.
+
+  - key: general.css2023.survey_intro
+    t: |
+      Để giúp bạn theo kịp với `:has()`, `@container`, và tất cả các tính năng CSS mới khác, chúng tôi đang giới thiệu một tính năng mới của riêng mình trong năm nay: **Danh sách đọc**.
+
+      Khi bạn tham gia khảo sát, bạn sẽ có thể đánh dấu bất kỳ tính năng nào bạn muốn và tìm hiểu thêm về nó sau khi bạn gửi câu trả lời.
+
+      Năm nay [Chen Hui Jing](https://chenhuijing.com/) đã dẫn dắt quá trình thiết kế khảo sát, dựa trên công việc được thực hiện bởi [Lea Verou](https://lea.verou.me/) vào năm ngoái. Và như thường lệ, phản hồi của bạn ở đây sẽ đóng vai trò quan trọng trong việc giúp các nhà cung cấp trình duyệt ưu tiên lộ trình của họ và làm việc hướng tới khả năng tương thích tốt hơn giữa các trình duyệt.
+
+      Với tất cả những điều này, hãy cùng xem CSS đã phát triển như thế nào cho đến nay trong năm 2023!
+
+  # Intro for actual survey page
+  - key: general.html2023.survey_intro
+    t: |
+      Trong khi các nhà phát triển web có xu hướng tập trung vào JavaScript và CSS, nhưng chúng ta không thể làm được bất kỳ điều gì nếu không có HTML đóng vai trò làm nền tảng.
+
+      Từ lâu, HTML dường như không phát triển, nhưng mọi thứ có thể đang thay đổi.
+      Các yếu tố mới như `<selectlist>` đang ở phía trước, các tính năng mới thú vị như popovers,
+      và một loạt các API trình duyệt liên quan (Web Components, PWAs, v.v.).
+
+      Năm nay, [Lea Verou](https://lea.verou.me/) đã đảm nhận nhiệm vụ khó khăn là dẫn dắt việc thiết kế khảo sát hoàn toàn mới này, từ nội dung đến UX và hơn thế nữa.
+
+      Dựa trên thành công của [State of JS](http://stateofjs.com/) và [State of CSS](https://stateofcss.com/), chúng tôi giới thiệu **State of HTML**;
+      mảnh ghép cuối cùng hoàn thiện bộ ba, để chúng tôi có thể theo dõi sự phát triển của nền tảng web một cách tổng thể.
+
+      Lợi ích cho bạn:
+      - Kết quả khảo sát được **sử dụng bởi các trình duyệt** và là nhóm tiêu chuẩn **để ưu tiên cho lộ trình phát triển**.
+      Phản hồi của bạn có thể giúp các tính năng bạn quan tâm được triển khai, các vấn đề tương thích giữa các trình duyệt được ưu tiên và các lỗ hổng trong nền tảng được giải quyết.
+      - Tìm hiểu về các tính năng mới và sắp tới; thêm các tính năng vào danh sách đọc của bạn và nhận danh sách tài nguyên ở cuối!
+      - Nhận điểm kiến thức được cá nhân hóa và xem bạn so sánh với những người trả lời khác như thế nào
+
+      Khảo sát sẽ mở trong 3 tuần, nhưng phản hồi được nhập **trong 9 ngày đầu tiên (cho đến ngày 1 tháng 10)** sẽ có tác động lớn hơn nhiều đến Web,
+      vì dữ liệu sơ bộ sẽ được sử dụng cho một số nỗ lực ưu tiên có thời hạn trước đó.
+
+  ###########################################################################
+  # Survey-Specific FAQs
+  ###########################################################################
+
+  # CSS
+
+  - key: faq.data_used_css
+    t: Dữ liệu này sẽ được sử dụng như thế nào?
+  - key: faq.data_used_css.description
+    t: >
+      Tất cả dữ liệu được thu thập sẽ được công khai để bất kỳ nhà phát triển hoặc công ty nào tham khảo.
+      Các nhà cung cấp trình duyệt cũng [sử dụng dữ liệu này](https://web.dev/interop-2023/) để ưu tiên các lĩnh vực trọng tâm và ra quyết định cho lộ trình của họ.
+
+  - key: faq.who_should_take_survey_css
+    t: Ai nên tham gia khảo sát này?
+  - key: faq.who_should_take_survey_css.description
+    t: >
+      Đây là một khảo sát mở cho bất kỳ ai viết CSS, dù thường xuyên
+      hay thỉnh thoảng, như một phần công việc của họ, hay với tư cách là sinh viên hay chỉ để giải trí!
+
+  - key: faq.survey_goals_css
+    t: Mục tiêu của khảo sát là gì?
+  - key: faq.survey_goals_css.description
+    t: >
+      Mục tiêu của khảo sát là theo dõi sự phát triển của các tính năng và thư viện sắp tới,
+      và giúp các nhà phát triển quyết định tập trung vào công nghệ mới nào.
+
+  # CSS 2022
+
+  - key: faq.learn_more_css2022
+    t: Tôi có thể tìm hiểu thêm ở đâu?
+  - key: faq.learn_more_css2022.description
+    t: Bạn có thể tìm hiểu thêm về khảo sát của [năm ngoái tại đây](https://2021.stateofcss.com/en-US/about/).
+
+  - key: faq.survey_design_css2022
+    t: Khảo sát này được thiết kế như thế nào?
+  - key: faq.survey_design_css2022.description
+    t: Năm nay, nhờ khoản tài trợ từ [Quỹ UI](https://web.dev/ui-fund/) của Google, [Lea Verou](https://lea.verou.me/) đã có thể dẫn đầu và quản lý [quá trình thiết kế khảo sát mở](https://github.com/orgs/Devographics/projects/1/views/1) trên GitHub.
+
+  - key: faq.results_released_css2022
+    t: Khi nào kết quả sẽ được công bố?
+  - key: faq.results_released_css2022.description
+    t: Khảo sát sẽ diễn ra cho đến cuối tháng 10 năm 2022 và kết quả khảo sát sẽ được công bố vào đầu tháng 11.
+
+  - key: faq.data_used_css2022
+    t: Dữ liệu này sẽ được sử dụng như thế nào?
+  - key: faq.data_used_css2022.description
+    t: Tất cả dữ liệu được thu thập sẽ được công khai. Sau đó, nó sẽ trở thành tài nguyên cho cả nhà phát triển, những người tham khảo nó để ra quyết định cho các lựa chọn công nghệ của họ, và các nhà cung cấp trình duyệt, những người sử dụng nó để ưu tiên các lĩnh vực trọng tâm và ra quyết định cho lộ trình phát triển của họ.
+
+  # CSS 2023
+
+  - key: faq.how_long_will_survey_take_css2023
+    t: Mất bao lâu để trả lời khảo sát?
+  - key: faq.how_long_will_survey_take_css2023.description
+    t: >
+      Tùy thuộc vào số câu hỏi bạn trả lời (tất cả các câu hỏi đều có thể bỏ qua),
+      việc điền vào khảo sát sẽ mất khoảng 10-15 phút.
+
+  - key: faq.learn_more_css2023
+    t: Tôi có thể tìm hiểu thêm ở đâu?
+  - key: faq.learn_more_css2023.description
+    t: Bạn có thể tìm hiểu thêm về khảo sát này trong [bài đăng thông báo của chúng tôi](https://dev.to/sachagreif/the-2023-state-of-css-survey-is-now-open-18bk).
+
+  - key: faq.survey_design_css2023
+    t: Khảo sát này được thiết kế như thế nào?
+  - key: faq.survey_design_css2023.description
+    t: >
+      Năm nay, nhờ khoản tài trợ từ [Quỹ UI](https://web.dev/ui-fund/) của Google,
+      [Chen Hui Jing](https://chenhuijing.com/) đã có thể giúp quản lý [quá trình thiết kế](https://github.com/Devographics/surveys/issues/84) của khảo sát.
+
+  - key: faq.results_released_css2023
+    t: Khi nào kết quả sẽ được công bố?
+  - key: faq.results_released_css2023.description
+    t: Khảo sát sẽ diễn ra cho đến ngày 15 tháng 7 năm 2023 và kết quả khảo sát sẽ được công bố trong những tuần sau đó.
+
+  # JS 2022
+
+  - key: faq.learn_more_js2022
+    t: Tôi có thể tìm hiểu thêm ở đâu?
+  - key: faq.learn_more_js2022.description
+    t: Bạn có thể tìm hiểu thêm về khảo sát của [năm ngoái tại đây](https://2021.stateofjs.com/en-US/about/).
+
+  # - key: faq.survey_design_js2022
+  #   t: Khảo sát này được thiết kế như thế nào?
+  # - key: faq.survey_design_css2022.description
+  #   t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub.
+
+  - key: faq.results_released_js2022
+    t: Khi nào kết quả sẽ được công bố?
+  - key: faq.results_released_js2022.description
+    t: Khảo sát sẽ diễn ra cho đến ngày 15 tháng 12 năm 2022 và kết quả khảo sát sẽ được công bố ngay sau đó.
+
+  - key: faq.data_used_js2022
+    t: Dữ liệu này sẽ được sử dụng như thế nào?
+  - key: faq.data_used_js2022.description
+    t: Tất cả dữ liệu được thu thập sẽ được công khai. Sau đó, nó sẽ trở thành tài nguyên cho cả nhà phát triển, những người tham khảo nó để ra quyết định cho các lựa chọn công nghệ của họ, và các nhà cung cấp trình duyệt, những người sử dụng nó để ưu tiên các lĩnh vực trọng tâm và ra quyết định cho lộ trình phát triển của họ.
+
+  # HTML 2023
+
+  - key: faq.data_used_html2023
+    t: Dữ liệu này sẽ được sử dụng như thế nào?
+  - key: faq.data_used_html2023.description
+    t: >
+      Tất cả dữ liệu được thu thập sẽ được công khai để bất kỳ nhà phát triển hoặc công ty nào tham khảo.
+      Các nhà cung cấp trình duyệt cũng [sử dụng dữ liệu này](https://web.dev/interop-2023/) để ưu tiên các lĩnh vực trọng tâm và ra quyết định cho lộ trình của họ.
+
+  - key: faq.survey_goals_html2023
+    t: Mục tiêu của khảo sát là gì?
+  - key: faq.survey_goals_html2023.description
+    t: >
+      Mục tiêu của khảo sát là đo lường mức độ nhận thức về các tính năng HTML mới và API của trình duyệt, đồng thời giúp các nhà phát triển theo dõi cách sử dụng của họ đang phát triển như thế nào.
+
+  - key: faq.who_should_take_survey_html2023
+    t: Ai nên tham gia khảo sát này?
+  - key: faq.who_should_take_survey_html2023.description
+    t: >
+      Đây là một khảo sát mở cho bất kỳ ai tạo trang web hoặc ứng dụng web, dù thường xuyên hay thỉnh thoảng, như một phần công việc của họ, hay với tư cách là sinh viên hoặc chỉ để giải trí!
+
+  - key: faq.how_long_will_survey_take_html2023
+    t: Mất bao lâu để trả lời khảo sát?
+  - key: faq.how_long_will_survey_take_html2023.description
+    t: >
+      Tùy thuộc vào số câu hỏi bạn trả lời (tất cả các câu hỏi đều tùy chọn), 
+      việc điền vào khảo sát sẽ mất khoảng 15-20 phút.
+
+  - key: faq.learn_more_html2023
+    t: Tôi có thể tìm hiểu thêm ở đâu?
+  - key: faq.learn_more_html2023.description
+    t: Bạn có thể tìm hiểu thêm về khảo sát này trong [bài đăng thông báo của chúng tôi](https://lea.verou.me/blog/2023/design-state-of-html/).
+
+  - key: faq.survey_design_html2023
+    t: Khảo sát này được thiết kế như thế nào?
+  - key: faq.survey_design_html2023.description
+    t: >
+      Khảo sát được thiết kế bởi [Lea Verou](https://lea.verou.me), với sự tham gia của các nhà cung cấp trình duyệt cũng như các nhóm như [WebDX Community](https://www.w3.org/community/webdx/).
+
+  - key: faq.results_released_html2023
+    t: Khi nào kết quả sẽ được công bố?
+  - key: faq.results_released_html2023.description
+    t: Khảo sát sẽ diễn ra từ ngày 19 tháng 9 đến ngày 16 tháng 10 và kết quả khảo sát sẽ được công bố ngay sau đó.
