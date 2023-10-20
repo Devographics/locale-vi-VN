@@ -127,7 +127,7 @@ translations:
   - key: accounts.create_account.description
     t: Có tài khoản cho phép bạn **truy cập dữ liệu của mình trong tương lai** và được thông báo khi kết quả khảo sát được công bố.
   - key: accounts.create_account.note
-    t: Nếu bạn **đã có tài khoản**, chúng tôi sẽ gửi cho bạn một magic log-in link qua email.
+    t: Nếu bạn **đã có tài khoản**, chúng tôi sẽ gửi cho bạn một đường link login qua email.
   - key: accounts.create_account.action
     t: Tiếp tục với Tài khoản
   - key: accounts.your_email
@@ -148,7 +148,7 @@ translations:
   - key: accounts.magic_link.no_email
     t: Vui lòng nhập email của bạn
   - key: accounts.magic_link.success
-    t: Hãy kiểm tra hộp thư của bạn! Chúng tôi đã gửi cho bạn một magic link, chỉ cần nhấp vào đó để xác nhận tài khoản của bạn và đăng nhập.
+    t: Hãy kiểm tra hộp thư của bạn! Chúng tôi đã gửi cho bạn một đường link, chỉ cần nhấp vào đó để xác nhận tài khoản của bạn và đăng nhập.
     # Open known mail provider directly in browser with the right search params
   - key: accounts.magic_link.browser
     t: <a href="{link}">Nhấp để mở hộp thư của bạn.</a>
