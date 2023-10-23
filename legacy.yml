@@ -9,7 +9,7 @@ translations:
     t: Tại sao tôi cần phải tạo một tài khoản?
   - key: general.create_account_reasons
     t: >
-      We ask you to create an account in order to:
+      Chúng tôi yêu cầu bạn tạo một tài khoản để:
 
       - Tránh các câu trả lời trùng lặp
 
@@ -27,25 +27,25 @@ translations:
   - key: general.survey_preview
     t: >
       Khảo sát này ở chế độ xem trước. Các câu hỏi của nó có thể thay đổi 
-      và tất cả dữ liệu đã nhập sẽ bị xóa khi cuộc khảo sát thực tế bắt đầu.
+      và tất cả dữ liệu đã nhập sẽ bị xóa khi cuộc khảo sát thực sự bắt đầu.
 
   - key: general.survey_read_only_back
     t: >
-      <a href="{link}"><a href="{link}">Quay lại</a> trang khảo sát chính để bắt đầu hoặc tiếp tục.
+      <a href="{link}">Quay lại</a> trang khảo sát chính để bắt đầu hoặc tiếp tục.
   - key: general.take_survey
     t: Tham gia khảo sát {name}
 
   # surveys
   - key: general.open_surveys
-    t: Mở khảo sát
+    t: Các khảo sát đang mở
   - key: general.no_open_surveys
     t: Không có cuộc khảo sát nào đang mở.
   - key: general.closed_surveys
-    t: Đóng khảo sát
+    t: Các khảo sát đã hoàn thành
   - key: general.no_closed_surveys
-    t: Không có cuộc khảo sát nào đang đóng.
+    t: Không có cuộc khảo sát nào hoàn thành.
   - key: general.preview_surveys
-    t: Xem trước khảo sát
+    t: Khảo sát đang chuẩn bị
   - key: general.no_preview_surveys
     t: Không có bản khảo sát nào để xem trước.
   - key: general.start_survey
@@ -55,7 +55,7 @@ translations:
   - key: general.review_survey
     t: Đánh giá khảo sát »
   - key: general.preview_survey
-    t: Xem trước khảo sát »
+    t: Khảo sát đang chuẩn bị »
   - key: general.finish_survey
     t: Kết thúc khảo sát
   - key: general.next_section
@@ -83,27 +83,27 @@ translations:
 
   # credits
   - key: credits.thanks
-    t: Special Thanks
+    t: Xin chân thành cảm ơn
   - key: credits.contributors
-    t: Contributors
+    t: Những người đóng góp
   - key: credits.contributors.description
-    t: Đặc biệt cảm ơn những người sau đây đã giúp chúng tôi thiết kế cuộc khảo sát.
+    t: Xin chân thành cảm ơn những người sau đã giúp chúng tôi thiết kế khảo sát.
   - key: credits.accessibility
-    t: Accessibility Consulting
+    t: Tư vấn về khả năng truy cập
   - key: credits.survey_design
-    t: Survey Design
+    t: Thiết kế khảo sát
   - key: credits.logo_design
-    t: Logo Design
+    t: Thiết kế Logo
   - key: credits.mobile_testing
-    t: Mobile Testing
+    t: Kiểm tra trên thiết bị di động
   - key: credits.data_visualizations
-    t: Data Visualizations
+    t: Trực quan hóa dữ liệu
   - key: credits.repo_architecture
-    t: Repo Architecture
+    t: Kiến trúc kho lưu trữ
   - key: credits.code_refactoring
-    t: Code Refactoring
+    t: Cải tiến Code
   - key: credits.data_processing
-    t: Data Processing
+    t: Xử lý dữ liệu
 
   # support
   - key: general.support_from
@@ -111,11 +111,11 @@ translations:
 
   # footer
   - key: general.privacy_policy
-    t: Privacy Policy
+    t: Chính sách bảo mật
   - key: general.leave_issue
-    t: Questions? Found a bug? <a href="{link}" target="_blank">Leave an issue</a>.
+    t: Câu hỏi? Tìm thấy lỗi? <a href="{link}" target="_blank">Báo cáo sự cố</a>.
   - key: general.emoji_icons
-    t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+    t: Biểu tượng cảm xúc bởi <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
   # navigation
   - key: general.table_of_contents
@@ -126,17 +126,17 @@ translations:
   - key: general.data_is_saved
     t: Dữ liệu của bạn được lưu bất cứ khi nào bạn quay về trước hoặc đi tới phần tiếp theo.
   - key: general.close_nav
-    t: Close menu
+    t: Đóng menu
   - key: general.open_nav
-    t: Open menu
+    t: Mở menu
   - key: general.more_actions
-    t: More actions
+    t: Thêm hành động khác
   - key: general.skip_to_content
-    t: Skip to content
+    t: Bỏ qua đến nội dung
 
   # thanks
   - key: general.back
-    t: Back
+    t: Trở lại
   - key: general.thanks
     t: >
       Cảm ơn bạn đã điền vào bản khảo sát! Dữ liệu của bạn đã được lưu.
@@ -147,7 +147,7 @@ translations:
   - key: thanks.learn_more_about
     t: "Một số tính năng bạn có thể muốn tìm hiểu thêm:"
   - key: thanks.knowledge_score
-    t: Knowledge Score
+    t: Điểm kiến thức
   - key: thanks.score_explanation
     t: >
       You’ve heard or used <span class="score-number score-number-known">{known}</span> trong tổng số
@@ -155,23 +155,23 @@ translations:
       điều này đưa bạn vào top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
       trong số những người trả lời.
   - key: thanks.share_on_twitter
-    t: Share on Twitter
+    t: Share lên Twitter
   - key: thanks.share_score_message
     t: >
-      Tôi đã nhận được {score}% knowledge score trong cuộc khảo sát #{hashtag} năm nay! Thực hiện khảo sát tại đây: {shareUrl}
+      Tôi đã nhận được {score}% điểm kiến thức trong cuộc khảo sát #{hashtag} năm nay! Thực hiện khảo sát tại đây: {shareUrl}
   # share
   - key: general.share_subject
     t: >
-      {surveyName} survey
+      Khảo sát {surveyName}
   - key: general.share_text
     t: >
       Cuộc khảo sát {surveyName} năm nay hiện đang mở! {link}
 
   # forms
   - key: forms.select_option
-    t: Select option
+    t: Chọn tùy chọn
   - key: forms.clear_field
-    t: Clear question
+    t: Xóa câu hỏi
 
   # partners
   - key: sponsors.our_partners
@@ -200,26 +200,26 @@ translations:
   ###########################################################################
 
   - key: nav.surveys
-    t: Surveys
+    t: Khảo sát
   - key: nav.account
-    t: Account
+    t: Tài khoản
 
   ###########################################################################
   # Sections
   ###########################################################################
 
   - key: sections.user_info.title
-    t: About You
+    t: Về bạn
   - key: sections.user_info.description
     t: Hãy tìm hiểu con người thật của bạn..
 
   - key: sections.features.title
-    t: Features
+    t: Tính năng
   - key: sections.features.description
     t: Cú pháp, từ khóa và các tính năng ngôn ngữ khác.
 
   - key: sections.resources.title
-    t: Resources
+    t: Tài nguyên
   - key: sections.resources.description
     t: Bạn tham khảo tài nguyên {topic} nào?
 
@@ -229,7 +229,7 @@ translations:
     t: Bạn cảm thấy thế nào về tình trạng của {topic}?
 
   - key: sections.other_tools.title
-    t: Other Tools
+    t: Các công cụ khác
   - key: sections.other_tools.description
     t: Đối với những công cụ & công nghệ này, chỉ cần kiểm tra những công cụ & công nghệ bạn sử dụng thường xuyên..
 
@@ -482,15 +482,15 @@ translations:
 
   # Proficiency (generic versions)
   - key: options.proficiency.0
-    t: None
+    t: Không
   - key: options.proficiency.1
-    t: Beginner
+    t: Người mới bắt đầu
   - key: options.proficiency.2
-    t: Intermediate
+    t: Trung cấp
   - key: options.proficiency.3
-    t: Advanced
+    t: Cao cấp
   - key: options.proficiency.4
-    t: Expert
+    t: Chuyên gia
 
   # Gender
 
@@ -554,9 +554,9 @@ translations:
   - key: options.race_ethnicity.south_asian.short
     t: Nam Á
   - key: options.race_ethnicity.south_east_asian.short
-    t: SE Asian
+    t: Đông Nam Á
   - key: options.race_ethnicity.hispanic_latin.short
-    t: Hispanic/Latin
+    t: Gốc Tây Ban Nha/La tinh
   - key: options.race_ethnicity.east_asian.short
     t: Đông Á
   - key: options.race_ethnicity.middle_eastern.short
@@ -720,23 +720,23 @@ translations:
 
   # accessibility features
   - key: options.accessibility_features.keyboard_navigation
-    t: Keyboard navigation
+    t: Điều hướng bằng bàn phím
   - key: options.accessibility_features.compliant_contrast
-    t: WCAG-compliant contrast
+    t: Độ tương phản tuân thủ WCAG
   - key: options.accessibility_features.focus_indicators
     t: Focus indicators
   - key: options.accessibility_features.skip_to_content_link
     t: Skip-to-content link
   - key: options.accessibility_features.color_themes
-    t: Color themes (dark mode, high-contrast mode, etc.)
+    t: Màu sắc chủ đề (chế độ tối, chế độ tương phản cao, v.v.)
   - key: options.accessibility_features.prefers_reduced_motion
     t: Prefers-reduced-motion
   - key: options.accessibility_features.alt_text
-    t: Alt texts
+    t: Văn bản thay thế
   - key: options.accessibility_features.semantic_markup
     t: Semantic markup
   - key: options.accessibility_features.aria_attributes
-    t: ARIA HTML attributes
+    t: Thuộc tính ARIA HTML
 
   # learning methods
   - key: options.first_steps.books
@@ -752,9 +752,9 @@ translations:
   - key: options.first_steps.podcasts
     t: Podcast
   - key: options.first_steps.bootcamp
-    t: Coding bootcamp
+    t: Khóa học lập trình
   - key: options.first_steps.on_the_job
-    t: On-the-job training
+    t: Đào tạo tại chỗ làm
   - key: options.first_steps.self_directed
     t: Tự học (Google, Stack Overflow, v.v.)
   - key: options.first_steps.mentoring
@@ -795,11 +795,11 @@ translations:
   ###########################################################################
 
   - key: tools.other_tools
-    t: Other Options
+    t: Các tùy chọn khác
   - key: tools.other_tools.description
-    t: Other options you use for the current section not mentioned in the list above.
+    t:  Các tùy chọn khác mà bạn sử dụng cho phần hiện tại không được đề cập trong danh sách trên.
   - key: tools.happiness
-    t: Overall Happiness
+    t: tổng thể độ hài lòng
   - key: tools.happiness.description
     t: >
       Trên thang điểm từ một (rất không hài lòng) đến năm (rất hạnh phúc), 
