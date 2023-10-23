@@ -26,7 +26,7 @@ translations:
       Bạn hiện đang xem khảo sát này ở chế độ chỉ đọc.
   - key: general.survey_preview
     t: >
-      Khảo sát này ở chế độ xem trước. Các câu hỏi của nó có thể thay đổi 
+      Khảo sát này ở chế độ xem trước. Các câu hỏi của nó có thể thay đổi
       và tất cả dữ liệu đã nhập sẽ bị xóa khi cuộc khảo sát thực sự bắt đầu.
 
   - key: general.survey_read_only_back
@@ -142,7 +142,7 @@ translations:
       Cảm ơn bạn đã điền vào bản khảo sát! Dữ liệu của bạn đã được lưu.
 
 
-      Ngoài ra, bạn có thể giúp chúng tôi bằng cách chia sẻ khảo sát này. 
+      Ngoài ra, bạn có thể giúp chúng tôi bằng cách chia sẻ khảo sát này.
       Mỗi câu trả lời đều có giá trị và nó sẽ giúp làm cho dữ liệu của chúng tôi trở nên toàn diện hơn:
   - key: thanks.learn_more_about
     t: "Một số tính năng bạn có thể muốn tìm hiểu thêm:"
@@ -151,7 +151,7 @@ translations:
   - key: thanks.score_explanation
     t: >
       You’ve heard or used <span class="score-number score-number-known">{known}</span> trong tổng số
-      <span class="score-number score-number-total">{total}</span> tính năng được đề cập trong cuộc khảo sát, 
+      <span class="score-number score-number-total">{total}</span> tính năng được đề cập trong cuộc khảo sát,
       điều này đưa bạn vào top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
       trong số những người trả lời.
   - key: thanks.share_on_twitter
@@ -865,8 +865,8 @@ translations:
       Có tùy chọn nào sau đây mô tả về bạn không? Hãy chọn một.
   - key: user_info.gender.note
     t: >
-      Mặc dù chúng tôi biết việc thu thập và xuất bản dữ liệu đa dạng có thể là một vấn đề nhạy cảm, 
-      chúng tôi nghĩ rằng điều quan trọng là có được dữ liệu này để giúp đo lường và cải thiện 
+      Mặc dù chúng tôi biết việc thu thập và xuất bản dữ liệu đa dạng có thể là một vấn đề nhạy cảm,
+      chúng tôi nghĩ rằng điều quan trọng là có được dữ liệu này để giúp đo lường và cải thiện
       những nỗ lực của cuộc khảo sát về tính toàn diện và tính đại diện.
 
   # race & ethnicity
@@ -877,12 +877,12 @@ translations:
       Có tùy chọn nào sau đây mô tả về bạn không? Hãy chọn tất cả những mục phù hợp.
   - key: user_info.race_ethnicity.note
     t: >
-      Mặc dù chúng tôi biết việc thu thập và xuất bản dữ liệu đa dạng có thể là một vấn đề nhạy cảm, 
-      chúng tôi nghĩ rằng điều quan trọng là có được dữ liệu này để giúp đo lường và cải thiện 
+      Mặc dù chúng tôi biết việc thu thập và xuất bản dữ liệu đa dạng có thể là một vấn đề nhạy cảm,
+      chúng tôi nghĩ rằng điều quan trọng là có được dữ liệu này để giúp đo lường và cải thiện
       những nỗ lực của cuộc khảo sát về tính toàn diện và tính đại diện.
   - key: user_info.race_ethnicity.not_allowed
     t: >
-      Để tuân thủ các chính sách tại nơi bạn sinh sống, 
+      Để tuân thủ các chính sách tại nơi bạn sinh sống,
       việc thu thập dữ liệu về chủng tộc hoặc dân tộc đã đã bị vô hiệu hóa cho quốc gia hoặc khu vực của bạn.
 
   # disability status
@@ -890,7 +890,7 @@ translations:
     t: Tình trạng khuyết tật
   - key: user_info.disability_status.description
     t: >
-      Bạn có khuyết tật nào sau đây không? Hãy chọn tất cả những mục phù hợp. 
+      Bạn có khuyết tật nào sau đây không? Hãy chọn tất cả những mục phù hợp.
       Lưu ý rằng điều này có thể bao gồm khuyết tật hoặc thương tích tạm thời.
 
   # disability status (other)
@@ -917,15 +917,15 @@ translations:
     t: Username GitHub của bạn
   - key: user_info.github_username.description
     t: >
-      Chúng tôi có thể sử dụng tên người dùng GitHub trong tương lai để xem xét repos 
+      Chúng tôi có thể sử dụng tên người dùng GitHub trong tương lai để xem xét repos
       và tham khảo chéo thông tin có sẵn công khai.
 
   - key: user_info.twitter_username
     t: Username Twitter của bạn
   - key: user_info.twitter_username.description
     t: >
-      Chúng tôi có thể sử dụng tên người dùng Twitter trong tương lai để xem xét 
-      hoạt động trên Twitter và thông tin tham khảo chéo có sẵn công khai 
+      Chúng tôi có thể sử dụng tên người dùng Twitter trong tương lai để xem xét
+      hoạt động trên Twitter và thông tin tham khảo chéo có sẵn công khai
       (chẳng hạn như danh sách những người bạn đang theo dõi).
 
   - key: user_info.industry_sector

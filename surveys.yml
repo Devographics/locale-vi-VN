@@ -512,7 +512,7 @@ translations:
     t: Mất bao lâu để trả lời khảo sát?
   - key: faq.how_long_will_survey_take_html2023.description
     t: >
-      Tùy thuộc vào số câu hỏi bạn trả lời (tất cả các câu hỏi đều tùy chọn), 
+      Tùy thuộc vào số câu hỏi bạn trả lời (tất cả các câu hỏi đều tùy chọn),
       việc điền vào khảo sát sẽ mất khoảng 15-20 phút.
 
   - key: faq.learn_more_html2023

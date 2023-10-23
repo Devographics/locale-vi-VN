@@ -26,7 +26,7 @@ translations:
       Bạn hiện đang xem khảo sát này ở chế độ chỉ đọc.
   - key: general.survey_preview
     t: >
-      Khảo sát này ở chế độ xem trước. Các câu hỏi của nó có thể thay đổi 
+      Khảo sát này ở chế độ xem trước. Các câu hỏi của nó có thể thay đổi
       và tất cả dữ liệu đã nhập sẽ bị xóa khi cuộc khảo sát thực tế bắt đầu.
 
   - key: general.survey_read_only_back
@@ -159,7 +159,7 @@ translations:
       Cảm ơn bạn đã điền vào bản khảo sát! Dữ liệu của bạn đã được lưu.
 
 
-      Ngoài ra, bạn có thể giúp chúng tôi bằng cách chia sẻ khảo sát này. 
+      Ngoài ra, bạn có thể giúp chúng tôi bằng cách chia sẻ khảo sát này.
       Mỗi câu trả lời đều có giá trị và nó sẽ giúp làm cho dữ liệu của chúng tôi trở nên toàn diện hơn:
 
   - key: general.thanks1
@@ -1127,7 +1127,7 @@ translations:
     t: Overall Happiness
   - key: tools.happiness.description
     t: >
-      Trên thang điểm từ một (rất không hài lòng) đến năm (rất hạnh phúc), 
+      Trên thang điểm từ một (rất không hài lòng) đến năm (rất hạnh phúc),
       bạn hài lòng đến mức nào với tình trạng chung hiện tại liên quan đến các lựa chọn được liệt kê ở trên?
 
   ###########################################################################
@@ -1190,8 +1190,8 @@ translations:
       Có tùy chọn nào sau đây mô tả về bạn không? Hãy chọn một.
   - key: user_info.gender.note
     t: >
-      Mặc dù chúng tôi biết việc thu thập và xuất bản dữ liệu đa dạng có thể là một vấn đề nhạy cảm, 
-      chúng tôi nghĩ rằng điều quan trọng là có được dữ liệu này để giúp đo lường và cải thiện 
+      Mặc dù chúng tôi biết việc thu thập và xuất bản dữ liệu đa dạng có thể là một vấn đề nhạy cảm,
+      chúng tôi nghĩ rằng điều quan trọng là có được dữ liệu này để giúp đo lường và cải thiện
       những nỗ lực của cuộc khảo sát về tính toàn diện và tính đại diện.
 
   # race & ethnicity
@@ -1202,12 +1202,12 @@ translations:
       Có tùy chọn nào sau đây mô tả về bạn không? Hãy chọn tất cả những mục phù hợp.
   - key: user_info.race_ethnicity.note
     t: >
-      Mặc dù chúng tôi biết việc thu thập và xuất bản dữ liệu đa dạng có thể là một vấn đề nhạy cảm, 
-      chúng tôi nghĩ rằng điều quan trọng là có được dữ liệu này để giúp đo lường và cải thiện 
+      Mặc dù chúng tôi biết việc thu thập và xuất bản dữ liệu đa dạng có thể là một vấn đề nhạy cảm,
+      chúng tôi nghĩ rằng điều quan trọng là có được dữ liệu này để giúp đo lường và cải thiện
       những nỗ lực của cuộc khảo sát về tính toàn diện và tính đại diện.
   - key: user_info.race_ethnicity.not_allowed
     t: >
-      Để tuân thủ các chính sách tại nơi bạn sinh sống, 
+      Để tuân thủ các chính sách tại nơi bạn sinh sống,
       việc thu thập dữ liệu về chủng tộc hoặc dân tộc đã đã bị vô hiệu hóa cho quốc gia hoặc khu vực của bạn.
   - key: user_info.race_ethnicity.others
     t: Chủng tộc hoặc dân tộc khác
@@ -1219,7 +1219,7 @@ translations:
     t: Tình trạng khuyết tật
   - key: user_info.disability_status.description
     t: >
-      Bạn có khuyết tật nào sau đây không? Hãy chọn tất cả những mục phù hợp. 
+      Bạn có khuyết tật nào sau đây không? Hãy chọn tất cả những mục phù hợp.
       Lưu ý rằng điều này có thể bao gồm khuyết tật hoặc thương tích tạm thời.
 
   # disability status (other)
@@ -1248,15 +1248,15 @@ translations:
     t: Username GitHub của bạn
   - key: user_info.github_username.description
     t: >
-      Chúng tôi có thể sử dụng tên người dùng GitHub trong tương lai để xem xét repos 
+      Chúng tôi có thể sử dụng tên người dùng GitHub trong tương lai để xem xét repos
       và tham khảo chéo thông tin có sẵn công khai.
 
   - key: user_info.twitter_username
     t: Username Twitter của bạn
   - key: user_info.twitter_username.description
     t: >
-      Chúng tôi có thể sử dụng tên người dùng Twitter trong tương lai để xem xét 
-      hoạt động trên Twitter và thông tin tham khảo chéo có sẵn công khai 
+      Chúng tôi có thể sử dụng tên người dùng Twitter trong tương lai để xem xét
+      hoạt động trên Twitter và thông tin tham khảo chéo có sẵn công khai
       (chẳng hạn như danh sách những người bạn đang theo dõi).
 
   - key: user_info.industry_sector
