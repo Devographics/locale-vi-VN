@@ -797,7 +797,7 @@ translations:
   - key: tools.other_tools
     t: Các tùy chọn khác
   - key: tools.other_tools.description
-    t:  Các tùy chọn khác mà bạn sử dụng cho phần hiện tại không được đề cập trong danh sách trên.
+    t: Các tùy chọn khác mà bạn sử dụng cho phần hiện tại không được đề cập trong danh sách trên.
   - key: tools.happiness
     t: tổng thể độ hài lòng
   - key: tools.happiness.description
