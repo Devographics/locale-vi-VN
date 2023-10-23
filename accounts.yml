@@ -1,87 +1,87 @@
 locale: vi-VN
 translations:
     - key: accounts.error_incorrect_password
-      t: Incorrect password
+      t: Mật khẩu không chính xác
     - key: accounts.error_email_required
-      t: Email required
+      t: Yêu cầu email
     - key: accounts.error_email_already_exists
-      t: Email already exists
+      t: Email đã tồn tại
     - key: accounts.error_invalid_email
-      t: Invalid email
+      t: Email không hợp lệ
     - key: accounts.error_minchar
-      t: Your password is too short
+      t: Mật khẩu của bạn quá ngắn
     - key: accounts.error_unknown
-      t: Unknown error
+      t: Lỗi không xác định
     - key: accounts.error_user_not_found
-      t: User not found
+      t: Người dùng không được tìm thấy
     - key: accounts.error_username_already_exists
-      t: Username already exists
+      t: Tên người dùng đã tồn tại
     - key: accounts.enter_username_or_email
-      t: Enter username or email
+      t: Nhập tên người dùng hoặc email
     - key: accounts.error_internal_server_error
-      t: Internal server error
+      t: Lỗi máy chủ nội bộ
     - key: accounts.error_token_expired
-      t: Invalid password reset token
+      t: Mã thông báo đặt lại mật khẩu không hợp lệ
     - key: accounts.username_or_email
-      t: Username or email
+      t: Tên người dùng hoặc email
     - key: accounts.enter_username
-      t: Enter username
+      t: Nhập tên người dùng
     - key: accounts.username
-      t: Username
+      t: Tên người dùng
     - key: accounts.enter_email
-      t: Enter email
+      t: Nhập email
     - key: accounts.email
       t: Email
     - key: accounts.enter_password
-      t: Enter password
+      t: Nhập mật khẩu
     - key: accounts.password
-      t: Password
+      t: Mật khẩu
     - key: accounts.choose_password
-      t: Choose password
+      t: Chọn mật khẩu
     - key: accounts.change_password
-      t: Change password
+      t: Đổi mật khẩu
     - key: accounts.reset_your_password
-      t: Reset your password
+      t: Đặt lại mật khẩu của bạn
     - key: accounts.set_password
-      t: Set password
+      t: Đặt mật khẩu
     - key: accounts.enter_new_password
-      t: Enter new password
+      t: Nhập mật khẩu mới
     - key: accounts.new_password
-      t: New password
+      t: Mật khẩu mới
     - key: accounts.forgot_password
-      t: Forgot password
+      t: Quên mật khẩu
     - key: accounts.sign_up
-      t: Sign up
+      t: Đăng ký
     - key: accounts.sign_in
-      t: Log in
+      t: Đăng nhập
     - key: accounts.switch_to_sign_up
-      t: Don't have an account ? Sign up
+      t: Chưa có tài khoản? Đăng ký
     - key: accounts.switch_to_sign_in
-      t: Already have an account? Log in
+      t: Đã có tài khoản? Đăng nhập
     - key: accounts.sign_out
-      t: Sign out
+      t: Đăng xuất
     - key: accounts.cancel
-      t: Cancel
+      t: Hủy
     - key: accounts.info_email_sent
-      t: Email sent.
+      t: Email đã được gửi.
     - key: accounts.info_password_changed
-      t: Password changed.
+      t: Mật khẩu đã được thay đổi.
     - key: accounts.please_pick_password
-      t: Please pick a new password to continue.
+      t: Vui lòng chọn mật khẩu mới để tiếp tục.
     - key: accounts.please_log_in
-      t: Please log in or sign up to begin.
+      t: Vui lòng đăng nhập hoặc đăng ký để bắt đầu.
     - key: accounts.logged_in_as
-      t: Logged in as {email}
+      t: Đã đăng nhập với tư cách {email}
     - key: accounts.logged_in_as_guest
-      t: Logged in as Guest
+      t: Đã đăng nhập với tư cách là Khách
     - key: accounts.questions
       t: >
-          If you have any questions about how we use your data, or would like
-          us to remove your data from our records,
-          please <a href="mailto:hello@stateofjs.com">get in touch</a>.
+          Nếu bạn có bất kỳ câu hỏi nào về cách chúng tôi sử dụng dữ liệu của bạn, hoặc muốn chúng tôi
+          xóa dữ liệu của bạn khỏi hồ sơ của chúng tôi,
+          vui lòng <a href="mailto:hello@stateofjs.com">liên hệ với chúng tôi</a>.
 
     - key: accounts.token_verified
-      t: Token verification successful, redirecting…
+      t: Xác minh mã thông báo thành công, đang chuyển hướng…
 
     - key: accounts.your_surveys
-      t: Your Surveys
+      t: Khảo sát của bạn
