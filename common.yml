@@ -26,14 +26,18 @@ translations:
       Bạn hiện đang xem khảo sát này ở chế độ chỉ đọc.
   - key: general.survey_preview
     t: >
-      Khảo sát này ở chế độ xem trước. Các câu hỏi của nó có thể thay đổi
-      và tất cả dữ liệu đã nhập sẽ bị xóa khi cuộc khảo sát thực tế bắt đầu.
+      Khảo sát này ở **chế độ xem trước**. Các câu hỏi của nó có thể thay đổi và tất cả dữ liệu đã nhập **sẽ bị xóa** khi cuộc khảo sát thực tế bắt đầu.
+  - key: general.survey_feedback
+    t: Để lại feedback
 
   - key: general.survey_read_only_back
     t: >
       <a href="{link}">Quay lại</a> trang khảo sát chính để bắt đầu hoặc tiếp tục.
   - key: general.take_survey
     t: Tham gia khảo sát {name}
+
+  - key: options.na
+    t: 🚫 Không
 
   # surveys
   - key: general.open_surveys
@@ -566,6 +570,8 @@ translations:
     t: Hơn $200k
 
   # salary (short versions)
+  - key: options.yearly_salary.na.short
+    t: N/A
   - key: options.yearly_salary.range_work_for_free.short
     t: $0
   - key: options.yearly_salary.range_0_10.short
@@ -833,7 +839,18 @@ translations:
   - key: options.industry_sector.design
     t: Thiết kế
   - key: options.industry_sector.unemployed
-    t: Thật nghiệp
+    t: Thất nghiệp
+
+  - key: options.industry_sector.recruiting
+    t: Tuyển dụng
+  - key: options.industry_sector.agency
+    t: Đại lý
+  - key: options.industry_sector.business
+    t: Kinh doanh
+  - key: options.industry_sector.communication
+    t: Giao tiếp
+  - key: options.industry_sector.security
+    t: Bảo mật
 
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
