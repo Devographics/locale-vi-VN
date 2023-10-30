@@ -821,6 +821,8 @@ translations:
     t: Tuổi
   - key: charts.axis_legends.users_percentage_survey
     t: "% của người trả lời khảo sát"
+  - key: charts.axis_legends.users_percentageSurvey
+    aliasFor: charts.axis_legends.users_percentage_survey
   - key: charts.axis_legends.users_percentage_question
     t: "% của người trả lời câu hỏi"
   - key: charts.axis_legends.users_percentageQuestion
