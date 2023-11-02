@@ -88,18 +88,10 @@ translations:
   - key: sections.pre_post_processors_others.title
     t: Other Pre-/Post-processors
 
-  - key: tools_others.pre_post_processors
-    aliasFor: sections.pre_post_processors.title
-  - key: tools_others.pre_post_processors.description
-    aliasFor: sections.pre_post_processors.description
-
-  - key: tools_others.pre_post_processors.others
-    aliasFor: sections.pre_post_processors_others.title
-
   - key: sections.css_frameworks.title
     t: CSS Frameworks
   - key: sections.css_frameworks.description
-    t: Libraries that give you pre-made components and styles.
+    t: Frameworks and libraries that give you pre-made components or styles.
 
   - key: sections.css_frameworks_others.title
     t: Other CSS Frameworks
@@ -203,6 +195,21 @@ translations:
     t: Emails
   - key: options.what_do_you_use_css_for.printed_documents
     t: Printed documents
+  - key: options.what_do_you_use_css_for.desktop_apps
+    t: Desktop apps
+
+  - key: options.what_do_you_use_css_for.e_commerce
+    t: E-commerce
+  - key: options.what_do_you_use_css_for.websites
+    t: Websites
+  - key: options.what_do_you_use_css_for.games
+    t: Games
+  - key: options.what_do_you_use_css_for.portfolio
+    t: Portfolio
+  - key: options.what_do_you_use_css_for.extensions
+    t: Browser Extensions
+  - key: options.what_do_you_use_css_for.desktop
+    t: Desktop
 
   # CSS pain points
   - key: options.css_pain_points.browser_interoperability
@@ -256,9 +263,9 @@ translations:
   - key: options.css_missing_features.mixins.description
     t: Group and reuse definitions dynamically.
   - key: options.css_missing_features.color_functions
-    t: Color Functions
+    aliasFor: features.color_functions
   - key: options.css_missing_features.color_functions.description
-    t: Functions for manipulating color values.
+    aliasFor: features.color_functions.description
   - key: options.css_missing_features.container_queries
     t: Container Queries
   - key: options.css_missing_features.container_queries.description
@@ -271,6 +278,61 @@ translations:
     t: Subgrid
   - key: options.css_missing_features.subgrid.description
     t: Nesting deeper-level subgrids into a parent grid.
+
+  - key: options.css_missing_features.native_visually_hidden
+    t: Visually Hidden Content
+  - key: options.css_missing_features.native_visually_hidden.description
+    t: Native support for visually hidden content.
+
+  - key: options.css_missing_features.generated_content_alt_text
+    t: Generated Content Alt Text
+  - key: options.css_missing_features.generated_content_alt_text.description
+    t: Add alt text to generated (`::before`, `::after`) content.
+
+  - key: options.css_missing_features.animate_to_auto
+    t: Animate to `auto`
+  - key: options.css_missing_features.animate_to_auto.description
+    t: Animate an element's dimension to `auto`.
+
+  - key: options.css_missing_features.anchored_positioning
+    t: Anchored Positioning
+  - key: options.css_missing_features.anchored_positioning.description
+    t: Positioning elements relative to the edges of any arbitrary other element.
+
+  - key: options.css_missing_features.wrapping_detection
+    t: Wrapping Detection
+  - key: options.css_missing_features.wrapping_detection.description
+    t: Detecting when a flex or grid item has wrapped to another line.
+
+  - key: options.css_missing_features.more_pseudo_elements
+    t: More Pseudo-Elements
+  - key: options.css_missing_features.more_pseudo_elements.description
+    t: Having more than two pseudo-elements per element.
+
+  - key: options.css_missing_features.svg_in_css
+    t: SVG-in-CSS
+  - key: options.css_missing_features.svg_in_css.description
+    t: Support for SVG syntax inside CSS code (such as `background`).
+
+  - key: options.css_missing_features.grid_lines_styling
+    t: Grid-lines Styling
+  - key: options.css_missing_features.grid_lines_styling.description
+    t: The ability to style the invisible lines that divide a grid.
+
+  - key: options.css_missing_features.media_queries_variables
+    t: Media Queries Variables
+  - key: options.css_missing_features.media_queries_variables.description
+    t: Being able to use variables inside media queries.
+
+  - key: options.css_missing_features.masonry_layout
+    t: Masonry Layout
+  - key: options.css_missing_features.masonry_layout.description
+    t: Native support for Pinterest-style free-flowing grid layouts.
+
+  - key: options.css_missing_features.css_toggle
+    t: CSS Toggle
+  - key: options.css_missing_features.css_toggle.description
+    t: A way to associate a "toggleable value" with an element
 
   ###########################################################################
   # Features
@@ -290,18 +352,29 @@ translations:
   - key: features.flexbox_gap
     t: "`gap` property for flexbox"
 
+  - key: features.viewport_percentage_length_units
+    t: Small, Large, and Dynamic Viewport Units
+  - key: features.at_container
+    t: "`@container` Queries"
+  - key: features.at_container.description
+    t: Including size and style queries
+
   # shapes & graphics
   - key: features.shapes
     t: CSS Shapes
   - key: features.masks
     t: CSS Masks
-  - key: features.blend_modes
-    t: Blend Modes
   - key: features.filter_effects
     t: CSS Filter Effects
 
+  - key: features.linear_easing_function
+    t: "`linear()` Easing Function"
+  - key: features.blend_modes
+    t: Blend Modes
   - key: features.intrinsic_sizing
-    t: Intrinsic Sizing
+    t: Intrinsinc Sizing Keywords
+  - key: features.gradient_color_spaces
+    t: Interpolation Color Spaces
 
   # typography
   - key: features.web_fonts
@@ -335,11 +408,32 @@ translations:
     t: CSS Variables (Custom Properties)
   - key: features.containment
     t: CSS Containment
-  - key: features.comparison_functions
-    t: CSS Comparison Functions
 
   - key: features.css_nesting.description
     t: Native CSS nesting, excluding pre- or post-processors.
+
+  - key: features.trigonometric_functions
+    t: Trigonometric Functions
+  - key: features.exponential_functions
+    t: Exponential Functions
+  - key: features.sign_related_functions
+    t: Sign-Related Functions
+  - key: features.stepped_value_functions
+    t: Stepped Value Functions
+  - key: features.css_nesting
+    t: CSS Nesting
+  - key: features.shadow_dom_css
+    t: Shadow DOM Features
+  - key: features.individual_transform_properties
+    t: Individual Transform Properties
+  - key: features.comparison_functions
+    t: CSS Comparison Functions
+  - key: features.math_functions
+    t: CSS Math Functions
+  - key: features.viewport_units
+    t: Viewport Units (`vh`, `vw`)
+  - key: features.cascade_layers
+    t: Cascade Layers
 
   # missing features (see also options)
   - key: features.nesting
@@ -361,7 +455,7 @@ translations:
   - key: features.color_functions
     t: Color Functions
   - key: features.color_functions.description
-    t: Functions for manipulating color values.
+    t: Functions for manipulating color values (`color()`, `color-mix()`, `contrast-color()`…).
   - key: features.container_queries
     t: Container Queries
   - key: features.container_queries.description
@@ -558,22 +652,71 @@ translations:
   # slider
   - key: options.css_js_balance.0
     t: 100% CSS
-  - key: options.css_js_balance.1
-    t: "|"
-  - key: options.css_js_balance.2
-    t: "|"
-  - key: options.css_js_balance.3
-    t: "|"
   - key: options.css_js_balance.4
-    t: "50/50"
-  - key: options.css_js_balance.5
-    t: "|"
-  - key: options.css_js_balance.6
-    t: "|"
-  - key: options.css_js_balance.7
-    t: "|"
+    t: 50%–50%
   - key: options.css_js_balance.8
     t: 100% JS
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: tools_others.pre_post_processors
+    aliasFor: sections.pre_post_processors.title
+  - key: other_tools.pre_post_processors
+    aliasFor: sections.pre_post_processors.title
+  - key: tools_others.pre_post_processors.description
+    t: Which pre- or post-processors do you regularly use?
+  - key: other_tools.pre_post_processors.description
+    aliasFor: tools_others.pre_post_processors.description
+  - key: tools_others.pre_post_processors.others
+    aliasFor: sections.pre_post_processors_others.title
+  - key: other_tools.pre_post_processors.others
+    aliasFor: sections.pre_post_processors_others.title
+  - key: other_tools.pre_post_processors_freeform
+    aliasFor: sections.pre_post_processors_others.title
+  - key: options.pre_post_processors.na
+    t: None
+
+  - key: tools_others.utilities
+    t: Utilities
+  - key: tools_others.utilities.description
+    t: Which utilities or tools do you regularly use?
+  - key: tools_others.utilities.others
+    t: Other Utilities
+  - key: tools_others.utilities.others.description
+    t: Other utilities (freeform field).
+  - key: options.utilities.na
+    t: None
+
+  - key: other_tools.utilities
+    aliasFor: tools_others.utilities
+  - key: other_tools.utilities.description
+    aliasFor: tools_others.utilities.description
+  - key: other_tools.utilities.others
+    aliasFor: tools_others.utilities.others
+  - key: other_tools.utilities.others.description
+    aliasFor: tools_others.utilities.others.description
+  - key: other_tools.utilities_freeform
+    aliasFor: tools_others.utilities.others
+
+  - key: tools_others.browsers
+    t: Browsers
+  - key: tools_others.browsers.description
+    t: Which browser(s) do you primarily work in during initial development?
+  - key: tools_others.browsers.others
+    t: Other Browsers
+  - key: tools_others.browsers.others.description
+    t: Other answers (freeform field).
+
+  - key: other_tools.browsers
+    aliasFor: tools_others.browsers
+  - key: other_tools.browsers.description
+    aliasFor: tools_others.browsers.description
+  - key: other_tools.browsers.others
+    aliasFor: tools_others.browsers.others
+  - key: other_tools.browsers.others.description
+    aliasFor: tools_others.browsers.others.description
 
   ###########################################################################
   # Environments
@@ -592,6 +735,17 @@ translations:
     t: Other Testing Environments
   - key: environments.form_factors.others.description
     t: Other form factors or environments you usually test on.
+
+  - key: usage.form_factors
+    aliasFor: environments.form_factors
+  - key: usage.form_factors.description
+    aliasFor: environments.form_factors.description
+  - key: usage.form_factors.others
+    aliasFor: environments.form_factors.others
+  - key: usage.form_factors_freeform
+    aliasFor: environments.form_factors.others
+  - key: usage.form_factors.others.description
+    aliasFor: environments.form_factors.others.description
 
   - key: environments.accessibility_features
     t: Accessibility Features
@@ -618,6 +772,15 @@ translations:
     t: What kind of project do you usually use CSS for?
   - key: environments.what_do_you_use_css_for.others
     t: Other kinds of projects
+
+  - key: usage.what_do_you_use_css_for
+    aliasFor: environments.what_do_you_use_css_for
+  - key: usage.what_do_you_use_css_for.description
+    aliasFor: environments.what_do_you_use_css_for.description
+  - key: usage.what_do_you_use_css_for.others
+    aliasFor: environments.what_do_you_use_css_for.others
+  - key: usage.what_do_you_use_css_for_freeform
+    aliasFor: environments.what_do_you_use_css_for.others
 
   - key: charts.axis_legends.css_for_print
     t: Frequency
@@ -671,6 +834,13 @@ translations:
       Are there any existing CSS features that you have difficulties using (or avoid altogether)
       because of lack of support, or differences between browsers?
 
+  - key: usage.css_interoperability_features
+    aliasFor: opinions_others.browser_interoperability_features.others
+  - key: usage.css_interoperability_features.description
+    aliasFor: opinions_others.browser_interoperability_features.others.description
+
+  - key: usage.css_interoperability_features_freeform
+    aliasFor: opinions_others.browser_interoperability_features.others
   - key: usage.interoperability_features_freeform
     aliasFor: opinions_others.browser_interoperability_features.others
   - key: usage.interoperability_features_freeform.others
@@ -681,6 +851,23 @@ translations:
   - key: usage.interoperability_features_freeform.others.description
     aliasFor: opinions_others.browser_interoperability_features.others.description
 
+  - key: options.css_interoperability_features.math_functions
+    aliasFor: features.math_functions
+  - key: options.css_interoperability_features.css_nesting
+    aliasFor: features.css_nesting
+  - key: options.css_interoperability_features.at_container
+    aliasFor: features.at_container
+
+  - key: options.css_interoperability_features.color_functions
+    aliasFor: features.color_functions
+  - key: options.css_interoperability_features.color_functions.description
+    aliasFor: features.color_functions.description
+  - key: options.css_interoperability_features.cascade_layers
+    aliasFor: features.cascade_layers
+
+  - key: options.css_interoperability_features.na
+    t: None
+
   # Pain Points
   - key: opinions.css_pain_points
     t: CSS Pain Points
@@ -688,14 +875,22 @@ translations:
     t: For each matchup, pick the aspect of CSS you struggle with the most.
 
   - key: usage.other_pain_points_freeform
-    t: Pain Points
-  - key: usage.other_pain_points_freeform.description
     t: Any other pain points related to writing CSS?
   - key: usage.other_pain_points_freeform.others
     aliasFor: usage.other_pain_points_freeform
 
   - key: opinions_others.css_pain_points.others
     t: Other CSS Pain Points
+
+  - key: usage.css_pain_points
+    aliasFor: opinions_others.css_pain_points.others
+  - key: usage.css_pain_points.description
+    aliasFor: usage.other_pain_points_freeform
+  - key: usage.css_pain_points_freeform
+    aliasFor: usage.other_pain_points_freeform
+
+  - key: options.css_pain_points.na
+    t: None
 
   # Missing Features
   - key: opinions.css_missing_features
@@ -704,14 +899,23 @@ translations:
     t: For each matchup, pick the feature you'd most like to be able to use in CSS today.
 
   - key: usage.missing_features_freeform
-    t: Missing Features
-  - key: usage.missing_features_freeform.description
     t: What features do you feel are currently missing from CSS altogether?
   - key: usage.missing_features_freeform.others
+    aliasFor: usage.missing_features_freeform
+  - key: usage.missing_features_freeform
+    aliasFor: usage.missing_features_freeform
+
+  - key: usage.css_missing_features
+    t: Missing Features
+  - key: usage.css_missing_features.description
     aliasFor: usage.missing_features_freeform
 
   - key: opinions_others.css_missing_features.others
     t: Other Missing Features
+
+  - key: options.css_missing_features.na
+    t: None
+
   # - key: opinions_others.css_missing_features.others.note
   #   t: >
   #       These results were normalized based on the contents of a freeform field.
@@ -726,14 +930,30 @@ translations:
     t: How happy are you with the state of pre/post-processors?
   - key: happiness.css_in_js
     t: How happy are you with the state of CSS-in-JS libraries?
+  - key: css_in_js.css_in_js_happiness
+    aliasFor: happiness.css_in_js
   - key: happiness.css_frameworks
     t: How happy are you with the state of CSS frameworks?
+  - key: css_frameworks.css_frameworks_happiness
+    aliasFor: happiness.css_frameworks
 
   - key: happiness.state_of_the_web
+    t: State of Web Technologies
+  - key: happiness.state_of_the_web.description
     t: How happy are you with the general state of web technologies?
+  - key: usage.state_of_the_web_happiness
+    aliasFor: happiness.state_of_the_web
+  - key: usage.state_of_the_web_happiness.description
+    aliasFor: happiness.state_of_the_web.description
 
   - key: happiness.state_of_css
+    t: State of CSS
+  - key: happiness.state_of_css.description
     t: How happy are you with the general state of CSS?
+  - key: usage.state_of_css_happiness
+    aliasFor: happiness.state_of_css
+  - key: usage.state_of_css_happiness.description
+    aliasFor: happiness.state_of_css.description
 
   # pain points/currently missing (results)
   - key: css_pain_points.css_pain_points_wins
@@ -761,6 +981,13 @@ translations:
   - key: usage.css_js_balance.description
     t: How do you divide your time between writing CSS (including HTML markup) and JavaScript code?
 
+  - key: usage.css_usage_type
+    t: CSS Usage
+  - key: usage.css_usage_type.description
+    t: In what context do you primarily use CSS?
+  - key: usage.css_usage_type.others
+    t: Other CSS Usages
+
   ###########################################################################
   # Resources
   ###########################################################################
@@ -768,7 +995,12 @@ translations:
   - key: resources.first_steps_css
     t: First Steps With CSS
   - key: resources.first_steps_css.description
-    t: When first starting out, how did you initially learn CSS?
+    t: When first starting out, which resources did you use to initially learn CSS?
+
+  - key: resources.learning_methods_css
+    t: CSS Learning Methods
+  - key: resources.learning_methods_css.description
+    t: Which resources have you used to learn CSS?
 
   # sites & courses
   - key: resources.sites_courses_css
@@ -794,12 +1026,12 @@ translations:
 
   - key: features.features_intro_css
     t: |
-      Welcome to the survey! This first part is all about figuring out 
-      which **features** of CSS you know about. 
+      Welcome to the survey! This first part is all about figuring out
+      which **features** of CSS you know about.
 
       By the way, if you want to tell us more about any of your choices, just click that little "comment" icon!
 
   - key: tools.tools_intro_css
     t: |
-      The next couple sections focus on the **libraries** and **frameworks** that make up 
+      The next couple sections focus on the **libraries** and **frameworks** that make up
       the CSS ecosystem. Let us know what you're excited about!

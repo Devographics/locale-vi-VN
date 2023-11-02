@@ -390,6 +390,19 @@ translations:
       Khảo sát sẽ mở trong 3 tuần, nhưng phản hồi được nhập **trong 9 ngày đầu tiên (cho đến ngày 1 tháng 10)** sẽ có tác động lớn hơn nhiều đến Web,
       vì dữ liệu sơ bộ sẽ được sử dụng cho một số nỗ lực ưu tiên có thời hạn trước đó.
 
+  - key: general.react2023.survey_intro
+    t: |
+      Ngay khi React được giới thiệu lần đầu tiên, rõ ràng là nó sẽ trở thành một bước ngoặt lớn cho web.
+
+      Rốt cuộc thì nó đã được sử dụng để xây dựng Facebook và bất chấp thứ "JSX" kỳ lạ này, các nhà phát triển đã nhanh chóng áp dụng nó. Và điều ấn tượng hơn nữa là cộng đồng vẫn tiếp tục thực hiện những thay đổi lớn như function component và hook.
+
+      Nhưng giờ đây đã 10 năm trôi qua và React Server Components mới được giới thiệu hứa hẹn sẽ là sự thay đổi lớn nhất kể từ… ừm, kể từ chính React!
+
+      Liệu cộng đồng có tiếp tục đồng hành thêm một lần nữa không? Hay các nhà phát triển sẽ chuyển sang Svelte, Solid hoặc thứ gì khác?
+
+      Hãy cùng tìm hiểu với cuộc khảo sát State of React đầu tiên!
+
+
   ###########################################################################
   # Survey-Specific FAQs
   ###########################################################################
@@ -530,3 +543,46 @@ translations:
     t: Khi nào kết quả sẽ được công bố?
   - key: faq.results_released_html2023.description
     t: Khảo sát sẽ diễn ra từ ngày 19 tháng 9 đến ngày 16 tháng 10 và kết quả khảo sát sẽ được công bố ngay sau đó.
+
+  # React 2023
+
+  - key: faq.data_used_react2023
+    t: Dữ liệu này sẽ được sử dụng như thế nào?
+  - key: faq.data_used_react2023.description
+    t: >
+      Tất cả dữ liệu được thu thập sẽ được công bố công khai để bất kỳ ai cũng có thể tham khảo. Các nhà phát triển hoặc công ty có thể sử dụng nó để ưu tiên các lĩnh vực trọng tâm và ra quyết định cho lộ trình của họ.
+
+  - key: faq.survey_goals_react2023
+    t: Mục tiêu của cuộc khảo sát là gì?
+  - key: faq.survey_goals_react2023.description
+    t: >
+      Mục đích của khảo sát là để đo lường mức độ nhận biết và phổ biến của React API, cũng như các thư viện trong hệ sinh thái React.
+
+  - key: faq.who_should_take_survey_react2023
+    t: Ai nên tham gia cuộc khảo sát này?
+  - key: faq.who_should_take_survey_react2023.description
+    t: >
+      Đây là một khảo sát mở cho bất kỳ ai sử dụng React, dù thường xuyên hay thỉnh thoảng, như một phần công việc của họ, hay với tư cách là sinh viên hoặc chỉ để giải trí!
+
+  - key: faq.how_long_will_survey_take_react2023
+    t: Trả lời khảo sát sẽ mất bao lâu?
+  - key: faq.how_long_will_survey_take_react2023.description
+    t: >
+      Tùy thuộc vào số câu hỏi bạn trả lời (tất cả các câu hỏi đều không bắt buộc),
+      việc điền vào khảo sát sẽ mất khoảng 15-20 phút.
+
+  - key: faq.learn_more_react2023
+    t: Tôi có thể tìm hiểu thêm ở đâu?
+  - key: faq.learn_more_react2023.description
+    t: Bạn có thể tìm hiểu thêm về khảo sát này trong [bài đăng thông báo của chúng tôi](https://dev.to/sachagreif/announcing-the-first-ever-state-of-react-survey-3k6b).
+
+  - key: faq.survey_design_react2023
+    t: Cuộc khảo sát này được thiết kế như thế nào?
+  - key: faq.survey_design_react2023.description
+    t: >
+      Cuộc khảo sát được thiết kế dựa trên ý kiến đóng góp của cộng đồng thông qua [cuộc thảo luận mở](https://github.com/Devographics/surveys/issues/85).
+
+  - key: faq.results_released_react2023
+    t: Khi nào kết quả sẽ được công bố?
+  - key: faq.results_released_react2023.description
+    t: Khảo sát sẽ được thực hiện từ ngày 27 tháng 10 đến ngày 15 tháng 11 và kết quả khảo sát sẽ được công bố ngay sau đó.
