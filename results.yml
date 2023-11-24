@@ -639,7 +639,6 @@ translations:
   - key: blocks.features_experience_ranking.note
     aliasFor: blocks.features_experience_linechart.note
 
-
   # export
   - key: export.export
     t: Export
@@ -773,6 +772,13 @@ translations:
     t: Tất cả người trả lời
   - key: charts.facet_responses
     t: "{count} phản hồi"
+  - key: charts.facet_respondents
+    t: "({count} người trả lời)"
+
+  - key: charts.nth_percentile
+    t: "{percentile}th percentile"
+  - key: charts.nth_percentile_value
+    t: "{percentile}th percentile: {value}"
 
   - key: charts.freeform_data
     t: (trả lời dạng tự do)
@@ -793,6 +799,8 @@ translations:
     t: Tỷ lệ người dùng
   - key: charts.axis_legends.users_count
     t: Số lượng người dùng
+  - key: charts.axis_legends.users_average
+    t: Trung bình {axis}
   - key: charts.axis_legends.interest_percentage
     t: Qaun tâm %
   - key: charts.axis_legends.satisfaction_percentage
@@ -1554,3 +1562,13 @@ translations:
 
   - key: filters.facet.select
     t: Chọn một khía cạnh…
+
+  - key: dataloader.failed_request
+    t: >
+      Ôi không! Yêu cầu API đã thất bại với thông báo sau:
+  - key: dataloader.submit_report_prompt
+    t: >
+      Gửi một báo cáo lỗi để cho chúng tôi biết về vấn đề này, và chúng tôi sẽ cố gắng
+      khắc phục nó:
+  - key: dataloader.submit_issue
+    t: Gửi vấn đề
