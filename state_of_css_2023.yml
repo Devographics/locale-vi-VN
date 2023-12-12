@@ -5,21 +5,21 @@ translations:
   ###########################################################################
 
   - key: general.results.description
-    t: The 2023 edition of the annual survey about the latest trends in the CSS ecosystem.
+    t: Phiên bản năm 2023 của cuộc khảo sát hàng năm về xu hướng mới nhất trong hệ sinh thái CSS.
 
   - key: general.css2022.js2022_banner
-    t: The State of JS 2022 survey is currently open, you can [go take it right now](https://survey.devographics.com/survey/state-of-js/2022?source=css2022)!
+    t: Cuộc khảo sát State of JS 2022 đang diễn ra bạn có thể [tham gia ngay bây giờ](https://survey.devographics.com/survey/state-of-js/2022?source=css2022)!
 
   - key: general.css2023.results_intro
     t: |
 
-      I'm not going to lie, keeping up with CSS hasn't been easy lately. Thankfully this year [Chen Hui Jing](https://chenhuijing.com/) took the lead of the survey design process, building on the work done by [Lea Verou](https://lea.verou.me/) last year.
+      Tôi không hề nói dối, việc theo kịp CSS gần đây không phải dễ dàng. May mắn thay, năm nay [Chen Hui Jing](https://chenhuijing.com/) đã dẫn dắt quá trình thiết kế khảo sát, xây dựng dựa trên công việc mà [Lea Verou](https://lea.verou.me/) đã làm vào năm trước.
 
-      We were also lucky enough to get support from the Google Chrome team, who (along with other browser vendors) uses these results to help guide their roadmap.
+      Chúng tôi cũng may mắn nhận được sự hỗ trợ từ nhóm Google Chrome, người (cùng với các nhà cung cấp trình duyệt khác) sử dụng kết quả này để giúp xây dựng lộ trình của họ.
 
-      Thanks to all that extra help, we were able to introduce a bunch of new features, starting with the ability to **customize charts**. By clicking the <span class="customize-chart-icon">“settings”</span> icon next to a chart, you can now filter it by salary, country, or any other variable you'd like!
+      Nhờ nhiều sự giúp đỡ, chúng tôi đã có thể giới thiệu một loạt các tính năng mới, bắt đầu với khả năng **tùy chỉnh biểu đồ**. Bằng cách nhấp vào biểu tượng <span class="customize-chart-icon">“cài đặt”</span> ngay cạnh một biểu đồ, bạn giờ đây có thể lọc nó theo mức lương, quốc gia, hoặc bất kỳ biến số nào bạn muốn!
 
-      With all this out of the way, let's see how CSS evolved in 2023!
+      Với tất cả những điều này, hãy xem CSS đã phát triển như thế nào trong năm 2023!
 
   ###########################################################################
   # Introduction
@@ -27,14 +27,13 @@ translations:
 
   - key: introduction.css2023
     t: |
-      <span class="first-letter">C</span>SS is going through a period of unprecedented progress. Between `:has()`, container queries, subgrid, and many more, new features are making their way to browsers seemingly every month.
+      CSS đang trải qua một giai đoạn phát triển chưa từng có. Từ `:has()`, container queries, subgrid, và nhiều hơn nữa, các tính năng mới đang được đưa vào trình duyệt dường như mỗi tháng.
 
-      The consequence of all this growth is that things can get a bit overwhelming. Thankfully this year we had [Chen Hui Jing](https://chenhuijing.com/) to help design the survey and guide us through the CSS jungle.
+      Hậu quả của sự phát triển này là mọi thứ có thể trở nên hơi lộn xộn. May mắn thay, năm nay chúng tôi có [Chen Hui Jing](https://chenhuijing.com/) để giúp thiết kế khảo sát và hướng dẫn chúng tôi qua khu rừng CSS này.
 
-      And speaking of the survey, did you know browser vendors use its data as part of the [Interop](https://web.dev/interop-2023/) initiative to help prioritize which features to work on next?
+      Và nói về khảo sát, bạn có biết rằng các nhà cung cấp trình duyệt sử dụng dữ liệu của nó như một phần của sáng kiến [Interop](https://web.dev/interop-2023/) để giúp ưu tiên các tính năng cần làm tiếp theo không?
 
-      Finally, we are introducing a new feature this year: the ability to **customize charts** with your own data filters. We're excited to see what kind of new insights you'll come up with!
-
+      Cuối cùng, chúng tôi giới thiệu một tính năng mới năm nay: khả năng **tùy chỉnh biểu đồ** với các bộ lọc dữ liệu của riêng bạn. Chúng tôi rất hào hứng để xem bạn sẽ đưa ra những hiểu biết mới nào!
       <span class="conclusion__byline">– Sacha Greif</span>
 
   ###########################################################################
@@ -46,18 +45,18 @@ translations:
 
   - key: sections.tshirt.description
     t: |
-      ## Support the Survey With the State of CSS T-Shirt
+      ## Hỗ trợ Cuộc khảo sát với áo thun State of CSS
 
-      Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes.
+      Giữa những video chất lượng kém, băng cassette cồng kềnh phải tua lại, không có nhiều điều để nhớ về thời đại VHS (viết tắt của Video Home System). Nhưng một điều chúng tôi *đặc biệt* nhớ là những hình ảnh tuyệt vời của thập kỷ 90s mà thường được trang trí trên các băng VHS trắng.
 
-      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for CSS at the same time!
+      Nhưng giờ đây, nhờ tài năng của Christopher Kirk-Nielsen, bạn có thể tận hưởng tất cả điều này đồng thời thể hiện tình yêu của bạn dành cho CSS!
 
   - key: tshirt.about
-    t: About the T-shirt
+    t: Thông tin về chiếc áo
 
   - key: tshirt.description
     t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+      Chúng tôi sử dụng những chiếc áo siêu mềm, chất lượng cao với kiểu dáng thon gọn được in bởi các đối tác của chúng tôi tại Cotton Bureau.
 
   - key: tshirt.getit
     t: Get It
@@ -66,14 +65,14 @@ translations:
     t: USD $29 + shipping
 
   - key: tshirt.designer.heading
-    t: About the Designer
+    t: Thông tin về nhà thiết kế
 
   - key: tshirt.designer.name
     t: Christopher Kirk-Nielsen
 
   - key: tshirt.designer.bio
     t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+      Gốc Pháp nhưng hiện đang sống ở Mỹ, Chris không chỉ là một front-end developer tuyệt vời mà còn là một họa sĩ minh họa tài năng chuyên về retro visuals. Trên thực tế, chúng tôi khuyến khích bạn xem [các thiết kế áo thun khác](https://chriskirknielsen.com/designs) của anh ấy!
 
   ###########################################################################
   # Sections Introductions
@@ -81,33 +80,32 @@ translations:
 
   - key: sections.user_info.description.css2023
     t: |
-      This year's survey reached **9,190** developers throughout the world.
+      Cuộc khảo sát năm nay đã tiếp cận **9,190** lập trình viên trên toàn thế giới.
 
   - key: sections.features.description.css2023
     t: |
-      CSS has been on a roll lately, and many of the new features introduced are
-      slowly but surely being adopted by the developer community.
+      CSS đã có những bước tiến vượt bậc gần đây, và nhiều tính năng mới được giới thiệu
+      và dần dần được cộng đồng lập trình viên tiếp nhận.
 
   - key: sections.css_frameworks.description.css2023
     t: |
-      Once again, Tailwind CSS stands apart as the one major UI framework that developers are happy to keep using; while Open Props is generating a small but passionate following.
+      Một lần nữa, Tailwind CSS nổi bật như một framework UI lớn mà lập trình viên vui mừng tiếp tục sử dụng; trong khi Open Props đang tạo ra một cộng đồng nhỏ nhưng đam mê.
 
   - key: sections.css_in_js.description.css2023
     t: |
-      After some initial growth, it seems like the CSS-in-JS sector has plateaued, and
-      the fact that native CSS itself is adopting many of its main advantages is probably a big contributing factor.
+      Sau một số sự tăng trưởng ban đầu, dường như ngành CSS-in-JS đã đạt đến mức ổn định, và
+      việc CSS gốc đang tiếp nhận nhiều ưu điểm chính của nó có lẽ là một yếu tố đóng góp lớn.
 
   - key: sections.other_tools.description.css2023
     t: |
-      30 years after the invention of the browser, we're still seeing innovation in that space with new entrants like Brave and Arc; or specialized tools like Polypane gaining marketshare.
+      30 năm sau khi trình duyệt được phát minh, chúng ta vẫn thấy sự đổi mới trong lĩnh vực này với những nhân tố mới như Brave và Arc; hoặc các công cụ chuyên biệt như Polypane đang chiếm lĩnh thị trường.
 
   - key: sections.usage.description.css2023
     t: |
-      No matter how you use CSS, the data shows that making sure your code works across all browsers is still a concern, especially for newer features such as `:has()`.
-
+      Bất kể bạn sử dụng CSS như thế nào, dữ liệu cho thấy việc đảm bảo code của bạn hoạt động trên tất cả các trình duyệt vẫn là một vấn đề, đặc biệt là với các tính năng mới như `:has()`.
   - key: sections.resources.description.css2023
     t: |
-      Between blogs, YouTube channels, and podcasts, the CSS community is more vibrant than ever.
+      Giữa các blog, kênh YouTube và podcast, cộng đồng CSS trở nên sôi động hơn bao giờ hết.
 
   ###########################################################################
   # Charts
@@ -132,36 +130,36 @@ translations:
 
   - key: user_info.country_low_vs_high_income.description.css2023
     t: >
-      Splitting respondents between low-income and high-income brackets gives
-      us two very different lists of countries.
+      Phân chia người trả lời giữa các nhóm thu nhập thấp và thu nhập cao cho chúng ta
+      hai danh sách các quốc gia rất khác nhau.
 
   - key: user_info.higher_education_degree_by_gender.description.css2023
     t: >
-      Women representation was higher than expected among respondents
-      with a higher-education diploma in areas unrelated to CSS, potentially
-      indicating a lot of career changes.
+      Sự đại diện của phụ nữ cao hơn dự kiến ​​trong số những người trả lời
+      có bằng giáo dục cao hơn trong các lĩnh vực không liên quan đến CSS,
+      có thể chỉ ra rất nhiều sự thay đổi nghề nghiệp.
 
   - key: user_info.source_by_gender.description.css2023
     t: >
-      Although the low total counts make it hard to draw any conclusions,
-      the proportion of women was highest among respondents
-      who came across the survey from their workplace or through word-of-mouth,
-      especially compared to social networks such as Twitter or YouTube.
+      Mặc dù tổng số lượng thấp khiến việc rút ra bất kỳ kết luận nào trở nên khó khăn,
+      tỷ lệ phụ nữ cao nhất trong số những người trả lời đã tìm thấy cuộc khảo sát
+      từ nơi làm việc của họ hoặc thông qua lời truyền miệng, đặc biệt so với các mạng xã hội
+      như Twitter hoặc YouTube.
 
   - key: user_info.source_by_race_ethnicity.description.css2023
     t: >
-      Again keeping in mind the low sample size, when considering race and ethnicity,
-      YouTube stands out as one of the most diverse source of traffic to the survey.
+      Một lần nữa, hãy nhớ rằng kích thước mẫu thấp, khi xem xét chủng tộc và dân tộc,
+      YouTube nổi bật là một trong những nguồn đa dạng nhất đưa họ đến cuộc khảo sát.
 
   - key: user_info.average_income_by_company_size.description.css2023
     t: >
-      We find the highest-paid respondents working for large companies, although
-      it's notable that solo workers show a slight income advantage over small companies.
+      Chúng tôi tìm thấy những người trả lời có thu nhập cao nhất làm việc cho các công ty lớn,
+      mặc dù đáng chú ý là những người làm việc độc lập có một lợi thế thu nhập nhẹ nhàng hơn so với các công ty nhỏ.
 
   - key: user_info.yearly_salary_usa_vs_the_world.description.css2023
     t: >
-      When comparing U.S. incomes against the rest of the world, it becomes clear that U.S.
-      developers are over-represented in the higher income brackets.
+      Khi so sánh thu nhập ở Mỹ với phần còn lại của thế giới, rõ ràng là các nhà phát triển Mỹ
+      được đại diện quá mức trong các nhóm thu nhập cao.
 
   ###########################################################################
   # Awards
@@ -169,26 +167,24 @@ translations:
 
   - key: award.feature_adoption_delta_award.comment
     t: |
-      The `gap` property for Flexbox is such a useful addition that it's not surprising
-      it would see a **{value}** progression in 2023
-
-  # - key: award.tool_usage_delta_award.comment
-  #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
+      t: |
+      Thuộc tính `gap` cho Flexbox là một bổ sung hữu ích đến mức không ngạc nhiên khi nó có
+      sự tiến bộ **{value}** trong năm 2023
 
   - key: award.most_commented_feature_award.comment
-    t: With **{value}** comments, no other feature even came close to generating as much feedback as Subgrid.
+    t: Với **{value}** bình luận, không có tính năng nào khác thậm chí còn gần như tạo ra nhiều phản hồi như Subgrid.
 
   - key: award.tool_satisfaction_award.comment
     t: |
-      Out of all the CSS-in-JS solutions, Open Props is the only one that maintained a
-      sky-high **{value}** retention ratio.
+      Trong tất cả các giải pháp CSS-in-JS, Open Props là cái duy nhất duy trì
+      tỷ lệ giữ chân **{value}** cao ngất ngưởng.
 
   # - key: award.tool_interest_award.comment
   #   t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
 
   - key: award.most_write_ins_award.comment
     t: |
-      With **{value}** mentions, Panda was the tool most mentioned in freeform questions by far.
+      Với **{value}** đề cập, Panda là công cụ được đề cập nhiều nhất trong các câu hỏi tự do.
 
   ###########################################################################
   # Conclusion
@@ -196,17 +192,17 @@ translations:
 
   - key: conclusion.css2023
     t: |
-      <span class="first-line">As usage of newer CSS features has been trending upwards, usage of CSS frameworks has been on a downward slope.</span>
+      <span class="first-line">Khi việc sử dụng các tính năng CSS mới hơn đang có xu hướng tăng lên, việc sử dụng các framework CSS đã đi xuống.</span>
 
-      This could be an indication that folks are starting to get used to the idea that you don’t necessarily have to wait to use newer CSS features, because browsers will catch up a lot quicker than before.
+      Điều này có thể là một dấu hiệu cho thấy mọi người đang bắt đầu quen với ý tưởng rằng bạn không nhất thiết phải chờ để sử dụng các tính năng CSS mới hơn, bởi vì trình duyệt sẽ bắt kịp nhanh chóng hơn trước.
 
-      With high awareness of native CSS features like nesting and `:has()` (which can act like a parent selector, but is much more than that!), it seems like we are on the brink of widespread adoption.
+      Với sự nhận biết cao về các tính năng CSS gốc như nesting và `:has()` (có thể hoạt động như một parent selector, nhưng nhiều hơn thế nhiều!), có vẻ như chúng ta đang ở trên bờ vực của việc tiếp nhận rộng rãi.
 
-      Out of all these features, I did have a personal favourite for this year, and that is `text-wrap: balance`. It provides a one-line fix for a request that I’ve constantly gotten over my entire web development career: “can we adjust that headline so the last word isn’t an orphan?”
+      Trong tất cả các tính năng này, tôi có một ưu thích cá nhân cho năm nay, đó là `text-wrap: balance`. Nó cung cấp một giải pháp chỉ trong một dòng cho một yêu cầu mà tôi đã liên tục nhận được trong suốt sự nghiệp phát triển web của mình: “liệu có thể điều chỉnh tiêu đề đó để từ cuối cùng không phải là một từ lẻ?”
 
-      It was also interesting that so many developers felt that animating to auto and masonry layout were missing CSS features. It's true it's always been tricky for browsers to determine element dimensions (especially height) when they're not explicitly declared.
+      Cũng thú vị khi có rất nhiều nhà phát triển cảm thấy rằng việc tạo hiệu ứng chuyển động cho auto và masonry layout là những tính năng CSS đang thiếu. Thật đúng là việc xác định kích thước của phần tử (đặc biệt là chiều cao) luôn là một vấn đề khó khăn cho trình duyệt khi chúng không được khai báo rõ ràng.
 
-      But as [Lea Verou](https://lea.verou.me/) mentioned last year, with initiatives such as [Interop](https://wpt.fyi/interop-2023) bringing browsers together, features thought previously impossible can now potentially become reality!
+      Nhưng như [Lea Verou](https://lea.verou.me/) đã đề cập vào năm ngoái, với các sáng kiến như [Interop](https://wpt.fyi/interop-2023) đưa các trình duyệt lại gần nhau, các tính năng từng được cho là không thể nay có thể trở thành hiện thực!
 
   - key: conclusion.css2023.bio
     t: Developer Experience Engineer @ Interledger Foundation
@@ -216,9 +212,9 @@ translations:
   ###########################################################################
 
   - key: picks.my_pick
-    t: "My 2023 Pick: "
+    t: "Lựa chọn của tôi năm 2023: "
   - key: picks.intro
-    t: We asked members of the CSS community to share their “pick of the year”
+    t: Chúng tôi đã hỏi các thành viên của cộng đồng CSS để chia sẻ “lựa chọn của năm” của họ
 
   # - key: picks.david_east.name
   #   t: CSS Subgrid
@@ -246,7 +242,7 @@ translations:
     t: CSS Evangelist
   - key: picks.kevin_j_powell.description
     t: |
-      Ahmad's blog is a source of knowledge and inspiration, with in-depth explorations of topics, including great visuals and use cases.
+      Blog của Ahmad là nguồn kiến thức và cảm hứng, với việc khám phá sâu rộng các chủ đề, bao gồm cả hình ảnh tuyệt vời và các trường hợp sử dụng.
 
   # - key: picks.samuel_kraft.name
   #   t: The `:has()` Selector
@@ -258,14 +254,13 @@ translations:
   #     This great article from Jen Simmons breaks it down with explanations and practical examples.
 
   - key: picks.josh_comeau.name
-    t: CSS Podcast
+    t: Podcast CSS
   - key: picks.josh_comeau.bio
-    t: Instructor, CSS for JavaScript Developers
+    t: Giảng viên, CSS cho Lập trình viên JavaScript
   - key: picks.josh_comeau.description
     t: |
-      This podcast is a delightful tour of a bunch of
-      important and modern CSS features.
-      It's hosted by Una Kravets and Adam Argyle, two absolutely wonderful people.
+      Podcast này là một chuyến tham quan thú vị về một loạt các tính năng CSS quan trọng và hiện đại.
+      Nó được dẫn dắt bởi Una Kravets và Adam Argyle, hai người tuyệt vời.
 
   - key: picks.adam_argyle.name
     t: Zag.js
@@ -273,8 +268,8 @@ translations:
     t: Google Chrome Developer Relations
   - key: picks.adam_argyle.description
     t: |
-      The talented folks at ChakraUI are building some next-gen components and ideas,
-      can't wait to see what else they come up with.
+      Những người tài năng tại ChakraUI đang xây dựng một số thành phần và ý tưởng thế hệ tiếp theo,
+      không thể chờ đợi để xem họ sẽ tạo ra điều gì khác.
 
   # - key: picks.eric_w_bailey.name
   #   t: “Style with Stateful, Semantic Selectors” by Ben Myers
@@ -298,12 +293,12 @@ translations:
 
   - key: picks.jhey_tompkins.name
     t: |
-      The `:has()` Selector
+      Bộ chọn `:has()`
   - key: picks.jhey_tompkins.bio
-    t: CEO of Fancy CSS
+    t: CEO của Fancy CSS
   - key: picks.jhey_tompkins.description
     t: |
-      `:has()` is the magic that you can use to combine other APIs like container queries, anchor positioning, etc. together. I'm excited to see how the community finds new and innovative ways to use it.
+      `:has()` là phép màu mà bạn có thể sử dụng để kết hợp các API khác như container queries, anchor positioning, v.v. lại với nhau. Tôi rất hào hứng để xem cộng đồng sẽ tìm ra những cách sử dụng mới và sáng tạo như thế nào.
 
   # - key: picks.gift_egwuenu.name
   #   t: Learn CSS
@@ -317,11 +312,11 @@ translations:
   - key: picks.ahmad_shadeed.name
     t: Scroll-Driven Animations
   - key: picks.ahmad_shadeed.bio
-    t: Design Engineer and Writer at [ishadeed.com](https://ishadeed.com/)
+    t: Kỹ sư thiết kế và tác giả tại [ishadeed.com](https://ishadeed.com/)
   - key: picks.ahmad_shadeed.description
     t: |
-      If I went back 2 years, I'd never have imagined CSS
-      having scroll-driven animations. Yet, here we are!
+      Nếu tôi quay lại 2 năm trước, tôi sẽ không bao giờ tưởng tượng ra CSS
+      có các scroll-driven animation. Tuy nhiên, chúng ta đã ở đây!
 
   # - key: picks.georgedoescode.name
   #   t:
@@ -343,20 +338,20 @@ translations:
     t: |
       `color-contrast()`
   - key: picks.sara_soueidan.bio
-    t: Inclusive design engineer and educator
+    t: Kỹ sư thiết kế và giáo viên
   - key: picks.sara_soueidan.description
     t: |
-      My vote goes to color-contrast() because I think it deserves more spotlight.
-      It’s one of the few features that makes it _easier_ for us (developers)
-      to design for our users. Cross-browser support can’t come soon enough.
+      Phiếu bầu của tôi dành cho color-contrast() vì tôi nghĩ rằng nó xứng đáng nhận được nhiều sự chú ý hơn.
+      Đây là một trong số ít tính năng giúp chúng ta (nhà phát triển) dễ dàng hơn trong việc
+      thiết kế cho người dùng của mình. Sự hỗ trợ trên nhiều trình duyệt không thể đến sớm hơn.
 
   - key: picks.adam_wathan.name
     t: Lightning CSS
   - key: picks.adam_wathan.bio
-    t: Creator of Tailwind CSS
+    t: Người tạo ra Tailwind CSS
   - key: picks.adam_wathan.description
     t: |
-      An extremely fast, all-in-one CSS processing tool that handles things like vendor prefixes, minification, and modern feature transpilation, all while being an amazing platform for other developers to build CSS tools on top of.
+      Một công cụ xử lý CSS cực kỳ nhanh, tất cả trong một, xử lý các vấn đề như vendor prefixes, minification, và modern feature transpilation, tất cả trong khi là một nền tảng tuyệt vời cho các nhà phát triển khác để xây dựng các công cụ CSS trên đó.
 
   # - key: picks.christianoliff.bio
   #   t: Front-end developer for Trimble MAPS
@@ -367,22 +362,22 @@ translations:
   - key: picks.kilian_valkhof.name
     t: Devtoolstips
   - key: picks.kilian_valkhof.bio
-    t: Creator of Polypane, the browser for developers.
+    t: Người tạo ra Polypane, trình duyệt cho nhà phát triển.
   - key: picks.kilian_valkhof.description
     t: |
-      The devtools in all browsers are super powerful. These bite-sized tips
-      help you get the most out of them regardless of which browser you use.
+      Các công cụ phát triển trong tất cả các trình duyệt đều rất mạnh mẽ. Những mẹo nhỏ giúp bạn
+      tận dụng tối đa chúng, bất kể bạn sử dụng trình duyệt nào.
 
   - key: picks.ahmad_awais.name
     t: |
       `text-wrap: balance`
   - key: picks.ahmad_awais.bio
-    t: VP DevRel & Google Developers Advisory Board founding member
+    t: Phó Chủ tịch DevRel & thành viên sáng lập Hội đồng Tư vấn Google Developers
   - key: picks.ahmad_awais.description
     t: |
-      Headlines should dazzle and read like a breeze, even if screens play hard to predict.
-      I've battled those annoying solo words at line's end (hello, widow words!),
-      but guess what? Enter text-wrap: balance – one-liner-fix wizardry that's pure magic!
+      Tiêu đề nên lấp lánh và dễ đọc như một cơn gió, ngay cả khi màn hình khó đoán trước.
+      Tôi đã chiến đấu với những từ đơn độc ở cuối dòng (xin chào, từ góa phụ!),
+      nhưng bạn có biết gì không? Nhập text-wrap: balance - phép thuật sửa chữa trong một dòng mà thật sự là phép màu!
 
   # - key: picks.piccalilli_.bio
   #   t: Freelance designer & dev who runs piccalil.li
@@ -436,10 +431,10 @@ translations:
   ###########################################################################
 
   - key: quiz.quiz_dave_shea
-    t: "Question 01"
+    t: "Câu hỏi 01"
   - key: quiz.quiz_dave_shea.question
     t: >
-      In May 2003, Dave Shea launched a site that showcased CSS's flexibility and adaptability. What was that site's name?
+      Vào tháng 5 năm 2003, Dave Shea đã khởi chạy một trang web giới thiệu sự linh hoạt và thích ứng của CSS. Tên của trang web đó là gì?
   - key: options.quiz_dave_shea.css_playground
     t: CSS Playground
   - key: options.quiz_dave_shea.style_jungle
@@ -448,15 +443,15 @@ translations:
     t: CSS Zen Garden
   - key: quiz.quiz_dave_shea.answer
     t: >
-      [CSS Zen Garden](https://www.csszengarden.com/) made a big impression by demonstrating what was possible when you kept markup and styling separate.
+      [CSS Zen Garden](https://www.csszengarden.com/) đã tạo ra ấn tượng lớn bằng cách minh họa những gì có thể thực hiện khi bạn giữ markup và styling riêng biệt.
   - key: quiz.quiz_dave_shea.description
     aliasFor: quiz.quiz_dave_shea.question
 
   - key: quiz.quiz_css_spec
-    t: "Question 02"
+    t: "Câu hỏi 02"
   - key: quiz.quiz_css_spec.question
     t: >
-      Which of these organizations maintains the CSS specification?
+      Tổ chức nào trong số những tổ chức này duy trì thông số kỹ thuật CSS?
   - key: options.quiz_css_spec.w3c
     t: W3C
   - key: options.quiz_css_spec.w3schools
@@ -465,24 +460,23 @@ translations:
     t: MDN
   - key: quiz.quiz_css_spec.answer
     t: >
-      The W3C's [CSS Working Group](https://www.w3.org/groups/wg/css) maintains the CSS spec, which is then implemented by browser vendors.
+      [Nhóm làm việc CSS của W3C](https://www.w3.org/groups/wg/css) duy trì thông số kỹ thuật CSS, sau đó được các nhà cung cấp trình duyệt thực hiện.
   - key: quiz.quiz_css_spec.description
     aliasFor: quiz.quiz_css_spec.question
 
   ###########################################################################
   # Sponsors
   ###########################################################################
-
   - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
+    t: Nâng cao kỹ năng của bạn với các khóa học kỹ sư giao diện người dùng hiện đại, sâu rộng.
   - key: sponsors.polypane.description
-    t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+    t: Trình duyệt dành cho các nhà phát triển tham vọng. Xây dựng các trang web đáp ứng, dễ truy cập và nhanh chóng một cách dễ dàng.
   - key: sponsors.nijibox.description
-    t: UX and Product Development consulting in the heart of Tokyo.
+    t: Tư vấn Phát triển Sản phẩm và UX ngay tại trung tâm Tokyo.
   - key: sponsors.renderatl.description
-    t: The largest tech conference with a dedicated Design & CSS track.
+    t: Hội nghị công nghệ lớn nhất với một đường ray thiết kế & CSS riêng biệt.
   - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
+    t: Cảm ơn nhóm Google Chrome đã hỗ trợ công việc của chúng tôi.
 
   ###########################################################################
   # FAQ/About
@@ -490,57 +484,56 @@ translations:
 
   - key: about.content
     t: >
-      The 2023 State of CSS survey ran from June 15 to July 15 2023, and collected 9,108 responses. The survey is run by [Devographics](https://www.devographics.com/), with help from a team of open-source contributors and consultants.
+      Cuộc khảo sát State of CSS 2023 diễn ra từ ngày 15 tháng 6 đến ngày 15 tháng 7 năm 2023, và thu thập được 9,108 phản hồi. Cuộc khảo sát được thực hiện bởi [Devographics](https://www.devographics.com/), với sự giúp đỡ từ một nhóm người đóng góp mã nguồn mở và các tư vấn viên.
 
 
-      The State of CSS logo and t-shirt were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      Logo và áo thun State of CSS được thiết kế và tạo hình động bởi [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
 
-      ### Survey Goals
+      ### Mục tiêu Khảo sát
 
-      This survey, along with the [State of JavaScript](https://stateofjs.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices.
-
-
-      As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included.
+      Cuộc khảo sát này, cùng với cuộc khảo sát [State of JavaScript](https://stateofjs.com/), được tạo ra để xác định các xu hướng sắp tới trong hệ sinh thái phát triển web để giúp các nhà phát triển lựa chọn công nghệ.
 
 
-      Additionally, survey data is also used by browser vendors to prioritize features and inform initiatives such as [Interop 2023](https://web.dev/interop-2023/).
+      Do đó, những cuộc khảo sát này tập trung vào việc dự đoán những gì sẽ đến trong những năm tiếp theo thay vì phân tích những gì đang phổ biến ngay bây giờ, đó là lý do tại sao các tính năng hoặc công nghệ hiện đang phổ biến nhất không luôn được bao gồm.
 
 
-      ### Survey Design
-
-      This year, survey design was lead by [Chen Hui Jing](https://chenhuijing.com/) thanks to a funding grant from the Google Chrome team. All survey questions were optional.
-
-      ### Survey Audience
-
-      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic.
-
-      ### Project Funding
-
-      Funding from this project comes from a variety of sources:
-
-      - **T-shirt sales**.
-
-      - **Sponsored Links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
-
-      - **Sponsored Charts**: starting last year, anybody can now also choose to directly sponsor a chart for $10 or more, and get their Twitter avatar displayed next to it.
-
-      - **Google**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a budget to hire Lea to help design the survey, as well as funded me directly to help support my work.
-
-      - **Nijibox**: Japan-based [Nijibox](https://nijibox.jp/) has also graciously accepted to sponsor my efforts to help make these yearly surveys more sustainable.
+      Ngoài ra, dữ liệu khảo sát cũng được sử dụng bởi các nhà cung cấp trình duyệt để ưu tiên các tính năng và thông báo cho các sáng kiến như [Interop 2023](https://web.dev/interop-2023/).
 
 
-      ### Technical Overview
+      ### Thiết kế Khảo sát
 
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). Our code is [open-source](https://github.com/Devographics/Monorepo/).
+      Năm nay, thiết kế khảo sát được dẫn dắt bởi [Chen Hui Jing](https://chenhuijing.com/) nhờ vào một khoản tài trợ từ nhóm Google Chrome. Tất cả các câu hỏi khảo sát đều là tùy chọn.
 
+      ### Đối tượng Khảo sát
+
+      Cuộc khảo sát được mở trực tuyến và người trả lời không bị lọc hoặc chọn lọc theo bất kỳ cách nào. Người trả lời chủ yếu là sự kết hợp của người trả lời từ các cuộc khảo sát trước (được thông báo qua danh sách gửi thư) và lưu lượng truy cập từ mạng xã hội.
+
+      ### Quỹ Dự án
+
+      Quỹ cho dự án này đến từ nhiều nguồn khác nhau:
+
+      - **Bán áo thun**.
+
+      - **Liên kết Tài trợ**: các liên kết đến các nguồn tài nguyên được đề xuất ở cuối mỗi trang được cung cấp bởi đối tác của chúng tôi [Frontend Masters](https://frontendmasters.com/).
+
+      - **Biểu đồ Tài trợ**: bắt đầu từ năm ngoái, bất kỳ ai cũng có thể chọn tài trợ trực tiếp cho một biểu đồ với 10 đô la hoặc nhiều hơn, và nhận được hình đại diện Twitter của họ hiển thị bên cạnh.
+
+      - **Google**: năm nay, nhóm [Google Chrome](https://www.google.com/chrome/) đã dành một ngân sách để thuê Lea giúp thiết kế cuộc khảo sát, cũng như tài trợ trực tiếp cho tôi để hỗ trợ công việc của tôi.
+
+      - **Nijibox**: [Nijibox](https://nijibox.jp/) có trụ sở tại Nhật Bản cũng đã ân cần chấp nhận tài trợ cho nỗ lực của tôi để giúp những cuộc khảo sát hàng năm trở nên bền vững hơn.
+
+
+      ### Tổng quan Kỹ thuật
+
+      Bạn có thể tìm hiểu sâu hơn về kỹ thuật dùng để chạy các cuộc khảo sát [tại đây](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). Code của chúng tôi là [open-source](https://github.com/Devographics/Monorepo/).
       ### Feedback
 
 
-      - [Report a technical issue](https://github.com/Devographics/Monorepo/issues)
+      - [Báo cáo một vấn đề kỹ thuật](https://github.com/Devographics/Monorepo/issues)
 
-      - [Make a suggestion for next year](https://github.com/Devographics/surveys/issues/193)
+      - [Đưa ra đề xuất cho năm sau](https://github.com/Devographics/surveys/issues/193)
 
-      - [Other non-technical issues](https://github.com/Devographics/surveys/issues)
+      - [Các vấn đề không kỹ thuật khác](https://github.com/Devographics/surveys/issues)
 
-      - [Join our Discord](https://discord.gg/tuWRUWVyJs)
+      - [Tham gia Discord của chúng tôi](https://discord.gg/tuWRUWVyJs)
