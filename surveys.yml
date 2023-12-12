@@ -402,7 +402,15 @@ translations:
 
       Hãy cùng tìm hiểu với cuộc khảo sát State of React đầu tiên!
 
+  # JS 2023
 
+  - key: general.js2023.survey_intro
+    t: |
+      Giữa Astro, Vite, và Remix, 2022 đã khởi đầu một làn sóng thay đổi JavaScript và tiếp tục phát triển trong năm 2023 với Bun, Svelte 5, Tauri, và nhiều hơn nữa.
+
+      Nhưng các thế lực cũ không hề đứng yên, với Next.js và React dẫn đầu với các đổi mới như Server Components và Server Actions.
+
+      Vì vậy, sau một năm bận rộn nữa, giờ đây là thời gian để tổng kết, và xem mọi thứ đang đứng ở đâu trong hệ sinh thái JavaScript.
   ###########################################################################
   # Survey-Specific FAQs
   ###########################################################################
@@ -586,3 +594,59 @@ translations:
     t: Khi nào kết quả sẽ được công bố?
   - key: faq.results_released_react2023.description
     t: Khảo sát sẽ được thực hiện từ ngày 27 tháng 10 đến ngày 15 tháng 11 và kết quả khảo sát sẽ được công bố ngay sau đó.
+
+  # JS 2023
+
+  - key: general.js2023.survey_intro
+    t: >
+      JavaScript bắt đầu cuộc đời của mình như một ngôn ngữ cho trình duyệt, sau đó chinh phục máy chủ với Node.js.
+
+
+      Vào năm 2023, dường như toàn bộ hệ sinh thái cuối cùng có thể sẵn sàng để nối lại khoảng cách đó. Từ các tính năng như React Server Components, các framework như Solid và Qwik, hoặc các meta-framework như Next.js và Sveltekit, việc cung cấp một cách tốt hơn để phục vụ mã và dữ liệu cho khách hàng đã trở thành mục tiêu lớn tiếp theo của JavaScript.
+
+
+      Hay chúng ta nên nói TypeScript? Tại thời điểm này, việc tách rời hai ngôn ngữ đã trở nên khó khăn, vì vậy chúng ta không cần thử nữa.
+
+
+      Thay vào đó, hãy tham gia khảo sát và giúp chúng tôi tìm hiểu những gì mới, những gì cũ, và những gì đang chờ đợi chúng ta trong những năm tới!
+
+  - key: faq.data_used_js2023
+    t: Dữ liệu này sẽ được sử dụng như thế nào?
+  - key: faq.data_used_js2023.description
+    t: >
+      Tất cả dữ liệu thu thập sẽ được công bố một cách công khai cho bất kỳ ai muốn tham khảo. Các nhà phát triển hoặc công ty có thể sử dụng nó để ưu tiên các lĩnh vực trọng tâm và ra quyết định cho lộ trình của họ.
+
+  - key: faq.survey_goals_js2023
+    t: Mục tiêu của cuộc khảo sát là gì?
+  - key: faq.survey_goals_js2023.description
+    t: >
+      Mục tiêu của cuộc khảo sát là đo lường sự nhận biết và phổ biến của các tính năng và thư viện JavaScript để dự đoán xu hướng tương lai.
+
+  - key: faq.who_should_take_survey_js2023
+    t: Ai nên tham gia cuộc khảo sát này?
+  - key: faq.who_should_take_survey_js2023.description
+    t: >
+      Đây là một cuộc khảo sát mở cho bất kỳ ai sử dụng JavaScript (hoặc TypeScript), dù thường xuyên hay không thường xuyên, như một phần công việc của họ, như một sinh viên, hoặc chỉ vì vui!
+
+  - key: faq.how_long_will_survey_take_js2023
+    t: Mất bao lâu để trả lời cuộc khảo sát?
+  - key: faq.how_long_will_survey_take_js2023.description
+    t: >
+      Tùy thuộc vào số câu hỏi bạn trả lời (tất cả các câu hỏi đều tùy chọn),
+      việc điền vào cuộc khảo sát nên mất khoảng 15-20 phút.
+
+  - key: faq.learn_more_js2023
+    t: Tôi có thể tìm hiểu thêm ở đâu?
+  - key: faq.learn_more_js2023.description
+    t: Bạn có thể tìm hiểu thêm về cuộc khảo sát này trong [bài đăng thông báo của chúng tôi](https://dev.to/sachagreif/the-state-of-js-2023-survey-is-now-open-2hah).
+
+  - key: faq.survey_design_js2023
+    t: Cuộc khảo sát này được thiết kế như thế nào?
+  - key: faq.survey_design_js2023.description
+    t: >
+      Cuộc khảo sát được thiết kế với sự đóng góp từ cộng đồng thông qua một [open feedback thread](https://github.com/Devographics/surveys/issues/224).
+
+  - key: faq.results_released_js2023
+    t: Kết quả sẽ được công bố khi nào?
+  - key: faq.results_released_js2023.description
+    t: Cuộc khảo sát sẽ diễn ra từ ngày 22 tháng 11 đến ngày 12 tháng 12, và kết quả khảo sát sẽ được công bố ngay sau đó.

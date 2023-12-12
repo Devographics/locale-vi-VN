@@ -37,7 +37,7 @@ translations:
     t: Tham gia khảo sát {name}
 
   - key: options.na
-    t: 🚫 Không
+    t: 🚫 None
 
   # surveys
   - key: general.open_surveys
@@ -120,6 +120,8 @@ translations:
     t: Xử lý dữ liệu
   - key: credits.back_end_development
     t: Phát triển Back-End
+  - key: credits.survey_review
+    t: Đánh giá khảo sát
 
   # support
   - key: general.support_from
@@ -518,6 +520,8 @@ translations:
     t: ">20 năm"
 
   # company size
+  - key: options.company_size.na
+    t: 🚫 Không áp dụng
   - key: options.company_size.range_1
     t: Một nhân viên
   - key: options.company_size.range_1_5
@@ -536,8 +540,10 @@ translations:
     t: Hơn 1000 nhân viên
 
   # company size (short versions)
+  - key: options.company_size.na.short
+    t: N/A
   - key: options.company_size.range_1.short
-    t: 1
+    t: "1"
   - key: options.company_size.range_1_5.short
     t: 2-5
   - key: options.company_size.range_5_10.short
@@ -551,9 +557,11 @@ translations:
   - key: options.company_size.range_100_1000.short
     t: 101-1000
   - key: options.company_size.range_more_than_1000.short
-    t: ">1000"
+    t: "1000+"
 
   # salary
+  - key: options.yearly_salary.na
+    t: 🚫 Không áp dụng
   - key: options.yearly_salary.range_work_for_free
     t: Tôi làm việc miễn phí
   - key: options.yearly_salary.range_0_10
@@ -568,6 +576,21 @@ translations:
     t: $100k-$200k
   - key: options.yearly_salary.range_more_than_200
     t: Hơn $200k
+
+  - key: options.yearly_salary.range_0_20
+    t: $0k-$20k
+  - key: options.yearly_salary.range_20_40
+    t: $20k-$40k
+  - key: options.yearly_salary.range_40_60
+    t: $40k-$60k
+  - key: options.yearly_salary.range_60_80
+    t: $60k-$80k
+  - key: options.yearly_salary.range_80_100
+    t: $80k-$100k
+  - key: options.yearly_salary.range_100_150
+    t: $100k-$150k
+  - key: options.yearly_salary.range_150_200
+    t: $150k-$200k
 
   # salary (short versions)
   - key: options.yearly_salary.na.short
@@ -694,7 +717,7 @@ translations:
 
   # Disability Status
   - key: options.disability_status.na
-    t: 🚫 Không
+    t: 🚫 None
   - key: options.disability_status.visual_impairments
     t: >
       Khiếm thị (chẳng hạn như: mù, mù màu, v.v)
@@ -908,7 +931,7 @@ translations:
 
   # learning methods
   - key: options.first_steps.na
-    t: 🚫 Không
+    t: 🚫 None
   - key: options.first_steps.books
     t: Sách
   - key: options.first_steps.videos
@@ -1143,9 +1166,7 @@ translations:
   - key: tools.happiness
     t: Overall Happiness
   - key: tools.happiness.description
-    t: >
-      Trên thang điểm từ một (rất không hài lòng) đến năm (rất hạnh phúc),
-      bạn hài lòng đến mức nào với tình trạng chung hiện tại liên quan đến các lựa chọn được liệt kê ở trên?
+    t: Bạn hài lòng đến mức nào với tình trạng chung hiện tại liên quan đến các lựa chọn được liệt kê ở trên?
 
   ###########################################################################
   # Demographics (About You/User Info)
@@ -1421,7 +1442,10 @@ translations:
   - key: resources.blogs_news_magazines.others.description
     t: Câu trả lời khác (trả lời tự do).
   - key: options.blogs_news_magazines.na
-    t: 🚫 Không
+    t: 🚫 None
+  - key: resources.blogs_news_magazines.placeholder
+    t: |
+      Blog/newsletter #{index}…
 
   # sites & courses
   - key: resources.sites_courses
@@ -1433,7 +1457,21 @@ translations:
   - key: resources.sites_courses.others.description
     t: Câu trả lời khác (trả lời tự do).
   - key: options.sites_courses.na
-    t: 🚫 Không
+    t: 🚫 None
+  - key: resources.sites_courses.placeholder
+    t: |
+      Trang web & khóa học #{index}…
+
+  # paid courses
+  - key: resources.paid_courses
+    t: Khóa học Trả phí
+  - key: resources.paid_courses.question
+    t: Bạn đã sử dụng **nguồn học trả phí** nào (khóa học, video, sách, v.v.) để học JavaScript?
+  - key: options.paid_courses.na
+    t: 🚫 None
+  - key: resources.paid_courses.placeholder
+    t: |
+      Khóa học/sách #{index}…
 
   # podcasts
   - key: resources.podcasts
@@ -1445,7 +1483,10 @@ translations:
   - key: resources.podcasts.others.description
     t: Câu trả lời khác (trả lời tự do).
   - key: options.podcasts.na
-    t: 🚫 Không
+    t: 🚫 None
+  - key: resources.podcasts.placeholder
+    t: |
+      Podcast #{index}…
 
   # people
   - key: resources.people
@@ -1463,7 +1504,10 @@ translations:
       Những người bạn đọc, theo dõi hoặc chỉ muốn làm nổi bật lên công việc của họ
       (trả lời tự do, tên được phân tách bằng dấu phẩy).
   - key: options.people.na
-    t: 🚫 Không
+    t: 🚫 None
+  - key: resources.people.placeholder
+    t: |
+      Người #{index}…
 
   # other surveys
   - key: resources.other_surveys
@@ -1473,7 +1517,7 @@ translations:
   - key: resources.other_surveys.others
     t: Những cuộc khảo sát nào khác không được liệt kê ở trên
   - key: options.other_surveys.na
-    t: 🚫 Không
+    t: 🚫 None
     # TODO: temporary fix, this should not be needed in the first place
   - key: user_info.other_surveys.question
     t: Bạn có tham gia vào cuộc khảo sát nào khác dành cho nhà phát triển?
@@ -1491,7 +1535,10 @@ translations:
   - key: resources.video_creators.others
     t: Nhà sáng tạo video khác
   - key: options.video_creators.na
-    t: 🚫 Không
+    t: 🚫 None
+  - key: resources.video_creators.placeholder
+    t: |
+      Nhà sáng tạo video #{index}…
 
   ###########################################################################
   # Follow-Up Questions
@@ -1543,3 +1590,8 @@ translations:
   #   t:
   # - key: followups.
   #   t:
+
+  # entities info
+
+  - key: entity.learn_more
+    t: Tìm hiểu thêm…

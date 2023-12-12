@@ -7,135 +7,122 @@ translations:
 
   - key: general.state_of_js.intro
     t: >
-      The JavaScript world could use a bit of classification.
+      Thế giới JavaScript có thể cần một chút phân loại.
 
 
-      Since 2016, this survey has collected
-      data from over 20,000 developers each year to identify current and upcoming trends.
+      Kể từ năm 2016, cuộc khảo sát này đã thu thập
+      dữ liệu từ hơn 20.000 lập trình viên mỗi năm để xác định xu hướng hiện tại và sắp tới.
 
 
-      Together, let's find out which libraries developers
-      want to learn next, which have the best retention ratings, and much more.
+      Cùng nhau, hãy tìm hiểu xem lập trình viên muốn học thư viện nào tiếp theo, thư viện nào có tỷ lệ giữ chân người dùng tốt nhất, và nhiều hơn nữa.
 
   - key: general.state_of_js.title
-    t: The State of JavaScript Developer Survey
+    t: Cuộc Khảo Sát Lập Trình Viên JavaScript
 
   - key: general.state_of_js.description
-    t: The annual developer survey of the JavaScript ecosystem
+    t: Cuộc khảo sát hàng năm của lập trình viên trong hệ sinh thái JavaScript
 
   ###########################################################################
   # Sections
   ###########################################################################
 
-  - key: sections.syntax.title
-    t: Syntax
+  - key: sections.features.title
+    t: Tính năng
+  - key: sections.features.description
+    t: Cú pháp, API trình duyệt, và các tính năng khác.
+
   - key: sections.syntax.description
-    t: The grammar of JavaScript.
+    t: Ngữ pháp của JavaScript.
 
-  - key: sections.language.title
-    t: Language
   - key: sections.language.description
-    t: The vocabulary of JavaScript.
+    t: Từ vựng của JavaScript.
 
-  - key: sections.data_structures.title
-    t: Data Structures
   - key: sections.data_structures.description
-    t: How you store and manipulate data.
+    t: Cách bạn lưu trữ và thao tác dữ liệu.
 
-  - key: sections.browser_apis.title
-    t: Browser APIs
   - key: sections.browser_apis.description
-    t: The features provided by the browser.
+    t: Các tính năng do trình duyệt cung cấp.
 
-  - key: sections.other_features.title
-    t: Other Features
   - key: sections.other_features.description
-    t: Other technologies and patterns
+    t: Các công nghệ và mô hình khác
 
   - key: sections.patterns.title
-    t: Patterns
+    t: Mô hình
   - key: sections.patterns.description
-    t: How you prefer writing code
+    t: Cách bạn thích viết code
 
-  - key: sections.javascript_flavors.title
-    t: JavaScript Flavors
   - key: sections.javascript_flavors.description
-    t: Languages that compile to JavaScript
+    t: Ngôn ngữ biên dịch thành JavaScript
 
-  - key: sections.front_end_frameworks.title
-    t: Front-end Frameworks
   - key: sections.front_end_frameworks.description
-    t: Front-end frameworks and libraries
+    t: Các framework và thư viện front-end
 
-  - key: sections.datalayer.title
-    t: Data Layer
   - key: sections.datalayer.description
-    t: Loading and managing data in your app
+    t: Tải và quản lý dữ liệu trong ứng dụng của bạn
 
-  - key: sections.rendering_frameworks.title
-    t: Rendering Frameworks
   - key: sections.rendering_frameworks.description
-    t: Frameworks focused on rendering and serving your application
+    t: Các framework tập trung vào việc render và phục vụ ứng dụng của bạn
 
-  - key: sections.back_end_frameworks.title
-    t: Back-end Frameworks
+  - key: sections.meta_frameworks.description
+    t: Các framework tập trung vào việc render và phục vụ ứng dụng của bạn
+
   - key: sections.back_end_frameworks.description
-    t: JavaScript on the server
+    t: JavaScript trên máy chủ
 
   - key: sections.testing.title
-    t: Testing
+    t: Kiểm thử
   - key: sections.testing.description
-    t: Tools for testing your code
+    t: Công cụ để kiểm thử code của bạn
 
   - key: sections.mobile_desktop.title
-    t: Mobile & Desktop
+    t: Di động & Máy tính để bàn
   - key: sections.mobile_desktop.description
-    t: JavaScript for mobile devices and desktop apps
+    t: JavaScript cho thiết bị di động và ứng dụng máy tính để bàn
 
   - key: sections.build_tools.title
-    t: Build Tools
+    t: Công cụ xây dựng
   - key: sections.build_tools.description
-    t: Compiling & bundling code
+    t: Biên dịch & gói code
 
   - key: sections.monorepo_tools.title
-    t: Monorepo Tools
+    t: Công cụ Monorepo
   - key: sections.monorepo_tools.description
-    t: Tools used to manage JavaScript monorepos.
+    t: Công cụ được sử dụng để quản lý monorepo JavaScript.
 
   - key: sections.tools_others.title
-    t: Other Tools
+    t: Công cụ khác
   - key: sections.tools_others.description
-    t: Other JavaScript tools
+    t: Công cụ JavaScript khác
 
   - key: sections.other_tools.title
-    t: Other Tools
+    t: Công cụ khác
   - key: sections.other_tools.description
-    t: For these tools & technologies, just check the ones that you use regularly.
+    t: Đối với những công cụ & công nghệ này, chỉ cần kiểm tra những cái mà bạn sử dụng thường xuyên.
 
   - key: sections.resources_js.title
-    t: Resources
+    t: Tài nguyên
   - key: sections.resources_js.description
-    t: What JavaScript resources do you consult?
+    t: Bạn tham khảo những tài nguyên JavaScript nào?
 
   - key: sections.usage_js.title
-    t: Usage
+    t: Sử dụng
   - key: sections.usage_js.description
-    t: How you use JavaScript
+    t: Cách bạn sử dụng JavaScript
 
   ###########################################################################
-  # Survey Help
+  # Hỗ trợ Khảo sát
   ###########################################################################
 
   - key: features.features_intro
     t: >
-      Welcome to the survey! This first part is all about figuring out
-      which **features** of the JavaScript language you know about.
-      And if you know about something but haven't yet used it, that's fine too!
+      Chào mừng bạn đến với cuộc khảo sát! Phần đầu tiên này tất cả về việc tìm hiểu
+      những **tính năng** nào của ngôn ngữ JavaScript mà bạn biết.
+      Và nếu bạn biết về điều gì đó nhưng chưa sử dụng nó, cũng không sao!
 
   - key: tools.tools_intro
     t: >
-      The next couple sections focus on the **libraries** and **frameworks** that make up
-      the JavaScript ecosystem. Let us know what you're excited about!
+      Các phần tiếp theo tập trung vào các **thư viện** và **framework** tạo nên
+      hệ sinh thái JavaScript. Hãy cho chúng tôi biết điều gì bạn thích thú!
 
   ###########################################################################
   # Options
@@ -155,45 +142,41 @@ translations:
   # - key: options.js_pain_points.form_handling.description
   #   t: Creating forms, managing their state and errors, and saving their data.
   - key: options.js_pain_points.state_management
-    t: State Management
+    t: Quản lý trạng thái
   - key: options.js_pain_points.state_management.description
-    t: Managing global data state in complex applications.
-  # - key: options.js_pain_points.performance_issues
-  #   t: Performance Issues
-  # - key: options.js_pain_points.performance_issues.description
-  #   t: Bundle sizes, slow loading, and other performance issues.
+    t: Quản lý trạng thái dữ liệu toàn cục trong các ứng dụng phức tạp.
   - key: options.js_pain_points.managing_dependencies
-    t: Managing Dependencies
+    t: Quản lý phụ thuộc
   - key: options.js_pain_points.managing_dependencies.description
-    t: Managing dependencies, package versions and bundle sizes.
+    t: Quản lý phụ thuộc, phiên bản và kích thước package.
   - key: options.js_pain_points.architecture
-    t: Code Architecture
+    t: Kiến trúc code
   - key: options.js_pain_points.architecture.description
-    t: Organizing and maintaining your codebase.
+    t: Tổ chức và duy trì codebase của bạn.
   - key: options.js_pain_points.finding_packages
-    t: Finding Packages
+    t: Tìm kiếm package
   - key: options.js_pain_points.finding_packages.description
-    t: Finding and evaluating JavaScript packages.
+    t: Tìm kiếm và đánh giá các JavaScript package.
   - key: options.js_pain_points.writing_modules
-    t: Writing Modules
+    t: Viết module
   - key: options.js_pain_points.writing_modules.description
-    t: Writing JavaScript modules and publishing them as packages.
+    t: Viết module JavaScript và xuất bản chúng dưới dạng gói.
   - key: options.js_pain_points.debugging
-    t: Debugging
+    t: Debug
   - key: options.js_pain_points.debugging.description
-    t: Identifying and solving issues with your code.
+    t: Xác định và giải quyết các vấn đề với code của bạn.
   - key: options.js_pain_points.async_code
-    t: Async Code
+    t: Code bất đồng bộ
   - key: options.js_pain_points.async_code.description
-    t: Handling asynchronous functions.
+    t: Xử lý các hàm bất đồng bộ.
   - key: options.js_pain_points.modules_management
-    t: Modules Management
+    t: Quản lý module
   - key: options.js_pain_points.modules_management.description
-    t: Writing and importing modules.
+    t: Viết và nhập các module.
   - key: options.js_pain_points.date_management
-    t: Date Management
+    t: Quản lý Ngày
   - key: options.js_pain_points.date_management.description
-    t: Handling and manipulating dates and times.
+    t: Xử lý và thao tác ngày và giờ.
   # - key: options.js_pain_points.xxx
   #   t:
   # - key: options.js_pain_points.xxx.description
@@ -236,70 +219,85 @@ translations:
   - key: options.top_js_pain_points.date_management.description
     aliasFor: options.js_pain_points.date_management.description
 
+  - key: options.top_js_pain_points.performance
+    t: Hiệu suất
+  - key: options.top_js_pain_points.performance.description
+    t: Viết code JavaScript hiệu quả và hiệu suất
+
   - key: options.top_js_pain_points.build_tools
-    t: Build Tools
+    t: Công cụ xây dựng
+  - key: options.top_js_pain_points.build_tools.description
+    t: Quản lý công cụ để gói code của bạn
+
   - key: options.top_js_pain_points.typing
-    t: Typing
+    t: Gõ
+  - key: options.top_js_pain_points.typing.description
+    t: Quản lý và duy trì các loại
+
+  - key: options.top_js_pain_points.build_tools
+    t: Công cụ xây dựng
+  - key: options.top_js_pain_points.typing
+    t: Gõ
   - key: options.top_js_pain_points.typescript
     t: TypeScript
   - key: options.top_js_pain_points.esm_cjs
-    t: ESM vs CJS
+    t: ESM so với CJS
   - key: options.top_js_pain_points.testing
-    t: Testing
+    t: Kiểm thử
   - key: options.top_js_pain_points.performance
-    t: Performance
+    t: Hiệu suất
   - key: options.top_js_pain_points.too_many_choices
-    t: Too Many Choices
+    t: Quá nhiều lựa chọn
   - key: options.top_js_pain_points.react
     t: React
   - key: options.top_js_pain_points.bundlers
-    t: Bundlers
+    t: Các công cụ gói
   - key: options.top_js_pain_points.complexity
-    t: Complexity
+    t: Sự phức tạp
   - key: options.top_js_pain_points.standard_library
-    t: Standard Library
+    t: Thư viện chuẩn
   - key: options.top_js_pain_points.tooling
-    t: Tooling
+    t: Công cụ
   - key: options.top_js_pain_points.dependencies
-    t: Dependencies
+    t: Phụ thuộc
   - key: options.top_js_pain_points.security
-    t: Security
+    t: Bảo mật
   - key: options.top_js_pain_points.slow
-    t: Slowness
+    t: Chậm
 
   # JS missing features
   - key: options.currently_missing_from_js.static_typing
-    t: Static Typing
+    t: Kiểu tĩnh
   - key: options.currently_missing_from_js.static_typing.description
-    t: Native runtime typing; or TypeScript-style type-as-comments
+    t: Kiểu chạy nguyên thủy; hoặc kiểu dạng nhận xét theo kiểu TypeScript
   - key: options.currently_missing_from_js.standard_library
-    t: Standard Library
+    t: Thư viện chuẩn
   - key: options.currently_missing_from_js.standard_library.description
-    t: A standard library of common utilities
+    t: Một thư viện chuẩn của các tiện ích phổ biến
   - key: options.currently_missing_from_js.pattern_matching
-    t: Pattern Matching
+    t: Khớp mẫu
   - key: options.currently_missing_from_js.pattern_matching.description
-    t: A new `match` keyword for pattern-matching objects.
+    t: Một từ khóa `match` mới để khớp mẫu các đối tượng.
   - key: options.currently_missing_from_js.pipe_operator
-    t: Pipe Operator
+    t: Toán tử ống
   - key: options.currently_missing_from_js.pipe_operator.description
-    t: A new `|>` operator for passing the result of one function to another.
+    t: Một toán tử `|>` mới để truyền kết quả của một hàm cho một hàm khác.
   - key: options.currently_missing_from_js.decorators
-    t: Decorators
+    t: Trang trí
   - key: options.currently_missing_from_js.decorators.description
-    t: Decorators used to metaprogram and add functionality to a value.
+    t: Trang trí được sử dụng để metaprogram và thêm chức năng cho một giá trị.
   - key: options.currently_missing_from_js.immutable_data_structures
-    t: Immutable Data Structures
+    t: Cấu trúc dữ liệu bất biến
   - key: options.currently_missing_from_js.immutable_data_structures.description
-    t: New deeply immutable data structures such as `Record` and `Tuple`.
+    t: Cấu trúc dữ liệu mới hoàn toàn bất biến như `Record` và `Tuple`.
   - key: options.currently_missing_from_js.better_date_management
-    t: Better Date Management
+    t: Quản lý Ngày tốt hơn
   - key: options.currently_missing_from_js.better_date_management.description
-    t: A new `Temporal` object for working with dates and times.
+    t: Một đối tượng `Temporal` mới để làm việc với ngày và giờ.
   - key: options.currently_missing_from_js.observable
-    t: Observable
+    t: Quan sát được
   - key: options.currently_missing_from_js.observable.description
-    t: A new `Observable` type used to model push-based data sources.
+    t: Một loại `Observable` mới được sử dụng để mô hình hóa các nguồn dữ liệu dựa trên đẩy.
   # - key: options.currently_missing_from_js.xxx
   #   t:
   # - key: options.currently_missing_from_js.xxx.description
@@ -339,27 +337,27 @@ translations:
     aliasFor: options.currently_missing_from_js.observable.description
 
   - key: options.top_currently_missing_from_js.static_typing
-    t: Static Typing
+    t: Kiểu tĩnh
   - key: options.top_currently_missing_from_js.standard_library
-    t: Standard Library
+    t: Thư viện chuẩn
   - key: options.top_currently_missing_from_js.operator_overloading
-    t: Operator Overloading
+    t: Nạp chồng toán tử
   - key: options.top_currently_missing_from_js.immutable
-    t: Immutable Data Structures
+    t: Cấu trúc dữ liệu bất biến
   - key: options.top_currently_missing_from_js.deep_clone
-    t: Deep Clone
+    t: Sao chép sâu
   - key: options.top_currently_missing_from_js.enums
-    t: Enums
+    t: Liệt kê
   - key: options.top_currently_missing_from_js.decorators
-    t: Decorators
+    t: Trang trí
   - key: options.top_currently_missing_from_js.multithreading
-    t: Multithreading
+    t: Đa luồng
   - key: options.top_currently_missing_from_js.pipe_operator
-    t: Pipe Operator
+    t: Toán tử ống
   - key: options.top_currently_missing_from_js.native_observables
-    t: Native Observables
+    t: Quan sát được tự nhiên
 
-  # What do you use JS for?
+  # Bạn sử dụng JS cho gì?
   - key: options.what_do_you_use_js_for.frontend_development
     t: Frontend Development
   - key: options.what_do_you_use_js_for.backend_development
@@ -405,53 +403,57 @@ translations:
   # JS App Patterns
 
   - key: options.js_app_patterns.single_page_app
-    t: Single Page Application (SPA)
+    t: Ứng dụng đơn trang (SPA)
   - key: options.js_app_patterns.single_page_app.description
-    t: Apps that run entirely in the browser
+    t: Ứng dụng chạy hoàn toàn trong trình duyệt
   - key: options.js_app_patterns.multiple_page_app
-    t: Multi-Page Application (MPA)
+    t: Ứng dụng đa trang (MPA)
   - key: options.js_app_patterns.multiple_page_app.description
-    t: Apps that run entirely on the server, with minimal client-side dynamic behavior
+    t: Ứng dụng chạy hoàn toàn trên máy chủ, với hành vi động phía khách hàng tối thiểu
   - key: options.js_app_patterns.static_site_generation
-    t: Static Site Generation (SSG)
+    t: Tạo trang web tĩnh (SSG)
   - key: options.js_app_patterns.static_site_generation.description
-    t: Pre-rendered static content, with or without a client-side dynamic element
+    t: Nội dung tĩnh được tạo trước vào thời gian xây dựng, có hoặc không có một yếu tố động phía khách hàng
   - key: options.js_app_patterns.server_side_rendering
-    t: Server-Side Rendering (SSR)
+    t: Hiển thị phía máy chủ (SSR)
   - key: options.js_app_patterns.server_side_rendering.description
-    t: Dynamically rendering HTML content on the server before rehydrating it on the client
+    t: Hiển thị nội dung HTML động trên máy chủ theo yêu cầu, trước khi tái tạo nó trên khách hàng
   - key: options.js_app_patterns.partial_hydration
-    t: Partial Hydration
+    t: Tái tạo một phần
   - key: options.js_app_patterns.partial_hydration.description
-    t: Only hydrating some of your components on the client (e.g. React Server Components)
+    t: Chỉ tái tạo một số thành phần của bạn trên khách hàng (ví dụ Thành phần máy chủ React)
   - key: options.js_app_patterns.progressive_rehydration
-    t: Progressive Hydration
+    t: Tái tạo tiến bộ
   - key: options.js_app_patterns.progressive_rehydration.description
-    t: Controlling the order of component hydration on the client
+    t: Điều khiển thứ tự tái tạo thành phần trên khách hàng
   - key: options.js_app_patterns.islands_architecture
-    t: Islands Architecture
+    t: Kiến trúc đảo
   - key: options.js_app_patterns.islands_architecture.description
-    t: Isolated islands of dynamic behavior with multiple entry points in an otherwise static site (Astro, Eleventy)
+    t: Các hòn đảo cô lập của hành vi động với nhiều điểm vào trong một trang web tĩnh khác (Astro, Eleventy)
   - key: options.js_app_patterns.progressive_enhancement
-    t: Progressive Enhancement
+    t: Tăng cường tiến bộ
   - key: options.js_app_patterns.progressive_enhancement.description
-    t: Making sure an app is functional even without JavaScript
+    t: Đảm bảo một ứng dụng hoạt động ngay cả khi không có JavaScript
   - key: options.js_app_patterns.incremental_static_generation
-    t: Incremental Static Generation
+    t: Tạo tĩnh tăng phần
   - key: options.js_app_patterns.incremental_static_generation.description
-    t: Being able to dynamically augment or modify a static site even after the initial build (Next.js ISR, Gatsby DSG)
+    t: Có khả năng tăng cường hoặc sửa đổi một trang web tĩnh ngay cả sau khi xây dựng ban đầu (Next.js ISR & on-demand revalidation, Gatsby DSG)
   - key: options.js_app_patterns.streaming_ssr
-    t: Streaming SSR
+    t: SSR Streaming
   - key: options.js_app_patterns.streaming_ssr.description
-    t: Breaking down server-rendered content in smaller streamed chunks
+    t: Phân chia nội dung được hiển thị trên máy chủ thành các phần nhỏ hơn
   - key: options.js_app_patterns.resumability
-    t: Resumability
+    t: Khả năng tiếp tục
   - key: options.js_app_patterns.resumability.description
-    t: Serializing framework state on the server so the client can resume execution with no duplicated code execution.
+    t: Tạo chuỗi trạng thái khung làm việc trên máy chủ để khách hàng có thể tiếp tục thực thi mà không cần thực thi mã trùng lặp.
   - key: options.js_app_patterns.edge_rendering
-    t: Edge Rendering
+    t: Hiển thị cạnh
   - key: options.js_app_patterns.edge_rendering.description
-    t: Altering rendered HTML at the edge before sending it on to the client
+    t: Thay đổi HTML đã hiển thị ở cạnh trước khi gửi nó đến khách hàng
+  - key: options.js_app_patterns.partial_prerendering
+    t: Hiển thị trước một phần
+  - key: options.js_app_patterns.partial_prerendering.description
+    t: Hiển thị một tuyến đường với vỏ tải tĩnh, trong khi giữ một số phần động
 
   - key: options.js_app_patterns.micro_frontend
     t: Micro Frontend
@@ -508,21 +510,56 @@ translations:
   - key: features.promises
     t: Promises
   - key: features.decorators
-    t: Decorators
+    t: Trang trí
   - key: features.decorators.description
     t: >
-      In its simplest form, a decorator is simply a way of
-      wrapping one piece of code with another — literally “decorating” it.
+      Trong hình thức đơn giản nhất, một trang trí chỉ đơn giản là cách
+      bao một đoạn mã với một đoạn mã khác - đúng nghĩa "trang trí" nó.
   - key: features.dynamic_import
-    t: Dynamic Import
+    t: Nhập động
+
+  - key: features.syntax_features
+    t: Tính năng cú pháp
+  - key: features.syntax_features.question
+    t: Bạn đã sử dụng những tính năng cú pháp nào?
+
+  - key: features.string_features
+    t: Tính năng chuỗi
+  - key: features.string_features.question
+    t: Bạn đã sử dụng những tính năng chuỗi nào?
+
+  - key: features.array_features
+    t: Tính năng Mảng
+  - key: features.array_features.question
+    t: Bạn đã sử dụng những tính năng Mảng nào?
+
+  - key: features.async_features
+    t: Tính năng Bất đồng bộ
+  - key: features.async_features.question
+    t: Bạn đã sử dụng những tính năng bất đồng bộ nào?
+
+  - key: features.browser_api_features
+    t: API Trình duyệt
+  - key: features.browser_api_features.question
+    t: Bạn đã sử dụng những API trình duyệt nào?
+
+  - key: features.language_pain_points
+    t: Điểm đau về Ngôn ngữ
+  - key: features.language_pain_points.question
+    t: Những điểm đau chính của bạn về ngôn ngữ JavaScript là gì?
+
+  - key: features.browser_apis_pain_points
+    t: Điểm đau về API Trình duyệt
+  - key: features.browser_apis_pain_points.question
+    t: Những điểm đau chính của bạn về API trình duyệt là gì?
 
   # patterns
   - key: patterns.object_oriented_programming
-    t: Object-Oriented Programming
+    t: Lập trình Hướng đối tượng
   - key: features.functional_programming
-    t: Functional Programming
+    t: Lập trình Chức năng
   - key: features.reactive_programming
-    t: Reactive Programming
+    t: Lập trình Phản ứng
 
   # upcoming features
   # - key: features.static_typing
@@ -546,98 +583,169 @@ translations:
 
   - key: tools.angular.description
     t: >
-      Note that this question only targets [Angular](https://angular.io/) experience,
-      and specifically does *not* apply to the deprecated [AngularJS](https://angularjs.org/).
+      Lưu ý rằng câu hỏi này chỉ nhắm vào kinh nghiệm [Angular](https://angular.io/),
+      và cụ thể không áp dụng cho [AngularJS](https://angularjs.org/) đã bị ngừng hỗ trợ.
 
   - key: tools.best_of_js_projects.note
     t: >
-      Libraries are loaded from [Best of JS](https://bestofjs.org/).
-      If a project is missing, you can [submit it here](https://github.com/michaelrambeau/bestofjs/issues/new?template=add-a-project-to-best-of-javascript.md).
+      Thư viện được tải từ [Best of JS](https://bestofjs.org/).
+      Nếu một dự án bị thiếu, bạn có thể [gửi nó tại đây](https://github.com/michaelrambeau/bestofjs/issues/new?template=add-a-project-to-best-of-javascript.md).
+
+  # front-end frameworks
+  - key: tools.front_end_frameworks_happiness
+    t: Hạnh phúc với Frameworks Front-end
+  - key: tools.front_end_frameworks_happiness.question
+    t: Bạn hài lòng với trạng thái hiện tại của các frameworks front-end như thế nào?
+
+  - key: tools.front_end_frameworks_pain_points
+    t: Điểm đau với Frameworks Front-end
+  - key: tools.front_end_frameworks_pain_points.question
+    t: Bạn đã gặp phải những điểm đau nào khi sử dụng các frameworks front-end?
+
+  # meta-frameworks
+
+  - key: tools.meta_frameworks_happiness
+    t: Hạnh phúc với Meta-Frameworks
+  - key: tools.meta_frameworks_happiness.question
+    t: Bạn hài lòng với trạng thái hiện tại của meta-frameworks như thế nào?
+
+  - key: tools.meta_frameworks_pain_points
+    t: Điểm đau với Meta-Frameworks
+  - key: tools.meta_frameworks_pain_points.question
+    t: Bạn đã gặp phải những điểm đau nào khi sử dụng meta-frameworks?
+
+  # testing
+
+  - key: tools.testing_happiness
+    t: Hạnh phúc với Công cụ Kiểm thử
+  - key: tools.testing_happiness.question
+    t: Bạn hài lòng với trạng thái hiện tại của công cụ kiểm thử như thế nào?
+
+  - key: tools.testing_pain_points
+    t: Điểm đau với Công cụ Kiểm thử
+  - key: tools.testing_pain_points.question
+    t: Bạn đã gặp phải những điểm đau nào khi sử dụng công cụ kiểm thử?
+
+  # mobile & desktop
+
+  - key: tools.mobile_desktop_happiness
+    t: Hạnh phúc với Công cụ Mobile & Desktop
+  - key: tools.mobile_desktop_happiness.question
+    t: Bạn hài lòng với trạng thái hiện tại của công cụ mobile & desktop như thế nào?
+
+  - key: tools.mobile_desktop_pain_points
+    t: Điểm đau với Công cụ Mobile & Desktop
+  - key: tools.mobile_desktop_pain_points.question
+    t: Bạn đã gặp phải những điểm đau nào khi sử dụng JavaScript để xây dựng ứng dụng mobile & desktop?
+
+  # build tools
+
+  - key: tools.build_tools_happiness
+    t: Hạnh phúc với Công cụ Xây dựng
+  - key: tools.build_tools_happiness.question
+    t: Bạn hài lòng với trạng thái hiện tại của công cụ xây dựng như thế nào?
+
+  - key: tools.build_tools_pain_points
+    t: Điểm đau với Công cụ Xây dựng
+  - key: tools.build_tools_pain_points.question
+    t: Bạn đã gặp phải những điểm đau nào khi sử dụng công cụ xây dựng?
+
+  # monorepo tools
+
+  - key: tools.monorepo_tools_happiness
+    t: Hạnh phúc với Công cụ Monorepo
+  - key: tools.monorepo_tools_happiness.question
+    t: Bạn hài lòng với trạng thái hiện tại của công cụ monorepo như thế nào?
+
+  - key: tools.monorepo_tools_pain_points
+    t: Điểm đau với Công cụ Monorepo
+  - key: tools.monorepo_tools_pain_points.question
+    t: Bạn đã gặp phải những điểm đau nào khi sử dụng công cụ monorepo?
 
   ###########################################################################
   # Other Tools
   ###########################################################################
 
   - key: tools_others.libraries
-    t: Libraries
+    t: Thư viện
   - key: tools_others.libraries.description
-    t: Which libraries do you regularly use?
+    t: Bạn thường xuyên sử dụng những thư viện nào?
   - key: tools_others.libraries.others
-    t: Other Libraries
+    t: Thư viện khác
   - key: tools_others.libraries.others.description
-    t: Other answers (freeform field).
+    t: Các câu trả lời khác (trường tự do).
 
   - key: tools_others.text_editors
-    t: Text Editors
+    t: Trình soạn thảo văn bản
   - key: tools_others.text_editors.description
-    t: Which text editor(s) do you regularly use?
+    t: Bạn thường xuyên sử dụng trình soạn thảo văn bản nào?
   - key: tools_others.text_editors.others
-    t: Other Text Editors
+    t: Trình soạn thảo văn bản khác
   - key: tools_others.text_editors.others.description
-    t: Other answers (freeform field).
+    t: Các câu trả lời khác (trường tự do).
 
   - key: tools_others.utilities
-    t: Utilities
+    t: Tiện ích
   - key: tools_others.utilities.description
-    t: Which utilities or tools do you regularly use?
+    t: Bạn thường xuyên sử dụng tiện ích hoặc công cụ nào?
   - key: tools_others.utilities.others
-    t: Other Utilities
+    t: Tiện ích khác
   - key: tools_others.utilities.others.description
-    t: Other utilities (freeform field).
+    t: Các tiện ích khác (trường tự do).
 
   - key: tools_others.browsers
-    t: Browsers
+    t: Trình duyệt
   - key: tools_others.browsers.description
-    t: Which browser(s) do you primarily work in during initial development?
+    t: Bạn chủ yếu làm việc trên trình duyệt nào trong quá trình phát triển ban đầu?
   - key: tools_others.browsers.others
-    t: Other Browsers
+    t: Trình duyệt khác
   - key: tools_others.browsers.others.description
-    t: Other answers (freeform field).
+    t: Các câu trả lời khác (trường tự do).
 
   - key: tools_others.build_tools
-    t: Build Tools
+    t: Công cụ xây dựng
   - key: tools_others.build_tools.description
-    t: Which build tools do you use?
+    t: Bạn sử dụng công cụ xây dựng nào?
   - key: tools_others.build_tools.others
-    t: Other Build Tools
+    t: Công cụ xây dựng khác
   - key: tools_others.build_tools.others.description
-    t: Other answers (freeform field).
+    t: Các câu trả lời khác (trường tự do).
 
   - key: tools_others.non_js_languages
-    t: Non-JavaScript Languages
+    t: Ngôn ngữ không phải JavaScript
   - key: tools_others.non_js_languages.description
-    t: Which other programming languages do you use?
+    t: Bạn sử dụng ngôn ngữ lập trình nào khác?
   - key: tools_others.non_js_languages.others
-    t: Other Languages
+    t: Ngôn ngữ khác
   - key: tools_others.non_js_languages.others.description
-    t: Other answers (freeform field).
+    t: Các câu trả lời khác (trường tự do).
 
   - key: tools_others.javascript_flavors
-    t: JavaScript Flavors
+    t: Phiên bản JavaScript
   - key: tools_others.javascript_flavors.description
-    t: Languages that compile to JavaScript
+    t: Ngôn ngữ biên dịch thành JavaScript
   - key: tools_others.javascript_flavors.others
-    t: Other JavaScript Flavors
+    t: Phiên bản JavaScript khác
   - key: tools_others.javascript_flavors.others.description
-    t: Other answers (freeform field).
+    t: Các câu trả lời khác (trường tự do).
 
   - key: tools_others.runtimes
-    t: JavaScript Runtimes
+    t: Môi trường chạy JavaScript
   - key: tools_others.runtimes.description
-    t: Which engines/runtimes/execution environments do you regularly use?
+    t: Bạn thường xuyên sử dụng môi trường nào để chạy JavaScript?
   - key: tools_others.runtimes.others
-    t: Other Runtimes
+    t: Môi trường chạy khác
   - key: tools_others.runtimes.others.description
-    t: Other answers (freeform field).
+    t: Các câu trả lời khác (trường tự do).
 
   - key: tools_others.package_registries
-    t: Package Registries
+    t: Kho lưu trữ gói
   - key: tools_others.package_registries.description
-    t: Which package registries do you regularly fetch packages from?
+    t: Bạn thường xuyên lấy gói từ kho lưu trữ nào?
   - key: tools_others.package_registries.others
-    t: Other Package Registries
+    t: Kho lưu trữ gói khác
   - key: tools_others.package_registries.others.description
-    t: Other answers (freeform field).
+    t: Các câu trả lời khác (trường tự do).
 
   - key: tools_others.form_factors
     aliasFor: environments.form_factors
@@ -645,39 +753,39 @@ translations:
     aliasFor: environments.form_factors.description
 
   - key: tools_others.backend_as_a_service
-    t: Backend-as-a-Service Providers
+    t: Nhà cung cấp Dịch vụ Backend-as-a-Service
   - key: tools_others.backend_as_a_service.description
-    t: Services that host your data and offer a client API to access it.
+    t: Dịch vụ lưu trữ dữ liệu của bạn và cung cấp API cho khách hàng để truy cập vào nó.
   - key: tools_others.backend_as_a_service.others
-    t: Other BaaS Providers
+    t: Nhà cung cấp BaaS khác
 
   - key: tools_others.date_management
-    t: Date Management
+    t: Quản lý Ngày
   - key: tools_others.date_management.description
-    t: Libraries that help with date and timezone management.
+    t: Thư viện hỗ trợ quản lý ngày và múi giờ.
   - key: tools_others.date_management.others
-    t: Other Date Management Libraries
+    t: Thư viện Quản lý Ngày khác
 
   - key: tools_others.data_visualization
-    t: Data Visualization
+    t: Trực quan hóa Dữ liệu
   - key: tools_others.data_visualization.description
-    t: Libraries that help with charts and other data visualizations.
+    t: Thư viện hỗ trợ vẽ biểu đồ và các trực quan hóa dữ liệu khác.
   - key: tools_others.data_visualization.others
-    t: Other Data Visualization Libraries
+    t: Thư viện Trực quan hóa Dữ liệu khác
 
   - key: tools_others.graphics_animation
-    t: Graphics & Animations
+    t: Đồ họa & Hoạt ảnh
   - key: tools_others.graphics_animation.description
-    t: Libraries dedicated to graphics and animation.
+    t: Thư viện chuyên về đồ họa và hoạt ảnh.
   - key: tools_others.graphics_animation.others
-    t: Other Graphics & Animations Libraries
+    t: Thư viện Đồ họa & Hoạt ảnh khác
 
   - key: tools_others.data_fetching
-    t: Data Fetching
+    t: Lấy Dữ liệu
   - key: tools_others.data_fetching.description
-    t: Libraries that manage data fetching and caching.
+    t: Thư viện quản lý việc lấy dữ liệu và lưu trong bộ nhớ cache.
   - key: tools_others.data_fetching.others
-    t: Other Data Fetching Libraries
+    t: Thư viện Lấy Dữ liệu khác
 
   - key: other_tools.libraries
     aliasFor: tools_others.libraries
@@ -814,50 +922,62 @@ translations:
   - key: other_tools.backend_frameworks.others
     aliasFor: tools_others.backend_frameworks.others
 
+  - key: other_tools.ai_tools
+    t: Công cụ AI
+  - key: other_tools.ai_tools.question
+    t: Bạn thường xuyên sử dụng công cụ AI nào để hỗ trợ viết code?
+
+  - key: other_tools.hosting
+    t: Dịch vụ Hosting
+  - key: other_tools.hosting.question
+    t: Bạn đã sử dụng dịch vụ nào để host ứng dụng JavaScript?
+
   ###########################################################################
-  # Usage
+  # Sử dụng
   ###########################################################################
 
   - key: usage.js_app_patterns
-    t: Application Patterns
+    t: Mô hình Ứng dụng
   - key: usage.js_app_patterns.question
-    t: Which of the following architecture and rendering patterns have you used **in the last year**?
+    t: Bạn đã sử dụng mô hình kiến trúc và rendering nào **trong năm qua**?
   - key: usage.js_app_patterns.others
-    t: Other App Patterns
+    t: Mô hình Ứng dụng khác
 
   - key: usage.what_do_you_use_js_for
-    t: What do you use JavaScript for?
+    t: Sử dụng JavaScript
+  - key: usage.what_do_you_use_js_for.question
+    t: Bạn sử dụng JavaScript cho mục đích gì?
   - key: usage.what_do_you_use_js_for.others
-    t: Other JavaScript Use Cases
+    t: Các trường hợp sử dụng JavaScript khác
 
   - key: usage.js_ts_balance
-    t: JavaScript/TypeScript Balance
+    t: Cân nhắc giữa JavaScript/TypeScript
   - key: usage.js_ts_balance.question
-    t: How do you divide your time between writing JavaScript and TypeScript code?
+    t: Bạn chia thời gian giữa việc viết code JavaScript và TypeScript như thế nào?
 
   - key: tools_others.edge_runtimes
-    t: JavaScript Edge/Serverless Runtimes
+    t: Môi trường chạy JavaScript Edge/Serverless
   - key: tools_others.edge_runtimes.question
-    t: Which edge or serverless runtimes do you regularly use?
+    t: Bạn thường xuyên sử dụng môi trường chạy edge hoặc serverless nào?
   - key: tools_others.edge_runtimes.others
-    t: Other Edge Runtimes
+    t: Môi trường chạy Edge khác
 
   - key: usage.usage_type
-    t: JavaScript Usage
+    t: Sử dụng JavaScript
   - key: usage.usage_type.question
-    t: In what context do you primarily use JavaScript?
+    t: Bạn chủ yếu sử dụng JavaScript trong ngữ cảnh nào?
   - key: usage.usage_type.others
-    t: Other Usages
+    t: Các trường hợp sử dụng khác
 
   - key: opinions.pick_of_the_year
-    t: Your “Pick of the Year”
+    t: Lựa chọn của bạn trong năm
   - key: opinions.pick_of_the_year.description
-    t: The name of a feature, library, website, person, etc. you want to highlight this year.
+    t: Tên của một tính năng, thư viện, website, người, v.v. mà bạn muốn nổi bật trong năm nay.
 
   - key: usage.industry_sector_js
     aliasFor: usage.industry_sector
   - key: usage.industry_sector_js.question
-    t: Which industry sector(s) are you using JavaScript in?
+    t: Bạn đang sử dụng JavaScript trong ngành công nghiệp nào?
   - key: usage.industry_sector_js.others
     aliasFor: usage.industry_sector.others
 
@@ -866,78 +986,98 @@ translations:
   ###########################################################################
 
   - key: opinions.js_moving_in_right_direction
-    t: JavaScript is moving in the right direction
+    t: JavaScript đang đi đúng hướng
 
   - key: opinions.building_js_apps_overly_complex
-    t: Building JavaScript apps is overly complex right now
+    t: Việc xây dựng ứng dụng JavaScript hiện nay quá phức tạp
 
   - key: opinions.js_over_used_online
-    t: JavaScript is over-used online
+    t: JavaScript được sử dụng quá mức trên mạng
 
   - key: opinions.enjoy_building_js_apps
-    t: I enjoy building JavaScript apps
+    t: Tôi thích xây dựng ứng dụng JavaScript
 
   - key: opinions.would_like_js_to_be_main_lang
-    t: I would like JavaScript to be my main programming language
+    t: Tôi muốn JavaScript trở thành ngôn ngữ lập trình chính của mình
 
   - key: opinions.js_ecosystem_changing_to_fast
-    t: The JavaScript ecosystem is changing too fast
+    t: Hệ sinh thái JavaScript đang thay đổi quá nhanh
 
   - key: opinions_others.missing_from_js.others
-    t: What do you feel is currently missing from JavaScript?
+    t: Theo bạn, hiện tại JavaScript đang thiếu gì?
+
   - key: opinions_others.missing_from_js.others.description
-    t: Features you'd like to see in JavaScript one day.
+    t: Các tính năng bạn muốn thấy trong JavaScript một ngày nào đó.
 
   - key: happiness.front_end_frameworks
-    t: How happy are you with the state of front end frameworks?
+    t: Bạn hài lòng với trạng thái của các framework front end như thế nào?
+
   - key: happiness.back_end_frameworks
-    t: How happy are you with the state of back end frameworks?
+    t: Bạn hài lòng với trạng thái của các framework back end như thế nào?
+
   - key: happiness.testing
-    t: How happy are you with the state of testing tools?
+    t: Bạn hài lòng với trạng thái của các công cụ kiểm thử như thế nào?
+
   - key: happiness.mobile_desktop
-    t: How happy are you with the state of mobile & desktop frameworks?
+    t: Bạn hài lòng với trạng thái của các framework cho mobile & desktop như thế nào?
   - key: happiness.build_tools
-    t: How happy are you with the state of build tools?
+    t: Bạn hài lòng với trạng thái của các công cụ build như thế nào?
   - key: happiness.monorepo_tools
-    t: How happy are you with the state of monorepo tools?
+    t: Bạn hài lòng với trạng thái của các công cụ monorepo như thế nào?
   - key: happiness.rendering_frameworks
-    t: How happy are you with the state of rendering frameworks?
+    t: Bạn hài lòng với trạng thái của các framework rendering như thế nào?
 
   - key: happiness.state_of_the_web
-    t: How happy are you with the general state of web technologies?
+    t: Hài lòng với Công nghệ Web
+  - key: happiness.state_of_the_web.question
+    t: Bạn hài lòng với trạng thái chung của công nghệ web như thế nào?
 
   - key: happiness.state_of_js
-    t: How happy are you with the general state of JavaScript?
+    t: Hài lòng với JavaScript
+  - key: happiness.state_of_js.question
+    t: Bạn hài lòng với trạng thái chung của JavaScript như thế nào?
 
-  # Pain Points
+  # Điểm đau
+
+  - key: usage.top_js_pain_points
+    aliasFor: opinions.js_pain_points
+  - key: usage.top_js_pain_points.question
+    t: Những khía cạnh nào của JavaScript bạn gặp khó khăn nhất?
+
   - key: opinions.js_pain_points
-    t: JavaScript Pain Points
+    t: Điểm đau của JavaScript
   - key: opinions.js_pain_points.description
-    t: For each matchup, pick the aspect of JavaScript you struggle with the most.
+    t: Đối với mỗi cặp đấu, chọn khía cạnh của JavaScript mà bạn gặp khó khăn nhất.
   - key: opinions_others.js_pain_points.others
-    t: Other JavaScript Pain Points
+    t: Các điểm đau khác của JavaScript
 
   - key: opinions.top_js_pain_points
     aliasFor: opinions.js_pain_points
   - key: opinions.top_js_pain_points.description
-    t: Pick the top 3 aspects of JavaScript you struggle with the most.
+    t: Chọn 3 khía cạnh mà bạn gặp khó khăn nhất khi làm việc với JavaScript.
   - key: opinions_others.top_js_pain_points.others
     aliasFor: opinions_others.js_pain_points.others
   - key: opinions.top_js_pain_points.others
     aliasFor: opinions_others.js_pain_points.others
 
-  # Missing Features
+  # Tính năng đang thiếu
+
+  - key: usage.top_currently_missing_from_js
+    t: Tính năng đang thiếu
+  - key: usage.top_currently_missing_from_js.question
+    aliasFor: opinions.currently_missing_from_js
+
   - key: opinions.currently_missing_from_js
-    t: What do you feel is currently missing from JavaScript?
+    t: Theo bạn, hiện tại JavaScript đang thiếu gì?
   - key: opinions.currently_missing_from_js.description
-    t: For each matchup, pick the feature you'd most like to be able to use in JavaScript today.
+    t: Đối với mỗi cặp đấu, chọn tính năng mà bạn muốn sử dụng nhất trong JavaScript ngày nay.
   - key: opinions_others.currently_missing_from_js.others
-    t: Other Missing Features
+    t: Các tính năng khác đang thiếu
 
   - key: opinions.top_currently_missing_from_js
     aliasFor: opinions.currently_missing_from_js
   - key: opinions.top_currently_missing_from_js.description
-    t: Pick the top 3 features you'd most like to be able to use in JavaScript today.
+    t: Chọn 3 tính năng mà bạn muốn sử dụng nhất trong JavaScript ngày nay.
   - key: opinions_others.top_currently_missing_from_js.others
     aliasFor: opinions_others.currently_missing_from_js.others
   - key: opinions.top_currently_missing_from_js.others
@@ -945,30 +1085,30 @@ translations:
 
   # pain points/currently missing (results)
   - key: js_pain_points.js_pain_points_wins
-    t: JavaScript Pain Points
+    t: Điểm đau của JavaScript
   - key: js_pain_points.js_pain_points_wins.description
-    t: Which aspect of JavaScript do you struggle with the most? Results are ranked by number of tournament rounds won.
+    t: Khía cạnh nào của JavaScript bạn gặp khó khăn nhất? Kết quả được xếp hạng theo số vòng đấu thắng.
 
   - key: js_pain_points.js_pain_points_matchups
-    t: JavaScript Pain Points (Matchups)
+    t: Điểm đau của JavaScript (Trận đấu)
   - key: js_pain_points.js_pain_points_matchups.description
-    t: Which aspect of JavaScript do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
+    t: Khía cạnh nào của JavaScript bạn gặp khó khăn nhất? Phần trăm vòng đấu thắng của mục bên trái so với mục phía trên.
 
   - key: currently_missing_from_js.currently_missing_from_js_wins
-    t: Features Missing From JavaScript
+    t: Tính năng đang thiếu từ JavaScript
   - key: currently_missing_from_js.currently_missing_from_js_wins.description
-    t: Which feature would you most like to be able to use in JavaScript today? Results are ranked by number of tournament rounds won.
+    t: Tính năng nào bạn muốn sử dụng nhất trong JavaScript hiện nay? Kết quả được xếp hạng theo số vòng đấu thắng.
 
   - key: currently_missing_from_js.currently_missing_from_js_matchups
-    t: Features Missing From JavaScript (Matchups)
+    t: Tính năng đang thiếu từ JavaScript (Trận đấu)
   - key: currently_missing_from_js.currently_missing_from_js_matchups.description
-    t: Which feature would you most like to be able to use in JavaScript today? Percentage of rounds won by left-hand item against top-side item.
+    t: Tính năng nào bạn muốn sử dụng nhất trong JavaScript hiện nay? Phần trăm vòng đấu thắng của mục bên trái so với mục phía trên.
 
   ###########################################################################
-  # Resources
+  # Tài nguyên
   ###########################################################################
 
   - key: resources.first_steps_js
-    t: First Steps With JavaScript
+    t: Bước đầu với JavaScript
   - key: resources.first_steps_js.description
-    t: When first starting out, how did you initially learn JavaScript?
+    t: Khi mới bắt đầu, bạn đã học JavaScript như thế nào?

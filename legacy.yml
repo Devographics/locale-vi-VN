@@ -257,12 +257,12 @@ translations:
     t: Tôi đã sử dụng nó
 
   # features (short versions)
-  - key: options.features.never_heard.short
-    t: Chưa bao giờ nghe về nó
-  - key: options.features.heard.short
-    t: Biết về nó
-  - key: options.features.used.short
-    t: Đã sử dụng nó
+  # - key: options.features.never_heard.short
+  #   t: Chưa bao giờ nghe về nó
+  # - key: options.features.heard.short
+  #   t: Biết về nó
+  # - key: options.features.used.short
+  #   t: Đã sử dụng nó
 
   # patterns
   - key: options.patterns.use_never
