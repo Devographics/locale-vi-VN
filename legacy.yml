@@ -1029,7 +1029,7 @@ translations:
   # first steps
   - key: resources.first_steps
     t: Phương pháp học tập đầu tiên
-  - key: resources.first_steps.description
+  - key: resources.first_steps.question
     t: Khi mới bắt đầu, ban đầu bạn học viết code như thế nào?
   - key: resources.first_steps.others
     t: Phương pháp học đầu tiên khác
@@ -1039,7 +1039,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: Blog & Tạp chí
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: Bạn đọc những blog/tạp chí/v.v. nào?
   - key: resources.blogs_news_magazines.others
     t: Blog & Tạp chí khác
@@ -1049,7 +1049,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: Trang web & khóa học
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: Những trang web/khóa học/v.v. nào bạn tham khảo?
   - key: resources.sites_courses.others
     t: Trang web & khóa học khác
@@ -1059,7 +1059,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: Podcast
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: Bạn nghe những podcast nào liên quan đến lập trình?
   - key: resources.podcasts.others
     t: Podcast khác
@@ -1085,7 +1085,7 @@ translations:
   # other surveys
   - key: resources.other_surveys
     t: Khảo sát khác
-  - key: resources.other_surveys.description
+  - key: resources.other_surveys.question
     t: Những cuộc khảo sát nào khác cho nhà phát triển mà bạn tham gia?
   - key: resources.other_surveys.others
     t: Những cuộc khảo sát nào khác không được liệt kê ở trên

@@ -974,8 +974,12 @@ translations:
   - key: opinions.pick_of_the_year.description
     t: Tên của một tính năng, thư viện, website, người, v.v. mà bạn muốn nổi bật trong năm nay.
 
+  - key: usage.industry_sector_js
+    aliasFor: usage.industry_sector
   - key: usage.industry_sector_js.question
     t: Bạn đang sử dụng JavaScript trong ngành công nghiệp nào?
+  - key: usage.industry_sector_js.others
+    aliasFor: usage.industry_sector.others
 
   ###########################################################################
   # Opinions
