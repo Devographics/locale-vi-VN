@@ -1175,55 +1175,55 @@ translations:
   # age
   - key: user_info.age
     t: Tuổi
-  - key: user_info.age.description
+  - key: user_info.age.question
     t: Bạn bao nhiêu tuổi, tính theo năm?
 
   # years of experience
   - key: user_info.years_of_experience
     t: Số năm kinh nghiệm
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: Bạn đã làm việc hoặc học tập trong lĩnh vực này được bao lâu rồi?
 
   # company size
   - key: user_info.company_size
     t: Quy mô công ty
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: Công ty của bạn lớn như thế nào, theo số lượng nhân viên?
 
   # salary ranges
   - key: user_info.yearly_salary
     t: Lương hằng năm
-  - key: user_info.yearly_salary.description
+  - key: user_info.yearly_salary.question
     t: Tiền lương hàng năm của bạn bằng đô la Mỹ.
 
   # job title
   - key: user_info.job_title
     t: Chức vụ
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: Làm thế nào để bạn giới thiệu bản thân với người khác?
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
     t: Thành thạo JavaScript
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: Bạn thành thạo JavaScript đến mức nào?
 
   # css proficiency
   - key: user_info.css_proficiency
     t: Thành thạo CSS
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: Bạn thành thạo CSS đến mức nào?
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: Thành thạo back-end
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: Bạn thành thạo đến mức nào trong việc phát triển back-end?
 
   # gender
   - key: user_info.gender
     t: Giới tính
-  - key: user_info.gender.description
+  - key: user_info.gender.question
     t: >
       Có tùy chọn nào sau đây mô tả về bạn không? Hãy chọn một.
   - key: user_info.gender.note
@@ -1235,7 +1235,7 @@ translations:
   # race & ethnicity
   - key: user_info.race_ethnicity
     t: Chủng tộc & Sắc tộc
-  - key: user_info.race_ethnicity.description
+  - key: user_info.race_ethnicity.question
     t: >
       Có tùy chọn nào sau đây mô tả về bạn không? Hãy chọn tất cả những mục phù hợp.
   - key: user_info.race_ethnicity.note
@@ -1255,7 +1255,7 @@ translations:
   # disability status
   - key: user_info.disability_status
     t: Tình trạng khuyết tật
-  - key: user_info.disability_status.description
+  - key: user_info.disability_status.question
     t: >
       Bạn có khuyết tật nào sau đây không? Hãy chọn tất cả những mục phù hợp.
       Lưu ý rằng điều này có thể bao gồm khuyết tật hoặc thương tích tạm thời.
@@ -1299,7 +1299,7 @@ translations:
 
   - key: user_info.industry_sector
     t: Ngành công nghiệp
-  - key: user_info.industry_sector.description
+  - key: user_info.industry_sector.question
     t: Bạn làm việc trong (những) ngành công nghiệp nào?
   - key: user_info.industry_sector.others
     t: Các ngành công nghiệp khác
@@ -1309,18 +1309,18 @@ translations:
   - key: usage.industry_sector
     aliasFor: user_info.industry_sector
   - key: usage.industry_sector.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
   - key: usage.industry_sector.others
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector_freeform
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector.others.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
 
   # degree
   - key: user_info.higher_education_degree
     t: Bằng giáo dục đại học
-  - key: user_info.higher_education_degree.description
+  - key: user_info.higher_education_degree.question
     t: Bạn có bằng cấp giáo dục đại học không?
 
   # employment status
