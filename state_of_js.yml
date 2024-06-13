@@ -668,7 +668,7 @@ translations:
 
   - key: tools_others.libraries
     t: Thư viện
-  - key: tools_others.libraries.description
+  - key: tools_others.libraries.question
     t: Bạn thường xuyên sử dụng những thư viện nào?
   - key: tools_others.libraries.others
     t: Thư viện khác
@@ -677,7 +677,7 @@ translations:
 
   - key: tools_others.text_editors
     t: Trình soạn thảo văn bản
-  - key: tools_others.text_editors.description
+  - key: tools_others.text_editors.question
     t: Bạn thường xuyên sử dụng trình soạn thảo văn bản nào?
   - key: tools_others.text_editors.others
     t: Trình soạn thảo văn bản khác
@@ -686,7 +686,7 @@ translations:
 
   - key: tools_others.utilities
     t: Tiện ích
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: Bạn thường xuyên sử dụng tiện ích hoặc công cụ nào?
   - key: tools_others.utilities.others
     t: Tiện ích khác
@@ -695,7 +695,7 @@ translations:
 
   - key: tools_others.browsers
     t: Trình duyệt
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: Bạn chủ yếu làm việc trên trình duyệt nào trong quá trình phát triển ban đầu?
   - key: tools_others.browsers.others
     t: Trình duyệt khác
@@ -704,7 +704,7 @@ translations:
 
   - key: tools_others.build_tools
     t: Công cụ xây dựng
-  - key: tools_others.build_tools.description
+  - key: tools_others.build_tools.question
     t: Bạn sử dụng công cụ xây dựng nào?
   - key: tools_others.build_tools.others
     t: Công cụ xây dựng khác
@@ -713,7 +713,7 @@ translations:
 
   - key: tools_others.non_js_languages
     t: Ngôn ngữ không phải JavaScript
-  - key: tools_others.non_js_languages.description
+  - key: tools_others.non_js_languages.question
     t: Bạn sử dụng ngôn ngữ lập trình nào khác?
   - key: tools_others.non_js_languages.others
     t: Ngôn ngữ khác
@@ -722,7 +722,7 @@ translations:
 
   - key: tools_others.javascript_flavors
     t: Phiên bản JavaScript
-  - key: tools_others.javascript_flavors.description
+  - key: tools_others.javascript_flavors.question
     t: Ngôn ngữ biên dịch thành JavaScript
   - key: tools_others.javascript_flavors.others
     t: Phiên bản JavaScript khác
@@ -731,7 +731,7 @@ translations:
 
   - key: tools_others.runtimes
     t: Môi trường chạy JavaScript
-  - key: tools_others.runtimes.description
+  - key: tools_others.runtimes.question
     t: Bạn thường xuyên sử dụng môi trường nào để chạy JavaScript?
   - key: tools_others.runtimes.others
     t: Môi trường chạy khác
@@ -740,7 +740,7 @@ translations:
 
   - key: tools_others.package_registries
     t: Kho lưu trữ gói
-  - key: tools_others.package_registries.description
+  - key: tools_others.package_registries.question
     t: Bạn thường xuyên lấy gói từ kho lưu trữ nào?
   - key: tools_others.package_registries.others
     t: Kho lưu trữ gói khác
@@ -754,35 +754,35 @@ translations:
 
   - key: tools_others.backend_as_a_service
     t: Nhà cung cấp Dịch vụ Backend-as-a-Service
-  - key: tools_others.backend_as_a_service.description
+  - key: tools_others.backend_as_a_service.question
     t: Dịch vụ lưu trữ dữ liệu của bạn và cung cấp API cho khách hàng để truy cập vào nó.
   - key: tools_others.backend_as_a_service.others
     t: Nhà cung cấp BaaS khác
 
   - key: tools_others.date_management
     t: Quản lý Ngày
-  - key: tools_others.date_management.description
+  - key: tools_others.date_management.question
     t: Thư viện hỗ trợ quản lý ngày và múi giờ.
   - key: tools_others.date_management.others
     t: Thư viện Quản lý Ngày khác
 
   - key: tools_others.data_visualization
     t: Trực quan hóa Dữ liệu
-  - key: tools_others.data_visualization.description
+  - key: tools_others.data_visualization.question
     t: Thư viện hỗ trợ vẽ biểu đồ và các trực quan hóa dữ liệu khác.
   - key: tools_others.data_visualization.others
     t: Thư viện Trực quan hóa Dữ liệu khác
 
   - key: tools_others.graphics_animation
     t: Đồ họa & Hoạt ảnh
-  - key: tools_others.graphics_animation.description
+  - key: tools_others.graphics_animation.question
     t: Thư viện chuyên về đồ họa và hoạt ảnh.
   - key: tools_others.graphics_animation.others
     t: Thư viện Đồ họa & Hoạt ảnh khác
 
   - key: tools_others.data_fetching
     t: Lấy Dữ liệu
-  - key: tools_others.data_fetching.description
+  - key: tools_others.data_fetching.question
     t: Thư viện quản lý việc lấy dữ liệu và lưu trong bộ nhớ cache.
   - key: tools_others.data_fetching.others
     t: Thư viện Lấy Dữ liệu khác
@@ -790,7 +790,7 @@ translations:
   - key: other_tools.libraries
     aliasFor: tools_others.libraries
   - key: other_tools.libraries.description
-    aliasFor: tools_others.libraries.description
+    aliasFor: tools_others.libraries.question
   - key: other_tools.libraries.others
     aliasFor: tools_others.libraries.others
   - key: other_tools.libraries.others.description
@@ -799,7 +799,7 @@ translations:
   - key: other_tools.text_editors
     aliasFor: tools_others.text_editors
   - key: other_tools.text_editors.description
-    aliasFor: tools_others.text_editors.description
+    aliasFor: tools_others.text_editors.question
   - key: other_tools.text_editors.others
     aliasFor: tools_others.text_editors.others
   - key: other_tools.text_editors.others.description
@@ -808,7 +808,7 @@ translations:
   - key: other_tools.utilities
     aliasFor: tools_others.utilities
   - key: other_tools.utilities.description
-    aliasFor: tools_others.utilities.description
+    aliasFor: tools_others.utilities.question
   - key: other_tools.utilities.others
     aliasFor: tools_others.utilities.others
   - key: other_tools.utilities.others.description
@@ -817,7 +817,7 @@ translations:
   - key: other_tools.browsers
     aliasFor: tools_others.browsers
   - key: other_tools.browsers.description
-    aliasFor: tools_others.browsers.description
+    aliasFor: tools_others.browsers.question
   - key: other_tools.browsers.others
     aliasFor: tools_others.browsers.others
   - key: other_tools.browsers.others.description
@@ -826,7 +826,7 @@ translations:
   - key: other_tools.build_tools
     aliasFor: tools_others.build_tools
   - key: other_tools.build_tools.description
-    aliasFor: tools_others.build_tools.description
+    aliasFor: tools_others.build_tools.question
   - key: other_tools.build_tools.others
     aliasFor: tools_others.build_tools.others
   - key: other_tools.build_tools.others.description
@@ -835,7 +835,7 @@ translations:
   - key: other_tools.non_js_languages
     aliasFor: tools_others.non_js_languages
   - key: other_tools.non_js_languages.description
-    aliasFor: tools_others.non_js_languages.description
+    aliasFor: tools_others.non_js_languages.question
   - key: other_tools.non_js_languages.others
     aliasFor: tools_others.non_js_languages.others
   - key: other_tools.non_js_languages.others.description
@@ -844,7 +844,7 @@ translations:
   - key: other_tools.javascript_flavors
     aliasFor: tools_others.javascript_flavors
   - key: other_tools.javascript_flavors.description
-    aliasFor: tools_others.javascript_flavors.description
+    aliasFor: tools_others.javascript_flavors.question
   - key: other_tools.javascript_flavors.others
     aliasFor: tools_others.javascript_flavors.others
   - key: other_tools.javascript_flavors.others.description
@@ -860,7 +860,7 @@ translations:
   - key: other_tools.runtimes
     aliasFor: tools_others.runtimes
   - key: other_tools.runtimes.description
-    aliasFor: tools_others.runtimes.description
+    aliasFor: tools_others.runtimes.question
   - key: other_tools.runtimes.others
     aliasFor: tools_others.runtimes.others
   - key: other_tools.runtimes.others.description
@@ -869,7 +869,7 @@ translations:
   - key: other_tools.package_registries
     aliasFor: tools_others.package_registries
   - key: other_tools.package_registries.description
-    aliasFor: tools_others.package_registries.description
+    aliasFor: tools_others.package_registries.question
   - key: other_tools.package_registries.others
     aliasFor: tools_others.package_registries.others
   - key: other_tools.package_registries.others.description
@@ -883,35 +883,35 @@ translations:
   - key: other_tools.backend_as_a_service
     aliasFor: tools_others.backend_as_a_service
   - key: other_tools.backend_as_a_service.description
-    aliasFor: tools_others.backend_as_a_service.description
+    aliasFor: tools_others.backend_as_a_service.question
   - key: other_tools.backend_as_a_service.others
     aliasFor: tools_others.backend_as_a_service.others
 
   - key: other_tools.date_management
     aliasFor: tools_others.date_management
   - key: other_tools.date_management.description
-    aliasFor: tools_others.date_management.description
+    aliasFor: tools_others.date_management.question
   - key: other_tools.date_management.others
     aliasFor: tools_others.date_management.others
 
   - key: other_tools.data_visualization
     aliasFor: tools_others.data_visualization
   - key: other_tools.data_visualization.description
-    aliasFor: tools_others.data_visualization.description
+    aliasFor: tools_others.data_visualization.question
   - key: other_tools.data_visualization.others
     aliasFor: tools_others.data_visualization.others
 
   - key: other_tools.graphics_animation
     aliasFor: tools_others.graphics_animation
   - key: other_tools.graphics_animation.description
-    aliasFor: tools_others.graphics_animation.description
+    aliasFor: tools_others.graphics_animation.question
   - key: other_tools.graphics_animation.others
     aliasFor: tools_others.graphics_animation.others
 
   - key: other_tools.data_fetching
     aliasFor: tools_others.data_fetching
   - key: other_tools.data_fetching.description
-    aliasFor: tools_others.data_fetching.description
+    aliasFor: tools_others.data_fetching.question
   - key: other_tools.data_fetching.others
     aliasFor: tools_others.data_fetching.others
 
