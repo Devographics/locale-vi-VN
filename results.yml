@@ -537,7 +537,7 @@ translations:
   # tool tier list
   - key: blocks.tools_tier_list
     t: Danh sách cấp thư viện
-  - key: blocks.tools_tier_list.description
+  - key: blocks.tools_tier_list.note
     t: |
       Biểu đồ này xếp hạng các thư viện dựa trên tỷ lệ hài lòng
       (phần trăm người dùng sẽ sử dụng lại thư viện).
