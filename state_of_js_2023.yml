@@ -6,7 +6,7 @@ translations:
   ###########################################################################
 
   - key: general.results.description
-    t: The 2022 edition of the annual survey about the latest trends in the JavaScript ecosystem.
+    t: The 2023 edition of the annual survey about the latest trends in the JavaScript ecosystem.
 
   - key: general.livestream_announcement
     t: Make sure to tune in for our [special survey results livestream](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) on February 22! (English)
