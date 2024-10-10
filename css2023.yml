@@ -190,7 +190,7 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.css2023
+  - key: conclusion.css2023.chen_hui_jing
     t: |
       <span class="first-line">Khi việc sử dụng các tính năng CSS mới hơn đang có xu hướng tăng lên, việc sử dụng các framework CSS đã đi xuống.</span>
 
@@ -204,7 +204,7 @@ translations:
 
       Nhưng như [Lea Verou](https://lea.verou.me/) đã đề cập vào năm ngoái, với các sáng kiến như [Interop](https://wpt.fyi/interop-2023) đưa các trình duyệt lại gần nhau, các tính năng từng được cho là không thể nay có thể trở thành hiện thực!
 
-  - key: conclusion.css2023.bio
+  - key: conclusion.css2023.chen_hui_jing.bio
     t: Developer Experience Engineer @ Interledger Foundation
 
   ###########################################################################
