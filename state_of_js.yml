@@ -922,14 +922,14 @@ translations:
   - key: other_tools.backend_frameworks.others
     aliasFor: tools.backend_frameworks.others
 
-  - key: other_tools.ai_tools
+  - key: tools.ai_tools
     t: Công cụ AI
-  - key: other_tools.ai_tools.question
+  - key: tools.ai_tools.question
     t: Bạn thường xuyên sử dụng công cụ AI nào để hỗ trợ viết code?
 
-  - key: other_tools.hosting
+  - key: tools.hosting
     t: Dịch vụ Hosting
-  - key: other_tools.hosting.question
+  - key: tools.hosting.question
     t: Bạn đã sử dụng dịch vụ nào để host ứng dụng JavaScript?
 
   ###########################################################################
