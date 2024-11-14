@@ -950,7 +950,7 @@ translations:
   - key: share.site.title
     t: Khám phá kết quả {siteTitle}
   - key: share.site.twitter_text
-    t: "Khám phá kết quả {siteTitle} {link} {hashtag}"
+    t: "Khám phá kết quả {siteTitle} {link}"
   - key: share.site.subject
     t: "Kết quả khảo sát {siteTitle}"
   - key: share.site.body
